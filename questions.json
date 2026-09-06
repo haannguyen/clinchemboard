@@ -492,7 +492,7 @@
       "D. 0.5%"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> $\%CV = (SD / Mean) \\times 100 = (5 / 100) \\times 100 = 5.0\\%$."
+    "explanation": "<b>Correct Answer: B.</b> $\\%CV = (SD / Mean) \\times 100 = (5 / 100) \\times 100 = 5.0\\%$."
   },
   {
     "question": "Which apolipoprotein binds to the LDL receptor and LRP for remnant clearance?",
@@ -1581,7 +1581,7 @@
       "D. 1.0%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100 = (4 / 200) \\times 100 = 2.0\\%$."
+    "explanation": "<b>Correct Answer: A.</b> $\\%CV = (SD / \\text{Mean}) \\times 100 = (4 / 200) \\times 100 = 2.0\\%$."
   },
   {
     "question": "Which additive is present in a gray top tube used for blood glucose preservation?",
@@ -1977,7 +1977,7 @@
       "D. Median"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100$ expresses relative analytical dispersion as a percentage."
+    "explanation": "<b>Correct Answer: A.</b> $\\%CV = (SD / \\text{Mean}) \\times 100$ expresses relative analytical dispersion as a percentage."
   },
   {
     "question": "Which enzyme catalyzes the conversion of squalene to squalene epoxide in the cholesterol biosynthetic pathway?",
@@ -2505,7 +2505,7 @@
       "D. $(x - \\mu) / N$"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100$ measures relative analytical variability."
+    "explanation": "<b>Correct Answer: A.</b> $\\%CV = (SD / \\text{Mean}) \\times 100$ measures relative analytical variability."
   },
   {
     "question": "Which apolipoprotein is present as a single copy on every non-HDL particle?",
@@ -3297,7 +3297,7 @@
       "D. Standard Error of the Mean (SEM)"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100$ normalizes absolute imprecision (SD) to the mean concentration."
+    "explanation": "<b>Correct Answer: A.</b> $\\%CV = (SD / \\text{Mean}) \\times 100$ normalizes absolute imprecision (SD) to the mean concentration."
   },
   {
     "question": "What statistical test is used to compare the IMPRECISION (variances) of two clinical methodologies?",
