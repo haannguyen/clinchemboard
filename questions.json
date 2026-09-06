@@ -1,0 +1,57 @@
+[
+  {
+    "question": "A quality control rule violation occurs where 2 consecutive QC results exceed $+2\\text{ SD}$ on the same control level. Which Westgard rule is violated, and what type of error does it indicate?",
+    "options": [
+      "A. $1_{3\\text{s}}$ rule; indicates random error",
+      "B. $2_{2\\text{s}}$ rule; indicates systematic error",
+      "C. $R_{4\\text{s}}$ rule; indicates random error",
+      "D. $4_{1\\text{s}}$ rule; indicates systematic error"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The $2_{2\\text{s}}$ rule is violated when 2 consecutive QC results exceed the same $+2\\text{ SD}$ or $-2\\text{ SD}$ limit. This rule is sensitive exclusively to systematic errors (e.g., reagent lot changes, calibration drift)."
+  },
+  {
+    "question": "According to the classic Friedewald equation, what is the calculated LDL cholesterol for a patient with Total Cholesterol = $220\\text{ mg/dL}$, HDL = $45\\text{ mg/dL}$, and Triglycerides = $200\\text{ mg/dL}$?",
+    "options": [
+      "A. $135\\text{ mg/dL}$",
+      "B. $175\\text{ mg/dL}$",
+      "C. $115\\text{ mg/dL}$",
+      "D. Cannot be calculated because triglycerides are $> 150\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Friedewald Formula: $\\text{LDL-C} = \\text{TC} - \\text{HDL-C} - (\\text{TG} / 5)$.<br>$$\\text{LDL-C} = 220 - 45 - (200 / 5) = 220 - 45 - 40 = 135\\text{ mg/dL}$$ Note: The formula remains valid as long as TG levels are below $400\\text{ mg/dL}$."
+  },
+  {
+    "question": "A patient presents with acute severe abdominal pain, marked hyperbilirubinemia, and sudden extreme elevation of measured Total Cholesterol. Electrophoresis reveals an abnormal lipid particle lacking ApoB-100. Which particle is present?",
+    "options": [
+      "A. Lipoprotein(a)",
+      "B. $\\beta$-VLDL",
+      "C. Lipoprotein-X",
+      "D. Chylomicron remnant"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Lipoprotein-X (LpX) is an abnormal phospholipid-rich particle lacking ApoB-100 that forms in severe biliary tract obstruction (cholestasis). It co-quantifies as LDL-C in routine assays."
+  },
+  {
+    "question": "Which apolipoprotein acts as an essential enzymatic cofactor for the activation of Lipoprotein Lipase (LPL)?",
+    "options": [
+      "A. ApoC-II",
+      "B. ApoC-III",
+      "C. ApoA-I",
+      "D. ApoB-100"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoC-II is required to activate LPL for triglyceride clearance. In contrast, ApoC-III inhibits LPL activity."
+  },
+  {
+    "question": "A serum potassium sample collected in a SST tube measures $6.8\\text{ mmol/L}$. The patient's platelet count is markedly elevated at $1,200,000/\\mu\\text{L}$. What is the most appropriate next step to verify the result?",
+    "options": [
+      "A. Report the potassium result immediately as a critical value",
+      "B. Re-run the sample on a direct ISE blood gas analyzer",
+      "C. Request a re-draw in a lithium heparin plasma tube",
+      "D. Dilute the serum $1:2$ with normal saline"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Marked thrombocytosis ($>1,000,000/\\mu\\text{L}$) causes pseudohyperkalemia in serum tubes because platelets release intracellular potassium during the clotting process. Collecting anticoagulated plasma (heparin) avoids clot-induced potassium release."
+  }
+]
