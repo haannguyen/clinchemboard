@@ -459,7 +459,7 @@
       "D. $(\\text{Max} - \\text{Min}) / N$"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> Mean ($\u03bc$) is the sum of all values divided by the total number of observations ($N$)."
+    "explanation": "<b>Correct Answer: B.</b> Mean ($\\mu$) is the sum of all values divided by the total number of observations ($N$)."
   },
   {
     "question": "Which lipoprotein particle contains Apolipoprotein B-48 as its structural backbone?",
@@ -879,7 +879,7 @@
     "correct": 0,
     "explanation": "<b>Correct Answer: A.</b> HMG-CoA reductase reduces HMG-CoA to mevalonate in the rate-limiting step of cholesterol synthesis."
   },
-{
+  {
     "question": "Which lipoprotein particle is the precursor to Intermediate-Density Lipoprotein (IDL) in the endogenous pathway?",
     "options": [
       "A. Chylomicron",
@@ -1429,7 +1429,6 @@
     "correct": 0,
     "explanation": "<b>Correct Answer: A.</b> ApoE4 is a major genetic risk factor for late-onset Alzheimer's disease."
   },
-  [
   {
     "question": "Which enzyme catalyzes the rate-limiting step in endogenous cholesterol synthesis?",
     "options": [
@@ -1980,7 +1979,7 @@
     "correct": 0,
     "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100$ expresses relative analytical dispersion as a percentage."
   },
-    {
+  {
     "question": "Which enzyme catalyzes the conversion of squalene to squalene epoxide in the cholesterol biosynthetic pathway?",
     "options": [
       "A. Squalene Epoxidase",
@@ -2530,7 +2529,7 @@
     "correct": 0,
     "explanation": "<b>Correct Answer: A.</b> Type I (Familial Chylomicronemia) presents with severe chylomicron accumulation due to LPL/ApoC-II defects."
   },
-    {
+  {
     "question": "What is the clinical definition of diagnostic Sensitivity?",
     "options": [
       "A. The proportion of subjects with disease who have a positive laboratory test result",
@@ -2539,7 +2538,7 @@
       "D. The proportion of all test results that are correct"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Sensitivity is defined as $TP / (TP + FN)$, representing the proportion of subjects with disease who test positive[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Sensitivity is defined as $TP / (TP + FN)$, representing the proportion of subjects with disease who test positive."
   },
   {
     "question": "What is the clinical definition of diagnostic Specificity?",
@@ -2550,7 +2549,7 @@
       "D. The total number of correct test results divided by total population"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> Specificity is defined as $TN / (TN + FP)$, representing the proportion of subjects without disease who test negative[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> Specificity is defined as $TN / (TN + FP)$, representing the proportion of subjects without disease who test negative."
   },
   {
     "question": "How is Positive Predictive Value (PPV) defined?",
@@ -2561,7 +2560,7 @@
       "D. The probability that a negative test rule-outs disease"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> PPV is $TP / (TP + FP)$, which is the proportion of positive test results that are true positives[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> PPV is $TP / (TP + FP)$, which is the proportion of positive test results that are true positives."
   },
   {
     "question": "How is Negative Predictive Value (NPV) defined?",
@@ -2572,7 +2571,7 @@
       "D. The percentage of false positive results in a screening population"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> NPV is $TN / (TN + FN)$, representing the proportion of negative test results that belong to healthy subjects[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> NPV is $TN / (TN + FN)$, representing the proportion of negative test results that belong to healthy subjects."
   },
   {
     "question": "In a $2 \\times 2$ diagnostic table, a evaluation of 500 diseased patients yields 450 positive tests and 50 negative tests. What is the Sensitivity?",
@@ -2583,7 +2582,7 @@
       "D. 95%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\\text{Sensitivity} = TP / (TP + FN) = 450 / (450 + 50) = 450 / 500 = 0.90$ or 90%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Sensitivity} = TP / (TP + FN) = 450 / (450 + 50) = 450 / 500 = 0.90$ or 90%."
   },
   {
     "question": "In a diagnostic trial, 500 non-diseased control subjects yield 20 positive tests and 480 negative tests. What is the Specificity?",
@@ -2594,7 +2593,7 @@
       "D. 98%"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> $\\text{Specificity} = TN / (TN + FP) = 480 / (480 + 20) = 480 / 500 = 0.96$ or 96%[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> $\\text{Specificity} = TN / (TN + FP) = 480 / (480 + 20) = 480 / 500 = 0.96$ or 96%."
   },
   {
     "question": "A cardiac biomarker study obtains 450 True Positives and 20 False Positives. What is the Positive Predictive Value (PPV)?",
@@ -2605,7 +2604,7 @@
       "D. 92.3%"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> $PPV = TP / (TP + FP) = 450 / (450 + 20) = 450 / 470 = 0.957$ or 95.7%[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> $PPV = TP / (TP + FP) = 450 / (450 + 20) = 450 / 470 = 0.957$ or 95.7%."
   },
   {
     "question": "A diagnostic trial records 480 True Negatives and 50 False Negatives. What is the Negative Predictive Value (NPV)?",
@@ -2616,7 +2615,7 @@
       "D. 95.0%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $NPV = TN / (TN + FN) = 480 / (480 + 50) = 480 / 530 = 0.9056$ or 90.6%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $NPV = TN / (TN + FN) = 480 / (480 + 50) = 480 / 530 = 0.9056$ or 90.6%."
   },
   {
     "question": "What parameters are plotted on the Y-axis and X-axis of a Receiver Operating Characteristic (ROC) curve?",
@@ -2627,7 +2626,7 @@
       "D. Y-axis: True Positives; X-axis: False Negatives"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> An ROC curve plots Sensitivity (True Positive Rate) on the Y-axis versus (1 - Specificity) (False Positive Rate) on the X-axis across all cutoff values[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> An ROC curve plots Sensitivity (True Positive Rate) on the Y-axis versus (1 - Specificity) (False Positive Rate) on the X-axis across all cutoff values."
   },
   {
     "question": "What does a diagnostic test cutoff representing a point in the extreme top-left corner of an ROC curve signify?",
@@ -2638,7 +2637,7 @@
       "D. Test performance equivalent to random chance"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> The top-left corner of an ROC curve corresponds to Sensitivity = 1.0 and (1 - Specificity) = 0 (Specificity = 1.0), representing optimal diagnostic power[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> The top-left corner of an ROC curve corresponds to Sensitivity = 1.0 and (1 - Specificity) = 0 (Specificity = 1.0), representing optimal diagnostic power."
   },
   {
     "question": "How does increasing the prevalence of a disease in a tested population affect the Positive Predictive Value (PPV) of a diagnostic assay?",
@@ -2649,7 +2648,7 @@
       "D. PPV drops to zero"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> PPV is directly dependent on disease prevalence; higher prevalence increases the ratio of true positives to total positive test results[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> PPV is directly dependent on disease prevalence; higher prevalence increases the ratio of true positives to total positive test results."
   },
   {
     "question": "How does decreasing the disease prevalence in a population affect the Negative Predictive Value (NPV) of a test?",
@@ -2660,7 +2659,7 @@
       "D. NPV becomes equal to sensitivity"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> As disease prevalence drops, the overwhelming proportion of non-diseased subjects increases the probability that a negative result is a true negative, increasing NPV[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> As disease prevalence drops, the overwhelming proportion of non-diseased subjects increases the probability that a negative result is a true negative, increasing NPV."
   },
   {
     "question": "A screening assay with a Sensitivity of 70% and Specificity of 90% is used in a population where disease prevalence is 0.02% (0.0002). What is the probability that a negative test result is correct (NPV)?",
@@ -2671,7 +2670,7 @@
       "D. 82.35%"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> $\\text{True Neg} = 0.9 \\times (1 - 0.0002) = 0.89982$, $\\text{False Neg} = (1 - 0.7) \\times 0.0002 = 0.00006$. $NPV = 0.89982 / (0.89982 + 0.00006) = 0.99993$ or 99.99%[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> $\\text{True Neg} = 0.9 \\times (1 - 0.0002) = 0.89982$, $\\text{False Neg} = (1 - 0.7) \\times 0.0002 = 0.00006$. $NPV = 0.89982 / (0.89982 + 0.00006) = 0.99993$ or 99.99%."
   },
   {
     "question": "A diagnostic assay with a Sensitivity of 70% and Specificity of 90% is evaluated in a high-risk specialty clinic where disease prevalence is 40% (0.40). What is the Positive Predictive Value (PPV)?",
@@ -2682,7 +2681,7 @@
       "D. 90.00%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\\text{True Pos} = 0.7 \\times 0.4 = 0.28$, $\\text{False Pos} = (1 - 0.9) \\times (1 - 0.4) = 0.06$. $PPV = 0.28 / (0.28 + 0.06) = 0.8235$ or 82.35%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $\\text{True Pos} = 0.7 \\times 0.4 = 0.28$, $\\text{False Pos} = (1 - 0.9) \\times (1 - 0.4) = 0.06$. $PPV = 0.28 / (0.28 + 0.06) = 0.8235$ or 82.35%."
   },
   {
     "question": "If a disease has a very low prevalence of 1 in 1,000 (0.001) and a screening test has a False Positive Rate of 5% (Specificity = 95%) and 100% Sensitivity, what is the chance that a person with a positive test actually has the disease?",
@@ -2693,7 +2692,7 @@
       "D. 20.0%"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> $\\text{True Pos} = 1.0 \\times 0.001 = 0.001$, $\\text{False Pos} = 0.05 \\times 0.999 = 0.04995$. $PPV = 0.001 / (0.001 + 0.04995) = 0.0196$ or 1.96%[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> $\\text{True Pos} = 1.0 \\times 0.001 = 0.001$, $\\text{False Pos} = 0.05 \\times 0.999 = 0.04995$. $PPV = 0.001 / (0.001 + 0.04995) = 0.0196$ or 1.96%."
   },
   {
     "question": "What is the mathematical definition of the Diagnostic Odds Ratio (DOR)?",
@@ -2704,7 +2703,7 @@
       "D. $\\text{True Positives} / \\text{False Positives}$"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Diagnostic Odds Ratio is expressed as $(\\text{Sensitivity} \\times \\text{Specificity}) / [(1 - \\text{Sensitivity}) \\times (1 - \\text{Specificity})]$[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Diagnostic Odds Ratio is expressed as $(\\text{Sensitivity} \\times \\text{Specificity}) / [(1 - \\text{Sensitivity}) \\times (1 - \\text{Specificity})]$."
   },
   {
     "question": "What is the formula for the Positive Likelihood Ratio ($LR^+$)?",
@@ -2715,7 +2714,7 @@
       "D. $\\text{PPV} / (1 - \\text{NPV})$"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Positive Likelihood Ratio ($LR^+$) is calculated as $\\text{Sensitivity} / (1 - \\text{Specificity})$, representing True Positive Rate divided by False Positive Rate[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Positive Likelihood Ratio ($LR^+$) is calculated as $\\text{Sensitivity} / (1 - \\text{Specificity})$, representing True Positive Rate divided by False Positive Rate."
   },
   {
     "question": "What is the formula for the Negative Likelihood Ratio ($LR^-$)?",
@@ -2726,7 +2725,7 @@
       "D. $(1 - \\text{PPV}) / \\text{NPV}$"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Negative Likelihood Ratio ($LR^-$) is calculated as $(1 - \\text{Sensitivity}) / \\text{Specificity}$, representing False Negative Rate divided by True Negative Rate[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Negative Likelihood Ratio ($LR^-$) is calculated as $(1 - \\text{Sensitivity}) / \\text{Specificity}$, representing False Negative Rate divided by True Negative Rate."
   },
   {
     "question": "When evaluating reference intervals for a non-parametric data distribution where only high values have clinical significance, how is the upper limit of normal determined?",
@@ -2737,7 +2736,7 @@
       "D. The highest observed single value in the dataset"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> For non-parametric data where high values are clinically significant, the upper limit of normal is set at the 95th percentile rank[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> For non-parametric data where high values are clinically significant, the upper limit of normal is set at the 95th percentile rank."
   },
   {
     "question": "In a study of 120 healthy reference subjects, what rank position ($r$) corresponds to the 95th percentile using the formula $r = P \\times (N + 1)$?",
@@ -2748,7 +2747,7 @@
       "D. 100th rank"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $r = 0.95 \\times (120 + 1) = 0.95 \\times 121 = 114.95$, placing the 95th percentile between the 114th and 115th ranked values[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $r = 0.95 \\times (120 + 1) = 0.95 \\times 121 = 114.95$, placing the 95th percentile between the 114th and 115th ranked values."
   },
   {
     "question": "In a meta-analysis forest plot assessing an intervention to reduce drug toxicities, what does an overall Odds Ratio of 0.40 (with a 95% CI completely below 1.0) signify?",
@@ -2759,7 +2758,7 @@
       "D. The intervention is ineffective because the OR is less than 1.0"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> An OR of 0.40 indicates that subjects receiving the intervention have a 60% reduction in the odds of experiencing toxicity, and a CI that does not cross 1.0 confirms statistical significance[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> An OR of 0.40 indicates that subjects receiving the intervention have a 60% reduction in the odds of experiencing toxicity, and a CI that does not cross 1.0 confirms statistical significance."
   },
   {
     "question": "On a meta-analysis forest plot, what does a vertical line drawn at an Odds Ratio of 1.0 represent?",
@@ -2770,7 +2769,7 @@
       "D. The threshold for study exclusion"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> An Odds Ratio of 1.0 indicates equal odds between groups; if a study's 95% CI crosses 1.0, the effect is not statistically significant[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> An Odds Ratio of 1.0 indicates equal odds between groups; if a study's 95% CI crosses 1.0, the effect is not statistically significant."
   },
   {
     "question": "If a diagnostic test has a Sensitivity of 90% and Specificity of 70% at a cutoff of 23, what are the True Positive Rate and False Positive Rate?",
@@ -2781,7 +2780,7 @@
       "D. True Positive Rate = 0.10; False Positive Rate = 0.30"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> True Positive Rate equals Sensitivity (0.90). False Positive Rate equals $1 - \\text{Specificity} = 1 - 0.70 = 0.30$[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> True Positive Rate equals Sensitivity (0.90). False Positive Rate equals $1 - \\text{Specificity} = 1 - 0.70 = 0.30$."
   },
   {
     "question": "When raising the decision cutoff of a quantitative assay where higher values indicate disease, how do Sensitivity and Specificity change?",
@@ -2792,7 +2791,7 @@
       "D. Both Sensitivity and Specificity decrease"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> Raising the threshold makes the test criteria stricter, reducing false positives (increasing Specificity) while missing more true cases (decreasing Sensitivity)[cite: 3]."
+    "explanation": "<b>Correct Answer: B.</b> Raising the threshold makes the test criteria stricter, reducing false positives (increasing Specificity) while missing more true cases (decreasing Sensitivity)."
   },
   {
     "question": "When lowering the decision cutoff of a quantitative assay where higher values indicate disease, how do Sensitivity and Specificity change?",
@@ -2803,7 +2802,7 @@
       "D. Both Sensitivity and Specificity increase"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Lowering the cutoff captures more diseased cases (increasing Sensitivity) but increases false positive classifications (decreasing Specificity)[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Lowering the cutoff captures more diseased cases (increasing Sensitivity) but increases false positive classifications (decreasing Specificity)."
   },
   {
     "question": "Which measure of diagnostic accuracy is LEAST affected by changes in disease prevalence in a population?",
@@ -2814,7 +2813,7 @@
       "D. Total Number of True Positives"
     ],
     "correct": 2,
-    "explanation": "<b>Correct Answer: C.</b> Sensitivity and Specificity are intrinsic characteristics of a test's analytical performance and do not change with disease prevalence, unlike PPV and NPV[cite: 3]."
+    "explanation": "<b>Correct Answer: C.</b> Sensitivity and Specificity are intrinsic characteristics of a test's analytical performance and do not change with disease prevalence, unlike PPV and NPV."
   },
   {
     "question": "A clinical laboratory evaluates a screening biomarker and requires a diagnostic specificity of at least 90%. Potential cutoffs yield specificities of 40% (cutoff 19), 70% (cutoff 23), 90% (cutoff 25, sensitivity 70%), and 90% (cutoff 32, sensitivity 40%). Which cutoff should be selected?",
@@ -2825,7 +2824,7 @@
       "D. Cutoff 32"
     ],
     "correct": 2,
-    "explanation": "<b>Correct Answer: C.</b> Cutoff 25 satisfies the requirement of $\\ge 90\\%$ specificity while maximizing diagnostic sensitivity at 70% (compared to 40% at cutoff 32)[cite: 3]."
+    "explanation": "<b>Correct Answer: C.</b> Cutoff 25 satisfies the requirement of $\\ge 90\\%$ specificity while maximizing diagnostic sensitivity at 70% (compared to 40% at cutoff 32)."
   },
   {
     "question": "What is the False Positive Rate (FPR) of a laboratory assay with a diagnostic Specificity of 96%?",
@@ -2836,7 +2835,7 @@
       "D. 0.4%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\\text{False Positive Rate} = 1 - \\text{Specificity} = 1 - 0.96 = 0.04$ or 4%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $\\text{False Positive Rate} = 1 - \\text{Specificity} = 1 - 0.96 = 0.04$ or 4%."
   },
   {
     "question": "What is the False Negative Rate (FNR) of a laboratory assay with a diagnostic Sensitivity of 90%?",
@@ -2847,7 +2846,7 @@
       "D. 1%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\\text{False Negative Rate} = 1 - \\text{Sensitivity} = 1 - 0.90 = 0.10$ or 10%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $\\text{False Negative Rate} = 1 - \\text{Sensitivity} = 1 - 0.90 = 0.10$ or 10%."
   },
   {
     "question": "In a population of 1,000 subjects, 100 have a disease ($P = 10\\%$). A test correctly identifies 80 diseased subjects ($TP = 80$) and yields 90 true negative results in 900 healthy subjects ($TN = 810$). What is the overall diagnostic accuracy?",
@@ -2858,7 +2857,7 @@
       "D. 95%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\\text{Accuracy} = (TP + TN) / \\text{Total} = (80 + 810) / 1000 = 890 / 1000 = 0.89$ or 89%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Accuracy} = (TP + TN) / \\text{Total} = (80 + 810) / 1000 = 890 / 1000 = 0.89$ or 89%."
   },
   {
     "question": "What is the term for the probability of the presence of a specific disease divided by the probability of its absence?",
@@ -2869,7 +2868,7 @@
       "D. Predictive Value"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Odds Ratio (OR) is defined as the probability of presence of disease divided by the probability of its absence[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Odds Ratio (OR) is defined as the probability of presence of disease divided by the probability of its absence."
   },
   {
     "question": "If a test has a Positive Likelihood Ratio ($LR^+$) of 10, how does a positive result affect the post-test odds of disease compared to pre-test odds?",
@@ -2880,7 +2879,7 @@
       "D. Guarantees 100% diagnostic certainty"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> According to Bayes' theorem in odds form, $\\text{Post-test Odds} = \\text{Pre-test Odds} \\times LR^+$. An $LR^+$ of 10 increases the disease odds 10-fold[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> According to Bayes' theorem in odds form, $\\text{Post-test Odds} = \\text{Pre-test Odds} \\times LR^+$. An $LR^+$ of 10 increases the disease odds 10-fold."
   },
   {
     "question": "An $LR^+$ equal to 1.0 indicates that a diagnostic test:",
@@ -2891,7 +2890,7 @@
       "D. Has a 0% false positive rate"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> An $LR^+$ of 1.0 means the test result is equally likely in diseased and non-diseased individuals, providing zero diagnostic value[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> An $LR^+$ of 1.0 means the test result is equally likely in diseased and non-diseased individuals, providing zero diagnostic value."
   },
   {
     "question": "Why is parametric reference interval estimation ($\\text{Mean} \\pm 2\\text{ SD}$) inappropriate for skewed analyte distributions such as Serum Creatine Kinase (CK)?",
@@ -2902,7 +2901,7 @@
       "D. Non-parametric distributions do not have an upper limit"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Highly skewed non-Gaussian distributions (like CK) violate parametric assumptions, making non-parametric percentile ranking necessary[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Highly skewed non-Gaussian distributions (like CK) violate parametric assumptions, making non-parametric percentile ranking necessary."
   },
   {
     "question": "In a $2 \\times 2$ contingency table, if $TP = 90$, $FP = 10$, $FN = 10$, and $TN = 890$, what is the diagnostic Sensitivity?",
@@ -2913,7 +2912,7 @@
       "D. 99%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\\text{Sensitivity} = TP / (TP + FN) = 90 / (90 + 10) = 90 / 100 = 0.90$ or 90%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Sensitivity} = TP / (TP + FN) = 90 / (90 + 10) = 90 / 100 = 0.90$ or 90%."
   },
   {
     "question": "In a $2 \\times 2$ contingency table, if $TP = 90$, $FP = 10$, $FN = 10$, and $TN = 890$, what is the diagnostic Specificity?",
@@ -2924,7 +2923,7 @@
       "D. 89%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\\text{Specificity} = TN / (TN + FP) = 890 / (890 + 10) = 890 / 900 = 0.9888$ or 98.9%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Specificity} = TN / (TN + FP) = 890 / (890 + 10) = 890 / 900 = 0.9888$ or 98.9%."
   },
   {
     "question": "In a $2 \\times 2$ contingency table, if $TP = 90$, $FP = 10$, $FN = 10$, and $TN = 890$, what is the Positive Predictive Value (PPV)?",
@@ -2935,7 +2934,7 @@
       "D. 95%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $PPV = TP / (TP + FP) = 90 / (90 + 10) = 90 / 100 = 0.90$ or 90%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $PPV = TP / (TP + FP) = 90 / (90 + 10) = 90 / 100 = 0.90$ or 90%."
   },
   {
     "question": "In a $2 \\times 2$ contingency table, if $TP = 90$, $FP = 10$, $FN = 10$, and $TN = 890$, what is the Negative Predictive Value (NPV)?",
@@ -2946,7 +2945,7 @@
       "D. 89%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $NPV = TN / (TN + FN) = 890 / (890 + 10) = 890 / 900 = 0.9888$ or 98.9%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $NPV = TN / (TN + FN) = 890 / (890 + 10) = 890 / 900 = 0.9888$ or 98.9%."
   },
   {
     "question": "A high-sensitivity cardiac troponin assay is designed primarily to maximize which diagnostic parameter when ruling out acute myocardial infarction in the ER?",
@@ -2957,7 +2956,7 @@
       "D. False Positive Rate"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> High sensitivity minimizes false negatives, maximizing NPV so clinicians can safely rule out AMI[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> High sensitivity minimizes false negatives, maximizing NPV so clinicians can safely rule out AMI."
   },
   {
     "question": "A confirmatory diagnostic test used after a positive screening test should ideally possess high:",
@@ -2968,7 +2967,7 @@
       "D. False Positive Rate"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Confirmatory assays require high specificity (low false positive rate) to ensure that only true cases receive definitive treatment[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Confirmatory assays require high specificity (low false positive rate) to ensure that only true cases receive definitive treatment."
   },
   {
     "question": "Which area under the ROC curve (AUC) represents a diagnostic test with zero discriminating ability (equivalent to a coin flip)?",
@@ -2979,7 +2978,7 @@
       "D. 0.75"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> An AUC of 0.50 corresponds to the diagonal chance line on an ROC plot, indicating no diagnostic discrimination[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> An AUC of 0.50 corresponds to the diagonal chance line on an ROC plot, indicating no diagnostic discrimination."
   },
   {
     "question": "An ideal, perfect diagnostic test has an Area Under the ROC Curve (AUC) of:",
@@ -2990,7 +2989,7 @@
       "D. 0.90"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> An AUC of 1.00 indicates 100% sensitivity and 100% specificity with zero false classifications[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> An AUC of 1.00 indicates 100% sensitivity and 100% specificity with zero false classifications."
   },
   {
     "question": "In a meta-analysis forest plot, what does the horizontal line extending through each study's square symbol represent?",
@@ -3001,7 +3000,7 @@
       "D. The range of raw values"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> The horizontal line depicts the 95% confidence interval spanning the study's estimated effect size[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> The horizontal line depicts the 95% confidence interval spanning the study's estimated effect size."
   },
   {
     "question": "In a meta-analysis forest plot, what does the size of the square symbol representing an individual study indicate?",
@@ -3012,7 +3011,7 @@
       "D. The number of authors"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Larger squares represent larger sample sizes and higher statistical weight in calculating the pooled effect[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Larger squares represent larger sample sizes and higher statistical weight in calculating the pooled effect."
   },
   {
     "question": "How is the False Positive Rate calculated from diagnostic Specificity?",
@@ -3023,7 +3022,7 @@
       "D. $\\text{FPR} = \\text{FP} / (TP + FP)$"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\\text{False Positive Rate} = FP / (FP + TN) = 1 - \\text{Specificity}$[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $\\text{False Positive Rate} = FP / (FP + TN) = 1 - \\text{Specificity}$."
   },
   {
     "question": "How is the False Negative Rate calculated from diagnostic Sensitivity?",
@@ -3034,7 +3033,7 @@
       "D. $\\text{FNR} = \\text{Sensitivity} / \\text{PPV}$"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\\text{False Negative Rate} = FN / (TP + FN) = 1 - \\text{Sensitivity}$[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $\\text{False Negative Rate} = FN / (TP + FN) = 1 - \\text{Sensitivity}$."
   },
   {
     "question": "If a screening test for a rare disease has 99% Sensitivity and 99% Specificity in a population with a prevalence of 0.1% (1 in 1,000), what is the approximate PPV?",
@@ -3045,7 +3044,7 @@
       "D. 99.9%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\\text{True Pos} = 0.99 \\times 0.001 = 0.00099$. $\\text{False Pos} = 0.01 \\times 0.999 = 0.00999$. $PPV = 0.00099 / (0.00099 + 0.00999) = 0.00099 / 0.01098 \\approx 0.090$ or ~9.0%[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> $\\text{True Pos} = 0.99 \\times 0.001 = 0.00099$. $\\text{False Pos} = 0.01 \\times 0.999 = 0.00999$. $PPV = 0.00099 / (0.00099 + 0.00999) = 0.00099 / 0.01098 \\approx 0.090$ or ~9.0%."
   },
   {
     "question": "What happens to the PPV and NPV of a test if its Sensitivity and Specificity remain fixed at 95%, but it is moved from a screening population (prevalence 1%) to a tertiary referral clinic (prevalence 25%)?",
@@ -3056,7 +3055,7 @@
       "D. Both PPV and NPV remain unchanged"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Higher prevalence increases PPV dramatically (from ~16% to ~86%) while slightly reducing NPV[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Higher prevalence increases PPV dramatically (from ~16% to ~86%) while slightly reducing NPV."
   },
   {
     "question": "What is the primary advantage of evaluating diagnostic tests using Likelihood Ratios ($LR^+$ and $LR^-$) rather than Predictive Values (PPV and NPV)?",
@@ -3067,7 +3066,7 @@
       "D. Likelihood Ratios only apply to parametric distributions"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Likelihood ratios combine sensitivity and specificity into prevalence-independent metrics that modify pre-test probability[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> Likelihood ratios combine sensitivity and specificity into prevalence-independent metrics that modify pre-test probability."
   },
   {
     "question": "In establishing a reference interval for a new laboratory assay according to CLSI guidelines, what is the minimum recommended number of healthy reference individuals required for non-parametric analysis?",
@@ -3078,9 +3077,9 @@
       "D. 1,000 subjects"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> CLSI C28-A3 guidelines recommend at least 120 healthy subjects to determine 95% reference intervals non-parametrically with 90% confidence[cite: 3]."
+    "explanation": "<b>Correct Answer: A.</b> CLSI C28-A3 guidelines recommend at least 120 healthy subjects to determine 95% reference intervals non-parametrically with 90% confidence."
   },
-    {
+  {
     "question": "Which linear regression model is most appropriate for method comparison studies when BOTH the reference and test methods are subject to measurement error?",
     "options": [
       "A. Deming Regression",
@@ -3630,5 +3629,4 @@
     "correct": 0,
     "explanation": "<b>Correct Answer: A.</b> An $|SDI| > 2.0$ indicates that a laboratory's result deviates more than 2 SD from its peer group, signaling systematic bias."
   }
-  
 ]
