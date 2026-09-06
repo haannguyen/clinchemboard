@@ -221,7 +221,7 @@
 </div>
 
 <script>
-    const BATCH_SIZE = 20; // 20 questions per session
+    const BATCH_SIZE = 20;
     let allQuestions = [];
     let currentBatch = [];
     let batchIndex = 0;
@@ -253,7 +253,6 @@
         currentBatch = allQuestions.slice(start, end);
 
         if (currentBatch.length === 0) {
-            // Reached the end of the full question bank
             showFinalBankCompletion();
             return;
         }
