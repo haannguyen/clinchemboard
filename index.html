@@ -221,151 +221,166 @@
 </div>
 
 <script>
-    const BATCH_SIZE = 20;
-    let allQuestions = [];
-    let currentBatch = [];
-    let batchIndex = 0;
-    let currentQ = 0;
-    let score = 0;
+const BATCH_SIZE = 20; // 20 questions per set
+let allQuestions = [];
+let currentBatch = [];
+let batchIndex = 0;
+let currentQ = 0;
+let score = 0;
 
-    const questionText = document.getElementById('question-text');
-    const optionsContainer = document.getElementById('options-container');
-    const explanationBox = document.getElementById('explanation-box');
-    const nextBtn = document.getElementById('next-btn');
-    const progressEl = document.getElementById('progress');
+const questionText = document.getElementById('question-text');
+const optionsContainer = document.getElementById('options-container');
+const explanationBox = document.getElementById('explanation-box');
+const nextBtn = document.getElementById('next-btn');
+const progressEl = document.getElementById('progress');
 
-    async function fetchQuestions() {
-        try {
-            const response = await fetch('./questions.json?v=' + new Date().getTime());
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            allQuestions = await response.json();
-            startBatch(0);
-        } catch (error) {
-            questionText.textContent = "Error loading questions.json. Ensure file exists in the repository root.";
-            console.error("Fetch Error:", error);
-        }
+// 🔀 Fisher-Yates Shuffle Algorithm
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
     }
+}
 
-    function startBatch(index) {
-        batchIndex = index;
-        const start = batchIndex * BATCH_SIZE;
-        const end = start + BATCH_SIZE;
-        currentBatch = allQuestions.slice(start, end);
-
-        if (currentBatch.length === 0) {
-            showFinalBankCompletion();
-            return;
-        }
-
-        currentQ = 0;
-        score = 0;
-        document.getElementById('results-screen').style.display = 'none';
-        document.getElementById('quiz-screen').style.display = 'block';
-        loadQuestion();
-    }
-
-    function loadQuestion() {
-        if (currentBatch.length === 0) return;
-
-        const q = currentBatch[currentQ];
-        const overallNumber = (batchIndex * BATCH_SIZE) + currentQ + 1;
-        const totalSets = Math.ceil(allQuestions.length / BATCH_SIZE);
-
-        questionText.innerHTML = `${overallNumber}. ${q.question}`;
-        progressEl.textContent = `Set ${batchIndex + 1}/${totalSets} | Q ${currentQ + 1}/${currentBatch.length}`;
+async function fetchQuestions() {
+    try {
+        const response = await fetch('./questions.json?v=' + new Date().getTime());
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
-        optionsContainer.innerHTML = '';
-        explanationBox.style.display = 'none';
-        nextBtn.style.display = 'none';
-
-        q.options.forEach((opt, idx) => {
-            const btn = document.createElement('button');
-            btn.className = 'option-btn';
-            btn.innerHTML = opt;
-            btn.onclick = () => selectOption(idx);
-            optionsContainer.appendChild(btn);
-        });
-
-        if (window.MathJax && MathJax.typesetPromise) {
-            MathJax.typesetPromise([questionText, optionsContainer]);
-        }
-    }
-
-    function selectOption(index) {
-        const q = currentBatch[currentQ];
-        const buttons = optionsContainer.children;
-
-        for (let i = 0; i < buttons.length; i++) {
-            buttons[i].disabled = true;
-            if (i === q.correct) {
-                buttons[i].classList.add('correct');
-            } else if (i === index) {
-                buttons[i].classList.add('incorrect');
-            }
-        }
-
-        if (index === q.correct) {
-            score++;
-        }
-
-        explanationBox.innerHTML = q.explanation;
-        explanationBox.style.display = 'block';
-        nextBtn.style.display = 'block';
-
-        if (window.MathJax && MathJax.typesetPromise) {
-            MathJax.typesetPromise([explanationBox]);
-        }
-    }
-
-    function nextQuestion() {
-        currentQ++;
-        if (currentQ < currentBatch.length) {
-            loadQuestion();
-        } else {
-            showBatchResults();
-        }
-    }
-
-    function showBatchResults() {
-        document.getElementById('quiz-screen').style.display = 'none';
-        const resultsScreen = document.getElementById('results-screen');
-        resultsScreen.style.display = 'block';
+        allQuestions = await response.json();
         
-        const percent = Math.round((score / currentBatch.length) * 100);
-        document.getElementById('results-title').textContent = `Set ${batchIndex + 1} Completed! 🎀`;
-        document.getElementById('final-score').textContent = `You scored ${score} out of ${currentBatch.length} (${percent}%).`;
-
-        const actionBtn = document.getElementById('action-btn');
-        if ((batchIndex + 1) * BATCH_SIZE < allQuestions.length) {
-            actionBtn.textContent = `Start Next Set of 20 ➔`;
-            actionBtn.onclick = () => startBatch(batchIndex + 1);
-        } else {
-            actionBtn.textContent = `Restart Entire Question Bank 🌸`;
-            actionBtn.onclick = () => startBatch(0);
-        }
-    }
-
-    function showFinalBankCompletion() {
-        document.getElementById('quiz-screen').style.display = 'none';
-        const resultsScreen = document.getElementById('results-screen');
-        resultsScreen.style.display = 'block';
-        document.getElementById('results-title').textContent = `All Sets Completed! 🌟`;
-        document.getElementById('final-score').textContent = `You completed all ${allQuestions.length} questions in the question bank.`;
+        // Randomly shuffle all questions upon loading
+        shuffleArray(allQuestions);
         
-        const actionBtn = document.getElementById('action-btn');
-        actionBtn.textContent = `Restart Exam 🌸`;
-        actionBtn.onclick = () => startBatch(0);
-    }
-
-    function handleNextBatch() {
-        startBatch(batchIndex + 1);
-    }
-
-    function restartExam() {
         startBatch(0);
+    } catch (error) {
+        questionText.textContent = "Error loading questions.json. Ensure file exists in the repository root.";
+        console.error("Fetch Error:", error);
+    }
+}
+
+function startBatch(index) {
+    batchIndex = index;
+    const start = batchIndex * BATCH_SIZE;
+    const end = start + BATCH_SIZE;
+    currentBatch = allQuestions.slice(start, end);
+
+    if (currentBatch.length === 0) {
+        showFinalBankCompletion();
+        return;
     }
 
-    fetchQuestions();
+    currentQ = 0;
+    score = 0;
+    document.getElementById('results-screen').style.display = 'none';
+    document.getElementById('quiz-screen').style.display = 'block';
+    loadQuestion();
+}
+
+function loadQuestion() {
+    if (currentBatch.length === 0) return;
+
+    const q = currentBatch[currentQ];
+    const overallNumber = (batchIndex * BATCH_SIZE) + currentQ + 1;
+    const totalSets = Math.ceil(allQuestions.length / BATCH_SIZE);
+
+    questionText.innerHTML = `${overallNumber}. ${q.question}`;
+    progressEl.textContent = `Set ${batchIndex + 1}/${totalSets} | Q ${currentQ + 1}/${currentBatch.length}`;
+    
+    optionsContainer.innerHTML = '';
+    explanationBox.style.display = 'none';
+    nextBtn.style.display = 'none';
+
+    q.options.forEach((opt, idx) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerHTML = opt;
+        btn.onclick = () => selectOption(idx);
+        optionsContainer.appendChild(btn);
+    });
+
+    if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise([questionText, optionsContainer]);
+    }
+}
+
+function selectOption(index) {
+    const q = currentBatch[currentQ];
+    const buttons = optionsContainer.children;
+
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].disabled = true;
+        if (i === q.correct) {
+            buttons[i].classList.add('correct');
+        } else if (i === index) {
+            buttons[i].classList.add('incorrect');
+        }
+    }
+
+    if (index === q.correct) {
+        score++;
+    }
+
+    explanationBox.innerHTML = q.explanation;
+    explanationBox.style.display = 'block';
+    nextBtn.style.display = 'block';
+
+    if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise([explanationBox]);
+    }
+}
+
+function nextQuestion() {
+    currentQ++;
+    if (currentQ < currentBatch.length) {
+        loadQuestion();
+    } else {
+        showBatchResults();
+    }
+}
+
+function showBatchResults() {
+    document.getElementById('quiz-screen').style.display = 'none';
+    const resultsScreen = document.getElementById('results-screen');
+    resultsScreen.style.display = 'block';
+    
+    const percent = Math.round((score / currentBatch.length) * 100);
+    document.getElementById('results-title').textContent = `Set ${batchIndex + 1} Completed! 🎀`;
+    document.getElementById('final-score').textContent = `You scored ${score} out of ${currentBatch.length} (${percent}%).`;
+
+    const actionBtn = document.getElementById('action-btn');
+    if ((batchIndex + 1) * BATCH_SIZE < allQuestions.length) {
+        actionBtn.textContent = `Start Next Set of 20 ➔`;
+        actionBtn.onclick = () => startBatch(batchIndex + 1);
+    } else {
+        actionBtn.textContent = `Reshuffle & Restart Question Bank 🌸`;
+        actionBtn.onclick = () => restartExam();
+    }
+}
+
+function showFinalBankCompletion() {
+    document.getElementById('quiz-screen').style.display = 'none';
+    const resultsScreen = document.getElementById('results-screen');
+    resultsScreen.style.display = 'block';
+    document.getElementById('results-title').textContent = `All Sets Completed! 🌟`;
+    document.getElementById('final-score').textContent = `You completed all ${allQuestions.length} questions in the question bank.`;
+    
+    const actionBtn = document.getElementById('action-btn');
+    actionBtn.textContent = `Reshuffle & Restart Exam 🌸`;
+    actionBtn.onclick = () => restartExam();
+}
+
+function handleNextBatch() {
+    startBatch(batchIndex + 1);
+}
+
+function restartExam() {
+    // Re-shuffle all questions when restarting
+    shuffleArray(allQuestions);
+    startBatch(0);
+}
+
+fetchQuestions();
 </script>
 </body>
 </html>
