@@ -53,5 +53,3582 @@
     ],
     "correct": 2,
     "explanation": "<b>Correct Answer: C.</b> Marked thrombocytosis ($>1,000,000/\\mu\\text{L}$) causes pseudohyperkalemia in serum tubes because platelets release intracellular potassium during the clotting process. Collecting anticoagulated plasma (heparin) avoids clot-induced potassium release."
+  },
+  {
+    "question": "A quality control rule violation occurs where 2 consecutive QC results exceed $+2\\text{ SD}$ on the same control level. Which Westgard rule is violated, and what type of error does it indicate?",
+    "options": [
+      "A. $1_{3\\text{s}}$ rule; indicates random error",
+      "B. $2_{2\\text{s}}$ rule; indicates systematic error",
+      "C. $R_{4\\text{s}}$ rule; indicates random error",
+      "D. $4_{1\\text{s}}$ rule; indicates systematic error"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The $2_{2\\text{s}}$ rule is violated when 2 consecutive QC results exceed the same $+2\\text{ SD}$ or $-2\\text{ SD}$ limit. This rule is sensitive exclusively to systematic errors."
+  },
+  {
+    "question": "According to the classic Friedewald equation, what is the calculated LDL cholesterol for a patient with Total Cholesterol = $220\\text{ mg/dL}$, HDL = $45\\text{ mg/dL}$, and Triglycerides = $200\\text{ mg/dL}$?",
+    "options": [
+      "A. $135\\text{ mg/dL}$",
+      "B. $175\\text{ mg/dL}$",
+      "C. $115\\text{ mg/dL}$",
+      "D. Cannot be calculated because triglycerides are $> 150\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{LDL-C} = 220 - 45 - (200 / 5) = 135\\text{ mg/dL}$."
+  },
+  {
+    "question": "A patient presents with acute severe abdominal pain, marked hyperbilirubinemia, and sudden extreme elevation of measured Total Cholesterol. Electrophoresis reveals an abnormal lipid particle lacking ApoB-100. Which particle is present?",
+    "options": [
+      "A. Lipoprotein(a)",
+      "B. $\\beta$-VLDL",
+      "C. Lipoprotein-X",
+      "D. Chylomicron remnant"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Lipoprotein-X (LpX) is an abnormal phospholipid-rich particle lacking ApoB-100 that forms in severe obstructive biliary tract disease (cholestasis)."
+  },
+  {
+    "question": "Which apolipoprotein acts as an essential enzymatic cofactor for the activation of Lipoprotein Lipase (LPL)?",
+    "options": [
+      "A. ApoC-II",
+      "B. ApoC-III",
+      "C. ApoA-I",
+      "D. ApoB-100"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoC-II activates LPL to hydrolyze triglycerides, while ApoC-III inhibits LPL."
+  },
+  {
+    "question": "A serum potassium sample collected in an SST tube measures $6.8\\text{ mmol/L}$. The patient's platelet count is $1,200,000/\\mu\\text{L}$. What is the most appropriate next step to verify the result?",
+    "options": [
+      "A. Report the potassium result immediately as a critical value",
+      "B. Re-run the sample on a direct ISE blood gas analyzer",
+      "C. Request a re-draw in a lithium heparin plasma tube",
+      "D. Dilute the serum $1:2$ with normal saline"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Marked thrombocytosis causes pseudohyperkalemia in serum tubes due to potassium release during clotting. Heparinized plasma prevents clot formation and avoids this artifact."
+  },
+  {
+    "question": "Which enzyme converts cholesterol to cholest-4-en-3-one and hydrogen peroxide during routine enzymatic cholesterol measurement?",
+    "options": [
+      "A. Cholesterol Esterase",
+      "B. Cholesterol Oxidase",
+      "C. Peroxidase",
+      "D. Lipoprotein Lipase"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Cholesterol oxidase catalyzes the oxidation of free cholesterol to produce cholest-4-en-3-one and $\\text{H}_2\\text{O}_2$."
+  },
+  {
+    "question": "What is the primary analyte measured by most automated enzymatic triglyceride methods?",
+    "options": [
+      "A. Free fatty acids",
+      "B. Glycerol",
+      "C. Acetoacetate",
+      "D. Phospholipids"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Lipoprotein lipase hydrolyzes triglycerides into glycerol and fatty acids, and the resulting glycerol is enzymatically measured."
+  },
+  {
+    "question": "On agarose gel lipid electrophoresis at $\\text{pH } 8.6$, which lipoprotein migrates furthest toward the anode?",
+    "options": [
+      "A. Chylomicrons",
+      "B. LDL ($\\beta$-band)",
+      "C. VLDL (Pre-$\\beta$-band)",
+      "D. HDL ($\\alpha$-band)"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> HDL has the highest electrophoretic mobility toward the anode ($\\alpha$-region), while chylomicrons remain at the origin."
+  },
+  {
+    "question": "Which genetic disorder is characterized by mutations in the *MTTP* gene, undetectable serum ApoB-100 and ApoB-48, acanthocytosis, and fat malabsorption?",
+    "options": [
+      "A. Familial Hypercholesterolemia",
+      "B. Abetalipoproteinemia",
+      "C. Fish-Eye Disease",
+      "D. Tangier Disease"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Abetalipoproteinemia (Bassen-Kornzweig syndrome) is caused by *MTTP* mutations leading to complete loss of ApoB-containing lipoproteins."
+  },
+  {
+    "question": "Which apolipoprotein is the primary structural component of HDL particles and serves as a key acceptor for ABCA1-mediated cholesterol efflux?",
+    "options": [
+      "A. ApoA-I",
+      "B. ApoB-48",
+      "C. ApoE",
+      "D. Apo(a)"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoA-I is the main structural protein of HDL and accepts cholesterol pumped by ABCA1 during reverse cholesterol transport."
+  },
+  {
+    "question": "A patient's laboratory panel shows: Total Cholesterol = $210\\text{ mg/dL}$, HDL = $50\\text{ mg/dL}$, Triglycerides = $180\\text{ mg/dL}$. What is the calculated Non-HDL Cholesterol?",
+    "options": [
+      "A. $160\\text{ mg/dL}$",
+      "B. $126\\text{ mg/dL}$",
+      "C. $130\\text{ mg/dL}$",
+      "D. $190\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Non-HDL-C} = \\text{Total Cholesterol} - \\text{HDL-C} = 210 - 50 = 160\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which enzyme esterifies free cholesterol on HDL particles to form hydrophobic cholesteryl esters, transforming disk-shaped HDL into spherical mature particles?",
+    "options": [
+      "A. Hepatic Lipase",
+      "B. LCAT",
+      "C. CETP",
+      "D. ACAT"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Lecithin:cholesterol acyltransferase (LCAT) esterifies cholesterol on HDL to form mature spherical HDL particles."
+  },
+  {
+    "question": "What is the primary mechanism by which statins lower circulating plasma LDL cholesterol levels?",
+    "options": [
+      "A. Direct inhibition of intestinal cholesterol absorption",
+      "B. Upregulation of hepatic LDL receptor density",
+      "C. Inhibition of Lipoprotein Lipase in peripheral tissue",
+      "D. Binding and excretion of bile acids in the gut"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Statins inhibit HMG-CoA reductase, depleting hepatic intracellular cholesterol, which triggers upregulation of surface LDL receptors to clear circulating LDL."
+  },
+  {
+    "question": "Which plasma biomarker level $\\ge 2.0\\text{ mg/L}$ is recognized as an independent risk indicator for atherosclerotic cardiovascular disease (ASCVD)?",
+    "options": [
+      "A. Homocysteine",
+      "B. High-sensitivity C-Reactive Protein (hs-CRP)",
+      "C. Troponin I",
+      "D. B-type Natriuretic Peptide (BNP)"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> An hs-CRP baseline $\\ge 2.0\\text{ mg/L}$ reflects chronic low-grade vascular inflammation and increased ASCVD risk."
+  },
+  {
+    "question": "Which lipid disorder presents with orange-colored tonsils, splenomegaly, peripheral neuropathy, and extremely low HDL-C caused by mutations in the *ABCA1* gene?",
+    "options": [
+      "A. Tangier Disease",
+      "B. Familial Chylomicronemia",
+      "C. Wolman Disease",
+      "D. Type III Hyperlipoproteinemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Tangier disease is caused by mutations in *ABCA1*, preventing nascent HDL formation and causing tissue lipid storage (e.g., orange tonsils)."
+  },
+  {
+    "question": "During the $\\beta$-quantification reference method for LDL-C, which fraction is removed by ultracentrifugation prior to polyanion precipitation?",
+    "options": [
+      "A. Lipoproteins with density $> 1.006\\text{ g/mL}$",
+      "B. Lipoproteins with density $< 1.006\\text{ g/mL}$ (VLDL and Chylomicrons)",
+      "C. HDL particles only",
+      "D. Albumin-bound free fatty acids"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Ultracentrifugation removes lipoproteins with density $< 1.006\\text{ g/mL}$ (VLDL/chylomicrons) before measuring HDL-C and calculating LDL-C."
+  },
+  {
+    "question": "A sodium assay yields $122\\text{ mmol/L}$ on an indirect ISE method, but $139\\text{ mmol/L}$ on a direct ISE blood gas analyzer. The patient's serum is severely lipemic. What explains this discrepancy?",
+    "options": [
+      "A. True hyponatremia masked by direct ISE",
+      "B. Pseudohyponatremia due to electrolyte exclusion effect in indirect ISE",
+      "C. Protein interference on direct ISE membrane",
+      "D. Calibration drift on direct ISE"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Pre-dilution in indirect ISE causes a false drop in measured electrolytes when serum solid volume (lipids/proteins) is expanded, called pseudohyponatremia."
+  },
+  {
+    "question": "Which apolipoprotein isoform is associated with increased susceptibility to late-onset Alzheimer's disease?",
+    "options": [
+      "A. ApoE2",
+      "B. ApoE3",
+      "C. ApoE4",
+      "D. ApoA-II"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The ApoE4 allele is a well-established genetic risk factor for late-onset Alzheimer's disease."
+  },
+  {
+    "question": "What is the primary action of Cholesteryl Ester Transfer Protein (CETP)?",
+    "options": [
+      "A. Hydrolysis of core triglycerides in chylomicrons",
+      "B. Transfer of cholesteryl esters from HDL to ApoB-containing lipoproteins in exchange for TGs",
+      "C. Binding of LDL to hepatic LDL receptors",
+      "D. Cleavage of ApoB-100 to ApoB-48"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> CETP transfers cholesteryl esters from HDL to VLDL/LDL in exchange for triglycerides."
+  },
+  {
+    "question": "Which formula expresses the Coefficient of Variation (C.V.) of a laboratory assay?",
+    "options": [
+      "A. $\\text{C.V.} = (\\text{Mean} / \\text{SD}) \\times 100\\%$",
+      "B. $\\text{C.V.} = (\\text{SD} / \\text{Mean}) \\times 100\\%$",
+      "C. $\\text{C.V.} = (\\text{SD} / 2) \\times 100\\%$",
+      "D. $\\text{C.V.} = (\\text{Variance} / \\text{Mean}) \\times 100\\%$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $\\text{C.V.} = (\\text{Standard Deviation} / \\text{Mean}) \\times 100\\%$."
+  },
+  {
+    "question": "If a serum potassium assay has a Mean of $4.0\\text{ mmol/L}$ and an SD of $0.1\\text{ mmol/L}$, what is its C.V.?",
+    "options": [
+      "A. $2.5\\%$",
+      "B. $4.0\\%$",
+      "C. $1.0\\%$",
+      "D. $0.25\\%$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{C.V.} = (0.1 / 4.0) \\times 100\\% = 2.5\\%$."
+  },
+  {
+    "question": "Which additive is present in a mint-green top Plasma Separator Tube (PST)?",
+    "options": [
+      "A. Sodium Citrate",
+      "B. K2EDTA",
+      "C. Lithium Heparin with gel",
+      "D. Potassium Oxalate / Sodium Fluoride"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> PST tubes contain lithium heparin anticoagulant and a gel separator."
+  },
+  {
+    "question": "What is the required blood-to-anticoagulant ratio for light blue top sodium citrate coagulation tubes?",
+    "options": [
+      "A. $4:1$",
+      "B. $9:1$",
+      "C. $1:1$",
+      "D. $7:1$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Coagulation sodium citrate tubes require a strict $9:1$ blood-to-anticoagulant ratio for accurate clotting measurements."
+  },
+  {
+    "question": "Which pre-analytical factor can falsely increase measured lactate levels if the specimen is left at room temperature without centrifugation?",
+    "options": [
+      "A. Ongoing RBC glycolysis producing lactic acid",
+      "B. Evaporation of fluid from the tube",
+      "C. Photo-degradation of lactate by ambient light",
+      "D. Binding of lactate to tube silicone"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Red blood cells continue glycolysis at room temperature, converting glucose to lactate and causing false elevations."
+  },
+  {
+    "question": "Which Westgard rule is violated when one control observation exceeds $+2\\text{ SD}$ and another exceeds $-2\\text{ SD}$ within the same analytical run?",
+    "options": [
+      "A. $1_{3\\text{s}}$",
+      "B. $2_{2\\text{s}}$",
+      "C. $R_{4\\text{s}}$",
+      "D. $10_{\\bar{x}}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The $R_{4\\text{s}}$ rule is violated when the difference between control values within a run spans $\\ge 4\\text{ SD}$ (e.g., $+2\\text{ SD}$ and $-2\\text{ SD}$), detecting random error."
+  },
+  {
+    "question": "Which enzyme converts cholesterol esters into free cholesterol and fatty acids during enzymatic total cholesterol measurement?",
+    "options": [
+      "A. Cholesterol Oxidase",
+      "B. Cholesterol Esterase",
+      "C. Peroxidase",
+      "D. Lipoprotein Lipase"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Cholesterol esterase cleaves cholesterol esters to yield free cholesterol and fatty acids before cholesterol oxidase acts on the free cholesterol."
+  },
+  {
+    "question": "What is the primary function of Apolipoprotein B-100 (ApoB-100)?",
+    "options": [
+      "A. Cofactor for LPL activation",
+      "B. Primary structural protein of VLDL, IDL, and LDL that binds LDLR",
+      "C. Activation of LCAT for HDL expansion",
+      "D. Inhibition of hepatic lipase"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> ApoB-100 is synthesized in the liver and serves as the structural apolipoprotein for endogenous ApoB particles, acting as a ligand for the LDL receptor."
+  },
+  {
+    "question": "Which lipoprotein fraction remains at the origin during agarose gel electrophoresis at pH 8.6?",
+    "options": [
+      "A. HDL",
+      "B. VLDL",
+      "C. LDL",
+      "D. Chylomicrons"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> Chylomicrons are large, lipid-rich particles with minimal charge that remain at the sample origin during electrophoresis."
+  },
+  {
+    "question": "A patient has Total Cholesterol = 200 mg/dL, HDL = 40 mg/dL, and Triglycerides = 150 mg/dL. Calculate Non-HDL Cholesterol.",
+    "options": [
+      "A. 160 mg/dL",
+      "B. 130 mg/dL",
+      "C. 110 mg/dL",
+      "D. 170 mg/dL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Non-HDL Cholesterol = Total Cholesterol - HDL-C = 200 - 40 = 160 mg/dL."
+  },
+  {
+    "question": "Which inherited disorder is caused by bi-allelic loss-of-function variants in the SAR1B gene, causing selective failure to secrete chylomicrons?",
+    "options": [
+      "A. Abetalipoproteinemia",
+      "B. Chylomicron Retention Disease",
+      "C. Tangier Disease",
+      "D. Fish-Eye Disease"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Chylomicron Retention Disease (Anderson Disease) is caused by SAR1B mutations, impairing chylomicron secretion from enterocytes."
+  },
+  {
+    "question": "Which Westgard rule is violated if 4 consecutive QC observations exceed 1 SD in the same direction?",
+    "options": [
+      "A. $1_{3\\text{s}}$",
+      "B. $2_{2\\text{s}}$",
+      "C. $4_{1\\text{s}}$",
+      "D. $R_{4\\text{s}}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The $4_{1\\text{s}}$ rule is violated when 4 consecutive control results exceed 1 SD on the same side of the mean, detecting systematic error."
+  },
+  {
+    "question": "Which enzyme converts mevalonate into 5-carbon isoprene units during hepatic cholesterol synthesis?",
+    "options": [
+      "A. HMG-CoA Reductase",
+      "B. Mevalonate Kinase / Decarboxylases",
+      "C. Squalene Epoxidase",
+      "D. LCAT"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Mevalonate undergoes phosphorylation and decarboxylation to generate 5-carbon isoprene building blocks."
+  },
+  {
+    "question": "What is the clinical cutoff for fasting plasma glucose when evaluating a patient for Metabolic Syndrome?",
+    "options": [
+      "A. $\\ge 126\\text{ mg/dL}$",
+      "B. $\\ge 100\\text{ mg/dL}$",
+      "C. $\\ge 110\\text{ mg/dL}$",
+      "D. $\\ge 140\\text{ mg/dL}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> According to NCEP/NIH criteria, a fasting blood glucose $\\ge 100\\text{ mg/dL}$ fulfills one of the 5 criteria for Metabolic Syndrome."
+  },
+  {
+    "question": "Which plasma protein is measured via a high-sensitivity immunoturbidimetric assay to evaluate basal vascular inflammation?",
+    "options": [
+      "A. Procalcitonin",
+      "B. High-sensitivity C-Reactive Protein (hs-CRP)",
+      "C. Haptoglobin",
+      "D. Ceruloplasmin"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> hs-CRP measures low levels of CRP to stratify chronic vascular inflammatory risk in cardiovascular disease."
+  },
+  {
+    "question": "Which additive is used in a light blue collection tube for coagulation testing?",
+    "options": [
+      "A. Lithium Heparin",
+      "B. 3.2% Sodium Citrate",
+      "C. K2EDTA",
+      "D. Sodium Fluoride"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Sodium citrate (3.2%) reversibly binds calcium and is used for coagulation studies with a required 9:1 blood-to-anticoagulant ratio."
+  },
+  {
+    "question": "Severe hemolysis causes a false DECREASE in which of the following laboratory analytes?",
+    "options": [
+      "A. Potassium",
+      "B. Lactate Dehydrogenase (LDH)",
+      "C. Haptoglobin",
+      "D. Aspartate Aminotransferase (AST)"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Free hemoglobin binds haptoglobin, causing a rapid decrease in circulating free haptoglobin levels."
+  },
+  {
+    "question": "What is the formula for calculating the Mean of a dataset containing N values?",
+    "options": [
+      "A. $\\sum x / (N - 1)$",
+      "B. $\\sum x / N$",
+      "C. $\\text{SD} / \\sqrt{N}$",
+      "D. $(\\text{Max} - \\text{Min}) / N$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Mean ($\u03bc$) is the sum of all values divided by the total number of observations ($N$)."
+  },
+  {
+    "question": "Which lipoprotein particle contains Apolipoprotein B-48 as its structural backbone?",
+    "options": [
+      "A. VLDL",
+      "B. Chylomicron",
+      "C. LDL",
+      "D. HDL"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> ApoB-48 is synthesized in enterocytes and serves as the structural apolipoprotein for dietary chylomicrons."
+  },
+  {
+    "question": "What effect does heparin administration have on lipoprotein electrophoresis migration?",
+    "options": [
+      "A. Stops all migration at the origin",
+      "B. Increases relative migration rate due to LPL release",
+      "C. Degrades HDL completely",
+      "D. Causes ApoB precipitation"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Intravenous heparin releases endothelial LPL into plasma, generating free fatty acids that increase particle negative charge and migration velocity."
+  },
+  {
+    "question": "An assay yields a mean of 100 mg/dL and a standard deviation of 5 mg/dL. Calculate the Coefficient of Variation (%CV).",
+    "options": [
+      "A. 2.0%",
+      "B. 5.0%",
+      "C. 10.0%",
+      "D. 0.5%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $\%CV = (SD / Mean) \\times 100 = (5 / 100) \\times 100 = 5.0\\%$."
+  },
+  {
+    "question": "Which apolipoprotein binds to the LDL receptor and LRP for remnant clearance?",
+    "options": [
+      "A. ApoC-II",
+      "B. ApoE",
+      "C. ApoA-I",
+      "D. Apo(a)"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> ApoE mediates hepatic clearance of chylomicron remnants, IDL, and VLDL remnants by binding to LDLR and LRP."
+  },
+  {
+    "question": "In the Fredrickson classification, Type IIa hyperlipoproteinemia is characterized by elevation of which particle?",
+    "options": [
+      "A. Chylomicrons",
+      "B. LDL",
+      "C. VLDL",
+      "D. IDL"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Type IIa (Familial Hypercholesterolemia) presents with elevated LDL cholesterol due to LDLR or ApoB pathway defects."
+  },
+  {
+    "question": "What is the primary action of Lecithin:Cholesterol Acyltransferase (LCAT)?",
+    "options": [
+      "A. Hydrolysis of triglycerides in peripheral capillaries",
+      "B. Esterification of free cholesterol on HDL surface",
+      "C. Transfer of TGs from VLDL to HDL",
+      "D. Synthesis of mevalonate from HMG-CoA"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> LCAT transfers a fatty acid to free cholesterol on nascent HDL, creating cholesteryl esters that pack into the particle core."
+  },
+  {
+    "question": "Which collection tube additive chelates calcium to preserve blood cells for Complete Blood Counts (CBC)?",
+    "options": [
+      "A. Lithium Heparin",
+      "B. K2EDTA",
+      "C. Sodium Citrate",
+      "D. Sodium Fluoride"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> EDTA chelates divalent calcium ions, preventing blood coagulation while maintaining cellular morphology."
+  },
+  {
+    "question": "What is a major limitation of using moving patient means for Quality Control monitoring?",
+    "options": [
+      "A. Requires expensive commercial reagents",
+      "B. Influenced by shift in patient population (e.g., ER influx)",
+      "C. High rate of false positive alarms",
+      "D. Cannot be calculated automatically by LIS"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Moving patient means depend on a stable outpatient/inpatient mix and can be skewed by sudden shifts in patient demographics."
+  },
+  {
+    "question": "Which enzyme converts cholesterol to cholest-4-en-3-one and hydrogen peroxide?",
+    "options": [
+      "A. Cholesterol Esterase",
+      "B. Cholesterol Oxidase",
+      "C. Peroxidase",
+      "D. Glucose Oxidase"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Cholesterol oxidase oxidizes the hydroxyl group on free cholesterol, producing hydrogen peroxide as a measurable byproduct."
+  },
+  {
+    "question": "What type of error is detected by the $R_{4\\text{s}}$ Westgard rule?",
+    "options": [
+      "A. Systematic bias",
+      "B. Random error",
+      "C. Calibration drift",
+      "D. Reagent degradation"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The $R_{4\\text{s}}$ rule (a $4\\text{ SD}$ span within a single run) is sensitive to increased random dispersion."
+  },
+  {
+    "question": "What is the desirable reference limit for Total Cholesterol in adults?",
+    "options": [
+      "A. $< 200\\text{ mg/dL}$",
+      "B. $< 150\\text{ mg/dL}$",
+      "C. $< 100\\text{ mg/dL}$",
+      "D. $< 130\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Adult guidelines define desirable Total Cholesterol as $< 200\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which apolipoprotein is covalently bound to ApoB-100 via a disulfide bridge in Lp(a)?",
+    "options": [
+      "A. ApoC-II",
+      "B. ApoA-I",
+      "C. Apolipoprotein(a)",
+      "D. ApoE"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Lp(a) consists of an LDL-like particle where ApoB-100 is disulfide-linked to Apolipoprotein(a)."
+  },
+  {
+    "question": "In severe obstructive liver disease, which abnormal lipoprotein particle accumulates?",
+    "options": [
+      "A. $\\beta$-VLDL",
+      "B. Lipoprotein-X",
+      "C. Pre-$\\beta$ HDL",
+      "D. Chylomicron remnant"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Lipoprotein-X (LpX) forms in cholestasis due to regurgitated biliary lipids and lacks ApoB."
+  },
+  {
+    "question": "What is the primary cellular location of the rate-limiting enzyme HMG-CoA reductase?",
+    "options": [
+      "A. Mitochondrial Matrix",
+      "B. Endoplasmic Reticulum membrane",
+      "C. Lysosome",
+      "D. Nucleolus"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> HMG-CoA reductase is an integral membrane protein embedded in the smooth endoplasmic reticulum."
+  },
+  {
+    "question": "A patient's plasma sample is milky (lactescent). Which lipid fraction is most significantly elevated?",
+    "options": [
+      "A. Cholesterol Esters",
+      "B. Triglycerides",
+      "C. Free Cholesterol",
+      "D. Phospholipids"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Light scattering by large triglyceride-rich particles (chylomicrons and VLDL) causes plasma lipemia/lactescence."
+  },
+  {
+    "question": "Which equation calculates LDL-C when TG is $< 400\\text{ mg/dL}$?",
+    "options": [
+      "A. $\\text{TC} + \\text{HDL-C} - (\\text{TG} / 5)$",
+      "B. $\\text{TC} - \\text{HDL-C} - (\\text{TG} / 5)$",
+      "C. $\\text{TC} - \\text{HDL-C} - (\\text{TG} / 2.2)$",
+      "D. $\\text{TC} - \\text{HDL-C} + (\\text{TG} / 5)$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The classic Friedewald formula is $\\text{LDL-C} = \\text{TC} - \\text{HDL-C} - (\\text{TG} / 5)$ in mg/dL."
+  },
+  {
+    "question": "In Tangier disease, severe deficiency of HDL is caused by mutations in which gene?",
+    "options": [
+      "A. *LCAT*",
+      "B. *ABCA1*",
+      "C. *APOB*",
+      "D. *LDLR*"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> ABCA1 transporter defects prevent cholesterol loading onto ApoA-I, leading to rapid ApoA-I degradation."
+  },
+  {
+    "question": "What is the acceptable adult reference limit for Triglycerides?",
+    "options": [
+      "A. $< 200\\text{ mg/dL}$",
+      "B. $< 150\\text{ mg/dL}$",
+      "C. $< 100\\text{ mg/dL}$",
+      "D. $< 75\\text{ mg/dL}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> NCEP guidelines define normal adult fasting triglycerides as $< 150\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which cell type ingests oxidized LDL in the arterial wall to form early fatty streaks?",
+    "options": [
+      "A. Endothelial cells",
+      "B. Macrophages (Foam cells)",
+      "C. T-lymphocytes",
+      "D. Platelets"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Subendothelial macrophages ingest oxidized LDL via scavenger receptors, turning into lipid-laden foam cells."
+  },
+  {
+    "question": "Which Westgard rule is violated if 10 consecutive QC results fall on the same side of the mean?",
+    "options": [
+      "A. $1_{3\\text{s}}$",
+      "B. $2_{2\\text{s}}$",
+      "C. $10_{\\bar{x}}$",
+      "D. $4_{1\\text{s}}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The $10_{\\bar{x}}$ rule detects a systematic shift when 10 consecutive points lie on one side of the mean."
+  },
+  {
+    "question": "What handling step is required for accurate blood ammonia testing?",
+    "options": [
+      "A. Protect from light",
+      "B. Place immediately in ice slurry and process within 15 min",
+      "C. Incubate at $37^\\circ\\text{C}$ for 30 min",
+      "D. Collect in plain red top tube without anticoagulant"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Ammonia levels rise rapidly at room temperature due to deamination; samples must be placed on ice immediately."
+  },
+  {
+    "question": "Which disorder is characterized by a lack of LPL activity and severe hypertriglyceridemia?",
+    "options": [
+      "A. Familial Hypercholesterolemia (Type IIa)",
+      "B. Familial Chylomicronemia Syndrome (Type I)",
+      "C. Familial Dysbetalipoproteinemia (Type III)",
+      "D. Familial Combined Hyperlipidemia (Type IIb)"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> LPL deficiency prevents chylomicron breakdown, leading to Type I hyperlipoproteinemia."
+  },
+  {
+    "question": "How many carbon atoms make up the squalene intermediate during cholesterol synthesis?",
+    "options": [
+      "A. 15",
+      "B. 27",
+      "C. 30",
+      "D. 5"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Squalene is a 30-carbon hydrocarbon formed by the condensation of two farnesyl pyrophosphate (15C) molecules."
+  },
+  {
+    "question": "Which enzyme hydrolyzes triglycerides in IDL to convert it into LDL?",
+    "options": [
+      "A. Lipoprotein Lipase (LPL)",
+      "B. Hepatic Lipase (HL)",
+      "C. LCAT",
+      "D. Pancreatic Lipase"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Hepatic lipase remodels IDL into cholesterol-dense LDL by hydrolyzing remaining core triglycerides."
+  },
+  {
+    "question": "What is the primary clinical utility of measuring hs-CRP?",
+    "options": [
+      "A. Diagnosing bacterial sepsis",
+      "B. Stratifying cardiovascular disease risk",
+      "C. Monitoring viral hepatitis",
+      "D. Evaluating acute pancreatitis"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> hs-CRP evaluates baseline vascular inflammation to stratify atherosclerotic cardiovascular disease risk."
+  },
+  {
+    "question": "Which analyte shows falsely elevated levels due to release from RBCs during sample hemolysis?",
+    "options": [
+      "A. Sodium",
+      "B. Potassium",
+      "C. Glucose",
+      "D. Calcium"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Intracellular potassium concentrations in RBCs are high; hemolysis releases potassium into serum."
+  },
+  {
+    "question": "What is the function of ABCA1 in cholesterol metabolism?",
+    "options": [
+      "A. Cleavage of ApoB-100",
+      "B. Efflux of free cholesterol to ApoA-I",
+      "C. Hydrolysis of plasma triglycerides",
+      "D. Binds LDL at hepatic sinusoids"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> ABCA1 pumps intracellular free cholesterol and phospholipids across membranes onto lipid-poor ApoA-I."
+  },
+  {
+    "question": "Which lipid parameter is directly calculated by subtracting HDL-C from Total Cholesterol?",
+    "options": [
+      "A. Calculated LDL-C",
+      "B. Non-HDL Cholesterol",
+      "C. VLDL Cholesterol",
+      "D. Remnant Cholesterol"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $\\text{Non-HDL-C} = \\text{Total Cholesterol} - \\text{HDL-C}$."
+  },
+  {
+    "question": "Which type of error does a sudden calibration jump cause on a Levey-Jennings chart?",
+    "options": [
+      "A. Random Error",
+      "B. Systematic Error (Shift)",
+      "C. Systematic Error (Trend)",
+      "D. Matrix Effect"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> An abrupt change in control values following calibration represents a systematic shift."
+  },
+  {
+    "question": "Which apolipoprotein competes with plasminogen for fibrin binding sites, inhibiting clot dissolution?",
+    "options": [
+      "A. ApoC-III",
+      "B. ApoE",
+      "C. Apolipoprotein(a)",
+      "D. ApoA-I"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Apo(a) shares structural homology with plasminogen kringle domains, inhibiting fibrinolysis."
+  },
+  {
+    "question": "Which sample requirement is essential when measuring plasma lactate?",
+    "options": [
+      "A. Collect in NaF/KOx tube, place on ice slurry immediately",
+      "B. Keep warm at $37^\\circ\\text{C}$",
+      "C. Protect from ambient fluorescent light",
+      "D. Allow clot to form for 60 minutes"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Fluoride inhibits glycolysis, and an ice slurry slows ongoing RBC metabolic conversion of glucose to lactate."
+  },
+  {
+    "question": "In an automated direct HDL assay, how are non-HDL particles prevented from reacting with reagents?",
+    "options": [
+      "A. Physical precipitation by centrifugation",
+      "B. Selective masking using synthetic polymers or antibodies",
+      "C. Boiling sample to denature ApoB",
+      "D. Extraction with organic solvents"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Direct homogenous HDL assays use complexing polymers or antibodies to block non-HDL cholesterol."
+  },
+  {
+    "question": "What is the adult desirable cutoff for LDL cholesterol?",
+    "options": [
+      "A. $< 130\\text{ mg/dL}$",
+      "B. $< 100\\text{ mg/dL}$",
+      "C. $< 70\\text{ mg/dL}$",
+      "D. $< 160\\text{ mg/dL}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> NCEP adult guidelines define optimal/desirable LDL cholesterol as $< 100\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which apolipoprotein is present as a single molecule per LDL particle?",
+    "options": [
+      "A. ApoA-I",
+      "B. ApoB-100",
+      "C. ApoC-II",
+      "D. ApoE"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Each LDL particle contains exactly one molecule of ApoB-100."
+  },
+  {
+    "question": "What is the primary component of the core of a mature HDL particle?",
+    "options": [
+      "A. Free Cholesterol",
+      "B. Cholesteryl Esters",
+      "C. Phospholipids",
+      "D. ApoA-I"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> LCAT esterifies surface cholesterol, forcing hydrophobic cholesteryl esters into the core."
+  },
+  {
+    "question": "Which Fredrickson phenotype is known as Familial Dysbetalipoproteinemia and features elevated $\\beta$-VLDL?",
+    "options": [
+      "A. Type I",
+      "B. Type IIa",
+      "C. Type III",
+      "D. Type IV"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Type III hyperlipoproteinemia is caused by ApoE mutations leading to remnant accumulation."
+  },
+  {
+    "question": "What is the statistical formula for Standard Deviation (SD)?",
+    "options": [
+      "A. $\\sum (x - \\mu) / N$",
+      "B. $\\sqrt{\\sum (x - \\mu)^2 / (N - 1)}$",
+      "C. $\\text{Mean} \\times \\%CV$",
+      "D. $(\\text{Max} - \\text{Min}) / 2$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $SD = \\sqrt{\\sum (x - \\mu)^2 / (N - 1)}$."
+  },
+  {
+    "question": "Which enzyme synthesizes mevalonate from HMG-CoA?",
+    "options": [
+      "A. HMG-CoA Reductase",
+      "B. HMG-CoA Synthase",
+      "C. Squalene Synthase",
+      "D. ACAT"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> HMG-CoA reductase reduces HMG-CoA to mevalonate in the rate-limiting step of cholesterol synthesis."
+  },
+{
+    "question": "Which lipoprotein particle is the precursor to Intermediate-Density Lipoprotein (IDL) in the endogenous pathway?",
+    "options": [
+      "A. Chylomicron",
+      "B. VLDL",
+      "C. HDL",
+      "D. Lp(a)"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> VLDL secreted by the liver undergoes continuous triglyceride hydrolysis by Lipoprotein Lipase (LPL) to form IDL."
+  },
+  {
+    "question": "What is the primary apolipoprotein found in Low-Density Lipoprotein (LDL)?",
+    "options": [
+      "A. ApoA-I",
+      "B. ApoB-48",
+      "C. ApoB-100",
+      "D. ApoC-II"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> ApoB-100 is the sole apolipoprotein present on mature LDL particles."
+  },
+  {
+    "question": "Which enzyme converts cholesterol esters into free cholesterol during routine enzymatic total cholesterol assays?",
+    "options": [
+      "A. Cholesterol Oxidase",
+      "B. Cholesterol Esterase",
+      "C. Peroxidase",
+      "D. Hepatic Lipase"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Cholesterol esterase hydrolyzes cholesteryl esters to yield free cholesterol and fatty acids."
+  },
+  {
+    "question": "A patient has Total Cholesterol = 240 mg/dL, HDL = 50 mg/dL, and Triglycerides = 250 mg/dL. Calculate calculated LDL-C using the Friedewald formula.",
+    "options": [
+      "A. 140 mg/dL",
+      "B. 190 mg/dL",
+      "C. 120 mg/dL",
+      "D. 150 mg/dL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{LDL-C} = 240 - 50 - (250 / 5) = 240 - 50 - 50 = 140\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which Westgard rule violation occurs when 1 control observation exceeds the 3 SD limit?",
+    "options": [
+      "A. $1_{2\\text{s}}$",
+      "B. $1_{3\\text{s}}$",
+      "C. $2_{2\\text{s}}$",
+      "D. $4_{1\\text{s}}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The $1_{3\\text{s}}$ rule is violated when a single control result falls outside $\\pm 3\\text{ SD}$, serving as a rejection rule for large random or systematic errors."
+  },
+  {
+    "question": "Which collection tube top color and additive are used for hematology CBC testing?",
+    "options": [
+      "A. Light blue; Sodium Citrate",
+      "B. Mint green; Lithium Heparin",
+      "C. Lavender; K2EDTA",
+      "D. Gray; Sodium Fluoride"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Lavender top tubes contain EDTA, which chelates calcium to preserve intact blood cells."
+  },
+  {
+    "question": "Severe intravascular hemolysis falsely ELEVATES which serum electrolyte level?",
+    "options": [
+      "A. Sodium",
+      "B. Potassium",
+      "C. Chloride",
+      "D. Bicarbonate"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Potassium is concentrated inside erythrocytes; cell lysis releases potassium directly into the serum."
+  },
+  {
+    "question": "Which enzyme esterifies free cholesterol on HDL to drive reverse cholesterol transport?",
+    "options": [
+      "A. ACAT",
+      "B. LCAT",
+      "C. LPL",
+      "D. CETP"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Lecithin:cholesterol acyltransferase (LCAT) esterifies surface cholesterol on nascent HDL."
+  },
+  {
+    "question": "What is the acceptable adult reference cutoff for HDL cholesterol in females?",
+    "options": [
+      "A. $\\ge 40\\text{ mg/dL}$",
+      "B. $\\ge 50\\text{ mg/dL}$",
+      "C. $\\ge 60\\text{ mg/dL}$",
+      "D. $\\ge 35\\text{ mg/dL}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Adult reference guidelines define normal/desirable HDL cholesterol for females as $\\ge 50\\text{ mg/dL}$ (compared to $\\ge 40\\text{ mg/dL}$ in males)."
+  },
+  {
+    "question": "Which genetic mutation is responsible for Familial Hypercholesterolemia (Type IIa)?",
+    "options": [
+      "A. *LPL* deficiency",
+      "B. *LDLR* defect",
+      "C. *APOA1* deletion",
+      "D. *SAR1B* mutation"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Familial Hypercholesterolemia is primarily caused by mutations in the *LDLR* gene, impairing receptor-mediated clearance of LDL."
+  },
+  {
+    "question": "Which biomarker is elevated in chronic low-grade arterial inflammation and predicts ASCVD risk?",
+    "options": [
+      "A. High-sensitivity CRP (hs-CRP)",
+      "B. Procalcitonin",
+      "C. Troponin T",
+      "D. Myoglobin"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> hs-CRP measures basal acute-phase protein concentrations to assess atherosclerotic risk."
+  },
+  {
+    "question": "What is the primary storage site for triglycerides in the human body?",
+    "options": [
+      "A. Skeletal Muscle",
+      "B. Adipose Tissue",
+      "C. Renal Cortex",
+      "D. Spleen"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Adipocytes store $95\\%$ of tissue fat as intracellular triglycerides."
+  },
+  {
+    "question": "Which apolipoprotein inhibits the activation of Lipoprotein Lipase (LPL)?",
+    "options": [
+      "A. ApoC-II",
+      "B. ApoC-III",
+      "C. ApoE",
+      "D. ApoA-I"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> ApoC-III inhibits LPL-mediated lipolysis and delays remnant removal."
+  },
+  {
+    "question": "Which standard deviation range on a Power Function Graph yields the lowest probability of false rejection?",
+    "options": [
+      "A. $1_{2\\text{s}}$",
+      "B. $1_{3\\text{s}}$",
+      "C. $1_{4\\text{s}}$",
+      "D. $2_{2\\text{s}}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The $1_{4\\text{s}}$ rule has an extremely low y-intercept on power function plots, minimizing false rejections."
+  },
+  {
+    "question": "What is the function of Cholesteryl Ester Transfer Protein (CETP)?",
+    "options": [
+      "A. Hydrolysis of core triglycerides",
+      "B. Exchange of cholesteryl esters from HDL for TGs on ApoB particles",
+      "C. Synthesis of mevalonate from HMG-CoA",
+      "D. Oxidation of cholesterol"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> CETP transfers cholesteryl esters from HDL to VLDL/LDL in exchange for triglycerides."
+  },
+  {
+    "question": "In agarose gel electrophoresis, which lipoprotein migrates to the Pre-$\\beta$ position?",
+    "options": [
+      "A. Chylomicrons",
+      "B. LDL",
+      "C. VLDL",
+      "D. HDL"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> VLDL migrates to the Pre-$\\beta$ position, between LDL ($\\beta$) and HDL ($\\alpha$)."
+  },
+  {
+    "question": "A patient's serum appears clear, but triglycerides measure 600 mg/dL. Which elevated particle is most likely responsible?",
+    "options": [
+      "A. Chylomicrons",
+      "B. Small Dense VLDL",
+      "C. HDL",
+      "D. Lipoprotein-X"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Smaller VLDL remnants elevate measured triglycerides without causing marked lactescence seen with large chylomicrons."
+  },
+  {
+    "question": "Which collection tube additive preserves glucose by inhibiting enolase glycolysis?",
+    "options": [
+      "A. Sodium Citrate",
+      "B. Sodium Fluoride",
+      "C. Lithium Heparin",
+      "D. K2EDTA"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Sodium fluoride acts as a glycolytic inhibitor, preserving plasma glucose levels."
+  },
+  {
+    "question": "What is the calculated Non-HDL Cholesterol for Total Cholesterol = 260 mg/dL and HDL = 45 mg/dL?",
+    "options": [
+      "A. 215 mg/dL",
+      "B. 205 mg/dL",
+      "C. 195 mg/dL",
+      "D. 225 mg/dL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Non-HDL-C} = 260 - 45 = 215\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which apolipoprotein mediates the uptake of chylomicron remnants via hepatic LRP and LDLR?",
+    "options": [
+      "A. ApoA-I",
+      "B. ApoC-II",
+      "C. ApoE",
+      "D. ApoB-48"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> ApoE acts as the high-affinity ligand for LRP and LDLR clearance of remnant particles."
+  },
+  {
+    "question": "Which enzyme reduces HMG-CoA to mevalonate in the primary rate-limiting step of cholesterol synthesis?",
+    "options": [
+      "A. HMG-CoA Reductase",
+      "B. HMG-CoA Synthase",
+      "C. Squalene Epoxidase",
+      "D. LCAT"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> HMG-CoA reductase catalyzes the rate-limiting step targetable by statins."
+  },
+  {
+    "question": "What artifact occurs when measuring electrolytes using indirect ISE on a sample with extreme hyperlipidemia?",
+    "options": [
+      "A. Pseudohypernatremia",
+      "B. Pseudohyponatremia",
+      "C. True Hyperkalemia",
+      "D. True Hypocalcemia"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> High solid phase volume dilutes the aqueous phase in indirect ISE, causing pseudohyponatremia."
+  },
+  {
+    "question": "Which Fredrickson class features elevated Chylomicrons AND VLDL?",
+    "options": [
+      "A. Type I",
+      "B. Type III",
+      "C. Type V",
+      "D. Type IV"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Type V hyperlipoproteinemia presents with combined elevations of chylomicrons and VLDL."
+  },
+  {
+    "question": "Which apolipoprotein is absent in patients with Abetalipoproteinemia?",
+    "options": [
+      "A. ApoA-I",
+      "B. ApoB (both 100 and 48)",
+      "C. ApoE",
+      "D. ApoC-II"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> *MTTP* gene loss causes complete absence of plasma ApoB-100 and ApoB-48."
+  },
+  {
+    "question": "What is the target product measured at the end of a Trinder reaction for cholesterol quantification?",
+    "options": [
+      "A. Formazan Dye",
+      "B. Quinone-imine Dye",
+      "C. NADH",
+      "D. Bilirubin"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Peroxidase couples $\\text{H}_2\\text{O}_2$ with phenol and 4-aminophenazone to produce a red quinone-imine dye."
+  },
+  {
+    "question": "How does the presence of double bonds affect fatty acid geometry?",
+    "options": [
+      "A. Creates a rigid straight line",
+      "B. Introduces a $30^\\circ$ kink in cis-conformation",
+      "C. Shortens the chain by 4 carbon atoms",
+      "D. Converts the fatty acid to glycerol"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Natural cis-double bonds create a $30^\\circ$ bend in the hydrocarbon chain."
+  },
+  {
+    "question": "Which enzyme hydrolyzes arterial wall ApoB-containing particles inside macrophages?",
+    "options": [
+      "A. Lysosomal Acid Lipase",
+      "B. LPL",
+      "C. Hepatic Lipase",
+      "D. Pancreatic Lipase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Macrophages digest internalized LDL in lysosomes via lysosomal acid lipase."
+  },
+  {
+    "question": "What is the primary precursor for Vitamin D synthesis in human skin?",
+    "options": [
+      "A. Mevalonate",
+      "B. 7-Dehydrocholesterol",
+      "C. Squalene",
+      "D. Farnesyl Pyrophosphate"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Ultraviolet light converts dermal 7-dehydrocholesterol into Vitamin D3."
+  },
+  {
+    "question": "Which formula calculates Variance ($SD^2$) for a sample dataset?",
+    "options": [
+      "A. $\\sum (x - \\mu) / N$",
+      "B. $\\sum (x - \\mu)^2 / (N - 1)$",
+      "C. $SD / \\text{Mean}$",
+      "D. $\\sqrt{\\text{Mean}}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Sample variance is the sum of squared deviations divided by $N - 1$."
+  },
+  {
+    "question": "Which Westgard rule is violated if 2 consecutive controls exceed +2 SD?",
+    "options": [
+      "A. $1_{2\\text{s}}$",
+      "B. $2_{2\\text{s}}$",
+      "C. $4_{1\\text{s}}$",
+      "D. $R_{4\\text{s}}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $2_{2\\text{s}}$ triggers when 2 consecutive control values exceed $+2\\text{ SD}$ or $-2\\text{ SD}$."
+  },
+  {
+    "question": "What is the primary structural difference between Serum and Plasma?",
+    "options": [
+      "A. Serum contains clotting factors; Plasma does not",
+      "B. Plasma contains fibrinogen and clotting factors; Serum lacks them",
+      "C. Serum contains intact blood cells; Plasma does not",
+      "D. Plasma is clear yellow; Serum is milky white"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Plasma is anticoagulated whole blood supernatant containing fibrinogen; serum lacks clotting factors."
+  },
+  {
+    "question": "A patient's LDL-C is 180 mg/dL. According to NCEP adult guidelines, this value is classified as:",
+    "options": [
+      "A. Desirable",
+      "B. Borderline High",
+      "C. High",
+      "D. Very High"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Adult LDL-C between 160–189 mg/dL is categorized as High."
+  },
+  {
+    "question": "Which organ synthesizes Apolipoprotein B-48?",
+    "options": [
+      "A. Liver",
+      "B. Small Intestine",
+      "C. Kidney",
+      "D. Pancreas"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Intestinal mucosal cells synthesize ApoB-48 via RNA editing for chylomicron assembly."
+  },
+  {
+    "question": "Which method isolates LDL-C by removing particles with $d < 1.006\\text{ g/mL}$ via ultracentrifugation?",
+    "options": [
+      "A. Friedewald calculation",
+      "B. $\\beta$-quantification",
+      "C. Homogeneous direct assay",
+      "D. Electrophoresis"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $\\beta$-quantification uses ultracentrifugation at $d = 1.006\\text{ g/mL}$ to remove VLDL/chylomicrons."
+  },
+  {
+    "question": "Which enzyme converts fatty acyl-CoA into acetyl-CoA in the mitochondria?",
+    "options": [
+      "A. $\\beta$-oxidation pathway enzymes",
+      "B. Fatty acid synthase",
+      "C. HMG-CoA reductase",
+      "D. LPL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\beta$-oxidation sequentially cleaves 2-carbon acetyl-CoA units from fatty acids."
+  },
+  {
+    "question": "What is the threshold for fasting glucose in Metabolic Syndrome diagnosis?",
+    "options": [
+      "A. $\\ge 100\\text{ mg/dL}$",
+      "B. $\\ge 126\\text{ mg/dL}$",
+      "C. $\\ge 110\\text{ mg/dL}$",
+      "D. $\\ge 140\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Fasting blood glucose $\\ge 100\\text{ mg/dL}$ is a diagnostic criterion."
+  },
+  {
+    "question": "Which apolipoprotein is present on HDL and activates LCAT?",
+    "options": [
+      "A. ApoA-I",
+      "B. ApoB-100",
+      "C. ApoC-II",
+      "D. ApoE"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoA-I acts as an essential cofactor for LCAT activation on HDL."
+  },
+  {
+    "question": "Which lipoprotein particle is elevated in Type IV hyperlipoproteinemia?",
+    "options": [
+      "A. Chylomicrons",
+      "B. VLDL",
+      "C. LDL",
+      "D. HDL"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Type IV (Familial Hypertriglyceridemia) features isolated elevation of hepatic VLDL."
+  },
+  {
+    "question": "What is the maximum triglyceride concentration where the Friedewald equation remains valid?",
+    "options": [
+      "A. 200 mg/dL",
+      "B. 400 mg/dL",
+      "C. 500 mg/dL",
+      "D. 1000 mg/dL"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The Friedewald calculation becomes invalid when serum triglycerides exceed 400 mg/dL."
+  },
+  {
+    "question": "Which biomarker is elevated in corneal clouding and renal disease due to LCAT deficiency?",
+    "options": [
+      "A. Nascent disk-like HDL",
+      "B. ApoB-100",
+      "C. Mature spherical HDL",
+      "D. Chylomicrons"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> LCAT deficiency prevents spherical HDL formation, causing accumulation of disk-like HDL."
+  },
+  {
+    "question": "Which quality control tool uses consecutive patient data averages to monitor assay stability?",
+    "options": [
+      "A. Delta Checks",
+      "B. Moving Patient Means",
+      "C. Proficiency Testing",
+      "D. Limit Checks"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Moving patient means track assay stability continuously without extra reagent cost."
+  },
+  {
+    "question": "Which collection tube additive is used for glucose testing to prevent glycolysis?",
+    "options": [
+      "A. Sodium Fluoride / Potassium Oxalate",
+      "B. Sodium Citrate",
+      "C. EDTA",
+      "D. Heparin"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Sodium fluoride inhibits the glycolytic enzyme enolase."
+  },
+  {
+    "question": "Which apolipoprotein mediates cholesterol efflux via the ABCA1 transporter?",
+    "options": [
+      "A. ApoA-I",
+      "B. ApoB-100",
+      "C. ApoC-II",
+      "D. ApoE"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Lipid-poor ApoA-I accepts free cholesterol actively pumped by ABCA1."
+  },
+  {
+    "question": "What is the desirable reference limit for Triglycerides in children ages 2–9?",
+    "options": [
+      "A. $< 75\\text{ mg/dL}$",
+      "B. $< 100\\text{ mg/dL}$",
+      "C. $< 150\\text{ mg/dL}$",
+      "D. $< 130\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Pediatric guidelines define acceptable fasting TGs for ages 2–9 as $< 75\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which equation represents the Sampson/NIH formula for LDL-C?",
+    "options": [
+      "A. $\\text{TC} - \\text{HDL-C} - (\\text{TG} / 5)$",
+      "B. Complex non-linear continuous equation using TC, HDL, and TG",
+      "C. $\\text{TC} / 2.2$",
+      "D. $\\text{HDL-C} + (\\text{TG} / 5)$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The Sampson/NIH formula uses continuous variables to better estimate LDL-C at high TG levels."
+  },
+  {
+    "question": "What is the main function of Hepatic Lipase (HL)?",
+    "options": [
+      "A. Hydrolysis of TGs in IDL and HDL remodeling",
+      "B. Absorption of dietary fat in intestine",
+      "C. Activation of ApoC-II",
+      "D. Synthesis of squalene"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Hepatic lipase hydrolyzes triglycerides in IDL and HDL to yield LDL and smaller HDL particles."
+  },
+  {
+    "question": "Which Westgard rule flags a potential systematic error when 4 consecutive results exceed 1 SD?",
+    "options": [
+      "A. $1_{3\\text{s}}$",
+      "B. $4_{1\\text{s}}$",
+      "C. $R_{4\\text{s}}$",
+      "D. $2_{2\\text{s}}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $4_{1\\text{s}}$ detects small systematic bias across 4 consecutive QC runs."
+  },
+  {
+    "question": "Which disorder is characterized by extreme elevated chylomicrons due to LPL mutation?",
+    "options": [
+      "A. Familial Chylomicronemia Syndrome",
+      "B. Familial Hypercholesterolemia",
+      "C. Tangier Disease",
+      "D. Abetalipoproteinemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> LPL mutations prevent chylomicron lipolysis, leading to Familial Chylomicronemia Syndrome."
+  },
+  {
+    "question": "What is the effect of hemolysis on measured lactate dehydrogenase (LDH)?",
+    "options": [
+      "A. Marked false elevation",
+      "B. False decrease",
+      "C. No effect",
+      "D. Unpredictable variance"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Erythrocytes contain high LDH concentrations; hemolysis causes severe false elevation."
+  },
+  {
+    "question": "Which apolipoprotein isoform is associated with Alzheimer's disease risk?",
+    "options": [
+      "A. ApoE4",
+      "B. ApoE2",
+      "C. ApoE3",
+      "D. ApoA-I"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoE4 is a major genetic risk factor for late-onset Alzheimer's disease."
+  },
+  [
+  {
+    "question": "Which enzyme catalyzes the rate-limiting step in endogenous cholesterol synthesis?",
+    "options": [
+      "A. HMG-CoA Reductase",
+      "B. Cholesterol Oxidase",
+      "C. Lipoprotein Lipase",
+      "D. Squalene Epoxidase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> HMG-CoA Reductase reduces HMG-CoA to mevalonate in the microsomes, representing the rate-limiting step targetable by statins."
+  },
+  {
+    "question": "What is the primary function of Apolipoprotein C-II (ApoC-II)?",
+    "options": [
+      "A. Ligand for the LDL receptor",
+      "B. Essential cofactor for Lipoprotein Lipase (LPL) activation",
+      "C. Inhibitor of hepatic clearance",
+      "D. Structural protein for chylomicrons"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> ApoC-II serves as a necessary enzymatic cofactor to activate capillary endothelial LPL for triglyceride lipolysis."
+  },
+  {
+    "question": "Which lipoprotein particle contains Apolipoprotein B-48 and transports dietary lipids absorbed by the intestine?",
+    "options": [
+      "A. VLDL",
+      "B. Chylomicron",
+      "C. LDL",
+      "D. HDL"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> ApoB-48 is synthesized exclusively in the small intestine to package dietary triglycerides and cholesterol into chylomicrons."
+  },
+  {
+    "question": "A patient's fasting lipid panel shows Total Cholesterol = 210 mg/dL, HDL = 50 mg/dL, and Triglycerides = 100 mg/dL. Calculate Non-HDL Cholesterol.",
+    "options": [
+      "A. 160 mg/dL",
+      "B. 140 mg/dL",
+      "C. 150 mg/dL",
+      "D. 120 mg/dL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Non-HDL-C} = \\text{Total Cholesterol} - \\text{HDL-C} = 210 - 50 = 160\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which genetic lipid disorder features orange-colored tonsils, splenomegaly, and severe HDL deficiency due to mutations in the *ABCA1* gene?",
+    "options": [
+      "A. Tangier Disease",
+      "B. Abetalipoproteinemia",
+      "C. Fish-Eye Disease",
+      "D. Familial Hypercholesterolemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> *ABCA1* transporter mutations cause Tangier Disease, preventing cholesterol loading onto ApoA-I and leading to tissue cholesteryl ester accumulation."
+  },
+  {
+    "question": "Which Westgard rule is violated if 2 consecutive QC observations exceed -2 SD on the same control level?",
+    "options": [
+      "A. $1_{3\\text{s}}$",
+      "B. $2_{2\\text{s}}$",
+      "C. $R_{4\\text{s}}$",
+      "D. $4_{1\\text{s}}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The $2_{2\\text{s}}$ rule is violated when 2 consecutive control values fall on the same side exceeding $2\\text{ SD}$ from the mean."
+  },
+  {
+    "question": "Severe hemolysis in a blood sample causes a false INCREASE in which of the following analyte measurements?",
+    "options": [
+      "A. Sodium",
+      "B. Potassium",
+      "C. Haptoglobin",
+      "D. Chloride"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Intracellular erythrocyte potassium concentration is high relative to plasma; cell lysis releases potassium directly into the sample supernatant."
+  },
+  {
+    "question": "What is the required blood-to-anticoagulant ratio in light blue top sodium citrate collection tubes?",
+    "options": [
+      "A. $4:1$",
+      "B. $9:1$",
+      "C. $1:1$",
+      "D. $7:1$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Sodium citrate coagulation tubes demand a strict $9:1$ blood-to-anticoagulant ratio for accurate clotting time measurements."
+  },
+  {
+    "question": "Which enzyme esterifies free cholesterol on HDL to drive reverse cholesterol transport?",
+    "options": [
+      "A. LCAT",
+      "B. LPL",
+      "C. ACAT",
+      "D. CETP"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Lecithin:cholesterol acyltransferase (LCAT) converts free surface cholesterol into hydrophobic core cholesteryl esters."
+  },
+  {
+    "question": "What is the recommended handling step for blood ammonia specimens immediately following collection?",
+    "options": [
+      "A. Incubate at $37^\\circ\\text{C}$",
+      "B. Place in an ice slurry immediately and centrifuge within 15 minutes",
+      "C. Protect from ambient fluorescent light",
+      "D. Allow complete clot formation for 45 minutes"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Deamination of red blood cell amino acids causes rapid room-temperature elevation of ammonia; samples must be placed on ice and spun quickly."
+  },
+  {
+    "question": "According to the classic Friedewald formula, what is the calculated LDL-C if Total Cholesterol = 200 mg/dL, HDL = 40 mg/dL, and Triglycerides = 150 mg/dL?",
+    "options": [
+      "A. 130 mg/dL",
+      "B. 160 mg/dL",
+      "C. 110 mg/dL",
+      "D. 140 mg/dL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{LDL-C} = 200 - 40 - (150 / 5) = 200 - 40 - 30 = 130\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which abnormal lipoprotein particle accumulates in cholestatic liver disease and lacks ApoB-100?",
+    "options": [
+      "A. Lipoprotein-X",
+      "B. $\\beta$-VLDL",
+      "C. Chylomicron remnant",
+      "D. Pre-$\\beta$ HDL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Lipoprotein-X (LpX) is an abnormal phospholipid-rich particle with a bilayer membrane that forms in biliary obstruction."
+  },
+  {
+    "question": "Which apolipoprotein competes with plasminogen for fibrin binding sites, inhibiting clot dissolution?",
+    "options": [
+      "A. ApoC-III",
+      "B. Apolipoprotein(a)",
+      "C. ApoE",
+      "D. ApoA-I"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Apo(a) possesses structural homology with plasminogen kringle IV repeats, interfering with fibrinolysis."
+  },
+  {
+    "question": "An assay yields a mean of 200 mg/dL and a standard deviation of 4 mg/dL. Calculate the Coefficient of Variation (%CV).",
+    "options": [
+      "A. 2.0%",
+      "B. 4.0%",
+      "C. 0.5%",
+      "D. 1.0%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100 = (4 / 200) \\times 100 = 2.0\\%$."
+  },
+  {
+    "question": "Which additive is present in a gray top tube used for blood glucose preservation?",
+    "options": [
+      "A. Sodium Fluoride / Potassium Oxalate",
+      "B. K2EDTA",
+      "C. Lithium Heparin",
+      "D. 3.2% Sodium Citrate"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Sodium fluoride acts as a glycolytic inhibitor by blocking enolase, preserving plasma glucose."
+  },
+  {
+    "question": "In agarose gel lipid electrophoresis at pH 8.6, which lipoprotein band migrates furthest toward the anode?",
+    "options": [
+      "A. $\\alpha$-band (HDL)",
+      "B. $\\beta$-band (LDL)",
+      "C. Pre-$\\beta$-band (VLDL)",
+      "D. Origin (Chylomicrons)"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> HDL possesses the highest net negative charge density at alkaline pH, migrating furthest to the $\\alpha$-region."
+  },
+  {
+    "question": "Which genetic variant allele of Apolipoprotein E is associated with increased risk of late-onset Alzheimer's disease?",
+    "options": [
+      "A. ApoE2",
+      "B. ApoE3",
+      "C. ApoE4",
+      "D. ApoA-II"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The ApoE4 isoform is a major established genetic susceptibility marker for late-onset Alzheimer's disease."
+  },
+  {
+    "question": "What is the primary action of Cholesteryl Ester Transfer Protein (CETP)?",
+    "options": [
+      "A. Exchange of cholesteryl esters from HDL for TGs on ApoB particles",
+      "B. Cleavage of ApoB-100",
+      "C. Hydrolysis of core TGs in peripheral capillaries",
+      "D. Synthesis of mevalonate"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CETP facilitates neutral lipid transfer, moving cholesteryl esters from HDL onto ApoB-containing VLDL and LDL in exchange for triglycerides."
+  },
+  {
+    "question": "Which Fredrickson hyperlipoproteinemia phenotype is characterized by homozygous mutations in ApoE and accumulation of $\\beta$-VLDL remnants?",
+    "options": [
+      "A. Type I",
+      "B. Type IIa",
+      "C. Type III",
+      "D. Type IV"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Type III (Dysbetalipoproteinemia) results from defective ApoE binding, leading to systemic accumulation of atherogenic IDL and $\\beta$-VLDL remnants."
+  },
+  {
+    "question": "What artifact occurs when measuring electrolytes via indirect ISE in a patient with extreme hyperlipidemia?",
+    "options": [
+      "A. Pseudohyponatremia",
+      "B. Pseudohypernatremia",
+      "C. True Hyperkalemia",
+      "D. True Hypocalcemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Expansion of the non-aqueous plasma solid fraction leads to pre-dilution measurement errors in indirect ISE, termed pseudohyponatremia."
+  },
+  {
+    "question": "Which cell surface receptor is upregulated by statin therapy to enhance systemic LDL-C clearance?",
+    "options": [
+      "A. Hepatic LDL Receptor (LDLR)",
+      "B. Scavenger Receptor B1",
+      "C. ABCA1 Transporter",
+      "D. LRP"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Intracellular hepatic cholesterol depletion by statins triggers transcriptional up-regulation of LDLR density."
+  },
+  {
+    "question": "What baseline high-sensitivity C-reactive protein (hs-CRP) level indicates elevated ASCVD risk?",
+    "options": [
+      "A. $\\ge 2.0\\text{ mg/L}$",
+      "B. $\\ge 10.0\\text{ mg/L}$",
+      "C. $\\ge 0.5\\text{ mg/L}$",
+      "D. $\\ge 5.0\\text{ mg/L}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> An hs-CRP concentration $\\ge 2.0\\text{ mg/L}$ reflects chronic vascular inflammation associated with increased cardiovascular event risk."
+  },
+  {
+    "question": "Which enzyme converts fatty acyl-CoA into acetyl-CoA in the mitochondria?",
+    "options": [
+      "A. $\\beta$-oxidation enzymes",
+      "B. Fatty acid synthase",
+      "C. HMG-CoA reductase",
+      "D. Lipoprotein lipase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\beta$-oxidation sequentially shortens fatty acyl chains by 2 carbons from the C-terminus to produce acetyl-CoA."
+  },
+  {
+    "question": "What is the desirable fasting reference cutoff for Total Cholesterol in adults?",
+    "options": [
+      "A. $< 200\\text{ mg/dL}$",
+      "B. $< 150\\text{ mg/dL}$",
+      "C. $< 100\\text{ mg/dL}$",
+      "D. $< 130\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Adult cholesterol guidelines categorize Total Cholesterol $< 200\\text{ mg/dL}$ as desirable."
+  },
+  {
+    "question": "Which apolipoprotein acts as the primary structural protein for endogenous hepatic VLDL, IDL, and LDL particles?",
+    "options": [
+      "A. ApoB-100",
+      "B. ApoB-48",
+      "C. ApoA-I",
+      "D. ApoC-II"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoB-100 is synthesized in the liver and provides the structural backbone for endogenous non-HDL particles."
+  },
+  {
+    "question": "What is the optimal/desirable adult reference cutoff for LDL cholesterol?",
+    "options": [
+      "A. $< 100\\text{ mg/dL}$",
+      "B. $< 130\\text{ mg/dL}$",
+      "C. $< 160\\text{ mg/dL}$",
+      "D. $< 70\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> NCEP guidelines classify an adult LDL-C level $< 100\\text{ mg/dL}$ as optimal/desirable."
+  },
+  {
+    "question": "Which Westgard rule flags random error when the difference between controls within a single run spans 4 SD?",
+    "options": [
+      "A. $R_{4\\text{s}}$",
+      "B. $1_{3\\text{s}}$",
+      "C. $2_{2\\text{s}}$",
+      "D. $10_{\\bar{x}}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $R_{4\\text{s}}$ is triggered when one control exceeds $+2\\text{ SD}$ and another exceeds $-2\\text{ SD}$ in the same run."
+  },
+  {
+    "question": "Which plasma analyte is actually measured in standard automated enzymatic triglyceride assays?",
+    "options": [
+      "A. Glycerol",
+      "B. Free fatty acids",
+      "C. Acetoacetate",
+      "D. Cholesterol"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> LPL hydrolyzes core triglycerides to glycerol, which is then oxidized and measured via a Trinder endpoint reaction."
+  },
+  {
+    "question": "Which genetic mutation causes Abetalipoproteinemia and leads to an absence of ApoB particles?",
+    "options": [
+      "A. *MTTP*",
+      "B. *APOA1*",
+      "C. *LCAT*",
+      "D. *SAR1B*"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Microsomal Triglyceride Transfer Protein (*MTTP*) gene variants prevent lipidation of ApoB-100 and ApoB-48."
+  },
+  {
+    "question": "What is the acceptable fasting adult reference cutoff for Triglycerides?",
+    "options": [
+      "A. $< 150\\text{ mg/dL}$",
+      "B. $< 200\\text{ mg/dL}$",
+      "C. $< 100\\text{ mg/dL}$",
+      "D. $< 75\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Standard adult guidelines define normal fasting serum triglycerides as $< 150\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which Westgard rule detects small systematic bias when 4 consecutive results exceed 1 SD on the same side of the mean?",
+    "options": [
+      "A. $4_{1\\text{s}}$",
+      "B. $1_{3\\text{s}}$",
+      "C. $2_{2\\text{s}}$",
+      "D. $R_{4\\text{s}}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The $4_{1\\text{s}}$ rule detects persistent minor systematic shifts across 4 consecutive control runs."
+  },
+  {
+    "question": "Which cellular transport protein active in macrophage plasma membranes pumps free cholesterol onto ApoA-I?",
+    "options": [
+      "A. ABCA1",
+      "B. CETP",
+      "C. LPL",
+      "D. LDLR"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ABCA1 pumps intracellular cholesterol and phospholipids onto lipid-poor ApoA-I to initiate HDL formation."
+  },
+  {
+    "question": "Which enzyme converts free cholesterol to cholest-4-en-3-one and hydrogen peroxide during enzymatic testing?",
+    "options": [
+      "A. Cholesterol Oxidase",
+      "B. Cholesterol Esterase",
+      "C. Peroxidase",
+      "D. Hepatic Lipase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Cholesterol oxidase catalyzes oxidation of free cholesterol, producing hydrogen peroxide as a measurable reaction product."
+  },
+  {
+    "question": "What is the primary constituent of human adipose tissue storage fat?",
+    "options": [
+      "A. Triglycerides",
+      "B. Free Cholesterol",
+      "C. Phospholipids",
+      "D. Cholesteryl Esters"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Triglycerides account for approximately $95\\%$ of stored tissue lipids."
+  },
+  {
+    "question": "Which condition is characterized by corneal clouding, renal damage, and Low HDL due to LCAT deficiency?",
+    "options": [
+      "A. Fish-Eye Disease",
+      "B. Familial Hypercholesterolemia",
+      "C. Tangier Disease",
+      "D. Abetalipoproteinemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Partial or total LCAT deficiency (Fish-Eye Disease) leads to accumulation of unesterified cholesterol in corneas and kidneys."
+  },
+  {
+    "question": "What is the function of Hepatic Lipase (HL) in lipoprotein processing?",
+    "options": [
+      "A. Hydrolysis of TGs in IDL to form LDL and remodeling of HDL",
+      "B. Assembly of intestinal chylomicrons",
+      "C. Binding ApoB-100 at macrophage scavenger receptors",
+      "D. Inhibition of HMG-CoA reductase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Hepatic lipase hydrolyzes core triglycerides and phospholipids in IDL and HDL particles."
+  },
+  {
+    "question": "Which quality management system tool uses patient rest-of-day moving averages to track instrument stability without added reagent costs?",
+    "options": [
+      "A. Moving Patient Means",
+      "B. Proficiency Testing",
+      "C. Delta Checks",
+      "D. Limit Checks"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Moving patient means utilize real-time patient results to monitor continuous analytical precision."
+  },
+  {
+    "question": "Which apolipoprotein is present as a single copy on every non-HDL particle?",
+    "options": [
+      "A. ApoB",
+      "B. ApoA-I",
+      "C. ApoC-II",
+      "D. ApoE"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Every non-HDL particle (VLDL, IDL, LDL) carries exactly one molecule of ApoB."
+  },
+  {
+    "question": "Which Westgard rule flags a systematic shift when 10 consecutive results fall on one side of the mean?",
+    "options": [
+      "A. $10_{\\bar{x}}$",
+      "B. $1_{3\\text{s}}$",
+      "C. $2_{2\\text{s}}$",
+      "D. $4_{1\\text{s}}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The $10_{\\bar{x}}$ rule indicates systematic displacement when 10 sequential points fall on the same side of the mean."
+  },
+  {
+    "question": "What handling step prevents false lactate elevations caused by continued cell metabolism?",
+    "options": [
+      "A. NaF/KOx tube, immediate ice slurry placement, prompt centrifugation",
+      "B. Warm incubation at $37^\\circ\\text{C}$",
+      "C. Serum separation tube without anticoagulant",
+      "D. Exposure to ambient light"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Fluoride inhibits glycolytic pathways, while cold temperatures suppress ongoing erythrocyte lactic acid production."
+  },
+  {
+    "question": "Which lipid formula is invalid when serum triglycerides exceed 400 mg/dL?",
+    "options": [
+      "A. Friedewald Equation",
+      "B. Non-HDL Calculation",
+      "C. Sampson Equation",
+      "D. Direct Enzymatic HDL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The linear VLDL-C estimate ($TG / 5$) in the Friedewald formula breaks down when $TG > 400\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which cell type ingests trapped oxidized LDL in arterial subendothelial space, turning into foam cells?",
+    "options": [
+      "A. Macrophages",
+      "B. Endothelial cells",
+      "C. Platelets",
+      "D. T-lymphocytes"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Subendothelial macrophages ingest modified LDL via scavenger receptors, transforming into lipid-laden foam cells."
+  },
+  {
+    "question": "What is the pediatric (ages 2–17) acceptable cutoff for Total Cholesterol?",
+    "options": [
+      "A. $< 170\\text{ mg/dL}$",
+      "B. $< 200\\text{ mg/dL}$",
+      "C. $< 130\\text{ mg/dL}$",
+      "D. $< 110\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Integrated cardiovascular guidelines categorize pediatric Total Cholesterol $< 170\\text{ mg/dL}$ as acceptable."
+  },
+  {
+    "question": "Which apolipoprotein acts as an essential structural protein for HDL and an activator of LCAT?",
+    "options": [
+      "A. ApoA-I",
+      "B. ApoB-100",
+      "C. ApoC-II",
+      "D. ApoE"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoA-I forms the structural backbone of HDL and stimulates LCAT-mediated cholesterol esterification."
+  },
+  {
+    "question": "Which Fredrickson class features elevated isolated hepatic VLDL particles?",
+    "options": [
+      "A. Type IV",
+      "B. Type I",
+      "C. Type IIa",
+      "D. Type III"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Type IV hyperlipoproteinemia (Familial Hypertriglyceridemia) displays isolated VLDL elevation."
+  },
+  {
+    "question": "What is the formula for calculating standard deviation (SD)?",
+    "options": [
+      "A. $\\sqrt{\\sum (x - \\mu)^2 / (N - 1)}$",
+      "B. $\\sum x / N$",
+      "C. $SD / \\text{Mean}$",
+      "D. $(x - \\mu) / N$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Standard deviation is calculated as the square root of sample variance: $\\sqrt{\\sum (x - \\mu)^2 / (N - 1)}$."
+  },
+  {
+    "question": "Which enzyme converts 6-carbon HMG-CoA into 6-carbon mevalonate?",
+    "options": [
+      "A. HMG-CoA Reductase",
+      "B. Squalene Epoxidase",
+      "C. Cholesterol Oxidase",
+      "D. LCAT"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> HMG-CoA Reductase catalyzes the NADPH-dependent reduction of HMG-CoA to mevalonate."
+  },
+  {
+    "question": "Which serum enzyme shows marked false elevation during specimen hemolysis?",
+    "options": [
+      "A. Lactate Dehydrogenase (LDH)",
+      "B. Amylase",
+      "C. Lipase",
+      "D. Alkaline Phosphatase (ALP)"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Red blood cells contain rich concentrations of LDH; hemolysis causes notable enzyme release."
+  },
+  {
+    "question": "What metabolic syndrome waist circumference cutoff applies to adult males?",
+    "options": [
+      "A. $> 40\\text{ inches}$",
+      "B. $> 35\\text{ inches}$",
+      "C. $> 30\\text{ inches}$",
+      "D. $> 45\\text{ inches}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Metabolic syndrome diagnostic guidelines establish a waist circumference threshold of $> 40\\text{ inches}$ ($> 102\\text{ cm}$) for men."
+  },
+  {
+    "question": "Which parameter measures the percentage dispersion of a dataset around its mean?",
+    "options": [
+      "A. Coefficient of Variation (%CV)",
+      "B. Standard Deviation",
+      "C. Variance",
+      "D. Median"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100$ expresses relative analytical dispersion as a percentage."
+  },
+    {
+    "question": "Which enzyme catalyzes the conversion of squalene to squalene epoxide in the cholesterol biosynthetic pathway?",
+    "options": [
+      "A. Squalene Epoxidase",
+      "B. HMG-CoA Reductase",
+      "C. Lanosterol Synthase",
+      "D. Mevalonate Kinase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Squalene epoxidase oxidizes squalene to squalene-2,3-epoxide, which subsequently cyclizes into lanosterol."
+  },
+  {
+    "question": "Which apolipoprotein serves as an essential cofactor for Lecithin:Cholesterol Acyltransferase (LCAT)?",
+    "options": [
+      "A. ApoA-I",
+      "B. ApoB-100",
+      "C. ApoC-II",
+      "D. ApoE"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoA-I binds LCAT on the surface of nascent HDL, activating the enzyme to esterify free cholesterol."
+  },
+  {
+    "question": "Which lipoprotein is synthesized in the liver and serves as the primary endogenous carrier of triglycerides?",
+    "options": [
+      "A. VLDL",
+      "B. Chylomicron",
+      "C. HDL",
+      "D. LDL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Hepatic VLDL packages endogenously synthesized triglycerides and delivers fatty acids to peripheral tissues."
+  },
+  {
+    "question": "A patient's lab panel shows: Total Cholesterol = 250 mg/dL, HDL = 40 mg/dL, and Triglycerides = 200 mg/dL. Calculate Non-HDL Cholesterol.",
+    "options": [
+      "A. 210 mg/dL",
+      "B. 170 mg/dL",
+      "C. 190 mg/dL",
+      "D. 150 mg/dL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Non-HDL-C} = \\text{Total Cholesterol} - \\text{HDL-C} = 250 - 40 = 210\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which genetic lipid defect is caused by loss-of-function variants in the *SAR1B* gene?",
+    "options": [
+      "A. Chylomicron Retention Disease",
+      "B. Tangier Disease",
+      "C. Abetalipoproteinemia",
+      "D. Familial Hypercholesterolemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> *SAR1B* mutations disrupt COPII vesicular transport, selectively blocking chylomicron secretion from intestinal cells."
+  },
+  {
+    "question": "Which Westgard rule is violated if 10 consecutive QC results fall on the same side of the mean?",
+    "options": [
+      "A. $10_{\\bar{x}}$",
+      "B. $1_{3\\text{s}}$",
+      "C. $2_{2\\text{s}}$",
+      "D. $R_{4\\text{s}}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The $10_{\\bar{x}}$ rule detects a systematic bias when 10 sequential points fall on one side of the mean."
+  },
+  {
+    "question": "Severe intravascular hemolysis leads to a false DECREASE in which circulating biomarker?",
+    "options": [
+      "A. Haptoglobin",
+      "B. Potassium",
+      "C. Lactate Dehydrogenase",
+      "D. Aspartate Aminotransferase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Released free hemoglobin binds irreversibly to haptoglobin, clearing it rapidly from plasma."
+  },
+  {
+    "question": "What is the primary function of Apolipoprotein E (ApoE)?",
+    "options": [
+      "A. Mediates particle binding to the hepatic LDL receptor and LRP for remnant clearance",
+      "B. Activates Lipoprotein Lipase in adipose capillaries",
+      "C. Structural backbone for intestinal chylomicrons",
+      "D. Inhibits hepatic lipase in sinusoids"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoE acts as a high-affinity ligand for hepatic LDLR and LRP to clear remnant particles."
+  },
+  {
+    "question": "What is the acceptable adult reference threshold for HDL cholesterol in males?",
+    "options": [
+      "A. $\\ge 40\\text{ mg/dL}$",
+      "B. $\\ge 50\\text{ mg/dL}$",
+      "C. $\\ge 60\\text{ mg/dL}$",
+      "D. $\\ge 30\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> NCEP guidelines define normal/desirable HDL cholesterol for adult males as $\\ge 40\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which enzyme reduces HMG-CoA to mevalonate in the microsomal membrane?",
+    "options": [
+      "A. HMG-CoA Reductase",
+      "B. HMG-CoA Synthase",
+      "C. Squalene Synthase",
+      "D. Cholesterol Esterase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> HMG-CoA reductase performs the rate-limiting reduction step in cholesterol biosynthesis."
+  },
+  {
+    "question": "Which apolipoprotein inhibits Lipoprotein Lipase (LPL) activity and delays hepatic lipoprotein clearance?",
+    "options": [
+      "A. ApoC-III",
+      "B. ApoC-II",
+      "C. ApoA-I",
+      "D. ApoE"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoC-III acts as a competitive inhibitor of LPL and impairs remnant removal."
+  },
+  {
+    "question": "In agarose gel electrophoresis at pH 8.6, which lipoprotein band migrates to the $\\beta$-position?",
+    "options": [
+      "A. LDL",
+      "B. VLDL",
+      "C. HDL",
+      "D. Chylomicrons"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> LDL migrates to the $\\beta$-globulin region, behind VLDL (Pre-$\\beta$) and HDL ($\\alpha$)."
+  },
+  {
+    "question": "Which calculated parameter becomes unreliable when serum triglycerides exceed 400 mg/dL?",
+    "options": [
+      "A. Friedewald LDL Cholesterol",
+      "B. Non-HDL Cholesterol",
+      "C. Total Cholesterol",
+      "D. Direct HDL Cholesterol"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The fixed $TG / 5$ factor in the Friedewald formula underestimates VLDL-C when $TG > 400\\text{ mg/dL}$."
+  },
+  {
+    "question": "What is the primary analyte quantified during standard automated enzymatic triglyceride testing?",
+    "options": [
+      "A. Glycerol",
+      "B. Free fatty acids",
+      "C. Acetoacetate",
+      "D. Phospholipids"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Microbial lipase cleaves triglycerides into glycerol, which is subsequently oxidized and measured."
+  },
+  {
+    "question": "An assay yields a mean of 50 mg/dL and a standard deviation of 2 mg/dL. Calculate the Coefficient of Variation (%CV).",
+    "options": [
+      "A. 4.0%",
+      "B. 2.5%",
+      "C. 5.0%",
+      "D. 1.0%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100 = (2 / 50) \\times 100 = 4.0\\%$."
+  },
+  {
+    "question": "Which quality control rule flags random error when one control observation exceeds $+2\\text{ SD}$ and another exceeds $-2\\text{ SD}$ in the same run?",
+    "options": [
+      "A. $R_{4\\text{s}}$",
+      "B. $1_{3\\text{s}}$",
+      "C. $2_{2\\text{s}}$",
+      "D. $4_{1\\text{s}}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The $R_{4\\text{s}}$ rule detects increased random dispersion spanning $\\ge 4\\text{ SD}$ across controls."
+  },
+  {
+    "question": "Which lipoprotein particle accumulates in Type III Hyperlipoproteinemia (Dysbetalipoproteinemia)?",
+    "options": [
+      "A. $\\beta$-VLDL and IDL remnants",
+      "B. Isolated LDL",
+      "C. Chylomicrons only",
+      "D. Pre-$\\beta$ HDL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Homozygosity for ApoE2 impairs remnant binding, causing accumulation of $\\beta$-VLDL and IDL."
+  },
+  {
+    "question": "What is the primary action of Lecithin:Cholesterol Acyltransferase (LCAT)?",
+    "options": [
+      "A. Converts surface free cholesterol on HDL into core cholesteryl esters",
+      "B. Hydrolyzes capillary triglycerides",
+      "C. Transfers TGs from VLDL to LDL",
+      "D. Reduces HMG-CoA in liver"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> LCAT esterifies free cholesterol, driving the maturation of disk-shaped HDL into spherical particles."
+  },
+  {
+    "question": "Which collection tube additive preserves blood glucose by inhibiting the enzyme enolase?",
+    "options": [
+      "A. Sodium Fluoride",
+      "B. K2EDTA",
+      "C. Lithium Heparin",
+      "D. 3.2% Sodium Citrate"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Sodium fluoride acts as a glycolytic inhibitor, preserving glucose levels in collected blood."
+  },
+  {
+    "question": "What is the mathematical definition of Standard Deviation (SD)?",
+    "options": [
+      "A. $\\sqrt{\\sum (x - \\mu)^2 / (N - 1)}$",
+      "B. $\\sum x / N$",
+      "C. $(SD / \\text{Mean}) \\times 100$",
+      "D. $(x - \\mu) / N$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Standard deviation represents the square root of sample variance."
+  },
+  {
+    "question": "Which cell surface receptor active in macrophages internalizes modified, oxidized LDL particles?",
+    "options": [
+      "A. Scavenger Receptors",
+      "B. Hepatic LDL Receptor",
+      "C. ABCA1 Transporter",
+      "D. LRP"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Macrophage scavenger receptors internalize oxidized LDL without negative feedback, creating foam cells."
+  },
+  {
+    "question": "Which apolipoprotein is synthesized in the small intestine and incorporated into chylomicrons?",
+    "options": [
+      "A. ApoB-48",
+      "B. ApoB-100",
+      "C. ApoA-I",
+      "D. ApoC-II"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Intestinal mRNA editing introduces a stop codon, producing shortened ApoB-48 for chylomicrons."
+  },
+  {
+    "question": "What artifact occurs when measuring electrolytes using indirect ISE on a severely lipemic sample?",
+    "options": [
+      "A. Pseudohyponatremia",
+      "B. Pseudohypernatremia",
+      "C. True Hyperkalemia",
+      "D. True Hypocalcemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Volumetric expansion by lipids reduces the relative aqueous phase, causing artifactual hyponatremia during sample dilution."
+  },
+  {
+    "question": "Which Fredrickson hyperlipoproteinemia phenotype is characterized by isolated elevation of LDL cholesterol?",
+    "options": [
+      "A. Type IIa",
+      "B. Type I",
+      "C. Type IIb",
+      "D. Type IV"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Type IIa (Familial Hypercholesterolemia) presents with isolated LDL elevation due to receptor/ApoB defects."
+  },
+  {
+    "question": "What baseline high-sensitivity C-reactive protein (hs-CRP) concentration indicates elevated risk for ASCVD?",
+    "options": [
+      "A. $\\ge 2.0\\text{ mg/L}$",
+      "B. $\\ge 10.0\\text{ mg/L}$",
+      "C. $\\ge 0.5\\text{ mg/L}$",
+      "D. $\\ge 5.0\\text{ mg/L}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> An hs-CRP baseline $\\ge 2.0\\text{ mg/L}$ reflects chronic arterial inflammation associated with higher event risk."
+  },
+  {
+    "question": "Which apolipoprotein carries a variable number of 'kringle IV' repeat domains, complicating immunoassay standardization?",
+    "options": [
+      "A. Apolipoprotein(a)",
+      "B. ApoB-100",
+      "C. ApoE",
+      "D. ApoC-II"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Kringle IV repeat variations cause size heterogeneity in Apo(a), impairing mass-based assay calibration."
+  },
+  {
+    "question": "Which quality management tool utilizes patient data averages to monitor analytical stability continuously?",
+    "options": [
+      "A. Moving Patient Means",
+      "B. Proficiency Testing",
+      "C. Delta Checks",
+      "D. Limit Checks"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Moving patient means track assay stability continuously without consuming extra reagents."
+  },
+  {
+    "question": "What is the required handling protocol for lactate blood samples?",
+    "options": [
+      "A. NaF/KOx collection, place in ice slurry immediately, centrifuge within 15 minutes",
+      "B. Keep warm at $37^\\circ\\text{C}$",
+      "C. Serum tube without anticoagulant",
+      "D. Protect from light for 2 hours"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Fluoride inhibits enolase, and cold temperatures suppress ongoing erythrocyte glycolysis."
+  },
+  {
+    "question": "Which apolipoprotein is essential for Cholesteryl Ester Transfer Protein (CETP) activity?",
+    "options": [
+      "A. CETP functions as a transfer protein without requiring a specific apolipoprotein cofactor",
+      "B. ApoB-100",
+      "C. ApoC-II",
+      "D. ApoE"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CETP is a hydrophobic plasma glycoprotein that directly mediates lipid transfer between particles."
+  },
+  {
+    "question": "What is the optimal adult reference cutoff for LDL cholesterol?",
+    "options": [
+      "A. $< 100\\text{ mg/dL}$",
+      "B. $< 130\\text{ mg/dL}$",
+      "C. $< 160\\text{ mg/dL}$",
+      "D. $< 70\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Adult cholesterol guidelines categorize LDL-C $< 100\\text{ mg/dL}$ as optimal/desirable."
+  },
+  {
+    "question": "Which lipid disorder is characterized by cloudy corneas, renal failure, and low HDL due to LCAT gene variants?",
+    "options": [
+      "A. Fish-Eye Disease",
+      "B. Tangier Disease",
+      "C. Familial Hypercholesterolemia",
+      "D. Abetalipoproteinemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> LCAT deficiency (Fish-Eye Disease) leads to accumulation of unesterified cholesterol in ocular and renal tissues."
+  },
+  {
+    "question": "Which enzyme hydrolyzes triglycerides in adipose capillary endothelium?",
+    "options": [
+      "A. Lipoprotein Lipase (LPL)",
+      "B. Hepatic Lipase",
+      "C. Cholesterol Esterase",
+      "D. Pancreatic Lipase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Capillary endothelial LPL hydrolyzes triglycerides in chylomicrons and VLDL."
+  },
+  {
+    "question": "What is the desirable reference threshold for fasting Triglycerides in adults?",
+    "options": [
+      "A. $< 150\\text{ mg/dL}$",
+      "B. $< 200\\text{ mg/dL}$",
+      "C. $< 100\\text{ mg/dL}$",
+      "D. $< 75\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> NCEP guidelines define normal adult fasting triglycerides as $< 150\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which apolipoprotein isoform is associated with increased risk of late-onset Alzheimer's disease?",
+    "options": [
+      "A. ApoE4",
+      "B. ApoE2",
+      "C. ApoE3",
+      "D. ApoA-I"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoE4 allele inheritance is a major established susceptibility factor for Alzheimer's disease."
+  },
+  {
+    "question": "Which Westgard rule is violated if 4 consecutive QC values exceed 1 SD in the same direction?",
+    "options": [
+      "A. $4_{1\\text{s}}$",
+      "B. $1_{3\\text{s}}$",
+      "C. $2_{2\\text{s}}$",
+      "D. $R_{4\\text{s}}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The $4_{1\\text{s}}$ rule detects minor systematic bias across 4 sequential control runs."
+  },
+  {
+    "question": "Which cellular transporter active in cell membranes pumps free cholesterol onto ApoA-I?",
+    "options": [
+      "A. ABCA1",
+      "B. CETP",
+      "C. LPL",
+      "D. LDLR"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ABCA1 pumps intracellular free cholesterol and phospholipids onto lipid-poor ApoA-I."
+  },
+  {
+    "question": "What is the primary product of the reaction catalyzed by cholesterol oxidase?",
+    "options": [
+      "A. Cholest-4-en-3-one and Hydrogen Peroxide",
+      "B. Free fatty acids and glycerol",
+      "C. Mevalonate",
+      "D. Squalene"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Cholesterol oxidase oxidizes free cholesterol to cholest-4-en-3-one and $\\text{H}_2\\text{O}_2$."
+  },
+  {
+    "question": "Which Fredrickson phenotype features isolated elevation of hepatic VLDL?",
+    "options": [
+      "A. Type IV",
+      "B. Type I",
+      "C. Type IIa",
+      "D. Type III"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Type IV hyperlipoproteinemia (Familial Hypertriglyceridemia) displays isolated VLDL elevation."
+  },
+  {
+    "question": "What is the acceptable pediatric (ages 2–17) cutoff for Total Cholesterol?",
+    "options": [
+      "A. $< 170\\text{ mg/dL}$",
+      "B. $< 200\\text{ mg/dL}$",
+      "C. $< 130\\text{ mg/dL}$",
+      "D. $< 110\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Integrated guidelines define acceptable pediatric Total Cholesterol as $< 170\\text{ mg/dL}$."
+  },
+  {
+    "question": "Which blood collection tube contains 3.2% Sodium Citrate for coagulation testing?",
+    "options": [
+      "A. Light blue top",
+      "B. Lavender top",
+      "C. Mint green top",
+      "D. Gray top"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Light blue top tubes contain sodium citrate and require a strict 9:1 blood-to-anticoagulant ratio."
+  },
+  {
+    "question": "What type of error is indicated by a sudden shift in control values following reagent lot change?",
+    "options": [
+      "A. Systematic Error",
+      "B. Random Error",
+      "C. Matrix Effect",
+      "D. Transcription Error"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Reagent lot shifts introduce a persistent directional bias classified as systematic error."
+  },
+  {
+    "question": "Which apolipoprotein acts as a necessary cofactor for Lipoprotein Lipase (LPL)?",
+    "options": [
+      "A. ApoC-II",
+      "B. ApoC-III",
+      "C. ApoB-100",
+      "D. ApoA-I"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ApoC-II activates LPL to hydrolyze core triglycerides in capillaries."
+  },
+  {
+    "question": "What is the acceptable adult reference cutoff for Total Cholesterol?",
+    "options": [
+      "A. $< 200\\text{ mg/dL}$",
+      "B. $< 150\\text{ mg/dL}$",
+      "C. $< 100\\text{ mg/dL}$",
+      "D. $< 130\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> NCEP guidelines classify adult Total Cholesterol $< 200\\text{ mg/dL}$ as desirable."
+  },
+  {
+    "question": "Which enzyme converts mevalonate into 5-carbon isoprene building blocks?",
+    "options": [
+      "A. Mevalonate Kinase and Decarboxylases",
+      "B. HMG-CoA Reductase",
+      "C. Squalene Epoxidase",
+      "D. LCAT"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Mevalonate undergoes phosphorylation and decarboxylation to produce 5-carbon isoprene units."
+  },
+  {
+    "question": "Severe hemolysis causes a false DECREASE in which laboratory analyte?",
+    "options": [
+      "A. Haptoglobin",
+      "B. Potassium",
+      "C. Lactate Dehydrogenase",
+      "D. Aspartate Aminotransferase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Released hemoglobin binds free haptoglobin, causing rapid clearance and low serum levels."
+  },
+  {
+    "question": "Which method isolates LDL-C by removing $d < 1.006\\text{ g/mL}$ particles via ultracentrifugation?",
+    "options": [
+      "A. $\\beta$-quantification",
+      "B. Friedewald calculation",
+      "C. Direct homogeneous assay",
+      "D. Agarose electrophoresis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\beta$-quantification uses ultracentrifugation at $d = 1.006\\text{ g/mL}$ to separate VLDL/chylomicrons."
+  },
+  {
+    "question": "What is the waist circumference cutoff for diagnosing metabolic syndrome in adult females?",
+    "options": [
+      "A. $> 35\\text{ inches}$",
+      "B. $> 40\\text{ inches}$",
+      "C. $> 30\\text{ inches}$",
+      "D. $> 45\\text{ inches}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Metabolic syndrome diagnostic criteria establish a waist circumference cutoff of $> 35\\text{ inches}$ ($> 88\\text{ cm}$) for women."
+  },
+  {
+    "question": "Which equation calculates the Coefficient of Variation (%CV)?",
+    "options": [
+      "A. $(SD / \\text{Mean}) \\times 100$",
+      "B. $(\\text{Mean} / SD) \\times 100$",
+      "C. $SD / \\sqrt{N}$",
+      "D. $(x - \\mu) / N$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100$ measures relative analytical variability."
+  },
+  {
+    "question": "Which apolipoprotein is present as a single copy on every non-HDL particle?",
+    "options": [
+      "A. ApoB",
+      "B. ApoA-I",
+      "C. ApoC-II",
+      "D. ApoE"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Every non-HDL particle (VLDL, IDL, LDL) carries exactly one molecule of ApoB."
+  },
+  {
+    "question": "Which Fredrickson phenotype features elevated Chylomicrons due to LPL or ApoC-II deficiency?",
+    "options": [
+      "A. Type I",
+      "B. Type IIa",
+      "C. Type III",
+      "D. Type IV"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Type I (Familial Chylomicronemia) presents with severe chylomicron accumulation due to LPL/ApoC-II defects."
+  },
+    {
+    "question": "What is the clinical definition of diagnostic Sensitivity?",
+    "options": [
+      "A. The proportion of subjects with disease who have a positive laboratory test result",
+      "B. The proportion of subjects without disease who have a negative laboratory test result",
+      "C. The probability that a subject with a positive test actually has the disease",
+      "D. The proportion of all test results that are correct"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Sensitivity is defined as $TP / (TP + FN)$, representing the proportion of subjects with disease who test positive[cite: 3]."
+  },
+  {
+    "question": "What is the clinical definition of diagnostic Specificity?",
+    "options": [
+      "A. The proportion of subjects with disease who have a positive test",
+      "B. The proportion of subjects without disease who have a negative laboratory test result",
+      "C. The proportion of negative test results that are true negatives",
+      "D. The total number of correct test results divided by total population"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Specificity is defined as $TN / (TN + FP)$, representing the proportion of subjects without disease who test negative[cite: 3]."
+  },
+  {
+    "question": "How is Positive Predictive Value (PPV) defined?",
+    "options": [
+      "A. The proportion of subjects with a positive test who actually have the disease",
+      "B. The proportion of subjects without disease who test negative",
+      "C. The ratio of true positives to total diseased subjects",
+      "D. The probability that a negative test rule-outs disease"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> PPV is $TP / (TP + FP)$, which is the proportion of positive test results that are true positives[cite: 3]."
+  },
+  {
+    "question": "How is Negative Predictive Value (NPV) defined?",
+    "options": [
+      "A. The proportion of subjects with disease who test positive",
+      "B. The proportion of subjects with a negative test who do not have the disease",
+      "C. The ratio of false negatives to total healthy subjects",
+      "D. The percentage of false positive results in a screening population"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> NPV is $TN / (TN + FN)$, representing the proportion of negative test results that belong to healthy subjects[cite: 3]."
+  },
+  {
+    "question": "In a $2 \\times 2$ diagnostic table, a evaluation of 500 diseased patients yields 450 positive tests and 50 negative tests. What is the Sensitivity?",
+    "options": [
+      "A. 90%",
+      "B. 96%",
+      "C. 85%",
+      "D. 95%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Sensitivity} = TP / (TP + FN) = 450 / (450 + 50) = 450 / 500 = 0.90$ or 90%[cite: 3]."
+  },
+  {
+    "question": "In a diagnostic trial, 500 non-diseased control subjects yield 20 positive tests and 480 negative tests. What is the Specificity?",
+    "options": [
+      "A. 90%",
+      "B. 96%",
+      "C. 92%",
+      "D. 98%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $\\text{Specificity} = TN / (TN + FP) = 480 / (480 + 20) = 480 / 500 = 0.96$ or 96%[cite: 3]."
+  },
+  {
+    "question": "A cardiac biomarker study obtains 450 True Positives and 20 False Positives. What is the Positive Predictive Value (PPV)?",
+    "options": [
+      "A. 90.0%",
+      "B. 95.7%",
+      "C. 90.6%",
+      "D. 92.3%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $PPV = TP / (TP + FP) = 450 / (450 + 20) = 450 / 470 = 0.957$ or 95.7%[cite: 3]."
+  },
+  {
+    "question": "A diagnostic trial records 480 True Negatives and 50 False Negatives. What is the Negative Predictive Value (NPV)?",
+    "options": [
+      "A. 90.6%",
+      "B. 96.0%",
+      "C. 88.4%",
+      "D. 95.0%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $NPV = TN / (TN + FN) = 480 / (480 + 50) = 480 / 530 = 0.9056$ or 90.6%[cite: 3]."
+  },
+  {
+    "question": "What parameters are plotted on the Y-axis and X-axis of a Receiver Operating Characteristic (ROC) curve?",
+    "options": [
+      "A. Y-axis: Sensitivity; X-axis: Specificity",
+      "B. Y-axis: Sensitivity; X-axis: (1 - Specificity)",
+      "C. Y-axis: PPV; X-axis: NPV",
+      "D. Y-axis: True Positives; X-axis: False Negatives"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> An ROC curve plots Sensitivity (True Positive Rate) on the Y-axis versus (1 - Specificity) (False Positive Rate) on the X-axis across all cutoff values[cite: 3]."
+  },
+  {
+    "question": "What does a diagnostic test cutoff representing a point in the extreme top-left corner of an ROC curve signify?",
+    "options": [
+      "A. High Sensitivity and High Specificity",
+      "B. Low Sensitivity and Low Specificity",
+      "C. High False Positive Rate and High False Negative Rate",
+      "D. Test performance equivalent to random chance"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The top-left corner of an ROC curve corresponds to Sensitivity = 1.0 and (1 - Specificity) = 0 (Specificity = 1.0), representing optimal diagnostic power[cite: 3]."
+  },
+  {
+    "question": "How does increasing the prevalence of a disease in a tested population affect the Positive Predictive Value (PPV) of a diagnostic assay?",
+    "options": [
+      "A. PPV decreases",
+      "B. PPV increases",
+      "C. PPV remains unchanged",
+      "D. PPV drops to zero"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> PPV is directly dependent on disease prevalence; higher prevalence increases the ratio of true positives to total positive test results[cite: 3]."
+  },
+  {
+    "question": "How does decreasing the disease prevalence in a population affect the Negative Predictive Value (NPV) of a test?",
+    "options": [
+      "A. NPV decreases",
+      "B. NPV increases",
+      "C. NPV remains unchanged",
+      "D. NPV becomes equal to sensitivity"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> As disease prevalence drops, the overwhelming proportion of non-diseased subjects increases the probability that a negative result is a true negative, increasing NPV[cite: 3]."
+  },
+  {
+    "question": "A screening assay with a Sensitivity of 70% and Specificity of 90% is used in a population where disease prevalence is 0.02% (0.0002). What is the probability that a negative test result is correct (NPV)?",
+    "options": [
+      "A. 90.00%",
+      "B. 99.99%",
+      "C. 70.00%",
+      "D. 82.35%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $\\text{True Neg} = 0.9 \\times (1 - 0.0002) = 0.89982$, $\\text{False Neg} = (1 - 0.7) \\times 0.0002 = 0.00006$. $NPV = 0.89982 / (0.89982 + 0.00006) = 0.99993$ or 99.99%[cite: 3]."
+  },
+  {
+    "question": "A diagnostic assay with a Sensitivity of 70% and Specificity of 90% is evaluated in a high-risk specialty clinic where disease prevalence is 40% (0.40). What is the Positive Predictive Value (PPV)?",
+    "options": [
+      "A. 82.35%",
+      "B. 1.96%",
+      "C. 70.00%",
+      "D. 90.00%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{True Pos} = 0.7 \\times 0.4 = 0.28$, $\\text{False Pos} = (1 - 0.9) \\times (1 - 0.4) = 0.06$. $PPV = 0.28 / (0.28 + 0.06) = 0.8235$ or 82.35%[cite: 3]."
+  },
+  {
+    "question": "If a disease has a very low prevalence of 1 in 1,000 (0.001) and a screening test has a False Positive Rate of 5% (Specificity = 95%) and 100% Sensitivity, what is the chance that a person with a positive test actually has the disease?",
+    "options": [
+      "A. 95.0%",
+      "B. 1.96%",
+      "C. 50.0%",
+      "D. 20.0%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $\\text{True Pos} = 1.0 \\times 0.001 = 0.001$, $\\text{False Pos} = 0.05 \\times 0.999 = 0.04995$. $PPV = 0.001 / (0.001 + 0.04995) = 0.0196$ or 1.96%[cite: 3]."
+  },
+  {
+    "question": "What is the mathematical definition of the Diagnostic Odds Ratio (DOR)?",
+    "options": [
+      "A. $(\\text{Sensitivity} \\times \\text{Specificity}) / [(1 - \\text{Sensitivity}) \\times (1 - \\text{Specificity})]$",
+      "B. $\\text{Sensitivity} / (1 - \\text{Specificity})$",
+      "C. $(1 - \\text{Sensitivity}) / \\text{Specificity}$",
+      "D. $\\text{True Positives} / \\text{False Positives}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Diagnostic Odds Ratio is expressed as $(\\text{Sensitivity} \\times \\text{Specificity}) / [(1 - \\text{Sensitivity}) \\times (1 - \\text{Specificity})]$[cite: 3]."
+  },
+  {
+    "question": "What is the formula for the Positive Likelihood Ratio ($LR^+$)?",
+    "options": [
+      "A. $\\text{Sensitivity} / (1 - \\text{Specificity})$",
+      "B. $(1 - \\text{Sensitivity}) / \\text{Specificity}$",
+      "C. $\\text{Specificity} / (1 - \\text{Sensitivity})$",
+      "D. $\\text{PPV} / (1 - \\text{NPV})$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Positive Likelihood Ratio ($LR^+$) is calculated as $\\text{Sensitivity} / (1 - \\text{Specificity})$, representing True Positive Rate divided by False Positive Rate[cite: 3]."
+  },
+  {
+    "question": "What is the formula for the Negative Likelihood Ratio ($LR^-$)?",
+    "options": [
+      "A. $(1 - \\text{Sensitivity}) / \\text{Specificity}$",
+      "B. $\\text{Sensitivity} / (1 - \\text{Specificity})$",
+      "C. $\\text{Specificity} / \\text{Sensitivity}$",
+      "D. $(1 - \\text{PPV}) / \\text{NPV}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Negative Likelihood Ratio ($LR^-$) is calculated as $(1 - \\text{Sensitivity}) / \\text{Specificity}$, representing False Negative Rate divided by True Negative Rate[cite: 3]."
+  },
+  {
+    "question": "When evaluating reference intervals for a non-parametric data distribution where only high values have clinical significance, how is the upper limit of normal determined?",
+    "options": [
+      "A. $\\text{Mean} + 2\\text{ SD}$",
+      "B. The 95th percentile rank of the healthy population",
+      "C. $\\text{Mean} + 3\\text{ SD}$",
+      "D. The highest observed single value in the dataset"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> For non-parametric data where high values are clinically significant, the upper limit of normal is set at the 95th percentile rank[cite: 3]."
+  },
+  {
+    "question": "In a study of 120 healthy reference subjects, what rank position ($r$) corresponds to the 95th percentile using the formula $r = P \\times (N + 1)$?",
+    "options": [
+      "A. 114th–115th rank",
+      "B. 120th rank",
+      "C. 95th rank",
+      "D. 100th rank"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $r = 0.95 \\times (120 + 1) = 0.95 \\times 121 = 114.95$, placing the 95th percentile between the 114th and 115th ranked values[cite: 3]."
+  },
+  {
+    "question": "In a meta-analysis forest plot assessing an intervention to reduce drug toxicities, what does an overall Odds Ratio of 0.40 (with a 95% CI completely below 1.0) signify?",
+    "options": [
+      "A. The intervention increases drug toxicity by 60%",
+      "B. The intervention significantly reduces the odds of drug toxicity by ~60%",
+      "C. There is no statistically significant difference between intervention and control",
+      "D. The intervention is ineffective because the OR is less than 1.0"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> An OR of 0.40 indicates that subjects receiving the intervention have a 60% reduction in the odds of experiencing toxicity, and a CI that does not cross 1.0 confirms statistical significance[cite: 3]."
+  },
+  {
+    "question": "On a meta-analysis forest plot, what does a vertical line drawn at an Odds Ratio of 1.0 represent?",
+    "options": [
+      "A. The line of maximum effect size",
+      "B. The line of no effect (no difference between intervention and control)",
+      "C. The upper limit of 95% confidence intervals",
+      "D. The threshold for study exclusion"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> An Odds Ratio of 1.0 indicates equal odds between groups; if a study's 95% CI crosses 1.0, the effect is not statistically significant[cite: 3]."
+  },
+  {
+    "question": "If a diagnostic test has a Sensitivity of 90% and Specificity of 70% at a cutoff of 23, what are the True Positive Rate and False Positive Rate?",
+    "options": [
+      "A. True Positive Rate = 0.90; False Positive Rate = 0.30",
+      "B. True Positive Rate = 0.70; False Positive Rate = 0.10",
+      "C. True Positive Rate = 0.90; False Positive Rate = 0.70",
+      "D. True Positive Rate = 0.10; False Positive Rate = 0.30"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> True Positive Rate equals Sensitivity (0.90). False Positive Rate equals $1 - \\text{Specificity} = 1 - 0.70 = 0.30$[cite: 3]."
+  },
+  {
+    "question": "When raising the decision cutoff of a quantitative assay where higher values indicate disease, how do Sensitivity and Specificity change?",
+    "options": [
+      "A. Sensitivity increases; Specificity decreases",
+      "B. Sensitivity decreases; Specificity increases",
+      "C. Both Sensitivity and Specificity increase",
+      "D. Both Sensitivity and Specificity decrease"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Raising the threshold makes the test criteria stricter, reducing false positives (increasing Specificity) while missing more true cases (decreasing Sensitivity)[cite: 3]."
+  },
+  {
+    "question": "When lowering the decision cutoff of a quantitative assay where higher values indicate disease, how do Sensitivity and Specificity change?",
+    "options": [
+      "A. Sensitivity increases; Specificity decreases",
+      "B. Sensitivity decreases; Specificity increases",
+      "C. Sensitivity remains unchanged; Specificity increases",
+      "D. Both Sensitivity and Specificity increase"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Lowering the cutoff captures more diseased cases (increasing Sensitivity) but increases false positive classifications (decreasing Specificity)[cite: 3]."
+  },
+  {
+    "question": "Which measure of diagnostic accuracy is LEAST affected by changes in disease prevalence in a population?",
+    "options": [
+      "A. Positive Predictive Value (PPV)",
+      "B. Negative Predictive Value (NPV)",
+      "C. Diagnostic Sensitivity and Specificity",
+      "D. Total Number of True Positives"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Sensitivity and Specificity are intrinsic characteristics of a test's analytical performance and do not change with disease prevalence, unlike PPV and NPV[cite: 3]."
+  },
+  {
+    "question": "A clinical laboratory evaluates a screening biomarker and requires a diagnostic specificity of at least 90%. Potential cutoffs yield specificities of 40% (cutoff 19), 70% (cutoff 23), 90% (cutoff 25, sensitivity 70%), and 90% (cutoff 32, sensitivity 40%). Which cutoff should be selected?",
+    "options": [
+      "A. Cutoff 19",
+      "B. Cutoff 23",
+      "C. Cutoff 25",
+      "D. Cutoff 32"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Cutoff 25 satisfies the requirement of $\\ge 90\\%$ specificity while maximizing diagnostic sensitivity at 70% (compared to 40% at cutoff 32)[cite: 3]."
+  },
+  {
+    "question": "What is the False Positive Rate (FPR) of a laboratory assay with a diagnostic Specificity of 96%?",
+    "options": [
+      "A. 4%",
+      "B. 96%",
+      "C. 10%",
+      "D. 0.4%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{False Positive Rate} = 1 - \\text{Specificity} = 1 - 0.96 = 0.04$ or 4%[cite: 3]."
+  },
+  {
+    "question": "What is the False Negative Rate (FNR) of a laboratory assay with a diagnostic Sensitivity of 90%?",
+    "options": [
+      "A. 10%",
+      "B. 90%",
+      "C. 5%",
+      "D. 1%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{False Negative Rate} = 1 - \\text{Sensitivity} = 1 - 0.90 = 0.10$ or 10%[cite: 3]."
+  },
+  {
+    "question": "In a population of 1,000 subjects, 100 have a disease ($P = 10\\%$). A test correctly identifies 80 diseased subjects ($TP = 80$) and yields 90 true negative results in 900 healthy subjects ($TN = 810$). What is the overall diagnostic accuracy?",
+    "options": [
+      "A. 89%",
+      "B. 80%",
+      "C. 90%",
+      "D. 95%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Accuracy} = (TP + TN) / \\text{Total} = (80 + 810) / 1000 = 890 / 1000 = 0.89$ or 89%[cite: 3]."
+  },
+  {
+    "question": "What is the term for the probability of the presence of a specific disease divided by the probability of its absence?",
+    "options": [
+      "A. Odds Ratio",
+      "B. Relative Risk",
+      "C. Likelihood Ratio",
+      "D. Predictive Value"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Odds Ratio (OR) is defined as the probability of presence of disease divided by the probability of its absence[cite: 3]."
+  },
+  {
+    "question": "If a test has a Positive Likelihood Ratio ($LR^+$) of 10, how does a positive result affect the post-test odds of disease compared to pre-test odds?",
+    "options": [
+      "A. Increases the post-test odds of disease by 10-fold",
+      "B. Decreases the post-test odds by 10-fold",
+      "C. Has no impact on post-test probability",
+      "D. Guarantees 100% diagnostic certainty"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> According to Bayes' theorem in odds form, $\\text{Post-test Odds} = \\text{Pre-test Odds} \\times LR^+$. An $LR^+$ of 10 increases the disease odds 10-fold[cite: 3]."
+  },
+  {
+    "question": "An $LR^+$ equal to 1.0 indicates that a diagnostic test:",
+    "options": [
+      "A. Provides no useful diagnostic discrimination (post-test probability equals pre-test probability)",
+      "B. Has 100% sensitivity and 100% specificity",
+      "C. Is ideal for population screening",
+      "D. Has a 0% false positive rate"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> An $LR^+$ of 1.0 means the test result is equally likely in diseased and non-diseased individuals, providing zero diagnostic value[cite: 3]."
+  },
+  {
+    "question": "Why is parametric reference interval estimation ($\\text{Mean} \\pm 2\\text{ SD}$) inappropriate for skewed analyte distributions such as Serum Creatine Kinase (CK)?",
+    "options": [
+      "A. Parametric Gaussian calculations assume a symmetrical bell curve and will miscalculate percentile limits on skewed data",
+      "B. Parametric methods can only be used when $N > 10,000$",
+      "C. Parametric methods cannot evaluate enzyme activity units",
+      "D. Non-parametric distributions do not have an upper limit"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Highly skewed non-Gaussian distributions (like CK) violate parametric assumptions, making non-parametric percentile ranking necessary[cite: 3]."
+  },
+  {
+    "question": "In a $2 \\times 2$ contingency table, if $TP = 90$, $FP = 10$, $FN = 10$, and $TN = 890$, what is the diagnostic Sensitivity?",
+    "options": [
+      "A. 90%",
+      "B. 89%",
+      "C. 98.9%",
+      "D. 99%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Sensitivity} = TP / (TP + FN) = 90 / (90 + 10) = 90 / 100 = 0.90$ or 90%[cite: 3]."
+  },
+  {
+    "question": "In a $2 \\times 2$ contingency table, if $TP = 90$, $FP = 10$, $FN = 10$, and $TN = 890$, what is the diagnostic Specificity?",
+    "options": [
+      "A. 98.9%",
+      "B. 90%",
+      "C. 95%",
+      "D. 89%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Specificity} = TN / (TN + FP) = 890 / (890 + 10) = 890 / 900 = 0.9888$ or 98.9%[cite: 3]."
+  },
+  {
+    "question": "In a $2 \\times 2$ contingency table, if $TP = 90$, $FP = 10$, $FN = 10$, and $TN = 890$, what is the Positive Predictive Value (PPV)?",
+    "options": [
+      "A. 90%",
+      "B. 98.9%",
+      "C. 89%",
+      "D. 95%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $PPV = TP / (TP + FP) = 90 / (90 + 10) = 90 / 100 = 0.90$ or 90%[cite: 3]."
+  },
+  {
+    "question": "In a $2 \\times 2$ contingency table, if $TP = 90$, $FP = 10$, $FN = 10$, and $TN = 890$, what is the Negative Predictive Value (NPV)?",
+    "options": [
+      "A. 98.9%",
+      "B. 90%",
+      "C. 95%",
+      "D. 89%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $NPV = TN / (TN + FN) = 890 / (890 + 10) = 890 / 900 = 0.9888$ or 98.9%[cite: 3]."
+  },
+  {
+    "question": "A high-sensitivity cardiac troponin assay is designed primarily to maximize which diagnostic parameter when ruling out acute myocardial infarction in the ER?",
+    "options": [
+      "A. Negative Predictive Value (NPV)",
+      "B. Positive Predictive Value (PPV)",
+      "C. Specificity",
+      "D. False Positive Rate"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> High sensitivity minimizes false negatives, maximizing NPV so clinicians can safely rule out AMI[cite: 3]."
+  },
+  {
+    "question": "A confirmatory diagnostic test used after a positive screening test should ideally possess high:",
+    "options": [
+      "A. Specificity (to minimize false positives)",
+      "B. Sensitivity (to capture all cases)",
+      "C. Negative Predictive Value",
+      "D. False Positive Rate"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Confirmatory assays require high specificity (low false positive rate) to ensure that only true cases receive definitive treatment[cite: 3]."
+  },
+  {
+    "question": "Which area under the ROC curve (AUC) represents a diagnostic test with zero discriminating ability (equivalent to a coin flip)?",
+    "options": [
+      "A. 0.50",
+      "B. 1.00",
+      "C. 0.00",
+      "D. 0.75"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> An AUC of 0.50 corresponds to the diagonal chance line on an ROC plot, indicating no diagnostic discrimination[cite: 3]."
+  },
+  {
+    "question": "An ideal, perfect diagnostic test has an Area Under the ROC Curve (AUC) of:",
+    "options": [
+      "A. 1.00",
+      "B. 0.50",
+      "C. 100",
+      "D. 0.90"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> An AUC of 1.00 indicates 100% sensitivity and 100% specificity with zero false classifications[cite: 3]."
+  },
+  {
+    "question": "In a meta-analysis forest plot, what does the horizontal line extending through each study's square symbol represent?",
+    "options": [
+      "A. The 95% Confidence Interval for that study's point estimate",
+      "B. The standard deviation of the study population",
+      "C. The total sample size",
+      "D. The range of raw values"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The horizontal line depicts the 95% confidence interval spanning the study's estimated effect size[cite: 3]."
+  },
+  {
+    "question": "In a meta-analysis forest plot, what does the size of the square symbol representing an individual study indicate?",
+    "options": [
+      "A. The statistical weight (sample size) of that study in the meta-analysis",
+      "B. The diagnostic sensitivity of the assay",
+      "C. The publication date of the paper",
+      "D. The number of authors"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Larger squares represent larger sample sizes and higher statistical weight in calculating the pooled effect[cite: 3]."
+  },
+  {
+    "question": "How is the False Positive Rate calculated from diagnostic Specificity?",
+    "options": [
+      "A. $\\text{FPR} = 1 - \\text{Specificity}$",
+      "B. $\\text{FPR} = 1 - \\text{Sensitivity}$",
+      "C. $\\text{FPR} = \\text{Specificity} / \\text{Sensitivity}$",
+      "D. $\\text{FPR} = \\text{FP} / (TP + FP)$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{False Positive Rate} = FP / (FP + TN) = 1 - \\text{Specificity}$[cite: 3]."
+  },
+  {
+    "question": "How is the False Negative Rate calculated from diagnostic Sensitivity?",
+    "options": [
+      "A. $\\text{FNR} = 1 - \\text{Sensitivity}$",
+      "B. $\\text{FNR} = 1 - \\text{Specificity}$",
+      "C. $\\text{FNR} = \\text{FN} / (TN + FN)$",
+      "D. $\\text{FNR} = \\text{Sensitivity} / \\text{PPV}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{False Negative Rate} = FN / (TP + FN) = 1 - \\text{Sensitivity}$[cite: 3]."
+  },
+  {
+    "question": "If a screening test for a rare disease has 99% Sensitivity and 99% Specificity in a population with a prevalence of 0.1% (1 in 1,000), what is the approximate PPV?",
+    "options": [
+      "A. 9.0%",
+      "B. 99.0%",
+      "C. 50.0%",
+      "D. 99.9%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{True Pos} = 0.99 \\times 0.001 = 0.00099$. $\\text{False Pos} = 0.01 \\times 0.999 = 0.00999$. $PPV = 0.00099 / (0.00099 + 0.00999) = 0.00099 / 0.01098 \\approx 0.090$ or ~9.0%[cite: 3]."
+  },
+  {
+    "question": "What happens to the PPV and NPV of a test if its Sensitivity and Specificity remain fixed at 95%, but it is moved from a screening population (prevalence 1%) to a tertiary referral clinic (prevalence 25%)?",
+    "options": [
+      "A. PPV increases significantly; NPV decreases slightly",
+      "B. Both PPV and NPV increase",
+      "C. PPV decreases; NPV increases",
+      "D. Both PPV and NPV remain unchanged"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Higher prevalence increases PPV dramatically (from ~16% to ~86%) while slightly reducing NPV[cite: 3]."
+  },
+  {
+    "question": "What is the primary advantage of evaluating diagnostic tests using Likelihood Ratios ($LR^+$ and $LR^-$) rather than Predictive Values (PPV and NPV)?",
+    "options": [
+      "A. Likelihood Ratios are independent of disease prevalence and can be applied across different clinical settings",
+      "B. Likelihood Ratios do not require sensitivity or specificity data",
+      "C. Likelihood Ratios are always expressed as percentages",
+      "D. Likelihood Ratios only apply to parametric distributions"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Likelihood ratios combine sensitivity and specificity into prevalence-independent metrics that modify pre-test probability[cite: 3]."
+  },
+  {
+    "question": "In establishing a reference interval for a new laboratory assay according to CLSI guidelines, what is the minimum recommended number of healthy reference individuals required for non-parametric analysis?",
+    "options": [
+      "A. 120 subjects",
+      "B. 30 subjects",
+      "C. 500 subjects",
+      "D. 1,000 subjects"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CLSI C28-A3 guidelines recommend at least 120 healthy subjects to determine 95% reference intervals non-parametrically with 90% confidence[cite: 3]."
+  },
+    {
+    "question": "Which linear regression model is most appropriate for method comparison studies when BOTH the reference and test methods are subject to measurement error?",
+    "options": [
+      "A. Deming Regression",
+      "B. Ordinary Least Squares (OLS) Regression",
+      "C. Multiple Linear Regression",
+      "D. Polynomial Regression"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Deming regression accounts for random measurement errors in both the X (reference) and Y (test) methods, unlike Ordinary Least Squares which assumes X is error-free."
+  },
+  {
+    "question": "What type of analytical error is indicated by a slope ($m$) significantly different from 1.0 in a linear regression equation ($y = mx + b$)?",
+    "options": [
+      "A. Proportional Systematic Error",
+      "B. Constant Systematic Error",
+      "C. Random Error",
+      "D. Matrix Interference"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A slope that deviates from 1.0 represents proportional systematic error, where the magnitude of bias changes proportionally with analyte concentration."
+  },
+  {
+    "question": "What type of analytical error is indicated by a Y-intercept ($b$) significantly different from 0.0 in a linear regression equation ($y = mx + b$)?",
+    "options": [
+      "A. Constant Systematic Error",
+      "B. Proportional Systematic Error",
+      "C. Random Dispersion",
+      "D. Imprecision"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A non-zero Y-intercept represents constant systematic error (constant bias), where a fixed amount of error is added across all concentration levels."
+  },
+  {
+    "question": "In a Bland-Altman agreement plot, what variables are plotted on the Y-axis and X-axis?",
+    "options": [
+      "A. Y-axis: Difference between methods (Y - X); X-axis: Average of the two methods ((X + Y)/2)",
+      "B. Y-axis: Test method (Y); X-axis: Reference method (X)",
+      "C. Y-axis: Sensitivity; X-axis: 1 - Specificity",
+      "D. Y-axis: Percent CV; X-axis: Concentration"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Bland-Altman plots display method differences (Y - X) on the Y-axis versus the mean concentration of both methods ((X + Y)/2) on the X-axis to visualize concentration-dependent bias."
+  },
+  {
+    "question": "Which parameter evaluates the strength of a linear relationship between two methods but CANNOT detect systematic bias or agreement?",
+    "options": [
+      "A. Pearson Correlation Coefficient (r)",
+      "B. Y-intercept",
+      "C. Slope",
+      "D. Standard Error of the Estimate (Sy|x)"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The correlation coefficient (r) measures linear association strength, but a perfect r = 1.0 can still exist in the presence of severe constant or proportional bias."
+  },
+  {
+    "question": "According to Westgard recommendations, what minimum number of patient specimens should be evaluated over multiple days during a formal Method Comparison study?",
+    "options": [
+      "A. At least 40 patient specimens",
+      "B. At least 5 patient specimens",
+      "C. At least 120 patient specimens",
+      "D. At least 200 patient specimens"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CLSI EP09-A3 and Westgard protocol require a minimum of 40 patient specimens spanning the analytical measurement range for method comparison."
+  },
+  {
+    "question": "What is the primary purpose of conducting a Limit of Blank (LoB) evaluation according to CLSI EP17 guidelines?",
+    "options": [
+      "A. To determine the highest apparent analyte concentration expected in a sample containing no analyte",
+      "B. To measure the lowest concentration that can be quantified with acceptable imprecision",
+      "C. To determine the highest concentration that remains linear",
+      "D. To evaluate cross-reactivity with interferents"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Limit of Blank (LoB) is the highest concentration expected to be observed in a blank sample (zero analyte) at a specified probability (typically 95%)."
+  },
+  {
+    "question": "How is the Limit of Detection (LoD) defined relative to the Limit of Blank (LoB)?",
+    "options": [
+      "A. LoD = LoB + 1.645 * SD_low_sample",
+      "B. LoD = LoB / 2",
+      "C. LoD = 10 * SD_blank",
+      "D. LoD = LoB + Mean_blank"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> According to CLSI EP17, LoD is the lowest concentration reliably distinguished from blank: $LoD = LoB + 1.645 \\times SD_{\\text{low sample}}$."
+  },
+  {
+    "question": "How is the Limit of Quantitation (LoQ) defined in clinical laboratory method validation?",
+    "options": [
+      "A. The lowest analyte concentration that can be quantitatively measured with stated acceptable precision and bias",
+      "B. The concentration where 50% of tests yield positive results",
+      "C. The highest concentration on the calibration curve",
+      "D. The concentration at which background noise is completely absent"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> LoQ (or functional sensitivity) is the lowest analyte concentration that meets defined total error, bias, and imprecision criteria (e.g., CV <= 20%)."
+  },
+  {
+    "question": "Which experiment is conducted to evaluate the random measurement error (imprecision) of a new clinical analyzer across operating conditions?",
+    "options": [
+      "A. 20-day replication study (CLSI EP05)",
+      "B. Interference study (CLSI EP07)",
+      "C. Linearity study (CLSI EP06)",
+      "D. Method comparison (CLSI EP09)"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CLSI EP05-A3 protocol outlines a 20-day replication experiment (testing controls twice daily in duplicate) to estimate repeat, within-run, and total imprecision."
+  },
+  {
+    "question": "Total Allowable Error (TEa) for a laboratory test combines which two error components?",
+    "options": [
+      "A. Systematic Error (Bias) and Random Error (Imprecision)",
+      "B. Sensitivity and Specificity",
+      "C. Limit of Blank and Limit of Detection",
+      "D. Pre-analytical Error and Post-analytical Error"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Total Allowable Error is the sum of systematic bias and random imprecision: $TE_a = |\\text{Bias}| + (1.65 \\times SD)$ or $|\\text{Bias}| + (2 \\times SD)$."
+  },
+  {
+    "question": "In a total error calculation using a 95% confidence interval ($Z = 1.65$), what is the total calculated error if Bias = 2.0 mg/dL and Imprecision (SD) = 1.0 mg/dL?",
+    "options": [
+      "A. 3.65 mg/dL",
+      "B. 3.00 mg/dL",
+      "C. 2.00 mg/dL",
+      "D. 4.30 mg/dL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Total Error} = |\\text{Bias}| + (1.65 \\times SD) = 2.0 + (1.65 \\times 1.0) = 3.65\\text{ mg/dL}$."
+  },
+  {
+    "question": "What is the primary objective of a Linearity evaluation (CLSI EP06) when validating a quantitative assay?",
+    "options": [
+      "A. To verify that test results are directly proportional to analyte concentration across the Analytical Measurement Range (AMR)",
+      "B. To measure background signal in blank samples",
+      "C. To evaluate cross-reactivity with medications",
+      "D. To establish reference intervals in healthy controls"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Linearity studies verify that the assay yields results directly proportional to true analyte concentrations across its claimed reportable range."
+  },
+  {
+    "question": "When assessing cross-reactivity or matrix effects in an interference experiment (CLSI EP07), what constitutes a Paired Difference testing protocol?",
+    "options": [
+      "A. Comparing a sample spiked with potential interferent against an unspiked control sample prepared from the same pool",
+      "B. Running the same QC material 20 times in 1 run",
+      "C. Measuring 100 patient samples on two different analyzers",
+      "D. Diluting a high patient sample in serial 1:2 steps"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Paired difference testing splits a patient matrix pool into two aliquots: one spiked with interferent and one with solvent control, isolating the bias introduced by the interferent."
+  },
+  {
+    "question": "Which mathematical approach non-parametrically fits a line in method comparison studies when data contains severe outliers?",
+    "options": [
+      "A. Passing-Bablok Regression",
+      "B. Ordinary Least Squares",
+      "C. Pearson Correlation",
+      "D. Polynomial Curve Fitting"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Passing-Bablok regression is a robust non-parametric rank-based regression method unaffected by outliers or non-Gaussian distribution of errors."
+  },
+  {
+    "question": "Which term describes the range of analyte concentrations that can be directly measured on a sample WITHOUT dilution or pretreatment?",
+    "options": [
+      "A. Analytical Measurement Range (AMR)",
+      "B. Clinical Reportable Range (CRR)",
+      "C. Limit of Quantitation (LoQ)",
+      "D. Reference Interval"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> AMR is the range of analyte values that an instrument can directly measure without dilution, concentration, or other pretreatment."
+  },
+  {
+    "question": "Which term describes the range of analyte values that can be reported by expanding the AMR using verified specimen dilution protocols?",
+    "options": [
+      "A. Clinical Reportable Range (CRR)",
+      "B. Analytical Measurement Range (AMR)",
+      "C. Limit of Detection (LoD)",
+      "D. Reference Range"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CRR extends the AMR to higher limits using allowable specimen dilutions (e.g., 1:10 dilution expands CRR 10-fold)."
+  },
+  {
+    "question": "In a method evaluation study, an assay shows a repeatable positive bias of +5.0 mmol/L across all concentration levels. What type of regression profile would this display?",
+    "options": [
+      "A. Slope = 1.0, Y-intercept = +5.0",
+      "B. Slope = 1.2, Y-intercept = 0.0",
+      "C. Slope = 0.8, Y-intercept = 0.0",
+      "D. Slope = 0.5, Y-intercept = -5.0"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A fixed bias across all concentrations changes the Y-intercept (+5.0) while keeping the slope identical to 1.0."
+  },
+  {
+    "question": "If a new methodology exhibits a proportional systematic bias of +20%, what are the expected slope and Y-intercept values in a linear regression model?",
+    "options": [
+      "A. Slope = 1.20, Y-intercept = 0.0",
+      "B. Slope = 1.00, Y-intercept = +20.0",
+      "C. Slope = 0.80, Y-intercept = 0.0",
+      "D. Slope = 0.20, Y-intercept = +1.0"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A +20% proportional bias scales all values by a factor of 1.20, yielding a slope of 1.20 and a zero Y-intercept."
+  },
+  {
+    "question": "Which index expresses analytical imprecision as a percentage of the true concentration mean?",
+    "options": [
+      "A. Coefficient of Variation (%CV)",
+      "B. Standard Deviation (SD)",
+      "C. Variance (SD^2)",
+      "D. Standard Error of the Mean (SEM)"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100$ normalizes absolute imprecision (SD) to the mean concentration."
+  },
+  {
+    "question": "What statistical test is used to compare the IMPRECISION (variances) of two clinical methodologies?",
+    "options": [
+      "A. F-test",
+      "B. Student's t-test",
+      "C. Chi-square test",
+      "D. Mann-Whitney U test"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The F-test compares the ratio of two variances ($F = SD_1^2 / SD_2^2$) to evaluate significant differences in precision."
+  },
+  {
+    "question": "What statistical test compares the MEANS of two methodologies in a method comparison study to assess systematic bias?",
+    "options": [
+      "A. Paired Student's t-test",
+      "B. F-test",
+      "C. Chi-square test",
+      "D. ANOVA"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A paired t-test evaluates whether the average difference between paired measurements on the same samples differs significantly from zero."
+  },
+  {
+    "question": "In statistical testing, a Type I Error (alpha error) occurs when an investigator:",
+    "options": [
+      "A. Rejects the null hypothesis when it is actually true (false positive finding)",
+      "B. Fails to reject the null hypothesis when it is actually false",
+      "C. Selects a sample size that is too large",
+      "D. Performs a non-parametric test on Gaussian data"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A Type I error occurs when the test incorrectly rejects a true null hypothesis, finding a 'statistically significant' difference when none exists."
+  },
+  {
+    "question": "In statistical testing, a Type II Error (beta error) occurs when an investigator:",
+    "options": [
+      "A. Fails to reject the null hypothesis when a true difference actually exists (false negative finding)",
+      "B. Rejects a true null hypothesis",
+      "C. Sets the alpha level to 0.05",
+      "D. Overestimates assay precision"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A Type II error occurs when an experiment fails to detect a real difference or effect that actually exists."
+  },
+  {
+    "question": "What is the statistical Power of a clinical study defined as?",
+    "options": [
+      "A. 1 - Beta (the probability of correctly detecting a true difference)",
+      "B. 1 - Alpha",
+      "C. Alpha / Beta",
+      "D. The p-value divided by sample size"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Statistical power ($1 - \\beta$) is the probability that a study will correctly reject the null hypothesis when a true effect exists."
+  },
+  {
+    "question": "How does increasing the sample size ($N$) affect the 95% Confidence Interval width of an estimated parameter?",
+    "options": [
+      "A. Narrows the confidence interval width (increases estimation precision)",
+      "B. Widens the confidence interval width",
+      "C. Has no impact on confidence interval width",
+      "D. Shifts the mean to zero"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Larger sample sizes reduce standard error ($SE = SD / \\sqrt{N}$), narrowing the confidence interval around the point estimate."
+  },
+  {
+    "question": "Which bias source occurs when a reference method experiences matrix interferences from synthetic proteins in commercial control material but NOT in human serum?",
+    "options": [
+      "A. Matrix Effect",
+      "B. Proportional Error",
+      "C. Carryover Error",
+      "D. Hook Effect"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Matrix effects occur when non-analyte physical/chemical properties of artificial samples alter an assay's response compared to fresh human specimens."
+  },
+  {
+    "question": "Which phenomenon causes falsely low results in sandwich immunoassays when extreme high analyte concentrations saturate capture and detection antibodies simultaneously?",
+    "options": [
+      "A. High-Dose Hook Effect (Prozone Phenomenon)",
+      "B. Matrix Interference",
+      "C. Spectral Overlap",
+      "D. Quenching"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The hook effect occurs in one-step sandwich assays when excess analyte saturates both antibodies independently without forming sandwich complexes."
+  },
+  {
+    "question": "What is the recommended laboratory approach to detect and eliminate a High-Dose Hook Effect in a suspected sample?",
+    "options": [
+      "A. Dilute the patient specimen and re-test; a diluted result higher than expected confirms the hook effect",
+      "B. Centrifuge the sample at higher speed",
+      "C. Heat-inactivate the specimen",
+      "D. Test the sample on an ISE analyzer"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Diluting a hooked sample resolves antibody saturation, causing the measured concentration to increase unexpectedly after multiplying by the dilution factor."
+  },
+  {
+    "question": "Which assay parameter describes the smallest concentration difference between two samples that can be reliably distinguished by an instrument?",
+    "options": [
+      "A. Analytical Sensitivity (Resolution)",
+      "B. Diagnostic Specificity",
+      "C. Limit of Blank",
+      "D. Analytical Measurement Range"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Analytical sensitivity is the slope of the calibration curve ($\u0394 signal / \u0394 concentration$), defining the assay's ability to distinguish small concentration changes."
+  },
+  {
+    "question": "How is the Reference Change Value (RCV) or Critical Difference calculated to determine if two serial results in a patient differ significantly?",
+    "options": [
+      "A. RCV = 2.77 * sqrt( CV_analytical^2 + CV_biological^2 )",
+      "B. RCV = CV_analytical + CV_biological",
+      "C. RCV = Mean + 2 * SD",
+      "D. RCV = Bias / SD"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $RCV = 2^{1/2} \\times Z \\times \\sqrt{CV_a^2 + CV_i^2} = 2.77 \\times \\sqrt{CV_a^2 + CV_i^2}$ at the 95% confidence level ($Z = 1.96$)."
+  },
+  {
+    "question": "If an assay has an analytical CV (CVa) of 3.0% and the patient's intra-individual biological variation (CVi) is 6.0%, what is the Reference Change Value (RCV)?",
+    "options": [
+      "A. 18.6%",
+      "B. 9.0%",
+      "C. 24.9%",
+      "D. 12.5%"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $RCV = 2.77 \\times \\sqrt{3.0^2 + 6.0^2} = 2.77 \\times \\sqrt{9 + 36} = 2.77 \\times \\sqrt{45} = 2.77 \\times 6.708 = 18.58\\%$."
+  },
+  {
+    "question": "Which model establishes analytical performance specifications based on the components of biological variation ($CV_i$ and $CV_g$)?",
+    "options": [
+      "A. Milan Hierarchy (Consensus Model)",
+      "B. Westgard Rules",
+      "C. CLIA 88 Standard Criteria",
+      "D. Levey-Jennings Model"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The 2014 Milan consensus conference established a 3-tier hierarchy for performance goals: Tier 1 (Clinical outcomes), Tier 2 (Biological variation), Tier 3 (State-of-the-art)."
+  },
+  {
+    "question": "According to the biological variation model, what is the target goal for desirable analytical imprecision ($CV_a$)?",
+    "options": [
+      "A. CVa <= 0.5 * CVi",
+      "B. CVa <= CVi",
+      "C. CVa <= 0.25 * CVi",
+      "D. CVa <= 2.0 * CVi"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The desirable analytical imprecision specification requires $CV_a \\le 0.50 \\times CV_i$ (within-subject biological variation)."
+  },
+  {
+    "question": "According to the biological variation model, what is the target goal for desirable analytical bias ($B_a$)?",
+    "options": [
+      "A. Ba <= 0.25 * sqrt( CVi^2 + CVg^2 )",
+      "B. Ba <= 0.50 * CVi",
+      "C. Ba <= CVg",
+      "D. Ba <= 0.10 * Mean"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Desirable allowable bias is defined as $B_a \\le 0.250 \\times \\sqrt{CV_i^2 + CV_g^2}$, where $CV_g$ is between-subject biological variation."
+  },
+  {
+    "question": "What is the primary function of a Carryover Study (CLSI EP10) when validating an automated chemistry analyzer?",
+    "options": [
+      "A. To evaluate whether high-concentration samples contaminate subsequent low-concentration samples via probe/cuvette reuse",
+      "B. To measure reagent shelf life",
+      "C. To assess pipetting linearity",
+      "D. To monitor temperature fluctuations"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Carryover experiments test sequences of high-concentration (H) and low-concentration (L) samples (e.g., H1-H2-H3-L1-L2-L3) to detect probe/cuvette contamination."
+  },
+  {
+    "question": "In a carryover evaluation protocol, how is percent carryover calculated from High (H) and Low (L) sample sequences?",
+    "options": [
+      "A. % Carryover = [ (L1 - L3) / (H3 - L3) ] * 100",
+      "B. % Carryover = (L1 / H1) * 100",
+      "C. % Carryover = (H3 - L1) / 100",
+      "D. % Carryover = (L3 - L1) * 100"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\% \\text{Carryover} = [(L_1 - L_3) / (H_3 - L_3)] \\times 100$, where $L_1$ is the first low result following a high sample and $L_3$ is a baseline low sample."
+  },
+  {
+    "question": "Which CLSI guidelines document provides the standard protocol for establishing and verifying user reference intervals in clinical laboratories?",
+    "options": [
+      "A. CLSI C28-A3 (EP28-A3c)",
+      "B. CLSI EP05-A3",
+      "C. CLSI EP09-A3",
+      "D. CLSI EP06-A"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CLSI C28-A3 (now EP28-A3c) details reference interval definition, selection, and statistical evaluation."
+  },
+  {
+    "question": "To VERIFY a manufacturer's claimed reference interval using a small sample size according to CLSI guidelines, how many healthy reference subjects are required?",
+    "options": [
+      "A. 20 reference subjects",
+      "B. 120 reference subjects",
+      "C. 5 reference subjects",
+      "D. 40 reference subjects"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A manufacturer's reference range can be verified using 20 healthy subjects; the range is accepted if no more than 2 results (<= 10%) fall outside limits."
+  },
+  {
+    "question": "What is the maximum number of outliers permitted when verifying a reference interval with 20 healthy subjects?",
+    "options": [
+      "A. No more than 2 results (<= 10%)",
+      "B. No more than 5 results",
+      "C. 0 results",
+      "D. Up to 8 results"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> If 2 or fewer of 20 results (<= 10%) fall outside the claimed interval, the manufacturer's range is verified."
+  },
+  {
+    "question": "Which statistical test detects individual data outliers in a reference interval evaluation study?",
+    "options": [
+      "A. Reed-Dixon Test or Tukey Boxplot Test",
+      "B. Student's t-test",
+      "C. F-test",
+      "D. Pearson r"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The Reed-Dixon rule and Tukey boxplot method are standard techniques recommended by CLSI to identify and eliminate statistical outliers."
+  },
+  {
+    "question": "Under the Reed-Dixon outlier criterion, a suspected extreme value (D) is removed if the difference between it and the next closest value divided by the total range exceeds:",
+    "options": [
+      "A. 1/3 (D/R >= 0.333)",
+      "B. 1/2",
+      "C. 1/10",
+      "D. 2.0"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> According to Reed-Dixon, if $D / R \\ge 0.333$ (where $D$ is the difference to nearest neighbor and $R$ is total range), the extreme value is rejected."
+  },
+  {
+    "question": "What term describes the degree of closeness between a single test measurement and the true reference value of an analyte?",
+    "options": [
+      "A. Accuracy",
+      "B. Precision",
+      "C. Linearity",
+      "D. Robustness"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Accuracy describes closeness of agreement between a single result and the accepted true value."
+  },
+  {
+    "question": "What term describes the agreement among independent repeated test results obtained under stipulated test conditions?",
+    "options": [
+      "A. Precision (Imprecision)",
+      "B. Accuracy",
+      "C. Bias",
+      "D. Trueness"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Precision describes measurement closeness between replicate tests on the same sample without regard to the true value."
+  },
+  {
+    "question": "Which component of analytical error is represented by the mathematical concept of Bias?",
+    "options": [
+      "A. Systematic Error",
+      "B. Random Error",
+      "C. Imprecision",
+      "D. Coefficient of Variation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Bias is the quantitative estimate of systematic error, calculated as $\\text{Mean}_y - \\text{Mean}_x$ or $\\text{Mean}_y - \\text{True Value}$."
+  },
+  {
+    "question": "In Proficiency Testing (PT) grading under CLIA regulations, what minimum overall score must a laboratory achieve to maintain satisfactory performance for an analyte?",
+    "options": [
+      "A. 80% correct",
+      "B. 90% correct",
+      "C. 100% correct",
+      "D. 70% correct"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CLIA requires a minimum score of 80% on each PT challenge (typically 4 out of 5 testing events correct) for acceptable performance."
+  },
+  {
+    "question": "What is the consequence under CLIA regulations if a laboratory fails two consecutive or two out of three PT testing events for a specific analyte?",
+    "options": [
+      "A. Unsatisfactory performance leading to potential suspension of testing approval for that analyte",
+      "B. Mandatory replacement of analyzer hardware",
+      "C. 10% financial fine per patient test",
+      "D. Immediate loss of full laboratory accreditation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Failing 2 consecutive or 2 out of 3 PT events is classified as 'unsuccessful performance' and can result in loss of testing rights for that analyte."
+  },
+  {
+    "question": "Which metric evaluates an individual laboratory's PT result ($x$) relative to the peer group mean ($\\mu$) and standard deviation ($\\sigma$)?",
+    "options": [
+      "A. Standard Deviation Index (SDI) or Z-score",
+      "B. Percent CV",
+      "C. Coefficient of Determination (R^2)",
+      "D. Diagnostic Odds Ratio"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $SDI = (x - \\mu) / \\sigma$ measures how many standard deviations a laboratory's PT result lies from the peer group mean."
+  },
+  {
+    "question": "An SDI (Z-score) value of +2.5 on a PT survey indicates that the laboratory result is:",
+    "options": [
+      "A. 2.5 standard deviations ABOVE the peer group mean",
+      "B. 2.5% higher than the true value",
+      "C. Incorrect and failing",
+      "D. 2.5 standard deviations below the peer group mean"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> SDI indicates the direction and number of standard deviations a result falls relative to the peer group ($SDI = +2.5$ is 2.5 SD above the mean)."
+  },
+  {
+    "question": "An SDI score exceeding what magnitude indicates potential bias requiring investigation during PT review?",
+    "options": [
+      "A. |SDI| > 2.0",
+      "B. |SDI| > 0.5",
+      "C. |SDI| > 5.0",
+      "D. |SDI| > 0.1"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> An $|SDI| > 2.0$ indicates that a laboratory's result deviates more than 2 SD from its peer group, signaling systematic bias."
   }
+  
 ]
