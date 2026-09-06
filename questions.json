@@ -2142,7 +2142,7 @@
       "D. 1.0%"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> $\%CV = (SD / \\text{Mean}) \\times 100 = (2 / 50) \\times 100 = 4.0\\%$."
+    "explanation": "<b>Correct Answer: A.</b> $\\%CV = (SD / \\text{Mean}) \\times 100 = (2 / 50) \\times 100 = 4.0\\%$."
   },
   {
     "question": "Which quality control rule flags random error when one control observation exceeds $+2\\text{ SD}$ and another exceeds $-2\\text{ SD}$ in the same run?",
