@@ -101,9 +101,9 @@
   {
     "question": "The coefficient of variation is calculated as:",
     "options": [
-      "A. $\\text{SD} / \\text{Mean} \\times 100$",
+      "A. $\\text{SD} / \\text{Mean} $",
       "B. $\\text{Mean} / \\text{SD} \\times 100$",
-      "C. $(\\text{SD} / \\text{Mean})",
+      "C. $(\\text{SD} / \\text{Mean}) \\times 100$",
       "D. $\\text{Variance} / \\text{Mean} \\times 100$"
     ],
     "correct": 2,
