@@ -103,7 +103,7 @@
     "options": [
       "A. $\\text{SD} / \\text{Mean} \\times 100$",
       "B. $\\text{Mean} / \\text{SD} \\times 100$",
-      "C. $(\\text{SD} / \\text{Mean}) \\times 100$",
+      "C. $(\\text{SD} / \\text{Mean})",
       "D. $\\text{Variance} / \\text{Mean} \\times 100$"
     ],
     "correct": 2,
