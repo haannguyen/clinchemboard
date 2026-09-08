@@ -1,0 +1,3303 @@
+[
+  {
+    "question": "A new glucose assay has a CV of 1.5% and a bias of 1.0%. Which characteristic describes the CV?",
+    "options": [
+      "A. Accuracy",
+      "B. Precision",
+      "C. Specificity",
+      "D. Sensitivity"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Coefficient of variation (CV) is a measure of relative imprecision or repeatability/reproducibility of an assay[cite: 18]. Bias reflects systematic error or accuracy[cite: 18]."
+  },
+  {
+    "question": "The mean of a QC material is $100\\text{ mg/dL}$ and the SD is $2\\text{ mg/dL}$. What is the $\\pm 2\\text{ SD}$ range?",
+    "options": [
+      "A. 96-104 mg/dL",
+      "B. 98-102 mg/dL",
+      "C. 94-106 mg/dL",
+      "D. 95-105 mg/dL"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The $\\pm 2\\text{ SD}$ range is calculated as $\\text{Mean} \\pm (2 \\times \\text{SD}) = 100 \\pm (2 \\times 2) = 100 \\pm 4 = 96\\text{ to } 104\\text{ mg/dL}$[cite: 18]."
+  },
+  {
+    "question": "Which Westgard rule is violated when one control exceeds $+3\\text{ SD}$?",
+    "options": [
+      "A. $2_{2\\text{s}}$",
+      "B. $R_{4\\text{s}}$",
+      "C. $1_{3\\text{s}}$",
+      "D. $4_{1\\text{s}}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The $1_{3\\text{s}}$ rule is violated when a single quality control measurement exceeds the mean by more than $\\pm 3\\text{ SD}$[cite: 18]."
+  },
+  {
+    "question": "Random analytical error primarily affects:",
+    "options": [
+      "A. Accuracy",
+      "B. Precision",
+      "C. Trueness",
+      "D. Calibration"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Random error affects measurement repeatability and scatter, which directly limits precision[cite: 18]. Systematic error affects accuracy/trueness[cite: 18]."
+  },
+  {
+    "question": "In a Gaussian distribution, approximately what percentage of observations fall within $\\pm 2\\text{ SD}$?",
+    "options": [
+      "A. 68%",
+      "B. 90%",
+      "C. 95%",
+      "D. 99.7%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> In a normal (Gaussian) distribution, $\\approx 68.2\\%$ fall within $\\pm 1\\text{ SD}$, $\\approx 95.4\\%$ fall within $\\pm 2\\text{ SD}$, and $\\approx 99.7\\%$ fall within $\\pm 3\\text{ SD}$[cite: 18]."
+  },
+  {
+    "question": "A method comparison study commonly uses:",
+    "options": [
+      "A. Kaplan-Meier analysis",
+      "B. Deming regression",
+      "C. ANOVA only",
+      "D. Chi-square only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Deming or Passing-Bablok regression is used in method comparison studies because both the candidate and reference methods are subject to analytical measurement error[cite: 18]."
+  },
+  {
+    "question": "The difference between an observed value and the true value is:",
+    "options": [
+      "A. Imprecision",
+      "B. Bias",
+      "C. CV",
+      "D. Variance"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Bias represents systematic error, defined as the difference between the expectation of test results (or an observed mean) and an accepted reference/true value[cite: 18]."
+  },
+  {
+    "question": "A Levey-Jennings chart is primarily used to monitor:",
+    "options": [
+      "A. Patient trends",
+      "B. Calibration curves",
+      "C. Quality control performance",
+      "D. Reference intervals"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Levey-Jennings control charts plot sequential daily or run-based QC values against predefined mean and standard deviation limits to assess assay stability over time[cite: 18]."
+  },
+  {
+    "question": "Sigma metrics incorporate:",
+    "options": [
+      "A. Mean and median only",
+      "B. TEa, bias, and CV",
+      "C. Bias only",
+      "D. TEa only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The Sigma metric equation is $\\text{Sigma} = \\frac{\\text{TEa} - |\\text{Bias}|}{\\text{CV}}$, combining Total Allowable Error (TEa), systematic error (Bias), and random error (CV)[cite: 18]."
+  },
+  {
+    "question": "The coefficient of variation is calculated as:",
+    "options": [
+      "A. $\\text{SD} / \\text{Mean} \\times 100$",
+      "B. $\\text{Mean} / \\text{SD} \\times 100$",
+      "C. $(\\text{SD} / \\text{Mean}) \\times 100$",
+      "D. $\\text{Variance} / \\text{Mean} \\times 100$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $\\%\\text{CV} = (\\text{SD} / \\text{Mean}) \\times 100$[cite: 18]."
+  },
+  {
+    "question": "A method has excellent precision but poor accuracy. This indicates:",
+    "options": [
+      "A. High random error only",
+      "B. High systematic error",
+      "C. No analytical error",
+      "D. Poor sensitivity"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Tight clustering of results (high precision) that are consistently shifted away from the true target value (poor accuracy) is the hallmark of systematic error or constant/proportional bias[cite: 18]."
+  },
+  {
+    "question": "The 95th percentile reference interval includes:",
+    "options": [
+      "A. Central 68%",
+      "B. Central 90%",
+      "C. Central 95%",
+      "D. Central 99%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Standard clinical reference intervals bound the central 95% of results from a healthy reference population, excluding the lowest 2.5% and highest 2.5%[cite: 18]."
+  },
+  {
+    "question": "Which parameter best reflects reproducibility?",
+    "options": [
+      "A. Mean",
+      "B. CV",
+      "C. Median",
+      "D. Recovery"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The Coefficient of Variation (%CV) standardizes the standard deviation relative to the mean, providing the standard metric for assay precision and reproducibility[cite: 18]."
+  },
+  {
+    "question": "The $R_{4\\text{s}}$ rule detects primarily:",
+    "options": [
+      "A. Systematic error",
+      "B. Random error",
+      "C. Calibration drift only",
+      "D. Matrix effects only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The $R_{4\\text{s}}$ rule is violated when the difference between two control values within a run exceeds $4\\text{ SD}$ (e.g., one $+2\\text{ SD}$ and one $-2\\text{ SD}$), indicating increased random error[cite: 18]."
+  },
+  {
+    "question": "Analytical sensitivity refers to:",
+    "options": [
+      "A. Detection capability of low concentrations",
+      "B. Precision",
+      "C. Specificity",
+      "D. Accuracy"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Analytical sensitivity is the capability of an assay to distinguish small differences in analyte concentration or detect very low levels of an analyte (limit of detection/quantitation)[cite: 18]."
+  },
+  {
+    "question": "The limit of detection is:",
+    "options": [
+      "A. Lowest concentration distinguishable from zero",
+      "B. Upper assay range",
+      "C. Reference interval lower limit",
+      "D. Calibration slope"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Limit of Detection (LoD) is defined as the lowest concentration of analyte in a sample that can be reliably detected and distinguished from zero or blank matrix noise[cite: 18]."
+  },
+  {
+    "question": "Carryover studies evaluate:",
+    "options": [
+      "A. Sample contamination between sequential specimens",
+      "B. Reference interval validity",
+      "C. Biological variation",
+      "D. QC stability"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Carryover studies test whether fluidic or probe residue from a high-concentration sample alters the measured result of a subsequent low-concentration sample[cite: 18]."
+  },
+  {
+    "question": "Which statistic is most affected by extreme outliers?",
+    "options": [
+      "A. Median",
+      "B. Mode",
+      "C. Mean",
+      "D. Percentile"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The parametric arithmetic mean includes every single quantitative observation in its sum, making it highly vulnerable to distortion by extreme outliers compared to non-parametric metrics like the median[cite: 18]."
+  },
+  {
+    "question": "Linearity studies determine:",
+    "options": [
+      "A. Precision",
+      "B. Accuracy",
+      "C. Analytical measurement range",
+      "D. Specificity"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Linearity verification using serial dilutions establishes the boundaries over which measured signals are directly proportional to analyte concentration, defining the Analytical Measurement Range (AMR)[cite: 18]."
+  },
+  {
+    "question": "The CLSI EP09 guideline is associated with:",
+    "options": [
+      "A. Method comparison",
+      "B. Reference intervals",
+      "C. QC design",
+      "D. POCT"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CLSI EP09 (Measurement Procedure Comparison and Bias Estimation Using Patient Samples) governs method comparison studies[cite: 18]."
+  },
+  {
+    "question": "A calibration verification demonstrates:",
+    "options": [
+      "A. Acceptable calibration throughout reportable range",
+      "B. Instrument maintenance only",
+      "C. QC performance only",
+      "D. Biological variation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Calibration verification confirms that an instrument's existing calibration curve remains accurate across the full Analytical Measurable Range (AMR) using materials of known concentration[cite: 18]."
+  },
+  {
+    "question": "The SD of values 10, 10, 10, 10 equals:",
+    "options": [
+      "A. 1",
+      "B. 10",
+      "C. 0",
+      "D. Cannot calculate"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Because all observed values are identical to the mean ($10$), there is zero dispersion around the mean, so $\\text{SD} = 0$[cite: 18]."
+  },
+  {
+    "question": "A positive bias causes patient results to appear:",
+    "options": [
+      "A. Lower than true values",
+      "B. Higher than true values",
+      "C. More precise",
+      "D. More specific"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Positive bias indicates a systematic shift that shifts reported values higher than their true target values[cite: 18]."
+  },
+  {
+    "question": "Which QC rule is most sensitive to small systematic shifts?",
+    "options": [
+      "A. $1_{3\\text{s}}$",
+      "B. $2_{2\\text{s}}$",
+      "C. $R_{4\\text{s}}$",
+      "D. $10_{\\text{x}}$"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> Trend or persistent mean-shift rules like $10_{\\text{x}}$ (10 consecutive control observations on one side of the mean) are specifically designed to detect subtle, cumulative systematic shifts[cite: 18]."
+  },
+  {
+    "question": "The median of 2, 4, 6, 8, 10 is:",
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 6",
+      "D. 8"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> When sorted sequentially ($2, 4, 6, 8, 10$), the middle observation ($n=5$) is $6$[cite: 18]."
+  },
+  {
+    "question": "Reference intervals are typically established from:",
+    "options": [
+      "A. Diseased individuals",
+      "B. Healthy reference population",
+      "C. QC samples",
+      "D. Proficiency testing data"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Clinical reference intervals represent expected physiological values derived from a carefully screened population of healthy reference individuals[cite: 18]."
+  },
+  {
+    "front": "The term \"trueness\" refers to:",
+    "options": [
+      "A. Agreement with a reference value",
+      "B. Precision only",
+      "C. Reproducibility only",
+      "D. Detection limit"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Trueness expresses the closeness of agreement between the mean value obtained from a large series of test results and an accepted reference or true value[cite: 18]."
+  },
+  {
+    "question": "Recovery studies are most useful for assessing:",
+    "options": [
+      "A. Accuracy",
+      "B. Precision",
+      "C. Specificity only",
+      "D. Turnaround time"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Spiking studies evaluate analytical recovery (ability to accurately quantify a known added concentration) to detect proportional systematic error/bias and matrix interferences[cite: 18]."
+  },
+  {
+    "question": "The $1_{3\\text{s}}$ rule is generally considered:",
+    "options": [
+      "A. Warning rule",
+      "B. Rejection rule",
+      "C. Calibration rule",
+      "D. Proficiency rule"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> A $1_{3\\text{s}}$ violation is a run-rejection rule triggered by significant random error or large systematic error[cite: 18]."
+  },
+  {
+    "question": "A change in reagent lot requires:",
+    "options": [
+      "A. No action",
+      "B. Verification before implementation",
+      "C. Recalibration only",
+      "D. New reference interval automatically"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Lot-to-lot verification must be performed using patient samples or control materials before putting a new reagent lot into clinical service[cite: 18]."
+  },
+  {
+    "question": "Which measure is least affected by skewed distributions?",
+    "options": [
+      "A. Mean",
+      "B. Median",
+      "C. Variance",
+      "D. SD"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The median is a robust non-parametric statistic of central tendency that is resistant to skewness and extreme tail values[cite: 18]."
+  },
+  {
+    "question": "The allowable total error represents:",
+    "options": [
+      "A. Maximum acceptable analytical error",
+      "B. Precision only",
+      "C. Bias only",
+      "D. Biological variation only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Total Allowable Error (TEa) sets the regulatory or clinical budget for the maximum combined analytical uncertainty (bias + random error) permitted without compromising patient care[cite: 18]."
+  },
+  {
+    "question": "Proficiency testing primarily assesses:",
+    "options": [
+      "A. External quality performance",
+      "B. Internal QC only",
+      "C. Calibration only",
+      "D. Instrument maintenance"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Proficiency testing (PT) is an external quality assessment scheme comparing a laboratory's results on blinded samples to peer group performance[cite: 18]."
+  },
+  {
+    "question": "A QC result of $+2.5\\text{ SD}$ would:",
+    "options": [
+      "A. Automatically fail $1_{3\\text{s}}$ rule",
+      "B. Trigger review but not necessarily rejection",
+      "C. Require recalibration immediately",
+      "D. Be ignored"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> A single value exceeding $2\\text{ SD}$ acts as a $1_{2\\text{s}}$ warning rule; it alerts the operator to evaluate other multirules ($2_{2\\text{s}}$, $R_{4\\text{s}}$, $10_{\\text{x}}$) before rejecting the run[cite: 18]."
+  },
+  {
+    "question": "The standard deviation quantifies:",
+    "options": [
+      "A. Central tendency",
+      "B. Dispersion around the mean",
+      "C. Analytical sensitivity",
+      "D. Specificity"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Standard deviation measures the degree of variation or dispersion of individual data points around their arithmetic mean[cite: 18]."
+  },
+  {
+    "question": "A correlation coefficient of 0.99 indicates:",
+    "options": [
+      "A. Strong association",
+      "B. No agreement necessarily on bias",
+      "C. Excellent linear relationship",
+      "D. Both A and C"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> A Pearson correlation coefficient $r = 0.99$ indicates a very strong positive linear association between two methods, though it does not exclude constant or proportional bias[cite: 18]."
+  },
+  {
+    "question": "The analytical measurement range is:",
+    "options": [
+      "A. Range directly measured without dilution",
+      "B. Reference interval",
+      "C. Biological range",
+      "D. QC range"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The Analytical Measurement Range (AMR) is the range of analyte concentrations that can be directly measured on the specimen without dilution, concentration, or other pretreatment[cite: 18]."
+  },
+  {
+    "question": "Which error causes a proportional increase with concentration?",
+    "options": [
+      "A. Constant bias",
+      "B. Proportional bias",
+      "C. Random error",
+      "D. Sampling error"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Proportional bias is a systematic error whose magnitude changes proportionally with the concentration of the analyte (reflected by a regression slope $\\neq 1.0$)[cite: 18]."
+  },
+  {
+    "question": "Validation of a new assay includes all EXCEPT:",
+    "options": [
+      "A. Precision",
+      "B. Accuracy",
+      "C. Linearity",
+      "D. Employee performance review"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> Technical assay validation establishes analytical performance characteristics (precision, accuracy, AMR/linearity, LOD, interferences) rather than staff operational reviews[cite: 18]."
+  },
+  {
+    "question": "An outlier in reference interval studies may be removed if:",
+    "options": [
+      "A. Statistically justified and documented",
+      "B. Always removed",
+      "C. Never removed",
+      "D. Removed by clinician preference"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Outliers in reference population data (e.g., using Reed's rule or Tukey's boxplot method) should only be removed if statistically justified and thoroughly documented[cite: 18]."
+  },
+  {
+    "question": "The z-score in proficiency testing compares:",
+    "options": [
+      "A. Laboratory result to peer group performance",
+      "B. QC lot numbers",
+      "C. Calibrator concentrations",
+      "D. Patient reference intervals"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> In proficiency testing, $z = \\frac{\\text{Lab Result} - \\text{Peer Group Mean}}{\\text{Peer Group SD}}$, evaluating how far a laboratory's result deviates from its peer group mean in standard deviation units[cite: 18]."
+  },
+  {
+    "question": "A higher sigma metric generally indicates:",
+    "options": [
+      "A. Poorer performance",
+      "B. Better analytical performance",
+      "C. Greater bias only",
+      "D. Lower sensitivity"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> A higher Sigma score (e.g., $6\\sigma$ vs $3\\sigma$) indicates superior quality, signifying an extremely low probability of analytical defects or rule violations[cite: 18]."
+  },
+  {
+    "question": "Bias is best estimated using:",
+    "options": [
+      "A. SD only",
+      "B. Mean versus target value",
+      "C. CV only",
+      "D. Variance"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Bias measures systematic deviation, calculated as the numerical difference between the observed experimental mean and the target/reference value[cite: 18]."
+  },
+  {
+    "question": "The central limit theorem predicts that:",
+    "options": [
+      "A. Sampling distributions approach normality with sufficient sample size",
+      "B. All laboratory data are normal",
+      "C. Means equal medians always",
+      "D. QC is unnecessary"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The Central Limit Theorem states that as sample size ($n$) increases, the distribution of sample means approaches a normal (Gaussian) distribution, regardless of the underlying population distribution[cite: 18]."
+  },
+  {
+    "question": "The confidence interval reflects:",
+    "options": [
+      "A. Uncertainty around an estimate",
+      "B. Precision only",
+      "C. Bias only",
+      "D. Specificity"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A confidence interval defines a range of values around a point estimate that is likely to contain the true population parameter with a specified degree of probability (e.g., 95%)[cite: 18]."
+  },
+  {
+    "question": "A nonparametric reference interval generally requires at least:",
+    "options": [
+      "A. 20 individuals",
+      "B. 60 individuals",
+      "C. 120 individuals",
+      "D. 1000 individuals"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> CLSI C28-A3 guidelines require a minimum of $n = 120$ reference subjects to establish a non-parametric $95\\%$ reference interval with valid $90\\%$ confidence limits for the percentiles[cite: 18]."
+  },
+  {
+    "question": "When evaluating method agreement near the medical decision point, the most important consideration is:",
+    "options": [
+      "A. Correlation coefficient alone",
+      "B. Clinical impact of bias",
+      "C. Instrument color",
+      "D. Sample volume only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Systematic bias at critical medical decision cutoffs can alter diagnostic classification or patient treatment; thus, clinical impact outweighs correlation metrics alone[cite: 18]."
+  },
+  {
+    "question": "The purpose of duplicate testing during validation is to evaluate:",
+    "options": [
+      "A. Precision",
+      "B. Reference intervals",
+      "C. Calibration traceability",
+      "D. Biological variation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Analyzing samples in duplicate within and across analytical runs evaluates repeatability and within-laboratory precision[cite: 18]."
+  },
+  {
+    "question": "The $10_{\\text{x}}$ rule is violated when:",
+    "options": [
+      "A. Ten consecutive QC results fall on the same side of the mean",
+      "B. Ten results exceed $\\pm 3\\text{ SD}$",
+      "C. Ten calibrators fail",
+      "D. Ten patient samples are repeated"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The $10_{\\text{x}}$ rule is a systematic error rule triggered when $10$ consecutive control results fall on one side of the mean, regardless of control level[cite: 18]."
+  },
+  {
+    "question": "A method with 0% bias and 0% imprecision would be:",
+    "options": [
+      "A. Clinically useful",
+      "B. Highly robust",
+      "C. Theoretically perfect",
+      "D. Impossible to calibrate"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> A measurement method with zero random error ($0\\%$ imprecision) and zero systematic error ($0\\%$ bias) is theoretically perfect[cite: 18]."
+  },
+  {
+    "question": "Which hormone is the most sensitive initial test for primary hypothyroidism?",
+    "options": [
+      "A. Total T4",
+      "B. Free T3",
+      "C. TSH",
+      "D. Reverse T3"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Serum Thyroid-Stimulating Hormone (TSH) has an inverse log-linear relationship with free thyroid hormone levels, making it the most sensitive frontline screening marker for primary thyroid dysfunction[cite: 18]."
+  },
+  {
+    "question": "In primary hypothyroidism, laboratory findings typically show:",
+    "options": [
+      "A. Increased free T4, decreased TSH",
+      "B. Decreased free T4, increased TSH",
+      "C. Increased free T4, increased TSH",
+      "D. Decreased free T4, decreased TSH"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Primary failure of the thyroid gland to synthesize T4 reduces circulating free T4, removing negative feedback and causing a compensatory elevation in anterior pituitary TSH release[cite: 18]."
+  },
+  {
+    "question": "Which protein serves as the primary carrier for thyroid hormones?",
+    "options": [
+      "A. Albumin only",
+      "B. Thyroxine-binding globulin",
+      "C. Transferrin",
+      "D. Ceruloplasmin"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Thyroxine-Binding Globulin (TBG) carries approximately 70% of circulating $T_4$ and $T_3$[cite: 18]."
+  },
+  {
+    "question": "A patient with Graves disease is most likely to have:",
+    "options": [
+      "A. Elevated TSH",
+      "B. Elevated free T4 and suppressed TSH",
+      "C. Low free T4 and elevated TSH",
+      "D. Normal thyroid function tests"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> In Graves disease, autoantibodies stimulate TSH receptors, causing autonomous excess secretion of free T4/T3 which potently suppresses pituitary TSH release[cite: 18]."
+  },
+  {
+    "question": "Which condition commonly causes elevated prolactin?",
+    "options": [
+      "A. Hyperthyroidism",
+      "B. Primary hypothyroidism",
+      "C. Diabetes mellitus",
+      "D. Cushing syndrome"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> In primary hypothyroidism, high hypothalamic TRH levels stimulate both pituitary TSH and prolactin secretion, leading to hyperprolactinemia[cite: 18]."
+  },
+  {
+    "question": "Which specimen is preferred for diagnosing pheochromocytoma?",
+    "back": "A. Serum cortisol\nB. Plasma free metanephrines\nC. Total testosterone\nD. TSH",
+    "options": [
+      "A. Serum cortisol",
+      "B. Plasma free metanephrines",
+      "C. Total testosterone",
+      "D. TSH"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Plasma free metanephrines (or 24-hour urinary fractionated metanephrines) provide the highest diagnostic sensitivity for catecholamine-secreting pheochromocytomas[cite: 18]."
+  },
+  {
+    "question": "The most commonly used screening test for Cushing syndrome is:",
+    "options": [
+      "A. Random cortisol",
+      "B. ACTH stimulation test",
+      "C. Overnight dexamethasone suppression test",
+      "D. Total T4"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> First-line screening tests for Cushing syndrome include the 1-mg overnight dexamethasone suppression test, 24-hour urinary free cortisol, or late-night salivary cortisol[cite: 18]."
+  },
+  {
+    "question": "Addison disease is characterized by:",
+    "options": [
+      "A. Low ACTH, high cortisol",
+      "B. High ACTH, low cortisol",
+      "C. Low ACTH, normal cortisol",
+      "D. Elevated aldosterone"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Primary adrenal insufficiency (Addison disease) results in failure of cortisol production by the adrenal cortex, triggering compensatory elevation of ACTH[cite: 18]."
+  },
+  {
+    "question": "Which hormone is produced by the anterior pituitary?",
+    "options": [
+      "A. ADH",
+      "B. Oxytocin",
+      "C. Growth hormone",
+      "D. Cortisol"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Growth Hormone (GH) is synthesized and secreted by somatotrophs in the anterior pituitary[cite: 18]. ADH and oxytocin are synthesized in the hypothalamus and stored/released by the posterior pituitary[cite: 18]."
+  },
+  {
+    "question": "The gold standard marker for long-term glucose control is:",
+    "options": [
+      "A. Fasting glucose",
+      "B. Random glucose",
+      "C. HbA1c",
+      "D. Fructosamine"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Glycated hemoglobin (HbA1c) reflects average blood glucose concentrations over the preceding 2–3 months[cite: 18]."
+  },
+  {
+    "question": "HbA1c reflects average glycemia over approximately:",
+    "options": [
+      "A. 1 week",
+      "B. 2 weeks",
+      "C. 2-3 months",
+      "D. 12 months"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Because non-enzymatic glycation accumulates over the 120-day erythrocyte lifespan, HbA1c correlates with mean glycemic control over the prior 8–12 weeks[cite: 18]."
+  },
+  {
+    "question": "A major interference causing falsely low HbA1c can occur with:",
+    "options": [
+      "A. Iron deficiency anemia",
+      "B. Hemolytic anemia",
+      "C. Hypertriglyceridemia",
+      "D. Hypothyroidism"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Shortened RBC survival (such as in hemolytic anemia) reduces circulating erythrocyte exposure to glucose, causing falsely decreased HbA1c values[cite: 18]."
+  },
+  {
+    "question": "The diagnostic threshold for diabetes mellitus using HbA1c is:",
+    "options": [
+      "A. $\\ge 5.7\\%$",
+      "B. $\\ge 6.0\\%$",
+      "C. $\\ge 6.5\\%$",
+      "D. $\\ge 7.0\\%$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> An $\\text{HbA}_{1c} \\ge 6.5\\%$ ($48\\text{ mmol/mol}$) is an established ADA diagnostic criterion for diabetes mellitus[cite: 18]."
+  },
+  {
+    "question": "Which test best reflects glycemic control over the previous 2-3 weeks?",
+    "options": [
+      "A. HbA1c",
+      "B. Fructosamine",
+      "C. Fasting insulin",
+      "D. C-peptide"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Fructosamine measures glycated serum proteins (mainly albumin); due to albumin's half-life (~21 days), it monitors intermediate glycemic trends over 2–3 weeks[cite: 18]."
+  },
+  {
+    "question": "C-peptide measurement is useful because it:",
+    "options": [
+      "A. Differentiates endogenous from exogenous insulin",
+      "B. Reflects cortisol secretion",
+      "C. Measures glucagon activity",
+      "D. Diagnoses acromegaly"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Endogenous proinsulin is cleaved equimolarly into mature insulin and C-peptide[cite: 18]. Exogenous pharmaceutical insulin lacks C-peptide[cite: 18]."
+  },
+  {
+    "question": "Insulinomas are typically associated with:",
+    "options": [
+      "A. Hyperglycemia",
+      "B. Hypoglycemia with elevated insulin",
+      "C. Low insulin concentrations",
+      "D. Elevated HbA1c"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Insulinomas are autonomous pancreatic $\\beta$-cell neuroendocrine tumors that secrete high levels of insulin despite severe hypoglycemia[cite: 18]."
+  },
+  {
+    "question": "Which marker is most useful for monitoring medullary thyroid carcinoma?",
+    "options": [
+      "A. AFP",
+      "B. CA 19-9",
+      "C. Calcitonin",
+      "D. PSA"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Calcitonin is synthesized by parafollicular C-cells of the thyroid and serves as a specific tumor marker for medullary thyroid carcinoma[cite: 18]."
+  },
+  {
+    "question": "Alpha-fetoprotein (AFP) is commonly elevated in:",
+    "options": [
+      "A. Hepatocellular carcinoma",
+      "B. Colon cancer",
+      "C. Breast cancer",
+      "D. Prostate cancer"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> AFP is a major oncofetal serum protein marker elevated in hepatocellular carcinoma (HCC) and non-seminomatous germ cell tumors[cite: 18]."
+  },
+  {
+    "question": "PSA is primarily associated with:",
+    "options": [
+      "A. Pancreatic cancer",
+      "B. Prostate disease",
+      "C. Ovarian cancer",
+      "D. Thyroid cancer"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Prostate-Specific Antigen (PSA) is a serine protease expressed by prostate glandular tissue and elevated in prostate cancer, BPH, and prostatitis[cite: 18]."
+  },
+  {
+    "question": "CA 125 is most commonly used in the management of:",
+    "options": [
+      "A. Ovarian cancer",
+      "B. Colon cancer",
+      "C. Lung cancer",
+      "D. Thyroid cancer"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CA 125 is an epitope on mucin MUC16 primarily monitored to evaluate therapeutic response and recurrence in epithelial ovarian cancer[cite: 18]."
+  },
+  {
+    "question": "CEA is most frequently used in monitoring:",
+    "options": [
+      "A. Colorectal cancer",
+      "B. Prostate cancer",
+      "C. Melanoma",
+      "D. Medullary thyroid carcinoma"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Carcinoembryonic Antigen (CEA) is an oncofetal glycoprotein monitored for therapeutic response and recurrence in colorectal adenocarcinoma[cite: 18]."
+  },
+  {
+    "question": "Which tumor marker is associated with pancreatic carcinoma?",
+    "options": [
+      "A. CA 15-3",
+      "B. CA 19-9",
+      "C. AFP",
+      "D. PSA"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> CA 19-9 (sialylated Lewis A antigen) is the primary tumor marker used for managing pancreatic adenocarcinoma[cite: 18]."
+  },
+  {
+    "question": "A major limitation of tumor markers is:",
+    "options": [
+      "A. Poor analytical sensitivity",
+      "B. Lack of disease specificity",
+      "C. Excessive stability",
+      "D. Inability to automate testing"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Most circulating tumor markers can also be elevated in benign inflammatory or non-malignant conditions, limiting their use for general population screening due to lack of specificity[cite: 18]."
+  },
+  {
+    "question": "The biologically active form of testosterone is:",
+    "options": [
+      "A. Protein-bound testosterone only",
+      "B. Free testosterone",
+      "C. DHEA-S only",
+      "D. Androstenedione"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Unbound (free) testosterone and weakly albumin-bound testosterone represent bioavailable testosterone that can enter target tissues[cite: 18]."
+  },
+  {
+    "question": "Which hormone is the most important marker of ovarian reserve?",
+    "options": [
+      "A. Estradiol",
+      "B. Progesterone",
+      "C. Anti-Mullerian hormone (AMH)",
+      "D. Prolactin"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Anti-Müllerian Hormone (AMH) is secreted by antral/preantral ovarian follicles and serves as a direct biomarker of primordial follicle pool size and ovarian reserve[cite: 18]."
+  },
+  {
+    "question": "Human chorionic gonadotropin (hCG) is produced primarily by the:",
+    "options": [
+      "A. Pituitary gland",
+      "B. Placenta",
+      "C. Adrenal gland",
+      "D. Pancreas"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Placental trophoblastic cells produce human chorionic gonadotropin (hCG) during pregnancy[cite: 18]."
+  },
+  {
+    "question": "An elevated hCG in a nonpregnant male may suggest:",
+    "options": [
+      "A. Testicular germ cell tumor",
+      "B. Hyperthyroidism",
+      "C. Diabetes mellitus",
+      "D. Acromegaly"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Ectopic hCG production in males is a key marker for testicular germ cell tumors (specifically choriocarcinoma and embryonal carcinoma)[cite: 18]."
+  },
+  {
+    "question": "Which analyte should be measured in the morning because of circadian variation?",
+    "options": [
+      "A. Sodium",
+      "B. Cortisol",
+      "C. Chloride",
+      "D. Total protein"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Cortisol secretion exhibits a strong diurnal rhythm, peaking early in the morning (6-8 AM) and reaching its nadir around midnight[cite: 18]."
+  },
+  {
+    "question": "A patient with SIADH would likely have:",
+    "options": [
+      "A. Increased serum sodium",
+      "B. Decreased serum sodium",
+      "C. Increased cortisol",
+      "D. Increased calcium"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Syndrome of Inappropriate Antidiuretic Hormone (SIADH) causes excessive renal water retention, leading to dilutional hyponatremia[cite: 18]."
+  },
+  {
+    "question": "The preferred laboratory test for acromegaly is:",
+    "options": [
+      "A. Fasting glucose",
+      "B. Growth hormone alone",
+      "C. IGF-1",
+      "D. Insulin"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Insulin-like Growth Factor 1 (IGF-1) has a long half-life and stable serum concentrations, making it superior to pulsatile Growth Hormone (GH) for screening acromegaly[cite: 18]."
+  },
+  {
+    "question": "A successful oral glucose tolerance test requires:",
+    "options": [
+      "A. Fasting before testing",
+      "B. Heavy exercise before testing",
+      "C. Steroid administration",
+      "D. High-protein loading"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> OGTT guidelines mandate an overnight 8-to-12-hour fast prior to collecting baseline plasma glucose and administering the standard 75g glucose load[cite: 18]."
+  },
+  {
+    "question": "Which hormone is primarily responsible for lowering blood glucose?",
+    "options": [
+      "A. Glucagon",
+      "B. Cortisol",
+      "C. Insulin",
+      "D. Growth hormone"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Insulin, produced by pancreatic $\\beta$-cells, is the primary anabolic hormone that drives tissue glucose uptake and lowers blood glucose[cite: 18]."
+  },
+  {
+    "question": "Which endocrine disorder is associated with elevated IGF-1?",
+    "options": [
+      "A. Addison disease",
+      "B. Acromegaly",
+      "C. Hypothyroidism",
+      "D. SIADH"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Acromegaly, caused by a GH-secreting pituitary adenoma, stimulates excess hepatic production of IGF-1[cite: 18]."
+  },
+  {
+    "question": "Primary hyperparathyroidism usually presents with:",
+    "options": [
+      "A. Increased calcium and increased PTH",
+      "B. Decreased calcium and decreased PTH",
+      "C. Increased calcium and decreased PTH",
+      "D. Normal calcium and elevated cortisol"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Autonomous hypersecretion of Parathyroid Hormone (PTH) by a parathyroid adenoma causes uncoupled hypercalcemia along with elevated (or inappropriately normal) PTH levels[cite: 18]."
+  },
+  {
+    "question": "Vitamin D deficiency commonly results in:",
+    "options": [
+      "A. Hypercalcemia",
+      "B. Hypocalcemia",
+      "C. Hypernatremia",
+      "D. Hyperkalemia"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Inadequate active vitamin D impairs intestinal calcium absorption, leading to hypocalcemia and secondary hyperparathyroidism[cite: 18]."
+  },
+  {
+    "question": "The active form of vitamin D is:",
+    "options": [
+      "A. 25-hydroxyvitamin D",
+      "B. Ergocalciferol",
+      "C. Cholecalciferol",
+      "D. 1,25-dihydroxyvitamin D"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> $1,25$-dihydroxyvitamin D (Calcitriol) is the fully active hormone formed by 1-alpha-hydroxylation in the kidneys[cite: 18]."
+  },
+  {
+    "question": "The best indicator of vitamin D stores is:",
+    "options": [
+      "A. 1,25-dihydroxyvitamin D",
+      "B. 25-hydroxyvitamin D",
+      "C. PTH",
+      "D. Calcium"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Serum $25$-hydroxyvitamin D has a long half-life (~2-3 weeks) and high concentration, making it the premier biomarker for evaluating total body vitamin D stores[cite: 18]."
+  },
+  {
+    "question": "Which hormone increases serum calcium concentration?",
+    "options": [
+      "A. Calcitonin",
+      "B. Insulin",
+      "C. PTH",
+      "D. Aldosterone"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> PTH acts on bone (resorption), kidneys (reabsorption), and intestine (via active vitamin D) to raise extracellular calcium concentrations[cite: 18]."
+  },
+  {
+    "question": "Calcitonin generally:",
+    "options": [
+      "A. Increases serum calcium",
+      "B. Lowers serum calcium",
+      "C. Raises glucose",
+      "D. Stimulates cortisol secretion"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Calcitonin, secreted by thyroid C-cells, opposes PTH by inhibiting osteoclasts and promoting renal excretion to lower serum calcium[cite: 18]."
+  },
+  {
+    "question": "Which hormone exhibits pulsatile secretion and is difficult to assess with a single measurement?",
+    "options": [
+      "A. Growth hormone",
+      "B. Sodium",
+      "C. Albumin",
+      "D. Bilirubin"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Growth Hormone (GH) is released in episodic, pulsatile bursts (especially during deep sleep), rendering random baseline GH measurements clinically unreliable[cite: 18]."
+  },
+  {
+    "question": "The most common cause of hyperprolactinemia is:",
+    "options": [
+      "A. Prolactinoma",
+      "B. Diabetes mellitus",
+      "C. Hyperaldosteronism",
+      "D. Hypoglycemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Prolactin-secreting pituitary adenomas (prolactinomas) are the most frequent pathological cause of hyperprolactinemia[cite: 18]."
+  },
+  {
+    "question": "A markedly elevated DHEA-S suggests an adrenal source of:",
+    "options": [
+      "A. Thyroxine excess",
+      "B. Hyperandrogenism",
+      "C. Hypercalcemia",
+      "D. Hyperinsulinemia"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Dehydroepiandrosterone sulfate (DHEA-S) is produced almost exclusively by the adrenal cortex; elevated levels indicate adrenal hyperandrogenism[cite: 18]."
+  },
+  {
+    "question": "Which analyte is most useful for monitoring gestational trophoblastic disease?",
+    "options": [
+      "A. AFP",
+      "B. hCG",
+      "C. PSA",
+      "D. CA 19-9"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Serum quantitative hCG is the essential tumor marker for diagnosing and monitoring gestational trophoblastic disease (hydatidiform mole and choriocarcinoma)[cite: 18]."
+  },
+  {
+    "question": "HbA1c is formed by:",
+    "options": [
+      "A. Glycation of hemoglobin",
+      "B. Proteolysis of hemoglobin",
+      "C. Oxidation of hemoglobin",
+      "D. Phosphorylation of hemoglobin"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> HbA1c forms via a non-enzymatic adduct reaction (glycation) between blood glucose and the N-terminal valine of the hemoglobin $\\beta$-chain[cite: 18]."
+  },
+  {
+    "question": "Which test distinguishes type 1 from type 2 diabetes in some patients?",
+    "options": [
+      "A. C-peptide",
+      "B. Sodium",
+      "C. Albumin",
+      "D. Calcium"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Low/absent C-peptide indicates severe endogenous insulin deficiency (Type 1 diabetes), whereas normal or elevated C-peptide suggests insulin resistance (Type 2 diabetes)[cite: 18]."
+  },
+  {
+    "question": "An elevated fasting insulin concentration with normal glucose most likely suggests:",
+    "options": [
+      "A. Insulin resistance",
+      "B. Addison disease",
+      "C. Hypopituitarism",
+      "D. Hyperthyroidism"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Hyperinsulinemia in the setting of euglycemia reflects compensatory pancreatic $\\beta$-cell oversecretion to maintain glucose homeostasis in insulin-resistant states[cite: 18]."
+  },
+  {
+    "question": "The primary source of estradiol in premenopausal women is:",
+    "options": [
+      "A. Adrenal cortex",
+      "B. Ovaries",
+      "C. Kidney",
+      "D. Pancreas"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Granulosa cells of developing ovarian follicles produce the majority of circulating $17\\beta$-estradiol in premenopausal women[cite: 18]."
+  },
+  {
+    "question": "A markedly elevated PSA should be interpreted as:",
+    "options": [
+      "A. Diagnostic of prostate cancer",
+      "B. Nonspecific and requiring clinical correlation",
+      "C. Diagnostic of benign prostatic hyperplasia only",
+      "D. Evidence of thyroid disease"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> PSA is organ-specific but not cancer-specific; elevations occur in prostate cancer, BPH, prostatitis, and post-prostate manipulation, necessitating clinical correlation and biopsy[cite: 18]."
+  },
+  {
+    "question": "The primary clinical use of tumor markers is:",
+    "options": [
+      "A. Population screening",
+      "B. Monitoring disease progression and therapy",
+      "C. Definitive diagnosis alone",
+      "D. Determining blood type"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Due to limited specificity in early disease, the main clinical application of tumor markers is monitoring treatment efficacy and surveillance for disease recurrence[cite: 18]."
+  },
+  {
+    "question": "The most important limitation of endocrine testing is:",
+    "options": [
+      "A. Hormones lack biological variability",
+      "B. Physiologic variation affects interpretation",
+      "C. Hormones are analytically unstable in all cases",
+      "D. All endocrine tests lack specificity"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Hormones display marked biological variation (pulsatile release, circadian rhythms, stress responsiveness, binding protein shifts), complicating single-point interpretive thresholds[cite: 18]."
+  },
+  {
+    "question": "The most abundant protein in human serum is:",
+    "options": [
+      "A. Transferrin",
+      "B. Albumin",
+      "C. Haptoglobin",
+      "D. Ceruloplasmin"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Albumin accounts for more than 50% of total adult serum protein ($3.5\\text{--}5.0\\text{ g/dL}$)[cite: 18]."
+  },
+  {
+    "question": "The principal function of albumin is:",
+    "options": [
+      "A. Oxygen transport",
+      "B. Maintenance of oncotic pressure",
+      "C. Iron transport",
+      "D. Coagulation"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Albumin provides ~80% of intravascular colloid osmotic (oncotic) pressure and functions as a transport carrier for insoluble ligands[cite: 18]."
+  },
+  {
+    "question": "A decreased serum albumin concentration is commonly seen in:",
+    "options": [
+      "A. Dehydration",
+      "B. Nephrotic syndrome",
+      "C. Acute exercise",
+      "D. Polycythemia"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Massive urinary protein loss in nephrotic syndrome depletes serum albumin[cite: 18]."
+  },
+  {
+    "question": "Serum protein electrophoresis separates proteins primarily based on:",
+    "options": [
+      "A. Molecular weight only",
+      "B. Charge and size",
+      "C. Antigenicity",
+      "D. Enzyme activity"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> SPEP separates proteins in an electric field at pH 8.6 based primarily on net electrical charge and molecular mass/size[cite: 18]."
+  },
+  {
+    "question": "A monoclonal spike on SPEP is most suggestive of:",
+    "options": [
+      "A. Acute infection",
+      "B. Multiple myeloma",
+      "C. Liver cirrhosis",
+      "D. Iron deficiency"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> A localized, dense band (M-protein peak) in the gamma/beta region reflects monoclonal immunoglobulin overproduction by a plasma cell neoplasm such as multiple myeloma[cite: 18]."
+  },
+  {
+    "question": "The major protein fraction migrating immediately after albumin on SPEP is:",
+    "options": [
+      "A. Alpha-1 globulin",
+      "B. Beta globulin",
+      "C. Gamma globulin",
+      "D. Fibrinogen"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Moving from anode to cathode, the standard SPEP fractions are Albumin, $\\alpha_1$-globulin, $\\alpha_2$-globulin, $\\beta$-globulin, and $\\gamma$-globulin[cite: 18]."
+  },
+  {
+    "question": "C-reactive protein is classified as a:",
+    "options": [
+      "A. Transport protein",
+      "B. Acute phase reactant",
+      "C. Clotting factor",
+      "D. Hormone"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> CRP is a classical positive acute-phase reactant protein synthesized by the liver in response to IL-6 during acute inflammation[cite: 18]."
+  },
+  {
+    "question": "Which protein decreases during an acute inflammatory response?",
+    "options": [
+      "A. CRP",
+      "B. Ferritin",
+      "C. Haptoglobin",
+      "D. Albumin"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> Albumin, prealbumin, and transferrin are negative acute-phase reactants whose hepatic synthesis decreases during systemic inflammation[cite: 18]."
+  },
+  {
+    "question": "Bence Jones proteins are composed of:",
+    "options": [
+      "A. Heavy chains",
+      "B. Light chains",
+      "C. Albumin fragments",
+      "D. Hemoglobin fragments"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Bence Jones proteins are free monoclonal immunoglobulin light chains (kappa or lambda) excreted in the urine of multiple myeloma patients[cite: 18]."
+  },
+  {
+    "question": "The reference method for total protein measurement is:",
+    "options": [
+      "A. Bradford dye binding",
+      "B. Biuret reaction",
+      "C. Nephelometry",
+      "D. Turbidimetry"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The Biuret reaction (cupric ions complexing with peptide bonds in alkaline solution) is the standard method for serum total protein[cite: 18]."
+  },
+  {
+    "question": "Which enzyme is most specific for hepatocellular injury?",
+    "options": [
+      "A. CK",
+      "B. ALT",
+      "C. LD",
+      "D. Amylase"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Alanine Aminotransferase (ALT) is primarily localized to liver hepatocyte cytoplasm, making it more liver-specific than AST or LD[cite: 18]."
+  },
+  {
+    "question": "AST is found in high concentrations in:",
+    "options": [
+      "A. Liver and muscle",
+      "B. Kidney only",
+      "C. Pancreas only",
+      "D. Bone only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Aspartate Aminotransferase (AST) is abundant in both liver parenchymal tissue and skeletal/cardiac muscle cells[cite: 18]."
+  },
+  {
+    "question": "A markedly elevated CK is most commonly associated with:",
+    "options": [
+      "A. Myocardial injury or skeletal muscle damage",
+      "B. Cholestasis",
+      "C. Renal failure",
+      "D. Diabetes mellitus"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Creatine Kinase (CK) is concentrated in striated muscle tissue; massive elevations indicate rhabdomyolysis or severe skeletal/myocardial trauma[cite: 18]."
+  },
+  {
+    "question": "The predominant CK isoenzyme in skeletal muscle is:",
+    "options": [
+      "A. CK-BB",
+      "B. CK-MB",
+      "C. CK-MM",
+      "D. Macro CK"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> CK-MM accounts for $\\approx 98\\%$ of total Creatine Kinase activity in healthy skeletal muscle[cite: 18]."
+  },
+  {
+    "question": "Which enzyme is most associated with cholestatic liver disease?",
+    "options": [
+      "A. ALT",
+      "B. AST",
+      "C. GGT",
+      "D. CK"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Gamma-Glutamyltransferase (GGT) and Alkaline Phosphatase (ALP) are biliary canalicular enzymes elevated in cholestasis and biliary obstruction[cite: 18]."
+  },
+  {
+    "question": "An isolated elevation of GGT may indicate:",
+    "options": [
+      "A. Alcohol use",
+      "B. Hyperthyroidism",
+      "C. Renal failure",
+      "D. Hemolysis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Hepatic microsomal enzyme induction by chronic alcohol consumption or medications (e.g., phenytoin) causes isolated GGT elevations[cite: 18]."
+  },
+  {
+    "question": "Alkaline phosphatase is elevated in both:",
+    "options": [
+      "A. Liver and bone disease",
+      "B. Heart and kidney disease",
+      "C. Pancreatic and thyroid disease",
+      "D. Adrenal and pituitary disease"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The two major circulating isoenzymes of ALP originate from biliary/liver tissue and osteoblasts/bone tissue[cite: 18]."
+  },
+  {
+    "question": "Which enzyme is most useful for confirming a hepatic source of elevated ALP?",
+    "options": [
+      "A. CK",
+      "B. LD",
+      "C. GGT",
+      "D. Amylase"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> GGT is elevated in hepatobiliary disease but absent in bone tissue, distinguishing hepatic ALP elevation from bone pathology[cite: 18]."
+  },
+  {
+    "question": "Amylase and lipase are primarily used to evaluate:",
+    "options": [
+      "A. Liver disease",
+      "B. Pancreatic disorders",
+      "C. Bone disease",
+      "D. Thyroid disease"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Serum amylase and lipase are digestive enzymes released into circulation during acute pancreatic acinar cell injury[cite: 18]."
+  },
+  {
+    "question": "Lipase is generally considered more specific than amylase for:",
+    "options": [
+      "A. Bone disease",
+      "B. Pancreatitis",
+      "C. Myocardial injury",
+      "D. Liver disease"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Lipase is produced almost exclusively by pancreatic acinar tissue, whereas amylase is also secreted in high amounts by salivary glands[cite: 18]."
+  },
+  {
+    "question": "Creatinine is produced from:",
+    "options": [
+      "A. Hemoglobin metabolism",
+      "B. Muscle creatine metabolism",
+      "C. Uric acid degradation",
+      "D. Albumin catabolism"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Creatinine is the spontaneous, non-enzymatic breakdown anhydride of muscle creatine and phosphocreatine[cite: 18]."
+  },
+  {
+    "question": "Estimated GFR is commonly calculated using:",
+    "options": [
+      "A. Serum albumin",
+      "B. Serum creatinine",
+      "C. Total bilirubin",
+      "D. Amylase"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Validated eGFR equations (e.g., CKD-EPI) utilize serum creatinine (and/or cystatin C), age, and sex to estimate renal filtration rate[cite: 18]."
+  },
+  {
+    "question": "Which marker generally increases earliest in acute kidney injury?",
+    "options": [
+      "A. Creatinine",
+      "B. Sodium",
+      "C. Potassium",
+      "D. Albumin"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Serum creatinine elevation ($\\ge 0.3\\text{ mg/dL}$ within 48h) is an established KDIGO diagnostic benchmark for AKI[cite: 18]."
+  },
+  {
+    "question": "The BUN-to-creatinine ratio is often increased in:",
+    "options": [
+      "A. Prerenal azotemia",
+      "B. Acute pancreatitis",
+      "C. Hyperthyroidism",
+      "D. Multiple myeloma"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> In prerenal azotemia (e.g., dehydration), renal hypoperfusion increases passive tubular reabsorption of urea, elevating the BUN:Creatinine ratio above $>20:1$[cite: 18]."
+  },
+  {
+    "question": "Urea is synthesized primarily in the:",
+    "options": [
+      "A. Kidney",
+      "B. Liver",
+      "C. Heart",
+      "D. Pancreas"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Hepatocytes synthesize urea via the hepatic urea cycle to detoxify ammonia generated by amino acid catabolism[cite: 18]."
+  },
+  {
+    "question": "Cystatin C is valuable because it is less influenced by:",
+    "options": [
+      "A. Renal filtration",
+      "B. Muscle mass",
+      "C. Glomerular filtration",
+      "D. Age"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Cystatin C is produced at a constant rate by all nucleated cells and is independent of muscle mass or diet[cite: 18]."
+  },
+  {
+    "question": "Microalbuminuria is an important early marker of:",
+    "options": [
+      "A. Acute liver failure",
+      "B. Diabetic nephropathy",
+      "C. Pancreatitis",
+      "D. Myocardial infarction"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Low levels of urinary albumin excretion ($30\\text{--}300\\text{ mg/g}$ creatinine) reflect early glomerular capillary endothelial damage in diabetic nephropathy[cite: 18]."
+  },
+  {
+    "question": "Which analyte is most commonly used to monitor chronic kidney disease progression?",
+    "options": [
+      "A. ALT",
+      "B. Creatinine/eGFR",
+      "C. Lipase",
+      "D. AFP"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Serial eGFR tracking derived from serum creatinine/cystatin C is standard for staging and monitoring CKD progression[cite: 18]."
+  },
+  {
+    "question": "Total bilirubin represents:",
+    "options": [
+      "A. Conjugated bilirubin only",
+      "B. Unconjugated bilirubin only",
+      "C. Sum of conjugated and unconjugated bilirubin",
+      "D. Albumin-bound bilirubin only"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Total bilirubin includes both unconjugated (indirect) and conjugated (direct) fractions[cite: 18]."
+  },
+  {
+    "question": "Unconjugated hyperbilirubinemia is characteristic of:",
+    "options": [
+      "A. Hemolysis",
+      "B. Complete biliary obstruction",
+      "C. Cholangitis",
+      "D. Pancreatitis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Excessive erythrocyte destruction (hemolysis) overloads hepatic conjugation capacity, causing a predominant elevation in unconjugated (indirect) bilirubin[cite: 18]."
+  },
+  {
+    "question": "Conjugated bilirubin is:",
+    "options": [
+      "A. Water insoluble",
+      "B. Water soluble",
+      "C. Protein only",
+      "D. Lipid soluble only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Hepatic glucuronidation attaches glucuronic acid to bilirubin, making it water-soluble so it can be excreted in bile and urine[cite: 18]."
+  },
+  {
+    "question": "A predominantly conjugated hyperbilirubinemia suggests:",
+    "options": [
+      "A. Hemolysis",
+      "B. Cholestasis or biliary obstruction",
+      "C. Iron deficiency",
+      "D. Hyperthyroidism"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Defective biliary excretion or mechanical bile duct obstruction traps water-soluble conjugated bilirubin, backing it up into the bloodstream[cite: 18]."
+  },
+  {
+    "question": "Which liver function test directly reflects hepatic synthetic capacity?",
+    "options": [
+      "A. ALT",
+      "B. AST",
+      "C. Albumin",
+      "D. Lipase"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Serum albumin (and coagulation factor synthesis monitored via PT) measures direct functional protein output by hepatocytes[cite: 18]."
+  },
+  {
+    "question": "Prothrombin time may be prolonged in severe liver disease due to:",
+    "options": [
+      "A. Reduced clotting factor synthesis",
+      "B. Increased albumin production",
+      "C. Renal failure alone",
+      "D. Hyperlipidemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The liver synthesizes clotting factors I, II, V, VII, IX, and X; hepatic parenchymal failure impairs factor synthesis and prolongs PT[cite: 18]."
+  },
+  {
+    "question": "The AST/ALT ratio is often greater than 2 in:",
+    "options": [
+      "A. Viral hepatitis",
+      "B. Alcoholic liver disease",
+      "C. Diabetes mellitus",
+      "D. Nephrotic syndrome"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> An AST:ALT ratio $>2:1$ with modest transaminase elevations ($<300\\text{ U/L}$) is characteristic of alcoholic hepatitis due to pyridoxal phosphate depletion[cite: 18]."
+  },
+  {
+    "question": "Which protein binds free hemoglobin in plasma?",
+    "options": [
+      "A. Albumin",
+      "B. Haptoglobin",
+      "C. Transferrin",
+      "D. Fibrinogen"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Haptoglobin binds free intravascular hemoglobin to prevent renal loss and iron toxicity[cite: 18]."
+  },
+  {
+    "question": "Haptoglobin is typically decreased in:",
+    "options": [
+      "A. Hemolysis",
+      "B. Hyperthyroidism",
+      "C. Diabetes mellitus",
+      "D. Hypercalcemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> In intravascular hemolysis, free hemoglobin binds haptoglobin; the resulting complex is rapidly cleared by hepatic reticuloendothelial cells, depleting serum haptoglobin[cite: 18]."
+  },
+  {
+    "question": "A broad-based increase in the gamma region on SPEP is most consistent with:",
+    "options": [
+      "A. Monoclonal gammopathy",
+      "B. Polyclonal gammopathy",
+      "C. Hypogammaglobulinemia",
+      "D. Albumin deficiency"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> A diffuse, broad-based gamma elevation indicates heterogenous polyclonal antibody production by multiple plasma cell clones during chronic infection or inflammation[cite: 18]."
+  },
+  {
+    "question": "Which immunoglobulin is most abundant in serum?",
+    "options": [
+      "A. IgA",
+      "B. IgD",
+      "C. IgG",
+      "D. IgM"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> IgG constitutes $75\\text{--}80\\%$ of total circulating serum immunoglobulins[cite: 18]."
+  },
+  {
+    "question": "The principal biomarker used today for detection of myocardial injury is:",
+    "options": [
+      "A. CK-MB",
+      "B. Troponin",
+      "C. LDH",
+      "D. AST"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Cardiac Troponin (cTnI or cTnT) is the gold-standard diagnostic biomarker for myocardial injury[cite: 18]."
+  },
+  {
+    "question": "A nephrotic syndrome patient typically exhibits:",
+    "options": [
+      "A. Hyperalbuminemia",
+      "B. Hypoalbuminemia",
+      "C. Elevated bilirubin",
+      "D. Increased haptoglobin"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Severe renal protein loss in nephrotic syndrome leads to marked hypoalbuminemia[cite: 18]."
+  },
+  {
+    "question": "Gamma-glutamyltransferase is located primarily in:",
+    "options": [
+      "A. Hepatobiliary tissue",
+      "B. Red blood cells",
+      "C. Bone matrix",
+      "D. Thyroid gland"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> GGT is located in the membranes of hepatocytes and biliary epithelial cells[cite: 18]."
+  },
+  {
+    "question": "The major source of serum alkaline phosphatase in adults is:",
+    "options": [
+      "A. Liver and bone",
+      "B. Brain and muscle",
+      "C. Pancreas and kidney",
+      "D. Spleen and lung"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Normal adult circulating ALP originates primarily from liver and bone tissues[cite: 18]."
+  },
+  {
+    "question": "Prealbumin is also known as:",
+    "options": [
+      "A. Transthyretin",
+      "B. Ferritin",
+      "C. Ceruloplasmin",
+      "D. Hemopexin"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Prealbumin is officially named transthyretin because it transports thyroid hormones and retinol-binding protein[cite: 18]."
+  },
+  {
+    "question": "A low prealbumin concentration is commonly associated with:",
+    "options": [
+      "A. Malnutrition",
+      "B. Hyperthyroidism",
+      "C. Polycythemia",
+      "D. Hemochromatosis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Prealbumin has a short half-life (~2 days), making it a sensitive marker for acute protein malnutrition and recovery[cite: 18]."
+  },
+  {
+    "question": "Which analyte is most often used to assess proteinuria quantitatively?",
+    "options": [
+      "A. Protein/creatinine ratio",
+      "B. Serum albumin",
+      "C. ALT",
+      "D. Bilirubin"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The spot urine protein-to-creatinine ratio (UPCR) correlates well with 24-hour total protein excretion[cite: 18]."
+  },
+  {
+    "question": "An elevated ammonia concentration may occur in:",
+    "options": [
+      "A. Severe liver failure",
+      "B. Hyperthyroidism",
+      "C. Iron deficiency",
+      "D. Pancreatitis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> End-stage liver failure or cirrhosis impairs hepatic urea cycle clearance of gut-derived ammonia, leading to hyperammonemia and hepatic encephalopathy[cite: 18]."
+  },
+  {
+    "question": "The primary site of bilirubin conjugation is:",
+    "options": [
+      "A. Kidney",
+      "B. Liver",
+      "C. Spleen",
+      "D. Bone marrow"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Bilirubin glucuronidation occurs in hepatocyte smooth endoplasmic reticulum catalyzed by the enzyme UGT1A1[cite: 18]."
+  },
+  {
+    "question": "Which laboratory abnormality is commonly associated with obstructive jaundice?",
+    "options": [
+      "A. Increased GGT and ALP",
+      "B. Increased CK-MB",
+      "C. Increased HbA1c",
+      "D. Increased troponin"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Mechanical biliary tract obstruction triggers marked induction of canalicular enzymes GGT and ALP[cite: 18]."
+  },
+  {
+    "question": "The best overall assessment of renal filtration function is:",
+    "options": [
+      "A. Serum sodium",
+      "B. Total protein",
+      "C. Estimated GFR",
+      "D. Albumin"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> eGFR is universally recognized as the best overall index of functioning renal mass and filtration capacity[cite: 18]."
+  },
+  {
+    "question": "The primary extracellular cation is:",
+    "options": [
+      "A. Potassium",
+      "B. Magnesium",
+      "C. Sodium",
+      "D. Calcium"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Sodium ($\text{Na}^+$) is the principal cation in extracellular fluid ($135\text{--}145\text{ mmol/L}$)[cite: 18]."
+  },
+  {
+    "question": "The primary intracellular cation is:",
+    "options": [
+      "A. Sodium",
+      "B. Potassium",
+      "C. Chloride",
+      "D. Bicarbonate"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Potassium ($\text{K}^+$) is the dominant intracellular cation ($\approx 110\text{--}150\text{ mmol/L}$ inside cells vs $3.5\text{--}5.0\text{ mmol/L}$ in serum)[cite: 18]."
+  },
+  {
+    "question": "Which electrolyte contributes most to serum osmolality?",
+    "options": [
+      "A. Magnesium",
+      "B. Calcium",
+      "C. Sodium",
+      "D. Phosphate"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Sodium and its associated anions ($\text{Cl}^-$ and $\text{HCO}_3^-$) account for $>90\\%$ of total plasma osmolality[cite: 18]."
+  },
+  {
+    "question": "Pseudohyponatremia is most commonly associated with:",
+    "options": [
+      "A. Hyperkalemia",
+      "B. Hyperlipidemia",
+      "C. Hypocalcemia",
+      "D. Elevated ammonia"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Marked hyperlipidemia or hyperproteinemia reduces the relative water fraction of plasma, causing artifactually low sodium readings when measured on indirect ISE methods[cite: 18]."
+  },
+  {
+    "question": "Which method is least susceptible to pseudohyponatremia?",
+    "options": [
+      "A. Indirect ISE",
+      "B. Flame photometry",
+      "C. Direct ISE",
+      "D. Colorimetry"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Direct Ion-Selective Electrodes measure undiluted sample activity in plasma water, avoiding dilution-based electrolyte exclusion artifacts[cite: 18]."
+  },
+  {
+    "question": "Hyperkalemia may be falsely caused by:",
+    "options": [
+      "A. Hemolysis",
+      "B. Hyperglycemia",
+      "C. Hyperbilirubinemia",
+      "D. Hypoalbuminemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> In vitro hemolysis ruptures RBCs, releasing intracellular potassium into plasma/serum[cite: 18]."
+  },
+  {
+    "question": "A serum potassium concentration of $7.0\\text{ mmol/L}$ should prompt evaluation for:",
+    "options": [
+      "A. Hemolysis",
+      "B. Hypercalcemia",
+      "C. Hyperalbuminemia",
+      "D. Hypermagnesemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Severe hyperkalemia must always be investigated for preanalytical in vitro hemolysis or cellular leakage before initiating emergency clinical interventions[cite: 18]."
+  },
+  {
+    "question": "The most abundant extracellular anion is:",
+    "options": [
+      "A. Phosphate",
+      "B. Chloride",
+      "C. Sulfate",
+      "D. Lactate"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Chloride ($\text{Cl}^-$) is the predominant extracellular anion ($98\text{--}107\text{ mmol/L}$)[cite: 18]."
+  },
+  {
+    "question": "The major physiologic buffer in blood is:",
+    "options": [
+      "A. Phosphate",
+      "B. Bicarbonate",
+      "C. Albumin",
+      "D. Hemoglobin only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The carbonic acid/bicarbonate ($\\text{H}_2\\text{CO}_3/\\text{HCO}_3^-$) system is the primary extracellular physiological buffer maintaining blood pH[cite: 18]."
+  },
+  {
+    "question": "The anion gap is commonly calculated as:",
+    "options": [
+      "A. $\\text{Na} - (\\text{Cl} + \\text{HCO}_3)$",
+      "B. $\\text{K} - \\text{Cl}$",
+      "C. $\\text{Ca} - \\text{PO}_4$",
+      "D. $\\text{Na} - \\text{K}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Anion Gap = $[\\text{Na}^+] - ([\\text{Cl}^-] + [\\text{HCO}_3^-])$[cite: 18]."
+  },
+  {
+    "question": "A normal anion gap metabolic acidosis is often associated with:",
+    "options": [
+      "A. Diarrhea",
+      "B. Diabetic ketoacidosis",
+      "C. Lactic acidosis",
+      "D. Ethylene glycol poisoning"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Severe diarrhea causes GI loss of bicarbonate; renal retention of chloride preserves electroneutrality, producing hyperchloremic (normal anion gap) metabolic acidosis[cite: 18]."
+  },
+  {
+    "question": "A high anion gap metabolic acidosis may result from:",
+    "options": [
+      "A. Vomiting",
+      "B. Diarrhea",
+      "C. Lactic acidosis",
+      "D. Hyperaldosteronism"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Accumulation of unmeasured organic acid anions (such as lactate) increases the calculated Anion Gap[cite: 18]."
+  },
+  {
+    "question": "The normal arterial blood pH range is approximately:",
+    "options": [
+      "A. 7.00-7.20",
+      "B. 7.20-7.30",
+      "C. 7.35-7.45",
+      "D. 7.50-7.60"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Normal systemic arterial pH is strictly maintained between 7.35 and 7.45[cite: 18]."
+  },
+  {
+    "question": "Normal arterial $p\\text{CO}_2$ is approximately:",
+    "options": [
+      "A. 15-25 mmHg",
+      "B. 25-35 mmHg",
+      "C. 35-45 mmHg",
+      "D. 50-60 mmHg"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Normal arterial partial pressure of carbon dioxide ($p\\text{CO}_2$) is $35\text{--}45\text{ mmHg}$[cite: 18]."
+  },
+  {
+    "question": "Respiratory acidosis is characterized by:",
+    "options": [
+      "A. Increased $p\\text{CO}_2$",
+      "B. Decreased $p\\text{CO}_2$",
+      "C. Increased bicarbonate only",
+      "D. Decreased sodium"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Pulmonary hypoventilation retains $\\text{CO}_2$, elevating $p\\text{CO}_2$ ($>45\\text{ mmHg}$) and lowering arterial pH[cite: 18]."
+  },
+  {
+    "question": "Respiratory alkalosis commonly occurs with:",
+    "options": [
+      "A. Hypoventilation",
+      "B. Hyperventilation",
+      "C. Renal failure",
+      "D. Diarrhea"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Pulmonary hyperventilation excessively blows off $\\text{CO}_2$, lowering $p\\text{CO}_2$ ($<35\\text{ mmHg}$) and raising pH[cite: 18]."
+  },
+  {
+    "question": "Metabolic alkalosis is commonly caused by:",
+    "options": [
+      "A. Diarrhea",
+      "B. Lactic acidosis",
+      "C. Prolonged vomiting",
+      "D. Renal tubular acidosis"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Loss of acidic gastric juice ($\\text{HCl}$) during persistent vomiting leads to systemic accumulation of excess bicarbonate[cite: 18]."
+  },
+  {
+    "question": "Compensation for metabolic acidosis primarily involves:",
+    "options": [
+      "A. Increased ventilation",
+      "B. Decreased ventilation",
+      "C. Increased bilirubin excretion",
+      "D. Increased albumin synthesis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Acidemia stimulates peripheral chemoreceptors to drive pulmonary hyperventilation, blowing off $\\text{CO}_2$ to compensate for low $\\text{HCO}_3^-$[cite: 18]."
+  },
+  {
+    "question": "The Henderson-Hasselbalch equation relates pH to:",
+    "options": [
+      "A. Lactate and pyruvate",
+      "B. Bicarbonate and $p\\text{CO}_2$",
+      "C. Sodium and potassium",
+      "D. Calcium and phosphate"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $\\text{pH} = 6.1 + \\log\\left(\\frac{[\\text{HCO}_3^-]}{0.03 \\times p\\text{CO}_2}\\right)$[cite: 18]."
+  },
+  {
+    "question": "Which analyte is measured by a Severinghaus electrode?",
+    "options": [
+      "A. $p\\text{O}_2$",
+      "B. $p\\text{CO}_2$",
+      "C. Sodium",
+      "D. Potassium"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The Severinghaus potentiometric glass electrode uses a gas-permeable membrane to measure $p\\text{CO}_2$[cite: 18]."
+  },
+  {
+    "question": "Which analyte is measured by a Clark electrode?",
+    "options": [
+      "A. $p\\text{O}_2$",
+      "B. $p\\text{CO}_2$",
+      "C. Chloride",
+      "D. Glucose"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The Clark polarographic amperometric electrode measures $p\\text{O}_2$ via oxygen reduction at a platinum cathode[cite: 18]."
+  },
+  {
+    "question": "A patient with pH 7.25 and elevated $p\\text{CO}_2$ most likely has:",
+    "options": [
+      "A. Respiratory acidosis",
+      "B. Respiratory alkalosis",
+      "C. Metabolic acidosis",
+      "D. Metabolic alkalosis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Acidemia ($\text{pH} < 7.35$) with elevated $p\text{CO}_2$ ($>45\text{ mmHg}$) establishes primary respiratory acidosis[cite: 18]."
+  },
+  {
+    "question": "Lactate elevation is commonly associated with:",
+    "options": [
+      "A. Tissue hypoxia",
+      "B. Hypothyroidism",
+      "C. Hypercalcemia",
+      "D. Hyperalbuminemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Anaerobic glycolysis triggered by tissue hypoperfusion or hypoxia converts pyruvate into lactate[cite: 18]."
+  },
+  {
+    "question": "A critically low calcium concentration may cause:",
+    "options": [
+      "A. Tetany",
+      "B. Hypertension only",
+      "C. Polycythemia",
+      "D. Hypernatremia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Hypocalcemia increases peripheral nerve membrane excitability, precipitating neuromuscular irritability and tetany[cite: 18]."
+  },
+  {
+    "question": "The physiologically active fraction of calcium is:",
+    "options": [
+      "A. Protein-bound calcium",
+      "B. Total calcium",
+      "C. Ionized calcium",
+      "D. Complexed calcium"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Free ionized calcium ($\\text{Ca}^{2+}$, $\\approx 50\\%$ of total calcium) is the biologically active fraction regulated by PTH and calcitriol[cite: 18]."
+  },
+  {
+    "question": "Ionized calcium is most affected by:",
+    "options": [
+      "A. pH changes",
+      "B. Chloride concentration",
+      "C. BUN concentration",
+      "D. Albumin electrophoresis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Alkalemia increases negative charge on albumin, binding more free calcium and acutely lowering free ionized calcium[cite: 18]."
+  },
+  {
+    "question": "Magnesium deficiency can contribute to:",
+    "options": [
+      "A. Arrhythmias",
+      "B. Hyperbilirubinemia",
+      "C. Increased alkaline phosphatase",
+      "D. Polycythemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Severe hypomagnesemia impairs myocardial $\\text{Na}^+/\\text{K}^+$-ATPase pumps, predisposing to cardiac arrhythmias (e.g., Torsades de Pointes)[cite: 18]."
+  },
+  {
+    "question": "Phosphate concentrations are typically increased in:",
+    "options": [
+      "A. Chronic kidney disease",
+      "B. Hyperparathyroidism",
+      "C. Vitamin D excess only",
+      "D. Acute hemolysis only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Impaired glomerular filtration in CKD reduces renal excretion of phosphate, leading to hyperphosphatemia[cite: 18]."
+  },
+  {
+    "question": "The osmolal gap is useful in evaluating:",
+    "options": [
+      "A. Toxic alcohol ingestion",
+      "B. Hyperthyroidism",
+      "C. Iron deficiency",
+      "D. Liver cirrhosis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The Osmolal Gap (Measured Osmolality minus Calculated Osmolality) detects unmeasured low-molecular-weight volatile toxins like methanol, ethylene glycol, or isopropanol[cite: 18]."
+  },
+  {
+    "question": "Calculated serum osmolality primarily depends on:",
+    "options": [
+      "A. Sodium, glucose, and BUN",
+      "B. Calcium and magnesium",
+      "C. Albumin and globulin",
+      "D. Bilirubin and creatinine"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $\\text{Calculated Osmolality} = 2[\\text{Na}^+] + \\frac{[\\text{Glucose}]}{18} + \\frac{[\\text{BUN}]}{2.8}$[cite: 18]."
+  },
+  {
+    "question": "Point-of-care testing is best defined as testing:",
+    "options": [
+      "A. Performed exclusively in the core laboratory",
+      "B. Performed near the patient",
+      "C. Performed only by pathologists",
+      "D. Performed only on serum"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Point-of-Care Testing (POCT) refers to diagnostic testing conducted at or near the site of patient care[cite: 18]."
+  },
+  {
+    "question": "A major advantage of POCT is:",
+    "options": [
+      "A. Lower reagent use only",
+      "B. Faster turnaround time",
+      "C. Better analytical sensitivity in all cases",
+      "D. Elimination of QC"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The principal clinical value of POCT is rapid Turnaround Time (TAT), providing immediate test results to guide real-time clinical decisions[cite: 18]."
+  },
+  {
+    "question": "A major challenge of POCT is:",
+    "options": [
+      "A. Operator competency assessment",
+      "B. Excessive sample volume",
+      "C. Lack of clinical utility",
+      "D. Inability to measure glucose"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Managing and documenting regulatory competency for numerous decentralized non-laboratory clinical operators is a core challenge in POCT management[cite: 18]."
+  },
+  {
+    "question": "The most common POCT assay worldwide is:",
+    "options": [
+      "A. Troponin",
+      "B. Glucose",
+      "C. BNP",
+      "D. PSA"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Blood glucose monitoring represents the largest volume POCT assay globally[cite: 18]."
+  },
+  {
+    "question": "Quality control requirements for POCT are:",
+    "options": [
+      "A. Less important than central laboratory QC",
+      "B. Equivalent in importance",
+      "C. Not required",
+      "D. Optional"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> POCT must meet CLIA quality control standards equivalent to central laboratory testing to guarantee patient safety[cite: 18]."
+  },
+  {
+    "question": "Capillary specimens may differ from venous specimens because of:",
+    "options": [
+      "A. Arterial admixture",
+      "B. Increased albumin only",
+      "C. Increased bilirubin only",
+      "D. Absence of glucose"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Skin puncture capillary blood is a mixture of arterial, venous, and capillary blood along with interstitial fluid[cite: 18]."
+  },
+  {
+    "question": "Which factor most critically affects arterial blood gas results?",
+    "options": [
+      "A. Exposure to air",
+      "B. Serum albumin",
+      "C. Bilirubin concentration",
+      "D. Total protein"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Ambient air bubbles introduce atmospheric oxygen ($p\\text{O}_2 \\approx 158\\text{ mmHg}$) and dilute $p\\text{CO}_2$, severely altering blood gas values[cite: 18]."
+  },
+  {
+    "question": "Delay in processing a blood gas specimen may:",
+    "options": [
+      "A. Increase $p\\text{CO}_2$ and decrease pH",
+      "B. Increase pH and decrease $p\\text{CO}_2$",
+      "C. Have no effect",
+      "D. Increase sodium"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Ongoing cellular respiration (glycolysis) in unanalyzed room-temperature blood consumes $\\text{O}_2$, produces $\\text{CO}_2$, and generates lactic acid, raising $p\\text{CO}_2$ and decreasing pH[cite: 18]."
+  },
+  {
+    "question": "Heparin is used in blood gas sampling because it:",
+    "options": [
+      "A. Prevents clotting",
+      "B. Increases $p\\text{O}_2$",
+      "C. Increases pH",
+      "D. Stabilizes glucose"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Lyophilized lithium heparin is the anticoagulant of choice to prevent clot formation in blood gas syringes without altering electrolyte concentrations[cite: 18]."
+  },
+  {
+    "question": "The preferred specimen for arterial blood gas testing is:",
+    "options": [
+      "A. Serum",
+      "B. Plasma",
+      "C. Arterial whole blood",
+      "D. Urine"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Heparinized arterial whole blood analyzed anaerobically is required for blood gas analysis[cite: 18]."
+  },
+  {
+    "question": "A pH of 7.52 with low $p\\text{CO}_2$ suggests:",
+    "options": [
+      "A. Metabolic alkalosis",
+      "B. Respiratory alkalosis",
+      "C. Metabolic acidosis",
+      "D. Respiratory acidosis"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Alkalemia ($\text{pH} > 7.45$) paired with low $p\text{CO}_2$ ($<35\text{ mmHg}$) defines primary respiratory alkalosis[cite: 18]."
+  },
+  {
+    "question": "The major determinant of bicarbonate concentration is:",
+    "options": [
+      "A. Renal regulation",
+      "B. Pulmonary regulation",
+      "C. Splenic function",
+      "D. Bone metabolism"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The kidneys regulate systemic bicarbonate concentrations through proximal tubular reabsorption and distal excretion/generation of $\\text{H}^+$ ions[cite: 18]."
+  },
+  {
+    "question": "Which electrolyte abnormality is most likely in diabetic ketoacidosis?",
+    "options": [
+      "A. Hyperkalemia despite total body potassium depletion",
+      "B. Hypocalcemia only",
+      "C. Hypermagnesemia only",
+      "D. Hyperchloremia only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Insulin deficiency and acidemia shift potassium out of cells into serum causing initial hyperkalemia, despite overall total-body potassium depletion from urinary osmotic diuresis[cite: 18]."
+  },
+  {
+    "question": "The primary cause of increased serum osmolality in severe hyperglycemia is:",
+    "options": [
+      "A. Water shift from intracellular to extracellular space",
+      "B. Increased albumin",
+      "C. Increased calcium",
+      "D. Increased phosphate"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> High extracellular glucose concentration creates an osmotic gradient that draws intracellular water into the extracellular space, causing cellular dehydration[cite: 18]."
+  },
+  {
+    "question": "Whole-blood glucose POCT results are typically converted to:",
+    "options": [
+      "A. Urine-equivalent values",
+      "B. Plasma-equivalent values",
+      "C. Serum protein values",
+      "D. Creatinine-equivalent values"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> POCT glucometers automatically apply a multiplier ($\approx 1.11$) to report plasma-equivalent glucose values matching central laboratory plasma assays[cite: 18]."
+  },
+  {
+    "question": "A patient with pH 7.20 and bicarbonate $12\\text{ mmol/L}$ most likely has:",
+    "options": [
+      "A. Metabolic acidosis",
+      "B. Respiratory acidosis",
+      "C. Metabolic alkalosis",
+      "D. Respiratory alkalosis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Acidemia ($\text{pH} < 7.35$) with low serum bicarbonate ($<22\text{ mmol/L}$) establishes primary metabolic acidosis[cite: 18]."
+  },
+  {
+    "question": "The strongest predictor of successful POCT programs is:",
+    "options": [
+      "A. Strong oversight and training",
+      "B. High reagent cost",
+      "C. Elimination of QC",
+      "D. Reduced documentation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Robust multi-disciplinary governance, centralized oversight, and operator training are essential for regulatory compliance and safety in POCT[cite: 18]."
+  },
+  {
+    "question": "The most common preanalytical error in electrolyte testing is:",
+    "options": [
+      "A. Hemolysis",
+      "B. Lipemia",
+      "C. Hyperbilirubinemia",
+      "D. Hyperproteinemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Specimen hemolysis is the leading preanalytical error, causing false elevations in potassium and phosphate[cite: 18]."
+  },
+  {
+    "question": "An increased anion gap in a critically ill patient should prompt evaluation for:",
+    "options": [
+      "A. Lactic acidosis",
+      "B. Hypothyroidism",
+      "C. Iron deficiency",
+      "D. Hyperalbuminemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Lactic acidosis from tissue hypoperfusion is the most frequent cause of elevated Anion Gap metabolic acidosis in critical care[cite: 18]."
+  },
+  {
+    "question": "The most important goal of blood gas interpretation is assessment of:",
+    "options": [
+      "A. Acid-base status and oxygenation",
+      "B. Calcium metabolism only",
+      "C. Liver synthetic function",
+      "D. Iron stores"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Blood gas testing provides clinical evaluation of systemic acid-base balance, alveolar ventilation ($p\\text{CO}_2$), and arterial oxygenation ($p\\text{O}_2$)[cite: 18]."
+  },
+  {
+    "question": "The primary purpose of therapeutic drug monitoring is to:",
+    "options": [
+      "A. Diagnose all diseases",
+      "B. Optimize drug efficacy while minimizing toxicity",
+      "C. Measure liver function only",
+      "D. Determine renal blood flow"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> TDM guides individual dosing to keep circulating drug concentrations within a targeted therapeutic window[cite: 18]."
+  },
+  {
+    "question": "TDM is most useful for drugs that:",
+    "options": [
+      "A. Have a wide therapeutic index",
+      "B. Have predictable pharmacokinetics in all patients",
+      "C. Have a narrow therapeutic index",
+      "D. Are not metabolized"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> TDM is essential for drugs with a narrow therapeutic index, where effective therapeutic doses are close to toxic concentrations[cite: 18]."
+  },
+  {
+    "question": "Which drug is commonly monitored by TDM?",
+    "options": [
+      "A. Acetaminophen (routine therapy)",
+      "B. Digoxin",
+      "C. Aspirin",
+      "D. Ibuprofen"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Digoxin has a narrow therapeutic window ($0.5\text{--}0.9\text{ ng/mL}$ for heart failure) requiring TDM[cite: 18]."
+  },
+  {
+    "question": "A trough concentration is generally collected:",
+    "options": [
+      "A. Immediately after dosing",
+      "B. At peak absorption",
+      "C. Just before the next dose",
+      "D. At any random time"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Trough samples represent the lowest circulating drug concentration and are drawn immediately (e.g., $\\le 30\\text{ min}$) prior to the next scheduled dose[cite: 18]."
+  },
+  {
+    "question": "A peak concentration is typically collected:",
+    "options": [
+      "A. At steady state before dosing",
+      "B. Near maximum drug concentration after administration",
+      "C. During drug elimination only",
+      "D. After therapy is discontinued"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Peak drug specimens are collected after dose administration at the time corresponding to maximum tissue absorption and distribution[cite: 18]."
+  },
+  {
+    "question": "Steady state is generally achieved after approximately:",
+    "options": [
+      "A. One half-life",
+      "B. Two half-lives",
+      "C. Four to five half-lives",
+      "D. Ten half-lives"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> At constant dosing intervals, drug accumulation reaches equilibrium (steady state) after 4 to 5 elimination half-lives ($t_{1/2}$)[cite: 18]."
+  },
+  {
+    "question": "Which antiepileptic medication is frequently monitored?",
+    "options": [
+      "A. Phenytoin",
+      "B. Levothyroxine",
+      "C. Prednisone",
+      "D. Omeprazole"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Phenytoin is an antiepileptic drug routinely monitored due to variable non-linear kinetics and narrow therapeutic range[cite: 18]."
+  },
+  {
+    "question": "Phenytoin exhibits:",
+    "options": [
+      "A. Zero-order kinetics at therapeutic concentrations in all patients",
+      "B. Saturable metabolism and nonlinear kinetics",
+      "C. No protein binding",
+      "D. Renal excretion only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Phenytoin exhibits Michaelis-Menten saturable hepatic metabolism; small dose increases at high concentrations can cause large jumps in blood levels[cite: 18]."
+  },
+  {
+    "question": "The pharmacologically active fraction of phenytoin is:",
+    "options": [
+      "A. Protein-bound drug",
+      "B. Total drug only",
+      "C. Free drug",
+      "D. Metabolized drug"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Unbound (free) phenytoin is the active drug fraction that crosses cell membranes and interacts with tissue receptors[cite: 18]."
+  },
+  {
+    "question": "Digoxin toxicity may be associated with:",
+    "options": [
+      "A. Hyperkalemia",
+      "B. Hypernatremia",
+      "C. Hypoglycemia",
+      "D. Hypercalcemia only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Acute digoxin toxicity inhibits vascular $\\text{Na}^+/\\text{K}^+$-ATPase pumps, leading to hyperkalemia[cite: 18]."
+  },
+  {
+    "question": "Which drug is monitored because of nephrotoxicity and ototoxicity risks?",
+    "options": [
+      "A. Gentamicin",
+      "B. Acetaminophen",
+      "C. Caffeine",
+      "D. Ethanol"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Gentamicin is an aminoglycoside antibiotic requiring serum level monitoring to prevent renal tubular damage (nephrotoxicity) and vestibulocochlear injury (ototoxicity)[cite: 18]."
+  },
+  {
+    "question": "Vancomycin monitoring is often based on:",
+    "options": [
+      "A. AUC assessment or trough concentration",
+      "B. Random glucose",
+      "C. Total protein",
+      "D. Bilirubin"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Guidelines mandate monitoring Vancomycin via Area Under the Curve ($\text{AUC}/\text{MIC} \ge 400$) or trough concentrations to ensure efficacy and prevent nephrotoxicity[cite: 18]."
+  },
+  {
+    "question": "Toxicology testing for drugs of abuse commonly begins with:",
+    "options": [
+      "A. Immunoassay screening",
+      "B. DNA sequencing",
+      "C. Electrophoresis",
+      "D. Gram staining"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Rapid immunoassays are used for initial high-throughput screening for drugs of abuse[cite: 18]."
+  },
+  {
+    "question": "Positive immunoassay drug screens should ideally be:",
+    "options": [
+      "A. Ignored",
+      "B. Confirmed by a more specific method",
+      "C. Reported without review",
+      "D. Repeated indefinitely"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Immunoassay screens are subject to cross-reactivity; positive results must be confirmed using a high-specificity technique (e.g., LC-MS/MS or GC-MS)[cite: 18]."
+  },
+  {
+    "question": "The most common confirmatory toxicology method is:",
+    "options": [
+      "A. UV spectrophotometry",
+      "B. GC-MS or LC-MS/MS",
+      "C. Flame photometry",
+      "D. Electrophoresis"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Mass spectrometry coupled to chromatography (GC-MS or LC-MS/MS) provides definitive identification and confirmation[cite: 18]."
+  },
+  {
+    "question": "Which toxic alcohol is metabolized to oxalic acid?",
+    "options": [
+      "A. Ethanol",
+      "B. Methanol",
+      "C. Ethylene glycol",
+      "D. Isopropanol"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Ethylene glycol is metabolized via alcohol dehydrogenase into glycolic acid and oxalic acid, causing acute renal failure from calcium oxalate crystal deposition[cite: 18]."
+  },
+  {
+    "question": "Methanol toxicity primarily affects:",
+    "options": [
+      "A. Retina and optic nerve",
+      "B. Liver only",
+      "C. Pancreas only",
+      "D. Bone marrow only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Methanol metabolism generates formic acid, which selectively targets ocular tissue, leading to optic papillitis and blindness[cite: 18]."
+  },
+  {
+    "question": "The osmolal gap is particularly useful in evaluating:",
+    "options": [
+      "A. Toxic alcohol ingestion",
+      "B. Hyperthyroidism",
+      "C. Iron deficiency",
+      "D. Multiple myeloma"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Elevated Osmolal Gap indicates the presence of unmeasured circulating toxic volatiles (methanol, ethylene glycol, isopropanol)[cite: 18]."
+  },
+  {
+    "question": "The Rumack-Matthew nomogram is used for:",
+    "options": [
+      "A. Salicylate poisoning",
+      "B. Acetaminophen overdose",
+      "C. Digoxin toxicity",
+      "D. Ethanol intoxication"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The Rumack-Matthew nomogram plots timed serum acetaminophen concentrations (4-24 hours post-ingestion) to predict hepatotoxicity risk and guide N-acetylcysteine (NAC) therapy[cite: 18]."
+  },
+  {
+    "question": "N-acetylcysteine is the antidote for:",
+    "options": [
+      "A. Methanol poisoning",
+      "B. Acetaminophen poisoning",
+      "C. Cyanide poisoning",
+      "D. Arsenic poisoning"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> N-acetylcysteine (NAC) replenishes hepatic glutathione stores to detoxify the toxic acetaminophen metabolite NAPQI[cite: 18]."
+  },
+  {
+    "question": "Carboxyhemoglobin is measured to assess exposure to:",
+    "options": [
+      "A. Nitrogen dioxide",
+      "B. Carbon monoxide",
+      "C. Sulfur dioxide",
+      "D. Ozone"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Carbon monoxide (CO) binds hemoglobin with high affinity to form carboxyhemoglobin (COHb)[cite: 18]."
+  },
+  {
+    "question": "The toxic metabolite chiefly responsible for methanol toxicity is:",
+    "options": [
+      "A. Acetone",
+      "B. Formic acid",
+      "C. Oxalic acid",
+      "D. Lactate"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Formic acid (formate) accumulates during methanol oxidation, inhibiting cytochrome c oxidase and causing optic disk damage and metabolic acidosis[cite: 18]."
+  },
+  {
+    "question": "Which matrix is commonly used for workplace drug testing?",
+    "options": [
+      "A. Serum only",
+      "B. Cerebrospinal fluid",
+      "C. Urine",
+      "D. Synovial fluid"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Urine is the standard specimen for workplace drug testing due to non-invasive collection and prolonged detection windows for metabolites[cite: 18]."
+  },
+  {
+    "question": "Hair testing provides information about:",
+    "options": [
+      "A. Immediate intoxication only",
+      "B. Longer-term exposure history",
+      "C. Blood gas status",
+      "D. Electrolyte balance"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Xenobiotics incorporate into growing hair shafts, providing an extended retrospective window of exposure (months)[cite: 18]."
+  },
+  {
+    "question": "LC-MS/MS is valued because of its:",
+    "options": [
+      "A. Poor specificity",
+      "B. High sensitivity and specificity",
+      "C. Inability to multiplex analytes",
+      "D. Exclusive use in research"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS) provides high analytical specificity and sub-nanogram sensitivity[cite: 18]."
+  },
+  {
+    "question": "In tandem mass spectrometry, the mass analyzer measures:",
+    "options": [
+      "A. Molecular charge only",
+      "B. Mass-to-charge ratio ($m/z$)",
+      "C. Density only",
+      "D. Retention time only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Mass spectrometers separate and detect ionized molecules based on their mass-to-charge ratio ($m/z$)[cite: 18]."
+  },
+  {
+    "question": "A common ionization source in LC-MS/MS is:",
+    "options": [
+      "A. Electrospray ionization",
+      "B. Flame ionization",
+      "C. Electron microscopy",
+      "D. Nephelometry"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Electrospray Ionization (ESI) is an atmospheric pressure soft ionization source for LC-MS/MS[cite: 18]."
+  },
+  {
+    "question": "Gas chromatography requires analytes to be:",
+    "options": [
+      "A. Highly radioactive",
+      "B. Volatile or derivatized",
+      "C. Water insoluble only",
+      "D. Protein bound"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Compounds separated by GC must be naturally volatile and thermally stable, or chemically derivatized to a volatile state[cite: 18]."
+  },
+  {
+    "question": "In chromatography, retention time refers to:",
+    "options": [
+      "A. Time required for analyte elution",
+      "B. Detector voltage",
+      "C. Sample storage duration",
+      "D. Calibration interval"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Retention time ($t_R$) is the elapsed time between sample injection and maximum detector peak appearance for an eluting compound[cite: 18]."
+  },
+  {
+    "question": "An internal standard is primarily used to:",
+    "options": [
+      "A. Increase toxicity",
+      "B. Correct for analytical variability",
+      "C. Eliminate calibration",
+      "D. Replace controls"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Stable isotope-labeled internal standards compensate for loss of analyte, extraction variation, injection volume fluctuations, and MS matrix effects[cite: 18]."
+  },
+  {
+    "question": "Which detector is commonly coupled to gas chromatography in confirmatory testing?",
+    "options": [
+      "A. Mass spectrometer",
+      "B. Microscope",
+      "C. Nephelometer",
+      "D. Refractometer"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Mass Spectrometry coupled with Gas Chromatography (GC-MS) is a classic confirmatory technique[cite: 18]."
+  },
+  {
+    "question": "The mobile phase in chromatography is:",
+    "options": [
+      "A. Stationary packing material",
+      "B. The phase that moves through the system",
+      "C. The detector component",
+      "D. The sample matrix"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The mobile phase is the liquid solvent or carrier gas that carries the sample mixture through the chromatographic bed[cite: 18]."
+  },
+  {
+    "question": "The stationary phase in chromatography:",
+    "options": [
+      "A. Remains fixed in the column",
+      "B. Moves through the system",
+      "C. Is always liquid only",
+      "D. Is always gas only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The stationary phase consists of fixed column packing or capillary wall coatings that retard analyte migration via partition/adsorption[cite: 18]."
+  },
+  {
+    "question": "A major advantage of LC-MS/MS over immunoassay is:",
+    "options": [
+      "A. Lower specificity",
+      "B. Greater analytical specificity",
+      "C. Absence of maintenance",
+      "D. No calibration needs"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Mass spectrometry directly identifies analytes by mass and structural fragment characteristics, eliminating antibody cross-reactivity[cite: 18]."
+  },
+  {
+    "question": "Matrix effects in LC-MS/MS may result in:",
+    "options": [
+      "A. Ion suppression or enhancement",
+      "B. Increased specificity only",
+      "C. Improved calibration stability exclusively",
+      "D. Elimination of bias"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Co-eluting matrix components in LC-MS/MS can alter ion formation efficiency, causing ion suppression or enhancement[cite: 18]."
+  },
+  {
+    "question": "Which drug commonly requires monitoring of free concentrations in hypoalbuminemic patients?",
+    "options": [
+      "A. Phenytoin",
+      "B. Metformin",
+      "C. Levothyroxine",
+      "D. Acetaminophen"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Phenytoin is $\\approx 90\\%$ bound to albumin; low serum albumin increases the active free phenytoin fraction[cite: 18]."
+  },
+  {
+    "question": "The antidote fomepizole acts by inhibiting:",
+    "options": [
+      "A. Cytochrome c oxidase",
+      "B. Alcohol dehydrogenase",
+      "C. ATP synthase",
+      "D. Lactate dehydrogenase"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Fomepizole competitively inhibits alcohol dehydrogenase (ADH), blocking the conversion of methanol and ethylene glycol into toxic acid metabolites[cite: 18]."
+  },
+  {
+    "question": "Salicylate intoxication commonly produces:",
+    "options": [
+      "A. Mixed acid-base disturbances",
+      "B. Isolated metabolic alkalosis only",
+      "C. Hypercalcemia only",
+      "D. Hypoglycemia only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Aspirin overdose causes a mixed respiratory alkalosis (direct medullary respiratory center stimulation) and high anion gap metabolic acidosis (uncoupled oxidative phosphorylation)[cite: 18]."
+  },
+  {
+    "question": "An unexpectedly high immunoassay result may be caused by:",
+    "options": [
+      "A. Cross-reactivity",
+      "B. Accurate measurement only",
+      "C. Improved specificity",
+      "D. Stable calibration"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Antibody cross-reactivity with structurally related drugs or metabolites can cause falsely elevated immunoassay readings[cite: 18]."
+  },
+  {
+    "question": "The gold standard for many toxicology confirmations is:",
+    "options": [
+      "A. GC-MS",
+      "B. Manual spectrophotometry",
+      "C. Electrophoresis",
+      "D. Osmometry"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> GC-MS is a benchmark confirmation technique in clinical and forensic toxicology[cite: 18]."
+  },
+  {
+    "question": "Which analyte is commonly measured in newborn screening using tandem MS?",
+    "options": [
+      "A. Amino acids and acylcarnitines",
+      "B. Albumin only",
+      "C. Bilirubin only",
+      "D. Sodium only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> MS/MS newborn screening profiles dried blood spots for amino acids and acylcarnitines to detect inborn errors of metabolism[cite: 18]."
+  },
+  {
+    "question": "The principal advantage of tandem mass spectrometry in newborn screening is:",
+    "options": [
+      "A. Multiplex detection of numerous analytes",
+      "B. Lower analytical sensitivity",
+      "C. Single-analyte analysis only",
+      "D. Reduced specificity"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> MS/MS enables high-throughput multiplex screening of dozens of metabolic biomarkers in a single injection[cite: 18]."
+  },
+  {
+    "question": "A toxicology sample should maintain documented custody when used for:",
+    "options": [
+      "A. Routine chemistry testing",
+      "B. Forensic purposes",
+      "C. Quality control only",
+      "D. Reference interval studies"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Forensic toxicology results require strict Chain of Custody (CoC) documentation to ensure legal admissibility in court[cite: 18]."
+  },
+  {
+    "question": "Chain of custody documentation is important because it:",
+    "options": [
+      "A. Preserves legal defensibility",
+      "B. Improves calibration",
+      "C. Eliminates matrix effects",
+      "D. Reduces turnaround time"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Chain of custody logs prove unbroken specimen control and integrity from collection to reporting[cite: 18]."
+  },
+  {
+    "question": "The therapeutic range supplied for a drug is intended to:",
+    "options": [
+      "A. Guarantee efficacy in all patients",
+      "B. Provide a clinical interpretive framework",
+      "C. Replace clinical judgment",
+      "D. Eliminate toxicity risk"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Therapeutic ranges provide statistical reference boundaries that must be evaluated alongside clinical patient status[cite: 18]."
+  },
+  {
+    "question": "The best interpretation of a drug level usually requires knowledge of:",
+    "options": [
+      "A. Time since last dose",
+      "B. Patient age only",
+      "C. Patient sex only",
+      "D. Instrument model only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Interpreting TDM results requires exact timing relative to the last administered dose[cite: 18]."
+  },
+  {
+    "question": "The primary metabolite measured in ethanol metabolism is:",
+    "options": [
+      "A. Acetaldehyde (intermediate metabolite)",
+      "B. Bilirubin",
+      "C. Creatinine",
+      "D. Lactose"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Hepatic alcohol dehydrogenase oxidizes ethanol into its primary intermediate metabolite, acetaldehyde[cite: 18]."
+  },
+  {
+    "question": "Which specimen is preferred for assessing recent ethanol exposure?",
+    "options": [
+      "A. Whole blood",
+      "B. Hair only",
+      "C. Nail clippings",
+      "D. Saliva only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Venous whole blood (or plasma/serum) is the standard specimen for quantifying acute ethanol exposure[cite: 18]."
+  },
+  {
+    "question": "A broad toxicology screen is most likely to miss compounds when:",
+    "options": [
+      "A. The analyte is not included in the assay scope",
+      "B. The patient is symptomatic",
+      "C. The specimen volume is adequate",
+      "D. Internal standards are used"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Target-based toxicology panels cannot detect drugs or toxins that fall outside their programmed library or assay scope[cite: 18]."
+  },
+  {
+    "question": "The greatest strength of mass spectrometry in clinical toxicology is:",
+    "options": [
+      "A. Rapid visual inspection",
+      "B. High analytical specificity and molecular identification",
+      "C. Elimination of preanalytical variables",
+      "D. No need for quality control"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Mass spectrometry provides structural characterization and high molecular specificity[cite: 18]."
+  },
+  {
+    "question": "Polymerase chain reaction (PCR) is used primarily to:",
+    "options": [
+      "A. Measure protein concentration",
+      "B. Amplify nucleic acid sequences",
+      "C. Quantify bilirubin",
+      "D. Separate proteins"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> PCR exponentially amplifies target DNA sequences in vitro using thermal cycling[cite: 18]."
+  },
+  {
+    "question": "Real-time PCR differs from conventional PCR because it:",
+    "options": [
+      "A. Eliminates DNA amplification",
+      "B. Permits monitoring during amplification",
+      "C. Uses no primers",
+      "D. Does not require enzymes"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Real-time (quantitative) PCR monitors fluorescent signal accumulation during each amplification cycle[cite: 18]."
+  },
+  {
+    "question": "The enzyme used in PCR is:",
+    "options": [
+      "A. Reverse transcriptase only",
+      "B. Taq polymerase",
+      "C. Creatine kinase",
+      "D. Lactate dehydrogenase"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Thermostable DNA polymerases (like *Taq* polymerase) synthesize new DNA strands across denaturation cycles[cite: 18]."
+  },
+  {
+    "question": "A cycle threshold (Ct) value in qPCR is:",
+    "options": [
+      "A. Inversely related to target quantity",
+      "B. Directly proportional to target quantity",
+      "C. Independent of target concentration",
+      "D. Unrelated to fluorescence"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The $C_t$ value is the fractional cycle number where fluorescence exceeds threshold; higher initial target copy numbers require fewer cycles, resulting in a lower $C_t$[cite: 18]."
+  },
+  {
+    "question": "Which molecular technique is commonly used for viral load monitoring?",
+    "options": [
+      "A. qPCR",
+      "B. SPEP",
+      "C. HPLC only",
+      "D. ELISA only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Quantitative real-time PCR (or RT-qPCR) is standard for monitoring circulating viral loads (e.g., HIV, HCV, CMV)[cite: 18]."
+  },
+  {
+    "question": "Reverse transcription PCR is required when the target material is:",
+    "options": [
+      "A. DNA",
+      "B. RNA",
+      "C. Protein",
+      "D. Lipid"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Reverse transcriptase synthesizes complementary DNA (cDNA) from target RNA templates before PCR amplification[cite: 18]."
+  },
+  {
+    "question": "The principal analytical concern in molecular testing is:",
+    "options": [
+      "A. Sample contamination",
+      "B. Hyperlipidemia",
+      "C. Hypercalcemia",
+      "D. Hemolysis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Amplicon or sample cross-contamination can cause false-positive results in nucleic acid amplification tests[cite: 18]."
+  },
+  {
+    "question": "Next-generation sequencing (NGS) allows:",
+    "options": [
+      "A. Simultaneous analysis of many DNA fragments",
+      "B. Measurement of sodium",
+      "C. Analysis of proteins only",
+      "D. Bilirubin fractionation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> NGS platforms perform massively parallel sequencing of millions of nucleic acid fragments simultaneously[cite: 18]."
+  },
+  {
+    "question": "The most abundant lipid in human plasma is:",
+    "options": [
+      "A. Triglyceride",
+      "B. Cholesterol ester",
+      "C. Phospholipid",
+      "D. Free fatty acid"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Phospholipids are the structural constituents of cell membranes and lipoprotein surfaces, representing the most abundant lipid class in plasma[cite: 18]."
+  },
+  {
+    "question": "LDL cholesterol is considered:",
+    "options": [
+      "A. Protective against atherosclerosis",
+      "B. Atherogenic",
+      "C. Unrelated to cardiovascular disease",
+      "D. A marker of renal function"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Elevated circulating Low-Density Lipoprotein Cholesterol (LDL-C) promotes arterial intimal lipid deposition and atherosclerosis[cite: 18]."
+  },
+  {
+    "question": "HDL cholesterol is generally considered:",
+    "options": [
+      "A. Atherogenic",
+      "B. Neutral only",
+      "C. Cardioprotective",
+      "D. Hepatotoxic"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> High-Density Lipoprotein (HDL) mediates reverse cholesterol transport, making higher levels cardioprotective[cite: 18]."
+  },
+  {
+    "question": "The Friedewald equation estimates:",
+    "options": [
+      "A. HDL cholesterol",
+      "B. LDL cholesterol",
+      "C. Total protein",
+      "D. Apolipoprotein A-I"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The Friedewald formula calculates LDL-C: $\\text{LDL-C} = \\text{Total Cholesterol} - \\text{HDL-C} - (\\text{Triglycerides} / 5)$[cite: 18]."
+  },
+  {
+    "question": "The Friedewald equation becomes unreliable when triglycerides exceed approximately:",
+    "options": [
+      "A. 100 mg/dL",
+      "B. 200 mg/dL",
+      "C. 400 mg/dL",
+      "D. 800 mg/dL"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> At triglyceride concentrations $>400\\text{ mg/dL}$, chylomicron accumulation distorts the VLDL-C ratio ($\text{TG}/5$), rendering the Friedewald equation inaccurate[cite: 18]."
+  },
+  {
+    "question": "Apolipoprotein B reflects the number of:",
+    "options": [
+      "A. HDL particles",
+      "B. Atherogenic lipoprotein particles",
+      "C. Albumin molecules",
+      "D. Chylomicrons only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Each atherogenic particle (VLDL, IDL, LDL) contains exactly one molecule of Apolipoprotein B-100; total ApoB directly measures total circulating atherogenic particle count[cite: 18]."
+  },
+  {
+    "question": "Lipoprotein(a) is considered:",
+    "options": [
+      "A. A genetically influenced cardiovascular risk factor",
+      "B. A liver enzyme",
+      "C. A coagulation factor",
+      "D. A renal biomarker"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Lipoprotein(a) [Lp(a)] consists of an LDL-like particle disulfide-linked to apolipoprotein(a); elevated levels are an independent, genetically determined risk factor for ASCVD[cite: 18]."
+  },
+  {
+    "question": "Which cardiac biomarker is currently preferred for diagnosing myocardial injury?",
+    "options": [
+      "A. CK-MB",
+      "B. AST",
+      "C. Cardiac troponin",
+      "D. LDH"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Cardiac Troponin (cTnI or cTnT) is the definitive biomarker for diagnosing acute myocardial infarction[cite: 18]."
+  },
+  {
+    "question": "High-sensitivity troponin assays are valuable because they:",
+    "options": [
+      "A. Detect lower concentrations precisely",
+      "B. Measure BNP simultaneously",
+      "C. Eliminate clinical interpretation",
+      "D. Measure ischemia directly"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> High-sensitivity cardiac troponin (hs-cTn) assays quantify low levels of cardiac troponin with a $\%\\text{CV} \\le 10\\%$ at the 99th percentile URL[cite: 18]."
+  },
+  {
+    "question": "BNP and NT-proBNP are primarily used in evaluating:",
+    "options": [
+      "A. Heart failure",
+      "B. Pancreatitis",
+      "C. Liver disease",
+      "D. Hypothyroidism"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> B-type Natriuretic Peptide (BNP) and NT-proBNP are released by ventricular myocytes in response to wall stress, serving as markers for diagnosing and risk-stratifying heart failure[cite: 18]."
+  },
+  {
+    "question": "Which preanalytical factor may falsely increase potassium?",
+    "options": [
+      "A. Hemolysis",
+      "B. Hypolipidemia",
+      "C. Low bilirubin",
+      "D. Hypoproteinemia"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> In vitro hemolysis releases intracellular potassium into serum[cite: 18]."
+  },
+  {
+    "question": "A delta check is used to:",
+    "options": [
+      "A. Compare current and previous patient results",
+      "B. Verify calibration only",
+      "C. Measure bias directly",
+      "D. Determine reference intervals"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Delta checks compare a patient's current laboratory result against their previous historical result; significant discrepancies flag potential misidentification or sample contamination[cite: 18]."
+  },
+  {
+    "question": "The principal role of a laboratory information system (LIS) is:",
+    "options": [
+      "A. Sample transportation only",
+      "B. Data management and workflow support",
+      "C. Reagent manufacture",
+      "D. Specimen collection only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> An LIS manages order entry, result processing, autoverification, data storage, and electronic medical record interfaces[cite: 18]."
+  },
+  {
+    "question": "Reference intervals are generally derived from:",
+    "options": [
+      "A. Healthy individuals",
+      "B. QC samples",
+      "C. Diseased populations only",
+      "D. PT samples"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Reference intervals are calculated from healthy reference populations[cite: 18]."
+  },
+  {
+    "question": "CLIA classifies laboratory testing complexity as:",
+    "options": [
+      "A. Waived, moderate, and high complexity",
+      "B. Basic and advanced only",
+      "C. Research and clinical only",
+      "D. Manual and automated only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CLIA regulations categorize clinical testing into three tiers based on operational difficulty: Waived, Moderate Complexity, and High Complexity[cite: 18]."
+  },
+  {
+    "question": "Proficiency testing primarily evaluates:",
+    "options": [
+      "A. External laboratory performance",
+      "B. Employee attendance",
+      "C. Instrument age",
+      "D. Staffing ratios"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Proficiency testing assesses inter-laboratory performance and analytical accuracy against external peer benchmarks[cite: 18]."
+  },
+  {
+    "question": "A quality indicator is best defined as:",
+    "options": [
+      "A. A measurable performance metric",
+      "B. A reagent lot number",
+      "C. A calibrator value",
+      "D. A reference interval"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Quality indicators are quantitative metrics used to monitor operational quality across preanalytical, analytical, and postanalytical phases[cite: 18]."
+  },
+  {
+    "question": "Turnaround time is considered a:",
+    "options": [
+      "A. Quality metric",
+      "B. Safety event only",
+      "C. Calibration parameter",
+      "D. Molecular marker"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Turnaround Time (TAT) is a key laboratory service quality metric[cite: 18]."
+  },
+  {
+    "question": "The purpose of a corrective action is to:",
+    "options": [
+      "A. Address the cause of a problem",
+      "B. Ignore future risk",
+      "C. Replace preventive action entirely",
+      "D. Increase workload"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Corrective actions eliminate the root cause of an identified non-conformance or laboratory error to prevent recurrence[cite: 18]."
+  },
+  {
+    "question": "A root-cause analysis seeks to identify:",
+    "options": [
+      "A. The underlying cause of an event",
+      "B. Patient diagnosis only",
+      "C. Instrument manufacturer only",
+      "D. QC lot assignment"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Root Cause Analysis (RCA) is a structured problem-solving methodology designed to uncover the fundamental systemic failure behind an error[cite: 18]."
+  },
+  {
+    "question": "Lean methodology focuses primarily on:",
+    "options": [
+      "A. Eliminating waste and improving efficiency",
+      "B. Increasing inventory",
+      "C. Increasing test complexity",
+      "D. Reducing quality oversight"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Lean management principles optimize operational workflow by eliminating non-value-added steps (waste)[cite: 18]."
+  },
+  {
+    "question": "Six Sigma methodology focuses on:",
+    "options": [
+      "A. Process performance and defect reduction",
+      "B. Molecular diagnostics only",
+      "C. Reference interval studies only",
+      "D. Protein electrophoresis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Six Sigma aims to reduce process variation and eliminate analytical defects ($<3.4\\text{ defects per million opportunities}$)[cite: 18]."
+  },
+  {
+    "question": "The post-analytical phase includes:",
+    "options": [
+      "A. Specimen collection",
+      "B. Test interpretation and reporting",
+      "C. Calibration",
+      "D. Reagent preparation"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The post-analytical phase encompasses result verification, LIS transmission, physician reporting, critical value notification, and sample storage[cite: 18]."
+  },
+  {
+    "question": "The preanalytical phase is responsible for:",
+    "options": [
+      "A. The majority of laboratory errors",
+      "B. Few laboratory errors",
+      "C. Only instrument failures",
+      "D. Molecular contamination exclusively"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Preanalytical variables (ordering, patient identification, collection, transport, centrifugation) account for $60\\text{--}70\\%$ of total clinical laboratory errors[cite: 18]."
+  },
+  {
+    "question": "Specimen misidentification is considered:",
+    "options": [
+      "A. A critical patient safety issue",
+      "B. A minor analytical problem only",
+      "C. A calibration issue only",
+      "D. An unavoidable event"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Patient or specimen misidentification represents a critical preanalytical sentinel event[cite: 18]."
+  },
+  {
+    "question": "Laboratory accreditation is intended to:",
+    "options": [
+      "A. Promote quality and competence",
+      "B. Eliminate proficiency testing",
+      "C. Replace regulations",
+      "D. Reduce documentation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Accreditation (e.g., CAP, ISO 15189) evaluates and verifies a laboratory's adherence to quality management and competence standards[cite: 18]."
+  },
+  {
+    "question": "A competency assessment evaluates:",
+    "options": [
+      "A. Personnel ability to perform assigned duties",
+      "B. Method validation only",
+      "C. Reagent performance only",
+      "D. Instrument maintenance exclusively"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Regulatory competency assessment verifies that testing personnel maintain the technical skills required to produce accurate results[cite: 18]."
+  },
+  {
+    "question": "The analytical phase begins when:",
+    "options": [
+      "A. The test is performed on the specimen",
+      "B. The physician orders a test",
+      "C. Results are reported",
+      "D. Billing is completed"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The analytical phase starts when sample processing and testing are initiated on the instrument[cite: 18]."
+  },
+  {
+    "question": "An autoverification system is used to:",
+    "options": [
+      "A. Automatically release qualifying results",
+      "B. Eliminate QC review",
+      "C. Replace pathologists",
+      "D. Collect specimens"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Autoverification uses pre-programmed LIS logic to automatically validate and release patient results that meet all predefined criteria[cite: 18]."
+  },
+  {
+    "question": "Reflex testing occurs when:",
+    "options": [
+      "A. Additional testing is triggered by defined criteria",
+      "B. Testing is canceled automatically",
+      "C. Samples are rejected automatically",
+      "D. PT samples are analyzed"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Reflex testing automatically triggers secondary laboratory tests based on initial results (e.g., performing FT4 when TSH is abnormal)[cite: 18]."
+  },
+  {
+    "question": "Reference materials are important because they:",
+    "options": [
+      "A. Support traceability and standardization",
+      "B. Replace controls",
+      "C. Eliminate bias",
+      "D. Eliminate calibration"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Certified Reference Materials (CRMs) establish metrological traceability to anchor clinical assays to universal reference standards[cite: 18]."
+  },
+  {
+    "question": "Traceability in laboratory medicine means:",
+    "options": [
+      "A. Linking results to recognized references",
+      "B. Following patient location only",
+      "C. Tracking specimen volume only",
+      "D. Tracking reagent cost"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Metrological traceability connects a routine clinical result to higher-order reference measurement procedures or materials through an unbroken chain of calibrations[cite: 18]."
+  },
+  {
+    "question": "Medical decision limits differ from reference intervals because they:",
+    "options": [
+      "A. Are often outcome-based thresholds",
+      "B. Are identical concepts",
+      "C. Include only healthy individuals",
+      "D. Exclude clinical evidence"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Medical decision limits are actionable clinical thresholds derived from clinical outcomes or consensus guidelines (e.g., HbA1c $\\ge 6.5\\%$ for diabetes diagnosis) rather than healthy population statistical distributions[cite: 18]."
+  },
+  {
+    "question": "A false-positive result affects:",
+    "options": [
+      "A. Analytical specificity",
+      "B. Precision only",
+      "C. Turnaround time only",
+      "D. Calibration only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> False-positive results degrade diagnostic and analytical specificity[cite: 18]."
+  },
+  {
+    "question": "Analytical sensitivity describes:",
+    "options": [
+      "A. Ability to detect low analyte concentrations",
+      "B. Disease prevalence",
+      "C. Specificity only",
+      "D. Reference interval width"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Analytical sensitivity is the capacity of an assay to measure small differences or minimal concentrations of an analyte[cite: 18]."
+  },
+  {
+    "question": "Which process best ensures patient result comparability between laboratories?",
+    "options": [
+      "A. Method standardization and traceability",
+      "B. Different calibration systems",
+      "C. Different reporting units",
+      "D. Different reference materials"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Harmonization, method standardization, and metrological traceability ensure equivalent patient results across different clinical laboratories[cite: 18]."
+  },
+  {
+    "question": "Laboratory stewardship refers to:",
+    "options": [
+      "A. Appropriate utilization of laboratory testing",
+      "B. Instrument cleaning only",
+      "C. Reagent purchasing only",
+      "D. PT enrollment only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Laboratory stewardship encompasses clinical guidance, order-set optimization, and test utilization management to ensure the right test is performed for the right patient at the right time[cite: 18]."
+  },
+  {
+    "question": "One goal of utilization management is to:",
+    "options": [
+      "A. Reduce unnecessary testing",
+      "B. Increase duplicate testing",
+      "C. Eliminate testing access",
+      "D. Replace clinical judgment"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Test utilization management eliminates redundant, obsolete, or clinically inappropriate test ordering[cite: 18]."
+  },
+  {
+    "question": "A critical value is:",
+    "options": [
+      "A. A result requiring timely clinical notification",
+      "B. Any abnormal result",
+      "C. A QC failure",
+      "D. A PT challenge result"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Critical values represent life-threatening laboratory results that require immediate verbal notification to the responsible caregiver[cite: 18]."
+  },
+  {
+    "question": "The most important function of quality management is:",
+    "options": [
+      "A. Continuous improvement of patient care processes",
+      "B. Reducing all costs regardless of quality",
+      "C. Replacing regulation",
+      "D. Eliminating documentation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The core purpose of laboratory quality management is supporting clinical care through continuous process improvement[cite: 18]."
+  },
+  {
+    "question": "Laboratory-developed tests require:",
+    "options": [
+      "A. Appropriate validation before clinical use",
+      "B. No validation",
+      "C. No documentation",
+      "D. No quality monitoring"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Laboratory-Developed Tests (LDTs) must undergo analytical validation under CLIA regulations before patient reporting[cite: 18]."
+  },
+  {
+    "question": "The ultimate goal of the clinical laboratory is:",
+    "options": [
+      "A. Maximizing test volume",
+      "B. Supporting patient care with accurate and timely information",
+      "C. Increasing reagent consumption",
+      "D. Reporting results regardless of quality"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The primary mission of the clinical laboratory is providing accurate, precise, and timely analytical data to support patient care decisions[cite: 18]."
+  }
+]
