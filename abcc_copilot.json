@@ -8,28 +8,215 @@
       "D. Sensitivity"
     ],
     "correct": 1,
-    "explanation": "<b>Correct Answer: B.</b> Coefficient of variation (CV) is a measure of relative imprecision or repeatability/reproducibility of an assay. Bias reflects systematic error."
+    "explanation": "<b>Correct Answer: B.</b> Coefficient of variation (CV) is a measure of relative imprecision or repeatability/reproducibility of an assay[cite: 18]. Bias reflects systematic error."
   },
   {
-    "question": "The term \"trueness\" refers to:",
+    "question": "The mean of a QC material is $100\\text{ mg/dL}$ and the SD is $2\\text{ mg/dL}$. What is the $\\pm 2\\text{ SD}$ range?",
     "options": [
-      "A. Agreement with a reference value",
-      "B. Precision only",
-      "C. Reproducibility only",
-      "D. Detection limit"
+      "A. 96-104 mg/dL",
+      "B. 98-102 mg/dL",
+      "C. 94-106 mg/dL",
+      "D. 95-105 mg/dL"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Trueness expresses the closeness of agreement between the mean value obtained from a large series of test results and an accepted reference or true value."
+    "explanation": "<b>Correct Answer: A.</b> The $\\pm 2\\text{ SD}$ range is calculated as $\\text{Mean} \\pm (2 \\times \\text{SD}) = 100 \\pm (2 \\times 2) = 100 \\pm 4 = 96\\text{ to } 104\\text{ mg/dL}$."
   },
   {
-    "question": "Recovery studies are most useful for assessing:",
+    "question": "Which Westgard rule is violated when one control exceeds $+3\\text{ SD}$?",
+    "options": [
+      "A. $2_{2\\text{s}}$",
+      "B. $R_{4\\text{s}}$",
+      "C. $1_{3\\text{s}}$",
+      "D. $4_{1\\text{s}}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The $1_{3\\text{s}}$ rule is violated when a single quality control measurement exceeds the mean by more than $\\pm 3\\text{ SD}$."
+  },
+  {
+    "question": "Random analytical error primarily affects:",
     "options": [
       "A. Accuracy",
       "B. Precision",
-      "C. Specificity only",
-      "D. Turnaround time"
+      "C. Trueness",
+      "D. Calibration"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Random error affects measurement repeatability and scatter, which directly limits precision. Systematic error affects accuracy/trueness."
+  },
+  {
+    "question": "In a Gaussian distribution, approximately what percentage of observations fall within $\\pm 2\\text{ SD}$?",
+    "options": [
+      "A. 68%",
+      "B. 90%",
+      "C. 95%",
+      "D. 99.7%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> In a normal (Gaussian) distribution, $\\approx 68.2\\%$ fall within $\\pm 1\\text{ SD}$, $\\approx 95.4\\%$ fall within $\\pm 2\\text{ SD}$, and $\\approx 99.7\\%$ fall within $\\pm 3\\text{ SD}$."
+  },
+  {
+    "question": "A method comparison study commonly uses:",
+    "options": [
+      "A. Kaplan-Meier analysis",
+      "B. Deming regression",
+      "C. ANOVA only",
+      "D. Chi-square only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Deming or Passing-Bablok regression is used in method comparison studies because both methods are subject to analytical error."
+  },
+  {
+    "question": "The difference between an observed value and the true value is:",
+    "options": [
+      "A. Imprecision",
+      "B. Bias",
+      "C. CV",
+      "D. Variance"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Bias represents systematic error, defined as the difference between the observed mean and the true/reference value."
+  },
+  {
+    "question": "A Levey-Jennings chart is primarily used to monitor:",
+    "options": [
+      "A. Patient trends",
+      "B. Calibration curves",
+      "C. Quality control performance",
+      "D. Reference intervals"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Levey-Jennings control charts plot sequential QC values against predefined mean and SD limits to assess assay stability."
+  },
+  {
+    "question": "Sigma metrics incorporate:",
+    "options": [
+      "A. Mean and median only",
+      "B. TEa, bias, and CV",
+      "C. Bias only",
+      "D. TEa only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Sigma = (TEa - |Bias|) / CV, combining Total Allowable Error, systematic error, and imprecision."
+  },
+  {
+    "question": "The coefficient of variation is calculated as:",
+    "options": [
+      "A. $\\text{SD} / \\text{Mean} \\times 100$",
+      "B. $\\text{Mean} / \\text{SD} \\times 100$",
+      "C. $(\\text{SD} / \\text{Mean}) \\times 100$",
+      "D. $\\text{Variance} / \\text{Mean} \\times 100$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> %CV = (SD / Mean) × 100, the standard metric for assay precision and reproducibility."
+  },
+  {
+    "question": "A method has excellent precision but poor accuracy. This indicates:",
+    "options": [
+      "A. High random error only",
+      "B. High systematic error",
+      "C. No analytical error",
+      "D. Poor sensitivity"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Tight clustering with systematic shift away from true value indicates high systematic error/bias."
+  },
+  {
+    "question": "The 95th percentile reference interval includes:",
+    "options": [
+      "A. Central 68%",
+      "B. Central 90%",
+      "C. Central 95%",
+      "D. Central 99%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Standard reference intervals bound the central 95% of healthy population results."
+  },
+  {
+    "question": "Which parameter best reflects reproducibility?",
+    "options": [
+      "A. Mean",
+      "B. CV",
+      "C. Median",
+      "D. Recovery"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> CV standardizes SD relative to mean, providing the metric for precision and reproducibility."
+  },
+  {
+    "question": "The $R_{4\\text{s}}$ rule detects primarily:",
+    "options": [
+      "A. Systematic error",
+      "B. Random error",
+      "C. Calibration drift only",
+      "D. Matrix effects only"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $R_{4\\text{s}}$ is violated when difference between two control values exceeds $4\\text{ SD}$."
+  },
+  {
+    "question": "Analytical sensitivity refers to:",
+    "options": [
+      "A. Detection capability of low concentrations",
+      "B. Precision",
+      "C. Specificity",
+      "D. Accuracy"
     ],
     "correct": 0,
-    "explanation": "<b>Correct Answer: A.</b> Spiking studies evaluate analytical recovery (ability to accurately quantify a known added concentration) to detect proportional systematic error/bias."
+    "explanation": "<b>Correct Answer: A.</b> Analytical sensitivity is the capability to detect and distinguish small differences in analyte concentration."
+  },
+  {
+    "question": "The limit of detection is:",
+    "options": [
+      "A. Lowest concentration distinguishable from zero",
+      "B. Upper assay range",
+      "C. Reference interval lower limit",
+      "D. Calibration slope"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> LoD is the lowest analyte concentration reliably detected and distinguished from background/zero."
+  },
+  {
+    "question": "Carryover studies evaluate:",
+    "options": [
+      "A. Sample contamination between sequential specimens",
+      "B. Reference interval validity",
+      "C. Biological variation",
+      "D. QC stability"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Carryover studies test if residue from high-concentration samples affects subsequent low-concentration results."
+  },
+  {
+    "question": "Which statistic is most affected by extreme outliers?",
+    "options": [
+      "A. Median",
+      "B. Mode",
+      "C. Mean",
+      "D. Percentile"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The parametric mean includes all values in its sum, making it vulnerable to extreme outliers."
+  },
+  {
+    "question": "Linearity studies determine:",
+    "options": [
+      "A. Precision",
+      "B. Accuracy",
+      "C. Analytical measurement range",
+      "D. Specificity"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Linearity establishes boundaries over which signals are directly proportional to analyte concentration."
+  },
+  {
+    "question": "The CLSI EP09 guideline is associated with:",
+    "options": [
+      "A. Method comparison",
+      "B. Reference intervals",
+      "C. QC design",
+      "D. POCT"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CLSI EP09 governs method comparison studies using patient samples to estimate bias."
   }
 ]
