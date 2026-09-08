@@ -195,11 +195,89 @@
             opacity: 0.85;
             margin-bottom: 25px;
         }
+
+        /* 🎴 Deck Selection Styles */
+        .deck-selection-screen {
+            display: none;
+            text-align: center;
+        }
+
+        .deck-selection-screen h1 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 2rem;
+            color: #7c3aed;
+            margin-bottom: 10px;
+        }
+
+        .deck-selection-screen p {
+            font-size: 1.05rem;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+
+        .deck-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .deck-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .deck-card {
+            background: linear-gradient(135deg, #f5f3ff 0%, #faf7fc 100%);
+            border: 2px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px 20px;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 12px rgba(167, 139, 250, 0.08);
+        }
+
+        .deck-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--primary-color);
+            box-shadow: 0 8px 20px rgba(167, 139, 250, 0.15);
+            background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%);
+        }
+
+        .deck-card h3 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 1.2rem;
+            color: #7c3aed;
+            margin: 0 0 8px 0;
+        }
+
+        .deck-card p {
+            font-size: 0.9rem;
+            color: var(--text-color);
+            opacity: 0.75;
+            margin: 0;
+        }
+
+        .deck-count {
+            font-size: 0.85rem;
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-top: 12px;
+        }
     </style>
 </head>
 <body>
 
 <div class="quiz-container">
+    <!-- 🎴 Deck Selection Screen -->
+    <div id="deck-selection-screen" class="deck-selection-screen">
+        <h1>Clin Chem Review ✨</h1>
+        <p>Choose a deck to get started</p>
+        <div class="deck-grid" id="deck-grid"></div>
+    </div>
+
+    <!-- 📝 Quiz Screen -->
     <div id="quiz-screen">
         <div class="header">
             <h1>Clin Chem Review ✨</h1>
@@ -212,27 +290,42 @@
         <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next Question ➔</button>
     </div>
 
+    <!-- 🎯 Results Screen -->
     <div class="results-container" id="results-screen">
         <h2 id="results-title">Set Completed! 🎀</h2>
         <p id="final-score">You scored 0 out of 20.</p>
         <button class="next-btn" id="action-btn" style="display:block;" onclick="handleNextBatch()">Next Set of 20 ➔</button>
         <button class="next-btn" style="display:block; background:#f3e8ff; color:#6d28d9; box-shadow:none;" onclick="restartExam()">Restart from Set 1 🌸</button>
+        <button class="next-btn" style="display:block; background:#f3e8ff; color:#6d28d9; box-shadow:none;" onclick="backToDeckSelection()">Back to Deck Selection 📚</button>
     </div>
 </div>
 
 <script>
 const BATCH_SIZE = 20; // 20 questions per set
+
+// 📚 Define available decks
+const DECKS = [
+    { name: 'Practice Set 1', file: 'questions.json', emoji: '📖' },
+    { name: 'Practice Set 2', file: 'questions2.json', emoji: '📕' },
+    { name: 'Practice Set 3', file: 'questions3.json', emoji: '📗' },
+    { name: 'Practice Set 4', file: 'questions4.json', emoji: '📘' }
+];
+
 let allQuestions = [];
 let currentBatch = [];
 let batchIndex = 0;
 let currentQ = 0;
 let score = 0;
+let currentDeck = null;
 
 const questionText = document.getElementById('question-text');
 const optionsContainer = document.getElementById('options-container');
 const explanationBox = document.getElementById('explanation-box');
 const nextBtn = document.getElementById('next-btn');
 const progressEl = document.getElementById('progress');
+const deckSelectionScreen = document.getElementById('deck-selection-screen');
+const quizScreen = document.getElementById('quiz-screen');
+const resultsScreen = document.getElementById('results-screen');
 
 // 🔀 Fisher-Yates Shuffle Algorithm
 function shuffleArray(array) {
@@ -242,9 +335,33 @@ function shuffleArray(array) {
     }
 }
 
-async function fetchQuestions() {
+// Initialize deck selection screen
+function initializeDeckSelection() {
+    const deckGrid = document.getElementById('deck-grid');
+    deckGrid.innerHTML = '';
+
+    DECKS.forEach((deck) => {
+        const deckCard = document.createElement('div');
+        deckCard.className = 'deck-card';
+        deckCard.innerHTML = `
+            <h3>${deck.emoji} ${deck.name}</h3>
+            <p>Multiple choice questions</p>
+            <div class="deck-count">Click to start</div>
+        `;
+        deckCard.onclick = () => loadDeck(deck);
+        deckGrid.appendChild(deckCard);
+    });
+
+    deckSelectionScreen.style.display = 'block';
+    quizScreen.style.display = 'none';
+    resultsScreen.style.display = 'none';
+}
+
+// Load a specific deck
+async function loadDeck(deck) {
+    currentDeck = deck;
     try {
-        const response = await fetch('./questions.json?v=' + new Date().getTime());
+        const response = await fetch(`./${deck.file}?v=` + new Date().getTime());
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
         allQuestions = await response.json();
@@ -252,10 +369,12 @@ async function fetchQuestions() {
         // Randomly shuffle all questions upon loading
         shuffleArray(allQuestions);
         
+        deckSelectionScreen.style.display = 'none';
         startBatch(0);
     } catch (error) {
-        questionText.textContent = "Error loading questions.json. Ensure file exists in the repository root.";
+        questionText.textContent = `Error loading ${deck.file}. Ensure file exists in the repository root.`;
         console.error("Fetch Error:", error);
+        deckSelectionScreen.style.display = 'block';
     }
 }
 
@@ -272,8 +391,8 @@ function startBatch(index) {
 
     currentQ = 0;
     score = 0;
-    document.getElementById('results-screen').style.display = 'none';
-    document.getElementById('quiz-screen').style.display = 'block';
+    resultsScreen.style.display = 'none';
+    quizScreen.style.display = 'block';
     loadQuestion();
 }
 
@@ -340,8 +459,7 @@ function nextQuestion() {
 }
 
 function showBatchResults() {
-    document.getElementById('quiz-screen').style.display = 'none';
-    const resultsScreen = document.getElementById('results-screen');
+    quizScreen.style.display = 'none';
     resultsScreen.style.display = 'block';
     
     const percent = Math.round((score / currentBatch.length) * 100);
@@ -359,8 +477,7 @@ function showBatchResults() {
 }
 
 function showFinalBankCompletion() {
-    document.getElementById('quiz-screen').style.display = 'none';
-    const resultsScreen = document.getElementById('results-screen');
+    quizScreen.style.display = 'none';
     resultsScreen.style.display = 'block';
     document.getElementById('results-title').textContent = `All Sets Completed! 🌟`;
     document.getElementById('final-score').textContent = `You completed all ${allQuestions.length} questions in the question bank.`;
@@ -380,7 +497,12 @@ function restartExam() {
     startBatch(0);
 }
 
-fetchQuestions();
+function backToDeckSelection() {
+    initializeDeckSelection();
+}
+
+// Start with deck selection screen
+initializeDeckSelection();
 </script>
 </body>
 </html>
