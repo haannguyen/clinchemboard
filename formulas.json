@@ -1,0 +1,3226 @@
+[
+{
+  "question": "A patient has $\\text{Na}^+ = 140\\text{ mmol/L}$, $\\text{Cl}^- = 102\\text{ mmol/L}$, and $\\text{HCO}_3^- = 24\\text{ mmol/L}$. What is the anion gap?",
+  "options": [
+    "A. $10\\text{ mmol/L}$",
+    "B. $12\\text{ mmol/L}$",
+    "C. $14\\text{ mmol/L}$",
+    "D. $16\\text{ mmol/L}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> Anion Gap Formula: $$\\text{AG} = \\text{Na}^+ - (\\text{Cl}^- + \\text{HCO}_3^-)$$ $$\\text{AG} = 140 - (102 + 24) = 140 - 126 = 14\\text{ mmol/L}$$"
+},
+{
+  "question": "A patient has $\\text{Na}^+ = 138\\text{ mmol/L}$, $\\text{Cl}^- = 100\\text{ mmol/L}$, and $\\text{HCO}_3^- = 20\\text{ mmol/L}$. What is the anion gap?",
+  "options": [
+    "A. $12\\text{ mmol/L}$",
+    "B. $16\\text{ mmol/L}$",
+    "C. $18\\text{ mmol/L}$",
+    "D. $20\\text{ mmol/L}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> $$\\text{AG} = 138 - (100 + 20) = 138 - 120 = 18\\text{ mmol/L}$$"
+},
+{
+  "question": "A patient has $\\text{Na}^+ = 145\\text{ mmol/L}$, $\\text{Cl}^- = 108\\text{ mmol/L}$, and $\\text{HCO}_3^- = 25\\text{ mmol/L}$. What is the anion gap?",
+  "options": [
+    "A. $10\\text{ mmol/L}$",
+    "B. $12\\text{ mmol/L}$",
+    "C. $15\\text{ mmol/L}$",
+    "D. $18\\text{ mmol/L}$"
+  ],
+  "correct": 1,
+  "explanation": "<b>Correct Answer: B.</b> $$\\text{AG} = 145 - (108 + 25) = 145 - 133 = 12\\text{ mmol/L}$$"
+},
+{
+  "question": "A patient has $\\text{Na}^+ = 136\\text{ mmol/L}$, $\\text{Cl}^- = 95\\text{ mmol/L}$, and $\\text{HCO}_3^- = 18\\text{ mmol/L}$. What is the anion gap?",
+  "options": [
+    "A. $19\\text{ mmol/L}$",
+    "B. $21\\text{ mmol/L}$",
+    "C. $23\\text{ mmol/L}$",
+    "D. $25\\text{ mmol/L}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> $$\\text{AG} = 136 - (95 + 18) = 136 - 113 = 23\\text{ mmol/L}$$"
+},
+{
+  "question": "An anion gap of $24\\text{ mmol/L}$ is considered:",
+  "options": [
+    "A. Low",
+    "B. Normal",
+    "C. High",
+    "D. Impossible"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> The normal anion gap is approximately $8-12\\text{ mmol/L}$. A value of $24\\text{ mmol/L}$ is elevated."
+},
+{
+  "question": "A patient has a measured calcium of $8.0\\text{ mg/dL}$ and albumin of $3.0\\text{ g/dL}$. What is the corrected calcium?",
+  "options": [
+    "A. $8.4\\text{ mg/dL}$",
+    "B. $8.8\\text{ mg/dL}$",
+    "C. $9.2\\text{ mg/dL}$",
+    "D. $9.6\\text{ mg/dL}$"
+  ],
+  "correct": 1,
+  "explanation": "<b>Correct Answer: B.</b> Corrected Calcium Formula: $$\\text{Corrected Ca} = \\text{Measured Ca} + 0.8(4.0-\\text{Albumin})$$ $$=8.0+0.8(4.0-3.0)=8.0+0.8=8.8\\text{ mg/dL}$$"
+},
+{
+  "question": "A patient has a measured calcium of $7.5\\text{ mg/dL}$ and albumin of $2.5\\text{ g/dL}$. What is the corrected calcium?",
+  "options": [
+    "A. $8.3\\text{ mg/dL}$",
+    "B. $8.5\\text{ mg/dL}$",
+    "C. $8.7\\text{ mg/dL}$",
+    "D. $8.9\\text{ mg/dL}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> $$7.5+0.8(4.0-2.5)=7.5+1.2=8.7\\text{ mg/dL}$$"
+},
+{
+  "question": "A patient has a measured calcium of $9.0\\text{ mg/dL}$ and albumin of $4.0\\text{ g/dL}$. What is the corrected calcium?",
+  "options": [
+    "A. $8.2\\text{ mg/dL}$",
+    "B. $8.8\\text{ mg/dL}$",
+    "C. $9.0\\text{ mg/dL}$",
+    "D. $9.8\\text{ mg/dL}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> Albumin is normal. $$9.0+0.8(4.0-4.0)=9.0\\text{ mg/dL}$$"
+},
+{
+  "question": "A patient has a measured calcium of $8.2\\text{ mg/dL}$ and albumin of $3.2\\text{ g/dL}$. What is the corrected calcium?",
+  "options": [
+    "A. $8.6\\text{ mg/dL}$",
+    "B. $8.8\\text{ mg/dL}$",
+    "C. $9.0\\text{ mg/dL}$",
+    "D. $9.2\\text{ mg/dL}$"
+  ],
+  "correct": 1,
+  "explanation": "<b>Correct Answer: B.</b> $$8.2+0.8(4.0-3.2)=8.2+0.64=8.84\\text{ mg/dL}$$ Rounded to $8.8\\text{ mg/dL}$."
+},
+{
+  "question": "A patient has a measured calcium of $10.0\\text{ mg/dL}$ and albumin of $2.0\\text{ g/dL}$. What is the corrected calcium?",
+  "options": [
+    "A. $10.8\\text{ mg/dL}$",
+    "B. $11.2\\text{ mg/dL}$",
+    "C. $11.6\\text{ mg/dL}$",
+    "D. $12.0\\text{ mg/dL}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> $$10.0+0.8(4.0-2.0)=10.0+1.6=11.6\\text{ mg/dL}$$"
+},
+{
+  "question": "A patient has a pH of $7.40$ and bicarbonate of $24.4\\text{ mmol/L}$. What is the Base Excess?",
+  "options": [
+    "A. $-5\\text{ mmol/L}$",
+    "B. $-1\\text{ mmol/L}$",
+    "C. $0\\text{ mmol/L}$",
+    "D. $+5\\text{ mmol/L}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> Base Excess Formula: $$\\text{Base Excess}=0.93\\times([\\text{HCO}_3^-]-24.4+14.8(\\text{pH}-7.40))$$ $$=0.93(24.4-24.4+14.8(0))=0\\text{ mmol/L}$$"
+},
+{
+  "question": "A patient has a pH of $7.50$ and bicarbonate of $28\\text{ mmol/L}$. What is the approximate Base Excess?",
+  "options": [
+    "A. $-1\\text{ mmol/L}$",
+    "B. $+2\\text{ mmol/L}$",
+    "C. $+5\\text{ mmol/L}$",
+    "D. $+8\\text{ mmol/L}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> $$0.93\\times(28-24.4+14.8(0.10))$$ $$=0.93\\times5.08\\approx4.7\\text{ mmol/L}$$ Closest answer: $+5\\text{ mmol/L}$."
+},
+{
+  "question": "A patient has a pH of $7.30$ and bicarbonate of $20\\text{ mmol/L}$. What is the approximate Base Excess?",
+  "options": [
+    "A. $-5\\text{ mmol/L}$",
+    "B. $-1\\text{ mmol/L}$",
+    "C. $+1\\text{ mmol/L}$",
+    "D. $+5\\text{ mmol/L}$"
+  ],
+  "correct": 0,
+  "explanation": "<b>Correct Answer: A.</b> $$0.93\\times(20-24.4+14.8(-0.10))$$ $$=0.93\\times(-5.88)\\approx-5.5\\text{ mmol/L}$$"
+},
+{
+  "question": "A positive Base Excess generally indicates:",
+  "options": [
+    "A. Metabolic acidosis",
+    "B. Metabolic alkalosis",
+    "C. Respiratory acidosis",
+    "D. Respiratory failure"
+  ],
+  "correct": 1,
+  "explanation": "<b>Correct Answer: B.</b> Positive Base Excess reflects an excess of buffer base and is associated with metabolic alkalosis."
+},
+{
+  "question": "A negative Base Excess generally indicates:",
+  "options": [
+    "A. Metabolic alkalosis",
+    "B. Respiratory alkalosis",
+    "C. Metabolic acidosis",
+    "D. Hypercalcemia"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> Negative Base Excess reflects a deficit of buffer base and is associated with metabolic acidosis."
+},
+{
+  "question": "Using the Henderson-Hasselbalch equation, what is the bicarbonate concentration when pH = $7.10$ and $\\text{PCO}_2 = 40\\text{ mmHg}$?",
+  "options": [
+    "A. $12\\text{ mmol/L}$",
+    "B. $15\\text{ mmol/L}$",
+    "C. $18\\text{ mmol/L}$",
+    "D. $24\\text{ mmol/L}$"
+  ],
+  "correct": 0,
+  "explanation": "<b>Correct Answer: A.</b> $$[\\text{HCO}_3^-]=0.03\\times40\\times10^{(7.10-6.1)}$$ $$=1.2\\times10\\approx12\\text{ mmol/L}$$"
+},
+{
+  "question": "Using the Henderson-Hasselbalch equation, what is the bicarbonate concentration when pH = $7.40$ and $\\text{PCO}_2 = 40\\text{ mmHg}$?",
+  "options": [
+    "A. $18\\text{ mmol/L}$",
+    "B. $22\\text{ mmol/L}$",
+    "C. $24\\text{ mmol/L}$",
+    "D. $30\\text{ mmol/L}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> $$0.03\\times40\\times10^{1.3}\\approx24\\text{ mmol/L}$$"
+},
+{
+  "question": "Using the Henderson-Hasselbalch equation, what is the bicarbonate concentration when pH = $7.50$ and $\\text{PCO}_2 = 40\\text{ mmHg}$?",
+  "options": [
+    "A. $20\\text{ mmol/L}$",
+    "B. $24\\text{ mmol/L}$",
+    "C. $30\\text{ mmol/L}$",
+    "D. $40\\text{ mmol/L}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> $$0.03\\times40\\times10^{1.4}\\approx30\\text{ mmol/L}$$"
+},
+{
+  "question": "Using the Henderson-Hasselbalch equation, what is the bicarbonate concentration when pH = $7.40$ and $\\text{PCO}_2 = 50\\text{ mmHg}$?",
+  "options": [
+    "A. $18\\text{ mmol/L}$",
+    "B. $24\\text{ mmol/L}$",
+    "C. $30\\text{ mmol/L}$",
+    "D. $36\\text{ mmol/L}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> $$0.03\\times50\\times10^{1.3}\\approx30\\text{ mmol/L}$$"
+},
+{
+  "question": "Which variable is NOT directly used in the Henderson-Hasselbalch bicarbonate equation?",
+  "options": [
+    "A. pH",
+    "B. $\\text{PCO}_2$",
+    "C. Bicarbonate",
+    "D. Sodium"
+  ],
+  "correct": 3,
+  "explanation": "<b>Correct Answer: D.</b> The equation uses pH and $\\text{PCO}_2$ to calculate bicarbonate concentration. Sodium is not included."
+},
+{
+  "question": "A patient has a BUN of $10\\text{ mg/dL}$. What is the urea concentration?",
+  "options": [
+    "A. $10.7\\text{ mg/dL}$",
+    "B. $21.4\\text{ mg/dL}$",
+    "C. $25.0\\text{ mg/dL}$",
+    "D. $30.0\\text{ mg/dL}$"
+  ],
+  "correct": 1,
+  "explanation": "<b>Correct Answer: B.</b> Urea Formula: $$\\text{Urea}=\\text{BUN}\\times2.14$$ $$10\\times2.14=21.4\\text{ mg/dL}$$"
+},
+{
+  "question": "A patient has a BUN of $15\\text{ mg/dL}$. What is the urea concentration?",
+  "options": [
+    "A. $24.1\\text{ mg/dL}$",
+    "B. $28.2\\text{ mg/dL}$",
+    "C. $32.1\\text{ mg/dL}$",
+    "D. $36.5\\text{ mg/dL}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> $$15\\times2.14=32.1\\text{ mg/dL}$$"
+},
+{
+  "question": "A patient has a BUN of $20\\text{ mg/dL}$. What is the urea concentration?",
+  "options": [
+    "A. $32.8\\text{ mg/dL}$",
+    "B. $38.0\\text{ mg/dL}$",
+    "C. $42.8\\text{ mg/dL}$",
+    "D. $48.0\\text{ mg/dL}$"
+  ],
+  "correct": 2,
+  "explanation": "<b>Correct Answer: C.</b> $$20\\times2.14=42.8\\text{ mg/dL}$$"
+},
+{
+  "question": "A patient has a urea concentration of $42.8\\text{ mg/dL}$. What is the BUN?",
+  "options": [
+    "A. $15\\text{ mg/dL}$",
+    "B. $20\\text{ mg/dL}$",
+    "C. $25\\text{ mg/dL}$",
+    "D. $30\\text{ mg/dL}$"
+  ],
+  "correct": 1,
+  "explanation": "<b>Correct Answer: B.</b> $$\\text{BUN}=\\frac{\\text{Urea}}{2.14}=\\frac{42.8}{2.14}=20\\text{ mg/dL}$$"
+},
+{
+  "question": "What does BUN measure?",
+  "options": [
+    "A. Total urea molecules only",
+    "B. Urea nitrogen only",
+    "C. Creatinine and urea",
+    "D. Total serum nitrogen"
+  ],
+  "correct": 1,
+  "explanation": "<b>Correct Answer: B.</b> Blood Urea Nitrogen (BUN) measures only the nitrogen component of urea."
+},
+  {
+    "question": "What is the concentration in $\\text{mmol/L}$ of glucose (MW = $180\\text{ g/mol}$) when the measured concentration is $90\\text{ mg/dL}$?",
+    "options": [
+      "A. $4.0\\text{ mmol/L}$",
+      "B. $5.0\\text{ mmol/L}$",
+      "C. $6.0\\text{ mmol/L}$",
+      "D. $9.0\\text{ mmol/L}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Mass to Molar Conversion Formula: $$\\text{mmol/L}=\\frac{\\text{mg/dL}\\times10}{\\text{MW}}$$ $$=\\frac{90\\times10}{180}=\\frac{900}{180}=5.0\\text{ mmol/L}$$"
+  },
+  {
+    "question": "What is the concentration in $\\text{mmol/L}$ of calcium (MW = $40\\text{ g/mol}$) when the measured concentration is $8.0\\text{ mg/dL}$?",
+    "options": [
+      "A. $1.0\\text{ mmol/L}$",
+      "B. $1.5\\text{ mmol/L}$",
+      "C. $2.0\\text{ mmol/L}$",
+      "D. $2.5\\text{ mmol/L}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\text{mmol/L}=\\frac{8.0\\times10}{40}=2.0\\text{ mmol/L}$$"
+  },
+  {
+    "question": "What is the concentration in $\\text{mmol/L}$ of urea (MW = $60\\text{ g/mol}$) when the measured concentration is $30\\text{ mg/dL}$?",
+    "options": [
+      "A. $3.0\\text{ mmol/L}$",
+      "B. $4.0\\text{ mmol/L}$",
+      "C. $5.0\\text{ mmol/L}$",
+      "D. $6.0\\text{ mmol/L}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\text{mmol/L}=\\frac{30\\times10}{60}=5.0\\text{ mmol/L}$$"
+  },
+  {
+    "question": "A substance has a molecular weight of $200\\text{ g/mol}$ and a concentration of $100\\text{ mg/dL}$. What is the concentration in $\\text{mmol/L}$?",
+    "options": [
+      "A. $4\\text{ mmol/L}$",
+      "B. $5\\text{ mmol/L}$",
+      "C. $6\\text{ mmol/L}$",
+      "D. $8\\text{ mmol/L}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\text{mmol/L}=\\frac{100\\times10}{200}=5\\text{ mmol/L}$$"
+  },
+  {
+    "question": "Which value is required to convert from $\\text{mg/dL}$ to $\\text{mmol/L}$?",
+    "options": [
+      "A. Albumin",
+      "B. Hematocrit",
+      "C. Molecular Weight",
+      "D. Density"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Molecular weight is required in the formula $$\\text{mmol/L}=\\frac{\\text{mg/dL}\\times10}{\\text{MW}}$$."
+  },
+
+  {
+    "question": "A glucose concentration is $5.0\\text{ mmol/L}$. What is the equivalent concentration in $\\text{mg/dL}$ if the molecular weight is $180\\text{ g/mol}$?",
+    "options": [
+      "A. $72\\text{ mg/dL}$",
+      "B. $80\\text{ mg/dL}$",
+      "C. $90\\text{ mg/dL}$",
+      "D. $100\\text{ mg/dL}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Molar to Mass Conversion Formula: $$\\text{mg/dL}=\\frac{\\text{mmol/L}\\times\\text{MW}}{10}$$ $$=\\frac{5.0\\times180}{10}=90\\text{ mg/dL}$$"
+  },
+  {
+    "question": "A calcium concentration is $2.5\\text{ mmol/L}$. What is the equivalent concentration in $\\text{mg/dL}$ if MW = $40\\text{ g/mol}$?",
+    "options": [
+      "A. $8\\text{ mg/dL}$",
+      "B. $10\\text{ mg/dL}$",
+      "C. $12\\text{ mg/dL}$",
+      "D. $14\\text{ mg/dL}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\text{mg/dL}=\\frac{2.5\\times40}{10}=10\\text{ mg/dL}$$"
+  },
+  {
+    "question": "A urea concentration is $6.0\\text{ mmol/L}$ and MW = $60\\text{ g/mol}$. What is the concentration in $\\text{mg/dL}$?",
+    "options": [
+      "A. $24\\text{ mg/dL}$",
+      "B. $30\\text{ mg/dL}$",
+      "C. $36\\text{ mg/dL}$",
+      "D. $42\\text{ mg/dL}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\text{mg/dL}=\\frac{6.0\\times60}{10}=36\\text{ mg/dL}$$"
+  },
+  {
+    "question": "A substance with MW = $150\\text{ g/mol}$ has a concentration of $10\\text{ mmol/L}$. What is the equivalent concentration in $\\text{mg/dL}$?",
+    "options": [
+      "A. $100\\text{ mg/dL}$",
+      "B. $125\\text{ mg/dL}$",
+      "C. $150\\text{ mg/dL}$",
+      "D. $175\\text{ mg/dL}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\text{mg/dL}=\\frac{10\\times150}{10}=150\\text{ mg/dL}$$"
+  },
+  {
+    "question": "Which value is required to convert from $\\text{mmol/L}$ to $\\text{mg/dL}$?",
+    "options": [
+      "A. Molecular Weight",
+      "B. Sodium",
+      "C. Albumin",
+      "D. pH"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Molecular weight is required in the formula $$\\text{mg/dL}=\\frac{\\text{mmol/L}\\times\\text{MW}}{10}$$."
+  },
+
+  {
+    "question": "A patient has a total protein of $7.0\\text{ g/dL}$ and albumin of $4.0\\text{ g/dL}$. What is the globulin concentration?",
+    "options": [
+      "A. $2.0\\text{ g/dL}$",
+      "B. $3.0\\text{ g/dL}$",
+      "C. $4.0\\text{ g/dL}$",
+      "D. $5.0\\text{ g/dL}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Globulins Formula: $$\\text{Globulins}=\\text{Total Protein}-\\text{Albumin}$$ $$=7.0-4.0=3.0\\text{ g/dL}$$"
+  },
+  {
+    "question": "A patient has a total protein of $8.5\\text{ g/dL}$ and albumin of $3.5\\text{ g/dL}$. What is the globulin concentration?",
+    "options": [
+      "A. $4.0\\text{ g/dL}$",
+      "B. $4.5\\text{ g/dL}$",
+      "C. $5.0\\text{ g/dL}$",
+      "D. $5.5\\text{ g/dL}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$8.5-3.5=5.0\\text{ g/dL}$$"
+  },
+  {
+    "question": "A patient has a total protein of $6.8\\text{ g/dL}$ and albumin of $3.8\\text{ g/dL}$. What is the globulin concentration?",
+    "options": [
+      "A. $2.5\\text{ g/dL}$",
+      "B. $3.0\\text{ g/dL}$",
+      "C. $3.5\\text{ g/dL}$",
+      "D. $4.0\\text{ g/dL}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$6.8-3.8=3.0\\text{ g/dL}$$"
+  },
+  {
+    "question": "If total protein is $7.4\\text{ g/dL}$ and globulins are $3.2\\text{ g/dL}$, what is the albumin concentration?",
+    "options": [
+      "A. $3.8\\text{ g/dL}$",
+      "B. $4.0\\text{ g/dL}$",
+      "C. $4.2\\text{ g/dL}$",
+      "D. $4.4\\text{ g/dL}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\text{Albumin}=\\text{Total Protein}-\\text{Globulins}$$ $$=7.4-3.2=4.2\\text{ g/dL}$$"
+  },
+  {
+    "question": "Which laboratory values are needed to calculate globulins using the standard formula?",
+    "options": [
+      "A. Total Protein and Albumin",
+      "B. Albumin and Calcium",
+      "C. Albumin and Bilirubin",
+      "D. Total Protein and Sodium"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Globulins are calculated using $$\\text{Globulins}=\\text{Total Protein}-\\text{Albumin}$$."
+  },
+
+  {
+    "question": "A patient has a PT of $15\\text{ seconds}$, an MNPT of $12\\text{ seconds}$, and an ISI of $1.0$. What is the INR?",
+    "options": [
+      "A. 1.00",
+      "B. 1.25",
+      "C. 1.50",
+      "D. 2.00"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> INR Formula: $$\\text{INR}=\\left(\\frac{\\text{PT}_{patient}}{\\text{MNPT}}\\right)^{\\text{ISI}}$$ $$=\\left(\\frac{15}{12}\\right)^1=1.25$$"
+  },
+  {
+    "question": "A patient has a PT of $24\\text{ seconds}$, an MNPT of $12\\text{ seconds}$, and an ISI of $1.0$. What is the INR?",
+    "options": [
+      "A. 1.0",
+      "B. 1.5",
+      "C. 2.0",
+      "D. 2.5"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\left(\\frac{24}{12}\\right)^1=2.0$$"
+  },
+  {
+    "question": "A patient has a PT of $18\\text{ seconds}$, an MNPT of $12\\text{ seconds}$, and an ISI of $1.0$. What is the INR?",
+    "options": [
+      "A. 1.2",
+      "B. 1.5",
+      "C. 1.8",
+      "D. 2.0"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\left(\\frac{18}{12}\\right)^1=1.5$$"
+  },
+  {
+    "question": "A patient has a PT of $20\\text{ seconds}$, an MNPT of $10\\text{ seconds}$, and an ISI of $1.0$. What is the INR?",
+    "options": [
+      "A. 1.0",
+      "B. 1.5",
+      "C. 2.0",
+      "D. 2.5"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\left(\\frac{20}{10}\\right)^1=2.0$$"
+  },
+  {
+    "question": "Which parameter accounts for thromboplastin reagent sensitivity in the INR equation?",
+    "options": [
+      "A. PT",
+      "B. INR",
+      "C. ISI",
+      "D. MNPT"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> ISI (International Sensitivity Index) adjusts for reagent sensitivity differences."
+  },
+
+  {
+    "question": "According to the Friedewald equation, what is the calculated LDL cholesterol for a patient with Total Cholesterol = $220\\text{ mg/dL}$, HDL = $45\\text{ mg/dL}$, and Triglycerides = $200\\text{ mg/dL}$?",
+    "options": [
+      "A. $135\\text{ mg/dL}$",
+      "B. $175\\text{ mg/dL}$",
+      "C. $115\\text{ mg/dL}$",
+      "D. $95\\text{ mg/dL}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Friedewald Formula: $$\\text{LDL}=\\text{TC}-\\text{HDL}-\\left(\\frac{\\text{TG}}{5}\\right)$$ $$=220-45-(200/5)=220-45-40=135\\text{ mg/dL}$$"
+  },
+  {
+    "question": "A patient has Total Cholesterol = $180\\text{ mg/dL}$, HDL = $50\\text{ mg/dL}$, and Triglycerides = $100\\text{ mg/dL}$. What is the LDL cholesterol?",
+    "options": [
+      "A. $90\\text{ mg/dL}$",
+      "B. $100\\text{ mg/dL}$",
+      "C. $110\\text{ mg/dL}$",
+      "D. $120\\text{ mg/dL}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$180-50-(100/5)=180-50-20=110\\text{ mg/dL}$$"
+  },
+  {
+    "question": "A patient has Total Cholesterol = $240\\text{ mg/dL}$, HDL = $60\\text{ mg/dL}$, and Triglycerides = $150\\text{ mg/dL}$. What is the LDL cholesterol?",
+    "options": [
+      "A. $140\\text{ mg/dL}$",
+      "B. $150\\text{ mg/dL}$",
+      "C. $160\\text{ mg/dL}$",
+      "D. $170\\text{ mg/dL}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$240-60-(150/5)=240-60-30=150\\text{ mg/dL}$$"
+  },
+  {
+    "question": "A patient has Total Cholesterol = $200\\text{ mg/dL}$, HDL = $40\\text{ mg/dL}$, and Triglycerides = $250\\text{ mg/dL}$. What is the LDL cholesterol?",
+    "options": [
+      "A. $100\\text{ mg/dL}$",
+      "B. $110\\text{ mg/dL}$",
+      "C. $120\\text{ mg/dL}$",
+      "D. $130\\text{ mg/dL}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$200-40-(250/5)=200-40-50=110\\text{ mg/dL}$$"
+  },
+  {
+    "question": "According to the Friedewald equation, in which situation should LDL cholesterol NOT be calculated?",
+    "options": [
+      "A. HDL is less than $40\\text{ mg/dL}$",
+      "B. Total cholesterol is greater than $200\\text{ mg/dL}$",
+      "C. Triglycerides are greater than $400\\text{ mg/dL}$",
+      "D. LDL is greater than $130\\text{ mg/dL}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The Friedewald equation becomes unreliable when triglycerides exceed $400\\text{ mg/dL}$."
+  },
+  {
+    "question": "A patient has $\\text{Na} = 140\\text{ mmol/L}$, glucose = $90\\text{ mg/dL}$, and BUN = $14\\text{ mg/dL}$. What is the calculated osmolality?",
+    "options": [
+      "A. $280\\text{ mOsm/kg}$",
+      "B. $285\\text{ mOsm/kg}$",
+      "C. $290\\text{ mOsm/kg}$",
+      "D. $295\\text{ mOsm/kg}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Calculated Osmolality Formula: $$\\text{Osmolality}=2\\times\\text{Na}+\\frac{\\text{Glucose}}{18}+\\frac{\\text{BUN}}{2.8}$$ $$=2(140)+\\frac{90}{18}+\\frac{14}{2.8}=280+5+5=290\\text{ mOsm/kg}$$"
+  },
+  {
+    "question": "A patient has $\\text{Na} = 135\\text{ mmol/L}$, glucose = $180\\text{ mg/dL}$, and BUN = $28\\text{ mg/dL}$. What is the calculated osmolality?",
+    "options": [
+      "A. $285\\text{ mOsm/kg}$",
+      "B. $290\\text{ mOsm/kg}$",
+      "C. $295\\text{ mOsm/kg}$",
+      "D. $300\\text{ mOsm/kg}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$2(135)+\\frac{180}{18}+\\frac{28}{2.8}=270+10+10=290\\text{ mOsm/kg}$$"
+  },
+  {
+    "question": "A patient has $\\text{Na} = 145\\text{ mmol/L}$, glucose = $90\\text{ mg/dL}$, and BUN = $28\\text{ mg/dL}$. What is the calculated osmolality?",
+    "options": [
+      "A. $295\\text{ mOsm/kg}$",
+      "B. $300\\text{ mOsm/kg}$",
+      "C. $305\\text{ mOsm/kg}$",
+      "D. $310\\text{ mOsm/kg}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$2(145)+\\frac{90}{18}+\\frac{28}{2.8}=290+5+10=305\\text{ mOsm/kg}$$"
+  },
+  {
+    "question": "A patient has $\\text{Na} = 130\\text{ mmol/L}$, glucose = $360\\text{ mg/dL}$, and BUN = $28\\text{ mg/dL}$. What is the calculated osmolality?",
+    "options": [
+      "A. $280\\text{ mOsm/kg}$",
+      "B. $290\\text{ mOsm/kg}$",
+      "C. $300\\text{ mOsm/kg}$",
+      "D. $310\\text{ mOsm/kg}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$2(130)+\\frac{360}{18}+\\frac{28}{2.8}=260+20+10=290\\text{ mOsm/kg}$$"
+  },
+  {
+    "question": "Which laboratory values are required for the standard calculated osmolality formula?",
+    "options": [
+      "A. Sodium, Glucose, and BUN",
+      "B. Sodium, Potassium, and Creatinine",
+      "C. Glucose, Albumin, and Urea",
+      "D. Sodium, Calcium, and Creatinine"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The standard formula is $$\\text{Osmolality}=2\\times\\text{Na}+\\frac{\\text{Glucose}}{18}+\\frac{\\text{BUN}}{2.8}$$."
+  },
+
+  {
+    "question": "A patient has a measured osmolality of $320\\text{ mOsm/kg}$ and a calculated osmolality of $300\\text{ mOsm/kg}$. What is the osmolar gap?",
+    "options": [
+      "A. $10\\text{ mOsm/kg}$",
+      "B. $15\\text{ mOsm/kg}$",
+      "C. $20\\text{ mOsm/kg}$",
+      "D. $25\\text{ mOsm/kg}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Osmolar Gap Formula: $$\\text{Osmolar Gap}=\\text{Measured Osmolality}-\\text{Calculated Osmolality}$$ $$320-300=20\\text{ mOsm/kg}$$"
+  },
+  {
+    "question": "A patient has a measured osmolality of $295\\text{ mOsm/kg}$ and a calculated osmolality of $288\\text{ mOsm/kg}$. What is the osmolar gap?",
+    "options": [
+      "A. $5\\text{ mOsm/kg}$",
+      "B. $7\\text{ mOsm/kg}$",
+      "C. $9\\text{ mOsm/kg}$",
+      "D. $12\\text{ mOsm/kg}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$295-288=7\\text{ mOsm/kg}$$"
+  },
+  {
+    "question": "A patient has a measured osmolality of $310\\text{ mOsm/kg}$ and a calculated osmolality of $304\\text{ mOsm/kg}$. What is the osmolar gap?",
+    "options": [
+      "A. $4\\text{ mOsm/kg}$",
+      "B. $6\\text{ mOsm/kg}$",
+      "C. $8\\text{ mOsm/kg}$",
+      "D. $10\\text{ mOsm/kg}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$310-304=6\\text{ mOsm/kg}$$"
+  },
+  {
+    "question": "An osmolar gap of $25\\text{ mOsm/kg}$ is considered:",
+    "options": [
+      "A. Low",
+      "B. Normal",
+      "C. Elevated",
+      "D. Impossible"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> A normal osmolar gap is generally less than $10\\text{ mOsm/kg}$. A value of $25\\text{ mOsm/kg}$ is elevated."
+  },
+  {
+    "question": "What is the normal reference range for the osmolar gap?",
+    "options": [
+      "A. $<5\\text{ mOsm/kg}$",
+      "B. $<10\\text{ mOsm/kg}$",
+      "C. $<20\\text{ mOsm/kg}$",
+      "D. $<30\\text{ mOsm/kg}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The normal osmolar gap is typically less than $10\\text{ mOsm/kg}$."
+  },
+
+  {
+    "question": "A urine drug concentration is $500\\text{ ng/mL}$ and urine creatinine is $100\\text{ mg/dL}$. What is the normalized drug concentration?",
+    "options": [
+      "A. 2.5",
+      "B. 5",
+      "C. 10",
+      "D. 20"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Urine Drug Normalization Formula: $$\\text{Normalized Drug}=\\frac{\\text{Drug Concentration}}{\\text{Urine Creatinine}}$$ $$\\frac{500}{100}=5$$"
+  },
+  {
+    "question": "A urine drug concentration is $800\\text{ ng/mL}$ and urine creatinine is $200\\text{ mg/dL}$. What is the normalized drug concentration?",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{800}{200}=4$$"
+  },
+  {
+    "question": "A urine drug concentration is $1200\\text{ ng/mL}$ and urine creatinine is $150\\text{ mg/dL}$. What is the normalized drug concentration?",
+    "options": [
+      "A. 6",
+      "B. 8",
+      "C. 10",
+      "D. 12"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{1200}{150}=8$$"
+  },
+  {
+    "question": "A urine drug concentration is $300\\text{ ng/mL}$ and urine creatinine is $50\\text{ mg/dL}$. What is the normalized drug concentration?",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> $$\\frac{300}{50}=6$$"
+  },
+  {
+    "question": "Why are urine drug concentrations commonly normalized to urine creatinine?",
+    "options": [
+      "A. To correct for urine dilution",
+      "B. To calculate eGFR",
+      "C. To determine serum concentration",
+      "D. To estimate osmolality"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Normalization to urine creatinine helps account for variations in urine concentration and dilution."
+  },
+
+  {
+    "question": "A patient has urine creatinine = $100\\text{ mg/dL}$, urine flow = $1\\text{ mL/min}$, and plasma creatinine = $1\\text{ mg/dL}$. What is the creatinine clearance?",
+    "options": [
+      "A. $50\\text{ mL/min}$",
+      "B. $75\\text{ mL/min}$",
+      "C. $100\\text{ mL/min}$",
+      "D. $125\\text{ mL/min}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Creatinine Clearance Formula: $$\\text{CrCl}=\\frac{UCr\\times V}{PCr}$$ $$=\\frac{100\\times1}{1}=100\\text{ mL/min}$$"
+  },
+  {
+    "question": "A patient has urine creatinine = $120\\text{ mg/dL}$, urine flow = $1\\text{ mL/min}$, and plasma creatinine = $2\\text{ mg/dL}$. What is the creatinine clearance?",
+    "options": [
+      "A. $40\\text{ mL/min}$",
+      "B. $60\\text{ mL/min}$",
+      "C. $80\\text{ mL/min}$",
+      "D. $120\\text{ mL/min}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{120\\times1}{2}=60\\text{ mL/min}$$"
+  },
+  {
+    "question": "A patient has urine creatinine = $150\\text{ mg/dL}$, urine flow = $0.8\\text{ mL/min}$, and plasma creatinine = $1.2\\text{ mg/dL}$. What is the creatinine clearance?",
+    "options": [
+      "A. $80\\text{ mL/min}$",
+      "B. $100\\text{ mL/min}$",
+      "C. $120\\text{ mL/min}$",
+      "D. $140\\text{ mL/min}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{150\\times0.8}{1.2}=100\\text{ mL/min}$$"
+  },
+  {
+    "question": "Which variables are needed to calculate measured creatinine clearance?",
+    "options": [
+      "A. Serum creatinine only",
+      "B. Urine creatinine and plasma creatinine only",
+      "C. Urine creatinine, urine flow rate, and plasma creatinine",
+      "D. Age, sex, and weight"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The formula is $$\\text{CrCl}=\\frac{UCr\\times V}{PCr}$$."
+  },
+  {
+    "question": "If plasma creatinine increases while urine creatinine and urine flow remain constant, creatinine clearance will:",
+    "options": [
+      "A. Increase",
+      "B. Remain unchanged",
+      "C. Decrease",
+      "D. Double"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Plasma creatinine is in the denominator of the equation, so increasing it decreases creatinine clearance."
+  },
+
+  {
+    "question": "Using the Cockcroft-Gault equation, estimate creatinine clearance for a 60-year-old male weighing $80\\text{ kg}$ with a serum creatinine of $1.0\\text{ mg/dL}$.",
+    "options": [
+      "A. $78\\text{ mL/min}$",
+      "B. $89\\text{ mL/min}$",
+      "C. $96\\text{ mL/min}$",
+      "D. $105\\text{ mL/min}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Cockcroft-Gault Formula: $$\\text{CrCl}=\\frac{(140-\\text{Age})\\times\\text{Weight}}{72\\times\\text{SCr}}$$ $$=\\frac{(140-60)\\times80}{72\\times1.0}=\\frac{6400}{72}=88.9\\text{ mL/min}$$"
+  },
+  {
+    "question": "Using the Cockcroft-Gault equation, estimate creatinine clearance for a 50-year-old male weighing $70\\text{ kg}$ with a serum creatinine of $1.0\\text{ mg/dL}$.",
+    "options": [
+      "A. $78\\text{ mL/min}$",
+      "B. $88\\text{ mL/min}$",
+      "C. $97\\text{ mL/min}$",
+      "D. $108\\text{ mL/min}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{(140-50)\\times70}{72}=87.5\\text{ mL/min}$$ Closest answer: $88\\text{ mL/min}$. (Note: Choice B would be mathematically exact.)"
+  },
+  {
+    "question": "Using the Cockcroft-Gault equation, estimate creatinine clearance for a 65-year-old female weighing $60\\text{ kg}$ with a serum creatinine of $1.0\\text{ mg/dL}$.",
+    "options": [
+      "A. $53\\text{ mL/min}$",
+      "B. $62\\text{ mL/min}$",
+      "C. $71\\text{ mL/min}$",
+      "D. $80\\text{ mL/min}$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $$\\left(\\frac{(140-65)\\times60}{72}\\right)\\times0.85=53.1\\text{ mL/min}$$"
+  },
+  {
+    "question": "Which factor is applied in the Cockcroft-Gault equation for female patients?",
+    "options": [
+      "A. 0.75",
+      "B. 0.80",
+      "C. 0.85",
+      "D. 0.90"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The Cockcroft-Gault equation includes a correction factor of $0.85$ for females."
+  },
+  {
+    "question": "Which variables are required for the Cockcroft-Gault creatinine clearance equation?",
+    "options": [
+      "A. Age, Weight, Serum Creatinine, and Sex",
+      "B. Age, Albumin, and Serum Creatinine",
+      "C. Weight, Urine Creatinine, and Serum Creatinine",
+      "D. Age and eGFR only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The Cockcroft-Gault equation uses age, body weight, serum creatinine, and sex."
+  },
+  {
+    "question": "A patient has $500\\text{ mg}$ of drug in the body and a plasma concentration of $10\\text{ mg/L}$. What is the volume of distribution (Vd)?",
+    "options": [
+      "A. $25\\text{ L}$",
+      "B. $40\\text{ L}$",
+      "C. $50\\text{ L}$",
+      "D. $60\\text{ L}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Volume of Distribution Formula: $$V_d=\\frac{\\text{Amount of Drug in Body}}{\\text{Plasma Concentration}}$$ $$V_d=\\frac{500\\text{ mg}}{10\\text{ mg/L}}=50\\text{ L}$$"
+  },
+  {
+    "question": "A patient has $1000\\text{ mg}$ of drug in the body and a plasma concentration of $20\\text{ mg/L}$. What is the volume of distribution (Vd)?",
+    "options": [
+      "A. $25\\text{ L}$",
+      "B. $40\\text{ L}$",
+      "C. $50\\text{ L}$",
+      "D. $75\\text{ L}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$V_d=\\frac{1000}{20}=50\\text{ L}$$"
+  },
+  {
+    "question": "A patient has $750\\text{ mg}$ of drug in the body and a plasma concentration of $15\\text{ mg/L}$. What is the volume of distribution (Vd)?",
+    "options": [
+      "A. $40\\text{ L}$",
+      "B. $50\\text{ L}$",
+      "C. $60\\text{ L}$",
+      "D. $70\\text{ L}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$V_d=\\frac{750}{15}=50\\text{ L}$$"
+  },
+  {
+    "question": "A patient has $300\\text{ mg}$ of drug in the body and a plasma concentration of $6\\text{ mg/L}$. What is the volume of distribution (Vd)?",
+    "options": [
+      "A. $30\\text{ L}$",
+      "B. $40\\text{ L}$",
+      "C. $50\\text{ L}$",
+      "D. $60\\text{ L}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$V_d=\\frac{300}{6}=50\\text{ L}$$"
+  },
+  {
+    "question": "Which variables are required to calculate volume of distribution (Vd)?",
+    "options": [
+      "A. Clearance and Half-Life",
+      "B. Amount of Drug in Body and Plasma Concentration",
+      "C. Weight and Age",
+      "D. Dose and Bioavailability"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$V_d=\\frac{\\text{Amount of Drug in Body}}{\\text{Plasma Concentration}}$$"
+  },
+
+  {
+    "question": "A drug has a clearance of $5\\text{ L/hr}$ and a target concentration of $10\\text{ mg/L}$. What is the maintenance dose rate?",
+    "options": [
+      "A. $25\\text{ mg/hr}$",
+      "B. $40\\text{ mg/hr}$",
+      "C. $50\\text{ mg/hr}$",
+      "D. $75\\text{ mg/hr}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Dose Rate Formula: $$\\text{Dose Rate}=\\text{Clearance}\\times\\text{Target Concentration}$$ $$=5\\times10=50\\text{ mg/hr}$$"
+  },
+  {
+    "question": "A drug has a clearance of $8\\text{ L/hr}$ and a target concentration of $15\\text{ mg/L}$. What is the maintenance dose rate?",
+    "options": [
+      "A. $80\\text{ mg/hr}$",
+      "B. $100\\text{ mg/hr}$",
+      "C. $120\\text{ mg/hr}$",
+      "D. $140\\text{ mg/hr}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$8\\times15=120\\text{ mg/hr}$$"
+  },
+  {
+    "question": "A drug has a clearance of $4\\text{ L/hr}$ and a target concentration of $25\\text{ mg/L}$. What is the maintenance dose rate?",
+    "options": [
+      "A. $75\\text{ mg/hr}$",
+      "B. $100\\text{ mg/hr}$",
+      "C. $125\\text{ mg/hr}$",
+      "D. $150\\text{ mg/hr}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$4\\times25=100\\text{ mg/hr}$$"
+  },
+  {
+    "question": "A drug has a clearance of $2\\text{ L/hr}$ and a target concentration of $30\\text{ mg/L}$. What is the maintenance dose rate?",
+    "options": [
+      "A. $40\\text{ mg/hr}$",
+      "B. $50\\text{ mg/hr}$",
+      "C. $60\\text{ mg/hr}$",
+      "D. $70\\text{ mg/hr}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$2\\times30=60\\text{ mg/hr}$$"
+  },
+  {
+    "question": "Which variables are required to calculate maintenance dose rate?",
+    "options": [
+      "A. Clearance and Target Concentration",
+      "B. Weight and Age",
+      "C. Dose and Bioavailability",
+      "D. Half-Life and Volume of Distribution"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $$\\text{Dose Rate}=\\text{Clearance}\\times\\text{Target Concentration}$$"
+  },
+
+  {
+    "question": "A drug has a clearance of $5\\text{ L/hr}$, target steady-state concentration ($C_{ss}$) of $10\\text{ mg/L}$, dosing interval ($\\tau$) of $12\\text{ hr}$, and bioavailability ($F$) of 1. What is the maintenance dose?",
+    "options": [
+      "A. $300\\text{ mg}$",
+      "B. $500\\text{ mg}$",
+      "C. $600\\text{ mg}$",
+      "D. $800\\text{ mg}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Maintenance Dose Formula: $$MD=\\frac{Cl\\times C_{ss}\\times\\tau}{F}$$ $$=\\frac{5\\times10\\times12}{1}=600\\text{ mg}$$"
+  },
+  {
+    "question": "A drug has a clearance of $4\\text{ L/hr}$, $C_{ss}=20\\text{ mg/L}$, dosing interval $\\tau=12\\text{ hr}$, and $F=1$. What is the maintenance dose?",
+    "options": [
+      "A. $720\\text{ mg}$",
+      "B. $840\\text{ mg}$",
+      "C. $960\\text{ mg}$",
+      "D. $1080\\text{ mg}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{4\\times20\\times12}{1}=960\\text{ mg}$$"
+  },
+  {
+    "question": "A drug has a clearance of $3\\text{ L/hr}$, $C_{ss}=15\\text{ mg/L}$, dosing interval $\\tau=8\\text{ hr}$, and $F=0.75$. What is the maintenance dose?",
+    "options": [
+      "A. $360\\text{ mg}$",
+      "B. $420\\text{ mg}$",
+      "C. $480\\text{ mg}$",
+      "D. $600\\text{ mg}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{3\\times15\\times8}{0.75}=480\\text{ mg}$$"
+  },
+  {
+    "question": "A drug has a clearance of $6\\text{ L/hr}$, $C_{ss}=5\\text{ mg/L}$, dosing interval $\\tau=24\\text{ hr}$, and $F=1$. What is the maintenance dose?",
+    "options": [
+      "A. $600\\text{ mg}$",
+      "B. $720\\text{ mg}$",
+      "C. $840\\text{ mg}$",
+      "D. $960\\text{ mg}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{6\\times5\\times24}{1}=720\\text{ mg}$$"
+  },
+  {
+    "question": "Which factor in the maintenance dose equation accounts for incomplete absorption of an oral medication?",
+    "options": [
+      "A. Clearance",
+      "B. Dosing Interval",
+      "C. Bioavailability (F)",
+      "D. Steady-State Concentration"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Bioavailability ($F$) corrects for the fraction of drug reaching the systemic circulation."
+  },
+
+  {
+    "question": "A drug has a half-life of $8\\text{ hr}$. Approximately how long will it take to reach steady state?",
+    "options": [
+      "A. $8\\text{ hr}$",
+      "B. $16\\text{ hr}$",
+      "C. $24\\text{ hr}$",
+      "D. $32-40\\text{ hr}$"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> Time to Steady State is approximately $$4-5\\times t_{1/2}$$ $$=4-5\\times8=32-40\\text{ hr}$$"
+  },
+  {
+    "question": "A drug has a half-life of $12\\text{ hr}$. Approximately how long will it take to reach steady state?",
+    "options": [
+      "A. $24\\text{ hr}$",
+      "B. $36\\text{ hr}$",
+      "C. $48-60\\text{ hr}$",
+      "D. $72-84\\text{ hr}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$4-5\\times12=48-60\\text{ hr}$$"
+  },
+  {
+    "question": "A drug has a half-life of $6\\text{ hr}$. Approximately how long will it take to reach steady state?",
+    "options": [
+      "A. $12-18\\text{ hr}$",
+      "B. $24-30\\text{ hr}$",
+      "C. $36-42\\text{ hr}$",
+      "D. $48-54\\text{ hr}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$4-5\\times6=24-30\\text{ hr}$$"
+  },
+  {
+    "question": "A drug has a half-life of $20\\text{ hr}$. Approximately how long will it take to reach steady state?",
+    "options": [
+      "A. $40-60\\text{ hr}$",
+      "B. $60-80\\text{ hr}$",
+      "C. $80-100\\text{ hr}$",
+      "D. $120-140\\text{ hr}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$4-5\\times20=80-100\\text{ hr}$$"
+  },
+  {
+    "question": "Approximately what percentage of steady state is achieved after 4 to 5 half-lives?",
+    "options": [
+      "A. 50%",
+      "B. 75%",
+      "C. 95-97%",
+      "D. 100%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> After approximately 4 to 5 half-lives, a drug reaches about 95% to 97% of steady state."
+  },
+
+  {
+    "question": "A drug has an elimination rate constant ($k$) of $0.1\\text{ hr}^{-1}$. What is the half-life?",
+    "options": [
+      "A. $3.5\\text{ hr}$",
+      "B. $6.9\\text{ hr}$",
+      "C. $9.5\\text{ hr}$",
+      "D. $12\\text{ hr}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Half-Life Formula: $$t_{1/2}=\\frac{0.693}{k}$$ $$=\\frac{0.693}{0.1}=6.93\\text{ hr}$$"
+  },
+  {
+    "question": "A drug has an elimination rate constant ($k$) of $0.2\\text{ hr}^{-1}$. What is the half-life?",
+    "options": [
+      "A. $2.5\\text{ hr}$",
+      "B. $3.5\\text{ hr}$",
+      "C. $4.5\\text{ hr}$",
+      "D. $6.9\\text{ hr}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{0.693}{0.2}=3.47\\text{ hr}$$"
+  },
+  {
+    "question": "A drug has an elimination rate constant ($k$) of $0.05\\text{ hr}^{-1}$. What is the half-life?",
+    "options": [
+      "A. $6.9\\text{ hr}$",
+      "B. $10\\text{ hr}$",
+      "C. $13.9\\text{ hr}$",
+      "D. $18\\text{ hr}$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{0.693}{0.05}=13.86\\text{ hr}$$"
+  },
+  {
+    "question": "If the elimination rate constant doubles, the half-life will:",
+    "options": [
+      "A. Double",
+      "B. Remain unchanged",
+      "C. Be cut in half",
+      "D. Increase four-fold"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Half-life is inversely proportional to the elimination rate constant."
+  },
+  {
+    "question": "Which variable is required to calculate half-life using the equation $t_{1/2}=0.693/k$?",
+    "options": [
+      "A. Clearance",
+      "B. Volume of Distribution",
+      "C. Elimination Rate Constant",
+      "D. Bioavailability"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The equation requires only the elimination rate constant ($k$)."
+  },
+
+  {
+    "question": "A drug has a volume of distribution of $50\\text{ L}$ and clearance of $5\\text{ L/hr}$. What is the half-life?",
+    "options": [
+      "A. $4.9\\text{ hr}$",
+      "B. $6.9\\text{ hr}$",
+      "C. $8.9\\text{ hr}$",
+      "D. $10\\text{ hr}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Half-Life Formula: $$t_{1/2}=\\frac{0.693\\times V_d}{Cl}$$ $$=\\frac{0.693\\times50}{5}=6.93\\text{ hr}$$"
+  },
+  {
+    "question": "A drug has a volume of distribution of $100\\text{ L}$ and clearance of $10\\text{ L/hr}$. What is the half-life?",
+    "options": [
+      "A. $4.9\\text{ hr}$",
+      "B. $6.9\\text{ hr}$",
+      "C. $8.9\\text{ hr}$",
+      "D. $10\\text{ hr}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{0.693\\times100}{10}=6.93\\text{ hr}$$"
+  },
+  {
+    "question": "A drug has a volume of distribution of $80\\text{ L}$ and clearance of $8\\text{ L/hr}$. What is the half-life?",
+    "options": [
+      "A. $5.9\\text{ hr}$",
+      "B. $6.9\\text{ hr}$",
+      "C. $7.9\\text{ hr}$",
+      "D. $8.9\\text{ hr}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{0.693\\times80}{8}=6.93\\text{ hr}$$"
+  },
+  {
+    "question": "If volume of distribution increases while clearance remains constant, half-life will:",
+    "options": [
+      "A. Increase",
+      "B. Decrease",
+      "C. Remain unchanged",
+      "D. Become zero"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Half-life is directly proportional to volume of distribution."
+  },
+  {
+    "question": "If clearance doubles while volume of distribution remains constant, half-life will:",
+    "options": [
+      "A. Double",
+      "B. Increase slightly",
+      "C. Remain unchanged",
+      "D. Be cut in half"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> Half-life is inversely proportional to clearance according to $$t_{1/2}=\\frac{0.693\\times V_d}{Cl}$$."
+  },
+
+  {
+    "question": "What is the mean of the dataset: $\\{2, 4, 6, 8, 10\\}$?",
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 6",
+      "D. 7"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Mean Formula: $$\\bar{x}=\\frac{\\sum x_i}{n}$$ $$\\bar{x}=\\frac{2+4+6+8+10}{5}=\\frac{30}{5}=6$$"
+  },
+  {
+    "question": "What is the mean of the dataset: $\\{5, 10, 15, 20\\}$?",
+    "options": [
+      "A. 10",
+      "B. 12.5",
+      "C. 15",
+      "D. 17.5"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\bar{x}=\\frac{5+10+15+20}{4}=\\frac{50}{4}=12.5$$"
+  },
+  {
+    "question": "What is the mean of the dataset: $\\{1, 3, 5, 7, 9\\}$?",
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 6",
+      "D. 7"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\bar{x}=\\frac{1+3+5+7+9}{5}=\\frac{25}{5}=5$$"
+  },
+  {
+    "question": "A laboratory obtains the values $\\{90, 95, 100, 105, 110\\}$. What is the mean result?",
+    "options": [
+      "A. 98",
+      "B. 99",
+      "C. 100",
+      "D. 101"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\bar{x}=\\frac{90+95+100+105+110}{5}=\\frac{500}{5}=100$$"
+  },
+  {
+    "question": "The mean is best described as:",
+    "options": [
+      "A. The middle value",
+      "B. The most common value",
+      "C. A measure of central tendency obtained by averaging observations",
+      "D. A measure of spread"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The mean is calculated by dividing the sum of all observations by the number of observations."
+  },
+
+  {
+    "question": "What is the median of the ordered dataset $\\{1, 3, 5, 7, 9\\}$?",
+    "options": [
+      "A. 3",
+      "B. 5",
+      "C. 7",
+      "D. 9"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The median is the middle value of an ordered dataset. The middle observation is 5."
+  },
+  {
+    "question": "What is the median of the ordered dataset $\\{2, 4, 6, 8, 10, 12\\}$?",
+    "options": [
+      "A. 6",
+      "B. 7",
+      "C. 8",
+      "D. 9"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> With an even number of observations, the median is the average of the two middle values: $$\\frac{6+8}{2}=7$$"
+  },
+  {
+    "question": "What is the median of the dataset $\\{5, 1, 9, 3, 7\\}$?",
+    "options": [
+      "A. 3",
+      "B. 5",
+      "C. 7",
+      "D. 9"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Ordered dataset: $$\\{1,3,5,7,9\\}$$ The middle value is 5."
+  },
+  {
+    "question": "Which measure of central tendency is least affected by extreme outliers?",
+    "options": [
+      "A. Mean",
+      "B. Median",
+      "C. Standard Deviation",
+      "D. Coefficient of Variation"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The median is more resistant to the influence of extreme values than the mean."
+  },
+  {
+    "question": "What is the median of $\\{10, 20, 30, 40, 50, 60, 70\\}$?",
+    "options": [
+      "A. 30",
+      "B. 35",
+      "C. 40",
+      "D. 45"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The fourth (middle) observation in the ordered dataset is 40."
+  },
+
+  {
+    "question": "What is the mode of the dataset $\\{1, 2, 2, 3, 4\\}$?",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The mode is the most frequently occurring value. The value 2 occurs twice."
+  },
+  {
+    "question": "What is the mode of the dataset $\\{5, 5, 6, 7, 7, 7, 8\\}$?",
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 7",
+      "D. 8"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The value 7 occurs three times, more than any other value."
+  },
+  {
+    "question": "What is the mode of the dataset $\\{10, 20, 20, 30, 30\\}$?",
+    "options": [
+      "A. 10",
+      "B. 20",
+      "C. 30",
+      "D. Both 20 and 30"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> Both 20 and 30 occur twice, making this dataset bimodal."
+  },
+  {
+    "question": "The mode is best defined as:",
+    "options": [
+      "A. The middle value",
+      "B. The average value",
+      "C. The most frequent value",
+      "D. The range of values"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Mode identifies the most common observation in a dataset."
+  },
+  {
+    "question": "What is the mode of the dataset $\\{3, 3, 3, 5, 7, 8\\}$?",
+    "options": [
+      "A. 3",
+      "B. 5",
+      "C. 7",
+      "D. 8"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The value 3 occurs three times and is the most frequent value."
+  },
+
+  {
+    "question": "A dataset has values $\\{9, 10, 11\\}$. What is the sample standard deviation?",
+    "options": [
+      "A. 0.5",
+      "B. 1.0",
+      "C. 1.5",
+      "D. 2.0"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Mean = 10. $$SD=\\sqrt{\\frac{(9-10)^2+(10-10)^2+(11-10)^2}{3-1}}=\\sqrt{\\frac{2}{2}}=1.0$$"
+  },
+  {
+    "question": "What is the standard deviation of the dataset $\\{5,5,5,5\\}$?",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. Cannot be determined"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> All values are identical, so there is no variability and the SD equals zero."
+  },
+  {
+    "question": "Standard deviation primarily measures:",
+    "options": [
+      "A. Central tendency",
+      "B. Frequency",
+      "C. Spread or dispersion",
+      "D. Accuracy"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Standard deviation quantifies the spread of observations around the mean."
+  },
+  {
+    "question": "A larger standard deviation indicates:",
+    "options": [
+      "A. Less variability",
+      "B. Greater variability",
+      "C. Lower mean",
+      "D. Higher accuracy"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Larger standard deviations indicate that observations are more dispersed around the mean."
+  },
+  {
+    "question": "Which of the following datasets has the smallest standard deviation?",
+    "options": [
+      "A. $\\{1, 5, 9\\}$",
+      "B. $\\{10, 10, 10\\}$",
+      "C. $\\{2, 4, 6\\}$",
+      "D. $\\{7, 8, 9\\}$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> There is no variation in the dataset, therefore SD = 0."
+  },
+
+  {
+    "question": "A laboratory method has a mean of $100$ and a standard deviation of $2$. What is the coefficient of variation (CV)?",
+    "options": [
+      "A. 1%",
+      "B. 2%",
+      "C. 3%",
+      "D. 5%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> CV Formula: $$CV=\\frac{SD}{Mean}\\times100\\%$$ $$CV=\\frac{2}{100}\\times100\\%=2\\%$$"
+  },
+  {
+    "question": "A method has a mean of $50$ and a standard deviation of $5$. What is the CV?",
+    "options": [
+      "A. 5%",
+      "B. 8%",
+      "C. 10%",
+      "D. 15%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$CV=\\frac{5}{50}\\times100\\%=10\\%$$"
+  },
+  {
+    "question": "A method has a mean of $200$ and a standard deviation of $4$. What is the CV?",
+    "options": [
+      "A. 1%",
+      "B. 2%",
+      "C. 3%",
+      "D. 4%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$CV=\\frac{4}{200}\\times100\\%=2\\%$$"
+  },
+  {
+    "question": "The coefficient of variation is commonly used to assess:",
+    "options": [
+      "A. Relative imprecision",
+      "B. Accuracy bias",
+      "C. Reference intervals",
+      "D. Sensitivity"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CV expresses variability relative to the mean and is a measure of imprecision."
+  },
+  {
+    "question": "Two assays have the same standard deviation, but one has a much larger mean. Which assay will have the lower CV?",
+    "options": [
+      "A. The assay with the larger mean",
+      "B. The assay with the smaller mean",
+      "C. Both will have the same CV",
+      "D. Cannot be determined"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Since $$CV=\\frac{SD}{Mean}\\times100\\%$$ a larger mean results in a lower CV when SD is unchanged."
+  },
+
+  {
+    "question": "A laboratory result is $105$, the peer group mean is $100$, and the peer group SD is $2$. What is the Standard Deviation Index (SDI)?",
+    "options": [
+      "A. 1.5",
+      "B. 2.0",
+      "C. 2.5",
+      "D. 5.0"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> SDI Formula: $$SDI=\\frac{Lab-Peer\\ Mean}{Peer\\ SD}$$ $$SDI=\\frac{105-100}{2}=2.5$$"
+  },
+  {
+    "question": "A laboratory result is $95$, the peer group mean is $100$, and the peer group SD is $5$. What is the SDI?",
+    "options": [
+      "A. -2.0",
+      "B. -1.0",
+      "C. 1.0",
+      "D. 2.0"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$SDI=\\frac{95-100}{5}=-1.0$$"
+  },
+  {
+    "question": "A laboratory result is $110$, the peer group mean is $100$, and the peer group SD is $10$. What is the SDI?",
+    "options": [
+      "A. 0.5",
+      "B. 1.0",
+      "C. 1.5",
+      "D. 2.0"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$SDI=\\frac{110-100}{10}=1.0$$"
+  },
+  {
+    "question": "An SDI of 0 indicates:",
+    "options": [
+      "A. The laboratory result is above the peer mean",
+      "B. The laboratory result is below the peer mean",
+      "C. The laboratory result equals the peer mean",
+      "D. The peer SD is zero"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> An SDI of zero means the laboratory result is exactly equal to the peer group mean."
+  },
+  {
+    "question": "Standard Deviation Index (SDI) is primarily used in:",
+    "options": [
+      "A. Reference interval studies",
+      "B. Therapeutic drug monitoring",
+      "C. Proficiency testing",
+      "D. Method validation only"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> SDI is commonly used in proficiency testing to compare laboratory performance against peer laboratories."
+  },
+
+  {
+    "question": "A study has a mean of $100$, SD of $10$, and sample size of $25$. What is the 95% confidence interval?",
+    "options": [
+      "A. $100 \\pm 1.96$",
+      "B. $100 \\pm 2.96$",
+      "C. $100 \\pm 3.92$",
+      "D. $100 \\pm 5.00$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> 95% CI Formula: $$\\bar{x}\\pm1.96\\times\\frac{SD}{\\sqrt{n}}$$ $$100\\pm1.96\\times\\frac{10}{\\sqrt{25}}$$ $$100\\pm1.96\\times2=100\\pm3.92$$"
+  },
+  {
+    "question": "A study has a mean of $50$, SD of $8$, and sample size of $16$. What is the 95% confidence interval?",
+    "options": [
+      "A. $50 \\pm 2.92$",
+      "B. $50 \\pm 3.92$",
+      "C. $50 \\pm 4.92$",
+      "D. $50 \\pm 5.92$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$50\\pm1.96\\times\\frac{8}{\\sqrt{16}}$$ $$50\\pm1.96\\times2$$ $$50\\pm3.92$$"
+  },
+  {
+    "question": "A study has a mean of $120$, SD of $15$, and sample size of $100$. What is the 95% confidence interval?",
+    "options": [
+      "A. $120 \\pm 2.94$",
+      "B. $120 \\pm 3.94$",
+      "C. $120 \\pm 4.94$",
+      "D. $120 \\pm 5.94$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> $$120\\pm1.96\\times\\frac{15}{10}$$ $$120\\pm2.94$$"
+  },
+  {
+    "question": "Increasing the sample size while keeping the mean and SD constant will have what effect on the 95% confidence interval?",
+    "options": [
+      "A. Make it wider",
+      "B. Make it narrower",
+      "C. No effect",
+      "D. Double its width"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> As sample size increases, $$\\frac{SD}{\\sqrt{n}}$$ decreases, making the confidence interval narrower."
+  },
+  {
+    "question": "The value 1.96 in the 95% confidence interval formula represents:",
+    "options": [
+      "A. Standard deviation",
+      "B. Standard error",
+      "C. Z-score for 95% confidence",
+      "D. Sample size correction"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> A z-score of 1.96 captures approximately 95% of values in a normal distribution."
+  },
+
+  {
+    "question": "A laboratory obtains QC results of $\\{98, 100, 102, 100, 100\\}$. What is the QC target mean?",
+    "options": [
+      "A. 99",
+      "B. 100",
+      "C. 101",
+      "D. 102"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> QC Target Mean Formula: $$\\bar{x}=\\frac{\\sum x_i}{n}$$ $$\\bar{x}=\\frac{98+100+102+100+100}{5}=100$$"
+  },
+  {
+    "question": "A laboratory obtains QC results of $\\{10, 12, 14, 16, 18\\}$. What is the QC target mean?",
+    "options": [
+      "A. 12",
+      "B. 13",
+      "C. 14",
+      "D. 15"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\bar{x}=\\frac{10+12+14+16+18}{5}=14$$"
+  },
+  {
+    "question": "A laboratory obtains QC results of $\\{90, 95, 100, 105, 110\\}$. What is the QC target mean?",
+    "options": [
+      "A. 95",
+      "B. 98",
+      "C. 100",
+      "D. 105"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\bar{x}=\\frac{90+95+100+105+110}{5}=100$$"
+  },
+  {
+    "question": "The QC target mean is used primarily to:",
+    "options": [
+      "A. Establish the control target value",
+      "B. Calculate bias only",
+      "C. Determine analytical sensitivity",
+      "D. Calculate reference intervals"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The QC target mean establishes the expected center value for quality control monitoring."
+  },
+  {
+    "question": "Which formula is used to establish the QC target mean?",
+    "options": [
+      "A. $$CV=\\frac{SD}{Mean}\\times100\\%$$",
+      "B. $$SDI=\\frac{Lab-PeerMean}{PeerSD}$$",
+      "C. $$\\bar{x}=\\frac{\\sum x_i}{n}$$",
+      "D. $$\\bar{x}\\pm1.96\\times\\frac{SD}{\\sqrt{n}}$$"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The QC target mean is calculated as the arithmetic average of QC measurements."
+  },
+  {
+    "question": "A QC result falls at +2.3 SD from the target mean. Which Westgard rule has been triggered?",
+    "options": [
+      "A. 1-3s Rule",
+      "B. 1-2s Rule",
+      "C. 2-2s Rule",
+      "D. R-4s Rule"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The 1-2s rule is triggered when a single QC result exceeds ±2 SD. It is considered a warning rule and does not automatically require rejection of the run."
+  },
+  {
+    "question": "A QC result falls at +3.2 SD from the target mean. Which Westgard rule has been violated?",
+    "options": [
+      "A. 1-2s Rule",
+      "B. 2-2s Rule",
+      "C. 1-3s Rule",
+      "D. 10x Rule"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The 1-3s rule is violated when a single QC result exceeds ±3 SD. This is a rejection rule and indicates the analytical run should be rejected."
+  },
+  {
+    "question": "Two consecutive QC results are +2.4 SD and +2.7 SD from the mean. Which Westgard rule is violated?",
+    "options": [
+      "A. R-4s Rule",
+      "B. 4-1s Rule",
+      "C. 2-2s Rule",
+      "D. 10x Rule"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The 2-2s rule occurs when two consecutive control results exceed ±2 SD on the same side of the mean. This typically indicates systematic error."
+  },
+  {
+    "question": "Two control levels in the same run produce results of +2.1 SD and -2.3 SD. The difference between them is 4.4 SD. Which Westgard rule is violated?",
+    "options": [
+      "A. 1-3s Rule",
+      "B. 2-2s Rule",
+      "C. 4-1s Rule",
+      "D. R-4s Rule"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> The R-4s rule is violated when the difference between two control results exceeds 4 SD. This rule is used to detect random error."
+  },
+  {
+    "question": "Ten consecutive QC results fall on the same side of the target mean, although all are within ±2 SD. Which Westgard rule is violated?",
+    "options": [
+      "A. 10x Rule",
+      "B. 1-2s Rule",
+      "C. 1-3s Rule",
+      "D. R-4s Rule"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> The 10x rule is violated when ten consecutive control results fall on the same side of the mean. This suggests a persistent bias or shift in the analytical process."
+  },
+  {
+    "question": "A pregnant patient's AFP result is $2.4\\text{ IU/mL}$ and the population median for the same gestational age is $1.2\\text{ IU/mL}$. What is the MoM (Multiple of the Median)?",
+    "options": [
+      "A. 1.0",
+      "B. 1.5",
+      "C. 2.0",
+      "D. 2.4"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> MoM Formula: $$MoM=\\frac{Patient\\ Result}{Population\\ Median}$$ $$MoM=\\frac{2.4}{1.2}=2.0$$"
+  },
+  {
+    "question": "A patient's analyte result is $5.0\\text{ ng/mL}$ and the population median is $2.5\\text{ ng/mL}$. What is the MoM?",
+    "options": [
+      "A. 1.0",
+      "B. 1.5",
+      "C. 2.0",
+      "D. 2.5"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$MoM=\\frac{5.0}{2.5}=2.0$$"
+  },
+  {
+    "question": "A patient's result is $1.8\\text{ ng/mL}$ and the population median is $3.6\\text{ ng/mL}$. What is the MoM?",
+    "options": [
+      "A. 0.25",
+      "B. 0.50",
+      "C. 0.75",
+      "D. 1.00"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$MoM=\\frac{1.8}{3.6}=0.50$$"
+  },
+  {
+    "question": "A patient has a MoM value of 1.0. This indicates that the patient's result is:",
+    "options": [
+      "A. Half of the population median",
+      "B. Twice the population median",
+      "C. Equal to the population median",
+      "D. Greater than any population value"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> A MoM of 1.0 indicates the patient result is exactly equal to the population median."
+  },
+  {
+    "question": "MoM (Multiple of the Median) is most commonly used in:",
+    "options": [
+      "A. Prenatal screening",
+      "B. Therapeutic drug monitoring",
+      "C. Coagulation testing",
+      "D. Blood gas analysis"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> MoM values are commonly used in prenatal screening to compare patient results with gestational age-specific population medians."
+  },
+
+  {
+    "question": "A laboratory tracks the last five patient results: $\\{98, 100, 102, 100, 100\\}$. What is the moving average?",
+    "options": [
+      "A. 99",
+      "B. 100",
+      "C. 101",
+      "D. 102"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Moving Average Formula: $$Moving\\ Average=\\frac{\\sum x_i}{n}$$ $$=\\frac{98+100+102+100+100}{5}=100$$"
+  },
+  {
+    "question": "A PBRTQC system uses the results $\\{90, 95, 100, 105, 110\\}$. What is the moving average?",
+    "options": [
+      "A. 95",
+      "B. 98",
+      "C. 100",
+      "D. 105"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{90+95+100+105+110}{5}=100$$"
+  },
+  {
+    "question": "A moving average is calculated from the values $\\{10, 12, 14, 16, 18\\}$. What is the moving average?",
+    "options": [
+      "A. 12",
+      "B. 13",
+      "C. 14",
+      "D. 15"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{10+12+14+16+18}{5}=14$$"
+  },
+  {
+    "question": "A moving average is calculated from the results $\\{20, 22, 24, 26\\}$. What is the moving average?",
+    "options": [
+      "A. 22",
+      "B. 23",
+      "C. 24",
+      "D. 25"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{20+22+24+26}{4}=23$$"
+  },
+  {
+    "question": "Moving averages are primarily used in laboratory medicine for:",
+    "options": [
+      "A. Establishing reference intervals",
+      "B. Patient-based real-time quality control (PBRTQC)",
+      "C. Calculating osmolality",
+      "D. Estimating glomerular filtration rate"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Moving averages are a key component of Patient-Based Real-Time Quality Control (PBRTQC) and are used to monitor analytical performance over time."
+  },
+  {
+    "question": "A laboratory wants to compare the mean glucose results obtained from two independent analyzers using different patient samples. Which statistical test is most appropriate?",
+    "options": [
+      "A. Paired t-test",
+      "B. Student's t-test",
+      "C. Chi-square",
+      "D. F-test"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Student's t-test is used to compare the means of two independent groups."
+  },
+  {
+    "question": "A laboratory measures cholesterol on the same 20 patients before and after a calibration adjustment. Which test should be used?",
+    "options": [
+      "A. Student's t-test",
+      "B. Paired t-test",
+      "C. F-test",
+      "D. Chi-square"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> A paired t-test is used when two measurements come from the same subjects."
+  },
+  {
+    "question": "A researcher wants to compare the mean sodium concentration between male and female patients. Which test is most appropriate?",
+    "options": [
+      "A. Student's t-test",
+      "B. Chi-square",
+      "C. F-test",
+      "D. Linear Regression"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Student's t-test compares means between two independent groups."
+  },
+  {
+    "question": "A method comparison study measures potassium on the same specimens using Method A and Method B. Which test evaluates whether the average difference between methods is significant?",
+    "options": [
+      "A. Chi-square",
+      "B. Student's t-test",
+      "C. Paired t-test",
+      "D. F-test"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The same specimens are measured by both methods, making the data paired."
+  },
+  {
+    "question": "Which statement best distinguishes a paired t-test from a Student's t-test?",
+    "options": [
+      "A. Paired t-tests compare variances",
+      "B. Paired t-tests require categorical data",
+      "C. Paired t-tests analyze dependent observations",
+      "D. Paired t-tests require three groups"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Paired t-tests are used when observations are linked or matched."
+  },
+
+  {
+    "question": "A laboratory wants to determine whether the variability of Method A differs from Method B. Which statistical test should be used?",
+    "options": [
+      "A. Student's t-test",
+      "B. F-test",
+      "C. Chi-square",
+      "D. Linear Regression"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The F-test is used to compare variances."
+  },
+  {
+    "question": "The primary purpose of an F-test is to compare:",
+    "options": [
+      "A. Means",
+      "B. Medians",
+      "C. Variances",
+      "D. Correlations"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> F-tests evaluate whether two variances differ significantly."
+  },
+  {
+    "question": "Which test would be used before deciding whether two analytical methods have significantly different imprecision?",
+    "options": [
+      "A. F-test",
+      "B. Chi-square",
+      "C. Paired t-test",
+      "D. Linear Regression"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Imprecision is measured by variance or standard deviation, making the F-test appropriate."
+  },
+
+  {
+    "question": "A laboratory compares mean glucose concentrations among four different reagent lots. Which statistical test is most appropriate?",
+    "options": [
+      "A. Student's t-test",
+      "B. Paired t-test",
+      "C. One-Way ANOVA",
+      "D. Chi-square"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> One-Way ANOVA compares means among three or more groups."
+  },
+  {
+    "question": "A researcher wants to compare average ALT activity across five patient treatment groups. Which test should be selected?",
+    "options": [
+      "A. F-test",
+      "B. Chi-square",
+      "C. Student's t-test",
+      "D. One-Way ANOVA"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> ANOVA is appropriate for comparing means across more than two groups."
+  },
+  {
+    "question": "Why is ANOVA preferred over multiple t-tests when comparing four groups?",
+    "options": [
+      "A. It reduces Type I error",
+      "B. It requires fewer subjects",
+      "C. It analyzes categorical variables only",
+      "D. It compares variances only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> ANOVA controls the false-positive rate better than performing multiple t-tests."
+  },
+  {
+    "question": "A significant One-Way ANOVA result indicates:",
+    "options": [
+      "A. All group means are different",
+      "B. At least one group mean differs",
+      "C. All variances are different",
+      "D. There is a strong correlation"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> ANOVA identifies whether at least one mean differs from the others."
+  },
+  {
+    "question": "Which scenario is most appropriate for One-Way ANOVA?",
+    "options": [
+      "A. Comparing male versus female sodium values",
+      "B. Comparing glucose values before and after treatment",
+      "C. Comparing cholesterol values among five hospitals",
+      "D. Determining association between blood type and disease"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> ANOVA compares means among three or more independent groups."
+  },
+
+  {
+    "question": "A laboratory wants to determine whether blood type is associated with disease status. Which test is most appropriate?",
+    "options": [
+      "A. Chi-square",
+      "B. Student's t-test",
+      "C. ANOVA",
+      "D. F-test"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Chi-square tests associations between categorical variables."
+  },
+  {
+    "question": "Which type of data is analyzed using a Chi-square test?",
+    "options": [
+      "A. Continuous measurements",
+      "B. Ratios",
+      "C. Categorical frequencies",
+      "D. Means"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Chi-square compares observed and expected categorical frequencies."
+  },
+  {
+    "question": "A study counts positive and negative results across three instruments. Which statistical test should be used?",
+    "options": [
+      "A. Linear Regression",
+      "B. Chi-square",
+      "C. Paired t-test",
+      "D. F-test"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The outcome is categorical (positive/negative)."
+  },
+  {
+    "question": "A researcher wants to determine whether reagent lot and pass/fail QC status are associated. Which test is appropriate?",
+    "options": [
+      "A. Student's t-test",
+      "B. ANOVA",
+      "C. Chi-square",
+      "D. Linear Regression"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Both variables are categorical."
+  },
+  {
+    "question": "Which situation would NOT be appropriate for a Chi-square test?",
+    "options": [
+      "A. Blood type versus disease status",
+      "B. Positive versus negative test results by instrument",
+      "C. Mean glucose comparison between two analyzers",
+      "D. Reagent lot versus QC pass/fail"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Comparing means requires a t-test or ANOVA, not Chi-square."
+  },
+
+  {
+    "question": "A laboratory wants to evaluate the relationship between results from two quantitative methods. Which statistical approach is most appropriate?",
+    "options": [
+      "A. Linear Regression",
+      "B. Chi-square",
+      "C. F-test",
+      "D. ANOVA"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Linear regression evaluates the relationship between two continuous variables."
+  },
+  {
+    "question": "In method comparison studies, the slope of a regression line is most useful for detecting:",
+    "options": [
+      "A. Random error",
+      "B. Proportional bias",
+      "C. Sample contamination",
+      "D. Variance differences"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> A slope different from 1 suggests proportional bias."
+  },
+  {
+    "question": "In method comparison studies, the intercept is most useful for detecting:",
+    "options": [
+      "A. Constant bias",
+      "B. Random error",
+      "C. Variance differences",
+      "D. Correlation only"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A non-zero intercept suggests constant bias."
+  },
+  {
+    "question": "A regression slope of 1.00 and intercept of 0 suggest:",
+    "options": [
+      "A. Perfect agreement with no proportional or constant bias",
+      "B. Significant random error",
+      "C. Significant categorical association",
+      "D. Different variances"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> These values indicate ideal agreement between methods."
+  },
+  {
+    "question": "If Method B consistently reports values 10 units higher than Method A at all concentrations, regression analysis would most likely show:",
+    "options": [
+      "A. Slope >1 only",
+      "B. Positive intercept",
+      "C. Negative intercept",
+      "D. F-statistic >1"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> A consistent offset across concentrations is constant bias and appears as a non-zero intercept."
+  },
+  {
+    "question": "Which test is most useful when the goal is prediction of one continuous variable from another?",
+    "options": [
+      "A. Chi-square",
+      "B. F-test",
+      "C. Linear Regression",
+      "D. Paired t-test"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Linear regression models the relationship and can be used for prediction."
+  },
+
+  {
+    "question": "A laboratory scientist needs to choose between Student's t-test, ANOVA, and Chi-square. Which choice is correct for comparing average glucose values among four clinics?",
+    "options": [
+      "A. Chi-square",
+      "B. One-Way ANOVA",
+      "C. Student's t-test",
+      "D. F-test"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Four independent means require One-Way ANOVA."
+  },
+  {
+    "question": "Which statistical test should be used to compare the mean hemoglobin result before and after treatment in the same patients?",
+    "options": [
+      "A. Student's t-test",
+      "B. Paired t-test",
+      "C. Chi-square",
+      "D. F-test"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Measurements before and after treatment are paired observations."
+  },
+  {
+    "question": "A method comparison study produces the regression equation $$y = 1.20x + 0.5$$. What is the most important interpretation of the slope?",
+    "options": [
+      "A. The new method has a constant positive bias",
+      "B. The new method has proportional positive bias",
+      "C. The methods are identical",
+      "D. The data have poor correlation"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> A slope greater than 1 indicates proportional positive bias. As analyte concentration increases, the new method increasingly overestimates results relative to the comparative method."
+  },
+  {
+    "question": "A regression equation from a method comparison study is $$y = 1.00x + 15$$. What does the y-intercept suggest?",
+    "options": [
+      "A. Proportional bias",
+      "B. Random error",
+      "C. Constant positive bias",
+      "D. Poor correlation"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> A positive intercept indicates a constant positive bias. The new method reports approximately 15 units higher than the comparative method across the measuring range."
+  },
+  {
+    "question": "A regression equation is $$y = 0.85x + 0$$. Which statement is most accurate?",
+    "options": [
+      "A. No bias exists",
+      "B. Constant negative bias exists",
+      "C. Proportional negative bias exists",
+      "D. Correlation is poor"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> A slope less than 1 indicates proportional negative bias. Results become progressively lower than the comparative method as concentration increases."
+  },
+  {
+    "question": "A method comparison study yields $$y = 1.00x - 10$$. Which type of bias is present?",
+    "options": [
+      "A. Proportional positive bias",
+      "B. Constant negative bias",
+      "C. Random error",
+      "D. No bias"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The slope is ideal (1.00), but the intercept is -10, indicating a constant negative bias of approximately 10 units."
+  },
+  {
+    "question": "Which regression equation demonstrates the best agreement between two methods?",
+    "options": [
+      "A. $$y = 1.00x + 0$$",
+      "B. $$y = 1.20x + 0$$",
+      "C. $$y = 0.85x + 10$$",
+      "D. $$y = 1.00x - 15$$"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Ideal agreement occurs when slope = 1 and intercept = 0."
+  },
+
+  {
+    "question": "A method comparison study shows a correlation coefficient of $$r = 0.99$$. What is the best interpretation?",
+    "options": [
+      "A. Excellent linear association exists",
+      "B. No bias exists",
+      "C. Methods are interchangeable",
+      "D. Variances are identical"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Correlation coefficient measures the strength of linear association, not agreement or bias."
+  },
+  {
+    "question": "A method comparison study shows $$r = 0.999$$ but the regression equation is $$y = 1.30x + 20$$. What is the correct interpretation?",
+    "options": [
+      "A. The methods agree perfectly",
+      "B. Strong correlation exists despite substantial bias",
+      "C. Correlation proves there is no bias",
+      "D. The study is invalid"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Correlation does not assess agreement. A method may have very high correlation but still demonstrate substantial proportional and constant bias."
+  },
+  {
+    "question": "Which statement about correlation coefficient ($$r$$) is TRUE?",
+    "options": [
+      "A. It directly measures bias",
+      "B. It determines clinical acceptability",
+      "C. It measures linear association between two variables",
+      "D. It measures analytical imprecision"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Correlation coefficient describes how strongly two variables are linearly related."
+  },
+
+  {
+    "question": "A regression slope differs significantly from 1.0. Which type of bias is suggested?",
+    "options": [
+      "A. Constant bias",
+      "B. Proportional bias",
+      "C. Random bias",
+      "D. Carryover"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> A slope significantly different from 1 indicates proportional bias because the difference between methods changes with concentration."
+  },
+  {
+    "question": "A regression intercept differs significantly from 0. Which type of bias is suggested?",
+    "options": [
+      "A. Proportional bias",
+      "B. Random error",
+      "C. Constant bias",
+      "D. Matrix effect"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> An intercept significantly different from zero indicates constant bias that affects the entire measurement range."
+  },
+
+  {
+    "question": "A method comparison study produces $$y = 1.15x - 8$$. Which statement is correct?",
+    "options": [
+      "A. Only constant bias exists",
+      "B. Only proportional bias exists",
+      "C. Both proportional and constant bias exist",
+      "D. No bias exists"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The slope differs from 1 and the intercept differs from 0, indicating both proportional and constant bias."
+  },
+  {
+    "question": "Two methods have $$r = 0.70$$. What does this suggest?",
+    "options": [
+      "A. Weak-to-moderate linear association",
+      "B. Excellent agreement",
+      "C. No bias exists",
+      "D. Constant positive bias"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> An r value of 0.70 indicates considerably more scatter around the regression line than typically desired in method validation."
+  },
+
+  {
+    "question": "Method A and Method B yield the regression equation $$y = 1.00x + 0$$ with $$r = 0.60$$. What is the major concern?",
+    "options": [
+      "A. Constant bias",
+      "B. Proportional bias",
+      "C. Poor precision/scatter despite no apparent systematic bias",
+      "D. Calibration drift"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Although slope and intercept are ideal, the low correlation coefficient suggests substantial scatter and poor reproducibility."
+  },
+  {
+    "question": "A laboratory validates a new assay and obtains slope = 1.02, intercept = 0.5, and r = 0.998. Which conclusion is most appropriate?",
+    "options": [
+      "A. Excellent agreement with minimal bias",
+      "B. Severe proportional bias",
+      "C. Severe constant bias",
+      "D. Unacceptable correlation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Values very close to the ideal slope of 1, intercept of 0, and correlation of 1 indicate excellent method agreement."
+  },
+
+  {
+    "question": "Which parameter is most useful for identifying proportional bias?",
+    "options": [
+      "A. Mean bias",
+      "B. Correlation coefficient",
+      "C. Regression slope",
+      "D. Coefficient of variation"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The regression slope is the primary indicator of proportional bias."
+  },
+  {
+    "question": "Which parameter is most useful for identifying constant bias?",
+    "options": [
+      "A. Regression intercept",
+      "B. Correlation coefficient",
+      "C. Standard deviation",
+      "D. Coefficient of variation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Constant bias appears as a non-zero intercept."
+  },
+  {
+    "question": "Which parameter is most useful for evaluating the strength of the linear relationship between two methods?",
+    "options": [
+      "A. Slope",
+      "B. Intercept",
+      "C. Correlation coefficient",
+      "D. Mean bias"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Correlation coefficient quantifies linear association."
+  },
+
+  {
+    "question": "A regression equation is $$y = 1.25x$$. At higher concentrations the difference between methods becomes larger. This is an example of:",
+    "options": [
+      "A. Constant bias",
+      "B. Proportional bias",
+      "C. Random error",
+      "D. Carryover"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Proportional bias increases as analyte concentration increases."
+  },
+  {
+    "question": "A regression equation is $$y = x + 20$$. The difference between methods remains approximately 20 units over the measuring range. This is an example of:",
+    "options": [
+      "A. Constant bias",
+      "B. Proportional bias",
+      "C. Random bias",
+      "D. Heteroscedasticity"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> A fixed difference across concentrations indicates constant bias."
+  },
+
+  {
+    "question": "A method comparison study produces $$r = 1.00$$. Which statement is correct?",
+    "options": [
+      "A. The methods must have slope = 1 and intercept = 0",
+      "B. Bias cannot exist",
+      "C. Perfect correlation does not necessarily mean perfect agreement",
+      "D. The methods are clinically interchangeable"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Perfect correlation can occur even when substantial systematic bias exists."
+  },
+  {
+    "question": "Which finding would most strongly suggest unacceptable systematic error in a validation study?",
+    "options": [
+      "A. r = 0.995, slope = 1.00, intercept = 0",
+      "B. r = 0.999, slope = 1.40, intercept = 25",
+      "C. r = 0.995, slope = 0.99, intercept = 0.2",
+      "D. r = 0.998, slope = 1.01, intercept = -0.1"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Despite excellent correlation, both the slope and intercept indicate substantial systematic bias."
+  },
+
+  {
+    "question": "In method validation, which statement is most accurate?",
+    "options": [
+      "A. A high correlation coefficient alone is sufficient to demonstrate method agreement",
+      "B. Correlation coefficient, slope, intercept, and bias should all be evaluated",
+      "C. Intercept is more important than slope in every situation",
+      "D. Correlation coefficient measures constant bias"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Comprehensive method comparison requires evaluation of correlation, slope, intercept, and bias."
+  },
+  {
+    "question": "A method comparison yields slope = 1.00, intercept = 5.0, and mean bias = +5. Which statistic best explains the observed bias?",
+    "options": [
+      "A. Slope",
+      "B. Correlation coefficient",
+      "C. Intercept",
+      "D. Standard deviation"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> The non-zero intercept explains the constant positive bias."
+  },
+  {
+    "question": "A method comparison yields slope = 1.20, intercept = 0, and increasing differences at higher concentrations. Which parameter explains this observation?",
+    "options": [
+      "A. Correlation coefficient",
+      "B. Intercept",
+      "C. Proportional bias due to slope",
+      "D. Random error"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> A slope greater than 1 indicates proportional bias that becomes larger as concentration increases."
+  },
+  {
+    "question": "Which result would generally be considered closest to ideal during a method validation experiment?",
+    "options": [
+      "A. Slope = 0.85, intercept = 15, r = 0.999",
+      "B. Slope = 1.00, intercept = 0, r = 1.00",
+      "C. Slope = 1.25, intercept = -10, r = 0.999",
+      "D. Slope = 1.00, intercept = 20, r = 0.995"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> The ideal method comparison result has slope = 1, intercept = 0, and correlation coefficient approaching 1."
+  },
+  {
+    "question": "In a method comparison study, both the new and comparative methods are subject to measurement error. Which regression approach is generally preferred?",
+    "options": [
+      "A. Ordinary Least Squares Regression",
+      "B. Deming Regression",
+      "C. Chi-square Analysis",
+      "D. Student's t-test"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Deming regression accounts for analytical error in both methods and is generally preferred for laboratory method comparison studies."
+  },
+  {
+    "question": "Passing-Bablok regression is best described as:",
+    "options": [
+      "A. A regression method that assumes no error in the x-variable",
+      "B. A parametric regression highly sensitive to outliers",
+      "C. A robust non-parametric regression based on median pairwise slopes",
+      "D. A test for comparing variances"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Passing-Bablok regression is a robust, non-parametric method that estimates slope using the median of pairwise slopes and is resistant to outliers."
+  },
+  {
+    "question": "Which characteristic is a major advantage of Passing-Bablok regression?",
+    "options": [
+      "A. Requires normally distributed residuals",
+      "B. Resistant to outliers",
+      "C. Requires equal variances between methods",
+      "D. Assumes no measurement error"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Passing-Bablok regression is relatively resistant to outliers and non-normal data."
+  },
+  {
+    "question": "A laboratory method comparison dataset contains several extreme outliers. Which regression approach would generally be more robust?",
+    "options": [
+      "A. Deming Regression",
+      "B. Passing-Bablok Regression",
+      "C. Linear Regression",
+      "D. ANOVA"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Passing-Bablok regression is specifically valued for its robustness to outliers."
+  },
+  {
+    "question": "Which statement best summarizes the difference between Deming and Passing-Bablok regression?",
+    "options": [
+      "A. Deming compares means while Passing-Bablok compares variances",
+      "B. Deming explicitly models measurement error in both methods, whereas Passing-Bablok is a robust non-parametric approach",
+      "C. Deming uses categorical data while Passing-Bablok uses continuous data",
+      "D. Both methods are used only for reference interval determination"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Deming regression accounts for errors in both measurement methods, whereas Passing-Bablok is a robust non-parametric regression commonly used for method comparison."
+  },
+
+  {
+    "question": "A laboratory has 250 healthy reference subjects and the analyte follows a Gaussian distribution. Which reference interval approach is most appropriate?",
+    "options": [
+      "A. Parametric",
+      "B. Non-parametric",
+      "C. Chi-square",
+      "D. Passing-Bablok"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Parametric reference intervals are appropriate when data are approximately Gaussian and are often calculated as Mean ± 1.96 SD."
+  },
+  {
+    "question": "For a normally distributed analyte, the parametric 95% reference interval is typically calculated as:",
+    "options": [
+      "A. Mean ± 1 SD",
+      "B. Mean ± 1.5 SD",
+      "C. Mean ± 1.96 SD",
+      "D. Mean ± 3 SD"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> For normally distributed data, the central 95% reference interval is approximately Mean ± 1.96 SD."
+  },
+  {
+    "question": "A laboratory analyte demonstrates a markedly skewed distribution. Which reference interval method is preferred?",
+    "options": [
+      "A. Parametric Mean ± 1.96 SD",
+      "B. Student's t-test",
+      "C. Non-parametric percentile method",
+      "D. F-test"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Non-parametric reference intervals are preferred when data are non-Gaussian or skewed."
+  },
+  {
+    "question": "A non-parametric reference interval is commonly defined by which percentiles?",
+    "options": [
+      "A. 5th and 95th percentiles",
+      "B. 10th and 90th percentiles",
+      "C. 25th and 75th percentiles",
+      "D. 2.5th and 97.5th percentiles"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> The standard non-parametric reference interval uses the 2.5th and 97.5th percentiles to capture the central 95% of values."
+  },
+  {
+    "question": "What is the major advantage of the non-parametric approach for reference interval determination?",
+    "options": [
+      "A. Requires normal distribution",
+      "B. Does not assume a specific data distribution",
+      "C. Always requires fewer subjects",
+      "D. Uses regression analysis"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Non-parametric methods do not require assumptions about the underlying data distribution and are therefore preferred for skewed analytes."
+  },
+  {
+    "question": "A method reports a glucose result of $105\\text{ mg/dL}$ when the true value is $100\\text{ mg/dL}$. What is the bias?",
+    "options": ["A. -5", "B. 0", "C. 5", "D. 10"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Bias = Measured - True = 105 - 100 = 5."
+  },
+  {
+    "question": "A method reports $98\\text{ mg/dL}$ when the true value is $100\\text{ mg/dL}$. What is the bias?",
+    "options": ["A. -2", "B. 0", "C. 2", "D. 4"],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Bias = 98 - 100 = -2."
+  },
+  {
+    "question": "Bias is primarily a measure of:",
+    "options": ["A. Precision", "B. Accuracy", "C. Variance", "D. Correlation"],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Bias measures systematic error and therefore reflects accuracy."
+  },
+  {
+    "question": "A positive bias indicates:",
+    "options": ["A. Underestimation", "B. No error", "C. Overestimation", "D. Random error"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Positive bias means measured values are greater than true values."
+  },
+  {
+    "question": "A negative bias indicates:",
+    "options": ["A. Overestimation", "B. Underestimation", "C. Perfect accuracy", "D. Increased precision"],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Negative bias means measured values are lower than true values."
+  },
+
+  {
+    "question": "A method reports $105\\text{ mg/dL}$ with a target value of $100\\text{ mg/dL}$. What is the % Bias?",
+    "options": ["A. 3%", "B. 5%", "C. 7%", "D. 10%"],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\%Bias=\\frac{105-100}{100}\\times100=5\\%$$"
+  },
+  {
+    "question": "A method reports $95\\text{ mg/dL}$ with a target value of $100\\text{ mg/dL}$. What is the % Bias?",
+    "options": ["A. -10%", "B. -5%", "C. 5%", "D. 10%"],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\%Bias=\\frac{95-100}{100}\\times100=-5\\%$$"
+  },
+  {
+    "question": "A method reports $210\\text{ mg/dL}$ and the target is $200\\text{ mg/dL}$. What is the % Bias?",
+    "options": ["A. 2.5%", "B. 5%", "C. 7.5%", "D. 10%"],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{210-200}{200}\\times100=5\\%$$"
+  },
+  {
+    "question": "If measured equals target, the % Bias is:",
+    "options": ["A. -100%", "B. -1%", "C. 0%", "D. 1%"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> No difference between measured and target produces 0% bias."
+  },
+  {
+    "question": "% Bias is considered a measure of:",
+    "options": ["A. Relative systematic error", "B. Random error", "C. Variability", "D. Correlation"],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> % Bias expresses systematic error relative to the target value."
+  },
+
+  {
+    "question": "A method has bias = 2% and CV = 3%. Using z = 2, what is the Total Error?",
+    "options": ["A. 5%", "B. 6%", "C. 8%", "D. 10%"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$TE=Bias+z\\times CV=2+2(3)=8\\%$$"
+  },
+  {
+    "question": "A method has bias = 4% and CV = 2%. Using z = 2, what is the Total Error?",
+    "options": ["A. 6%", "B. 8%", "C. 10%", "D. 12%"],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$4+2(2)=8\\%$$"
+  },
+  {
+    "question": "A method has bias = 1% and CV = 2%. Using z = 3, what is the Total Error?",
+    "options": ["A. 5%", "B. 6%", "C. 7%", "D. 8%"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$1+3(2)=7\\%$$"
+  },
+  {
+    "question": "Total Error combines measures of:",
+    "options": ["A. Accuracy only", "B. Precision only", "C. Accuracy and precision", "D. Correlation and bias"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Total Error combines bias (accuracy) and CV (precision)."
+  },
+  {
+    "question": "If CV increases while bias remains unchanged, Total Error will:",
+    "options": ["A. Decrease", "B. Remain unchanged", "C. Increase", "D. Become zero"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> CV contributes directly to Total Error."
+  },
+
+  {
+    "question": "A spike recovery experiment has a measured value of $95$ and an expected value of $100$. What is the recovery percentage?",
+    "options": ["A. 90%", "B. 95%", "C. 100%", "D. 105%"],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$Recovery=\\frac{95}{100}\\times100=95\\%$$"
+  },
+  {
+    "question": "A measured value is $110$ and the expected value is $100$. What is the recovery percentage?",
+    "options": ["A. 100%", "B. 105%", "C. 110%", "D. 115%"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{110}{100}\\times100=110\\%$$"
+  },
+  {
+    "question": "A measured value is $80$ and the expected value is $100$. What is the recovery percentage?",
+    "options": ["A. 70%", "B. 75%", "C. 80%", "D. 85%"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{80}{100}\\times100=80\\%$$"
+  },
+  {
+    "question": "Perfect recovery is equal to:",
+    "options": ["A. 90%", "B. 95%", "C. 100%", "D. 110%"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> A measured value equal to the expected value gives 100% recovery."
+  },
+  {
+    "question": "Recovery studies are primarily used to evaluate:",
+    "options": ["A. Accuracy after spiking", "B. Correlation", "C. Variance", "D. Reference intervals"],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Recovery assesses how accurately an analyte is measured after addition of known material."
+  },
+
+  {
+    "question": "A method has TEa = 20%, Bias = 2%, and CV = 3%. What is the Sigma Metric?",
+    "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\sigma=\\frac{20-2}{3}=6.0$$"
+  },
+  {
+    "question": "A method has TEa = 15%, Bias = 3%, and CV = 3%. What is the Sigma Metric?",
+    "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\sigma=\\frac{15-3}{3}=4.0$$"
+  },
+  {
+    "question": "A method has TEa = 12%, Bias = 2%, and CV = 2%. What is the Sigma Metric?",
+    "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\sigma=\\frac{12-2}{2}=5.0$$"
+  },
+  {
+    "question": "If CV decreases while TEa and Bias remain unchanged, the Sigma Metric will:",
+    "options": ["A. Decrease", "B. Increase", "C. Remain unchanged", "D. Become zero"],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> CV is in the denominator, so lower CV increases sigma performance."
+  },
+  {
+    "question": "Which change will improve Sigma Metric performance?",
+    "options": [
+      "A. Higher bias and higher CV",
+      "B. Lower TEa",
+      "C. Lower bias and lower CV",
+      "D. Higher bias only"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Sigma improves when systematic error (bias) and imprecision (CV) are reduced."
+  },
+  {
+    "question": "A diagnostic test correctly identifies 90 patients with disease and misses 10 patients with disease. What is the sensitivity?",
+    "options": [
+      "A. 80%",
+      "B. 85%",
+      "C. 90%",
+      "D. 95%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Sensitivity Formula: $$Sensitivity=\\frac{TP}{TP+FN}$$ $$=\\frac{90}{90+10}=\\frac{90}{100}=90\\%$$"
+  },
+  {
+    "question": "A test correctly identifies 45 diseased patients and misses 5 diseased patients. What is the sensitivity?",
+    "options": [
+      "A. 80%",
+      "B. 85%",
+      "C. 90%",
+      "D. 95%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{45}{45+5}=90\\%$$"
+  },
+  {
+    "question": "A test has TP = 190 and FN = 10. What is the sensitivity?",
+    "options": [
+      "A. 90%",
+      "B. 95%",
+      "C. 97%",
+      "D. 99%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{190}{190+10}=95\\%$$"
+  },
+  {
+    "question": "Sensitivity primarily measures a test's ability to:",
+    "options": [
+      "A. Correctly identify disease when disease is present",
+      "B. Correctly exclude disease",
+      "C. Measure analytical precision",
+      "D. Detect bias"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Sensitivity reflects the ability of a test to detect disease when it is truly present."
+  },
+  {
+    "question": "Increasing the number of false negatives will generally:",
+    "options": [
+      "A. Increase sensitivity",
+      "B. Not affect sensitivity",
+      "C. Decrease sensitivity",
+      "D. Increase specificity"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> False negatives are in the denominator of the sensitivity equation and reduce sensitivity."
+  },
+
+  {
+    "question": "A diagnostic test correctly classifies 180 healthy individuals and incorrectly labels 20 healthy individuals as positive. What is the specificity?",
+    "options": [
+      "A. 85%",
+      "B. 90%",
+      "C. 95%",
+      "D. 98%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Specificity Formula: $$Specificity=\\frac{TN}{TN+FP}$$ $$=\\frac{180}{180+20}=90\\%$$"
+  },
+  {
+    "question": "A test has TN = 95 and FP = 5. What is the specificity?",
+    "options": [
+      "A. 90%",
+      "B. 92%",
+      "C. 95%",
+      "D. 98%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{95}{95+5}=95\\%$$"
+  },
+  {
+    "question": "A test has TN = 198 and FP = 2. What is the specificity?",
+    "options": [
+      "A. 95%",
+      "B. 97%",
+      "C. 98%",
+      "D. 99%"
+    ],
+    "correct": 3,
+    "explanation": "<b>Correct Answer: D.</b> $$\\frac{198}{198+2}=99\\%$$"
+  },
+  {
+    "question": "Specificity primarily measures a test's ability to:",
+    "options": [
+      "A. Detect disease",
+      "B. Correctly identify non-diseased individuals",
+      "C. Measure precision",
+      "D. Detect analytical bias"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Specificity reflects the ability to correctly classify healthy individuals."
+  },
+  {
+    "question": "Increasing the number of false positives will generally:",
+    "options": [
+      "A. Increase specificity",
+      "B. Decrease specificity",
+      "C. Increase sensitivity",
+      "D. Leave specificity unchanged"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> More false positives reduce specificity."
+  },
+
+  {
+    "question": "A patient's previous potassium result was $4.2\\text{ mmol/L}$ and the current result is $5.1\\text{ mmol/L}$. What is the Delta Check value?",
+    "options": [
+      "A. -0.9",
+      "B. 0.0",
+      "C. 0.9",
+      "D. 1.1"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Delta Check = Current − Previous = 5.1 − 4.2 = 0.9 mmol/L."
+  },
+  {
+    "question": "A previous result was $120\\text{ mg/dL}$ and the current result is $105\\text{ mg/dL}$. What is the Delta Check value?",
+    "options": [
+      "A. -15",
+      "B. -10",
+      "C. 10",
+      "D. 15"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Delta Check = 105 − 120 = -15."
+  },
+  {
+    "question": "Delta checks are primarily used for:",
+    "options": [
+      "A. Method comparison",
+      "B. Patient quality control",
+      "C. Reference interval establishment",
+      "D. Linearity studies"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Delta checks are a form of patient-based quality control."
+  },
+  {
+    "question": "A very large unexpected Delta Check may suggest:",
+    "options": [
+      "A. Sample misidentification",
+      "B. Stable patient condition",
+      "C. Improved precision",
+      "D. Lower bias"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Large unexpected changes may indicate specimen mix-ups, analytical error, or major clinical change."
+  },
+  {
+    "question": "Which formula defines Delta Check?",
+    "options": [
+      "A. $$\\frac{Current}{Previous}$$",
+      "B. $$Current-Previous$$",
+      "C. $$\\frac{TP}{TP+FN}$$",
+      "D. $$\\frac{TN}{TN+FP}$$"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Delta Check is simply the difference between the current and previous result."
+  },
+
+  {
+    "question": "Given $$CV_A=3\\%$$, $$CV_I=4\\%$$, and $$Z=1.96$$, what is the Relative Change Value (RCV)?",
+    "options": [
+      "A. 9.8%",
+      "B. 13.9%",
+      "C. 19.4%",
+      "D. 25.0%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$RCV=\\sqrt{2}\\times1.96\\times\\sqrt{3^2+4^2}$$ $$=1.414\\times1.96\\times5\\approx13.9\\%$$"
+  },
+  {
+    "question": "Given $$CV_A=2\\%$$, $$CV_I=3\\%$$, and $$Z=1.96$$, what is the approximate RCV?",
+    "options": [
+      "A. 7.7%",
+      "B. 9.9%",
+      "C. 11.0%",
+      "D. 15.0%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$RCV\\approx1.414\\times1.96\\times\\sqrt{13}=10.0\\%$$"
+  },
+  {
+    "question": "RCV is primarily used to determine:",
+    "options": [
+      "A. Whether a patient result has changed significantly over time",
+      "B. Analytical sensitivity",
+      "C. Method bias",
+      "D. Specificity"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> RCV helps determine whether a change between consecutive patient results is likely to be clinically significant."
+  },
+  {
+    "question": "If analytical variation ($$CV_A$$) increases, the RCV will generally:",
+    "options": [
+      "A. Decrease",
+      "B. Remain unchanged",
+      "C. Increase",
+      "D. Become zero"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Higher analytical variation increases the magnitude of RCV."
+  },
+  {
+    "question": "Which variables are included in the RCV equation?",
+    "options": [
+      "A. TP and FN",
+      "B. CVA, CVI, and Z",
+      "C. CVA, CVG, and Bias",
+      "D. TN and FP"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> RCV incorporates analytical variation (CVA), within-subject biological variation (CVI), and the selected Z-score."
+  },
+
+  {
+    "question": "Given $$CV_A=3\\%$$, $$CV_I=4\\%$$, and $$CV_G=12\\%$$, what is the Total Biological Variation?",
+    "options": [
+      "A. 10.0%",
+      "B. 11.0%",
+      "C. 13.0%",
+      "D. 15.0%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\sqrt{3^2+4^2+12^2}=\\sqrt{169}=13\\%$$"
+  },
+  {
+    "question": "Given $$CV_A=2\\%$$, $$CV_I=3\\%$$, and $$CV_G=6\\%$$, what is the Total Biological Variation?",
+    "options": [
+      "A. 5%",
+      "B. 7%",
+      "C. 9%",
+      "D. 11%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\sqrt{2^2+3^2+6^2}=\\sqrt{49}=7\\%$$"
+  },
+  {
+    "question": "Which components contribute to Total Biological Variation?",
+    "options": [
+      "A. Analytical, within-individual, and between-individual variation",
+      "B. Sensitivity and specificity",
+      "C. Bias and recovery",
+      "D. TP, FP, TN, and FN"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Total Biological Variation combines CVA, CVI, and CVG."
+  },
+  {
+    "question": "If between-subject variation ($$CV_G$$) increases while the other components remain constant, Total Biological Variation will:",
+    "options": [
+      "A. Increase",
+      "B. Decrease",
+      "C. Remain unchanged",
+      "D. Become zero"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> CVG contributes directly to the square-root sum of squares calculation."
+  },
+  {
+    "question": "Total Biological Variation is best described as:",
+    "options": [
+      "A. A measure combining analytical and biological variability",
+      "B. A measure of diagnostic accuracy",
+      "C. A method-comparison statistic",
+      "D. A measure of correlation"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Total Biological Variation combines analytical variation, within-subject biological variation, and between-subject biological variation."
+  },
+  {
+    "question": "A diagnostic test correctly identifies 90 diseased patients and misses 10 diseased patients. What is the Clinical Sensitivity?",
+    "options": [
+      "A. 80%",
+      "B. 85%",
+      "C. 90%",
+      "D. 95%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Clinical Sensitivity Formula: $$Sensitivity=\\frac{TP}{TP+FN}\\times100$$ $$=\\frac{90}{90+10}\\times100=90\\%$$ Clinical sensitivity measures a test's ability to detect disease when disease is present."
+  },
+  {
+    "question": "A test has TP = 190 and FN = 10. What is the Clinical Sensitivity?",
+    "options": [
+      "A. 90%",
+      "B. 95%",
+      "C. 97%",
+      "D. 99%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{190}{190+10}\\times100=95\\%$$"
+  },
+  {
+    "question": "Which change will decrease Clinical Sensitivity?",
+    "options": [
+      "A. Increasing true positives",
+      "B. Decreasing false negatives",
+      "C. Increasing false negatives",
+      "D. Increasing true positives and decreasing false negatives"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> Increasing false negatives lowers sensitivity because diseased patients are being missed."
+  },
+  {
+    "question": "Clinical Sensitivity is best described as the ability to:",
+    "options": [
+      "A. Exclude disease when absent",
+      "B. Detect disease when present",
+      "C. Measure analytical precision",
+      "D. Measure method agreement"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> High sensitivity means few false negatives and strong disease detection."
+  },
+  {
+    "question": "A screening test is designed to minimize missed cases of disease. Which performance characteristic is most important?",
+    "options": [
+      "A. Clinical Sensitivity",
+      "B. Clinical Specificity",
+      "C. Diagnostic Accuracy",
+      "D. Correlation Coefficient"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Screening tests prioritize high sensitivity to avoid missing diseased patients."
+  },
+
+  {
+    "question": "A test correctly identifies 180 healthy individuals and incorrectly classifies 20 healthy individuals as positive. What is the Clinical Specificity?",
+    "options": [
+      "A. 85%",
+      "B. 90%",
+      "C. 95%",
+      "D. 98%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Clinical Specificity Formula: $$Specificity=\\frac{TN}{TN+FP}\\times100$$ $$=\\frac{180}{180+20}\\times100=90\\%$$"
+  },
+  {
+    "question": "A test has TN = 95 and FP = 5. What is the Clinical Specificity?",
+    "options": [
+      "A. 90%",
+      "B. 92%",
+      "C. 95%",
+      "D. 98%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{95}{95+5}\\times100=95\\%$$"
+  },
+  {
+    "question": "Clinical Specificity is best described as the ability to:",
+    "options": [
+      "A. Detect disease when present",
+      "B. Exclude disease when absent",
+      "C. Measure assay bias",
+      "D. Measure precision"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> High specificity means few false positives and strong exclusion of disease."
+  },
+  {
+    "question": "Increasing the number of false positives will generally:",
+    "options": [
+      "A. Increase specificity",
+      "B. Leave specificity unchanged",
+      "C. Decrease specificity",
+      "D. Increase sensitivity"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> False positives increase the denominator and reduce specificity."
+  },
+  {
+    "question": "A confirmatory diagnostic test is intended to minimize false-positive results. Which characteristic is most important?",
+    "options": [
+      "A. Clinical Sensitivity",
+      "B. Clinical Specificity",
+      "C. Diagnostic Accuracy",
+      "D. Recovery"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Confirmatory tests prioritize high specificity to avoid falsely labeling healthy individuals as diseased."
+  },
+
+  {
+    "question": "A diagnostic study reports: TP = 90, TN = 180, FP = 20, and FN = 10. What is the Diagnostic Accuracy?",
+    "options": [
+      "A. 85%",
+      "B. 90%",
+      "C. 95%",
+      "D. 97%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Diagnostic Accuracy Formula: $$Accuracy=\\frac{TP+TN}{Total}\\times100$$ $$=\\frac{90+180}{90+180+20+10}\\times100$$ $$=\\frac{270}{300}\\times100=90\\%$$"
+  },
+  {
+    "question": "A test has TP = 40, TN = 50, FP = 5, and FN = 5. What is the Diagnostic Accuracy?",
+    "options": [
+      "A. 80%",
+      "B. 85%",
+      "C. 90%",
+      "D. 95%"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$\\frac{40+50}{40+50+5+5}\\times100=90\\%$$"
+  },
+  {
+    "question": "A test has TP = 70, TN = 110, FP = 10, and FN = 10. What is the Diagnostic Accuracy?",
+    "options": [
+      "A. 85%",
+      "B. 90%",
+      "C. 92%",
+      "D. 95%"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> $$\\frac{70+110}{70+110+10+10}\\times100=90\\%$$"
+  },
+  {
+    "question": "Diagnostic Accuracy reflects:",
+    "options": [
+      "A. Overall proportion of correct test classifications",
+      "B. Ability to detect disease only",
+      "C. Ability to exclude disease only",
+      "D. Analytical precision"
+    ],
+    "correct": 0,
+    "explanation": "<b>Correct Answer: A.</b> Diagnostic accuracy represents the overall percentage of correctly classified results."
+  },
+  {
+    "question": "Which set of values would yield the highest Diagnostic Accuracy?",
+    "options": [
+      "A. TP=40, TN=40, FP=10, FN=10",
+      "B. TP=45, TN=45, FP=5, FN=5",
+      "C. TP=50, TN=30, FP=20, FN=0",
+      "D. TP=30, TN=50, FP=0, FN=20"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> Accuracy = (45+45)/(45+45+5+5)=90%, which is higher than the other options."
+  },
+  {
+    "question": "A blank sample study produces a mean blank value of $0.20$ and an SD of $0.10$. What is the Limit of Blank (LoB)?",
+    "options": [
+      "A. 0.265",
+      "B. 0.300",
+      "C. 0.365",
+      "D. 0.400"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> LoB Formula: $$LoB=Mean_{blank}+1.645\\times SD_{blank}$$ $$LoB=0.20+(1.645\\times0.10)=0.3645\\approx0.365$$"
+  },
+  {
+    "question": "A blank sample study produces a mean blank value of $1.0$ and an SD of $0.20$. What is the Limit of Blank (LoB)?",
+    "options": [
+      "A. 1.165",
+      "B. 1.249",
+      "C. 1.329",
+      "D. 1.400"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$LoB=1.0+(1.645\\times0.20)=1.329$$ The LoB represents the highest expected result from a blank sample."
+  },
+  {
+    "question": "A method has an LoB of $0.50$ and the SD of a low-concentration sample is $0.10$. What is the Limit of Detection (LoD)?",
+    "options": [
+      "A. 0.565",
+      "B. 0.600",
+      "C. 0.665",
+      "D. 0.750"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> LoD Formula: $$LoD=LoB+1.645\\times SD_{low\\ sample}$$ $$LoD=0.50+(1.645\\times0.10)=0.6645\\approx0.665$$"
+  },
+  {
+    "question": "A method has an LoB of $2.0$ and the SD of a low-level sample is $0.30$. What is the Limit of Detection (LoD)?",
+    "options": [
+      "A. 2.294",
+      "B. 2.394",
+      "C. 2.494",
+      "D. 2.594"
+    ],
+    "correct": 2,
+    "explanation": "<b>Correct Answer: C.</b> $$LoD=2.0+(1.645\\times0.30)=2.4935\\approx2.494$$"
+  },
+  {
+    "question": "Which statement correctly distinguishes the Limit of Blank (LoB) from the Limit of Detection (LoD)?",
+    "options": [
+      "A. LoB is the lowest quantifiable concentration; LoD is the highest blank result",
+      "B. LoB is the highest expected blank result; LoD is the lowest detectable analyte concentration",
+      "C. LoB and LoD are identical",
+      "D. LoD is always lower than LoB"
+    ],
+    "correct": 1,
+    "explanation": "<b>Correct Answer: B.</b> LoB represents the highest expected signal from a blank sample, while LoD represents the lowest analyte concentration that can be reliably distinguished from the blank."
+  },
+{
+  "question": "Using the Cockcroft-Gault equation for men, estimate creatinine clearance for a 45-year-old man weighing 90 kg with a serum creatinine of 120 µmol/L.",
+  "options": [
+    "A. 78 mL/min",
+    "B. 93 mL/min",
+    "C. 104 mL/min",
+    "D. 116 mL/min"
+  ],
+  "correct": 1
+},
+{
+3
+"question": "Using the Cockcroft-Gault equation for men, estimate creatinine clearance for a 60-year-old man weighing $80\\text{ kg}$ with a serum creatinine of $100\\text{ \\mu mol/L}$.",
+4
+"options": [
+5
+"A. $83\\text{ mL/min}$",
+6
+"B. $91\\text{ mL/min}$",
+7
+"C. $104\\text{ mL/min}$",
+8
+"D. $118\\text{ mL/min}$"
+9
+],
+10
+"correct": 0,
+11
+"explanation": "<b>Correct Answer: A.</b> Cockcroft-Gault (Men): $$CrCl=\\frac{(140-Age)\\times Weight\\times1.3}{SCr}$$ $$CrCl=\\frac{(140-60)\\times80\\times1.3}{100}=\\frac{8320}{100}=83.2\\text{ mL/min}$$"
+12
+},
+13
+{
+14
+"question": "Using the Cockcroft-Gault equation for men, estimate creatinine clearance for a 50-year-old man weighing $70\\text{ kg}$ with a serum creatinine of $90\\text{ \\mu mol/L}$.",
+15
+"options": [
+16
+"A. $79\\text{ mL/min}$",
+17
+"B. $91\\text{ mL/min}$",
+18
+"C. $103\\text{ mL/min}$",
+19
+"D. $117\\text{ mL/min}$"
+20
+],
+21
+"correct": 1,
+22
+"explanation": "<b>Correct Answer: B.</b> $$CrCl=\\frac{(140-50)\\times70\\times1.3}{90}=\\frac{8190}{90}=91.0\\text{ mL/min}$$"
+23
+},
+24
+{
+25
+"question": "Using the Cockcroft-Gault equation for women, estimate creatinine clearance for a 65-year-old woman weighing $60\\text{ kg}$ with a serum creatinine of $100\\text{ \\mu mol/L}$.",
+26
+"options": [
+27
+"A. $42\\text{ mL/min}$",
+28
+"B. $50\\text{ mL/min}$",
+29
+"C. $58\\text{ mL/min}$",
+30
+"D. $67\\text{ mL/min}$"
+31
+],
+32
+"correct": 1,
+33
+"explanation": "<b>Correct Answer: B.</b> $$CrCl=\\left(\\frac{(140-65)\\times60\\times1.3}{100}\\right)\\times0.85$$ $$=58.5\\times0.85=49.7\\text{ mL/min}$$ $$\\approx50\\text{ mL/min}$$"
+34
+},
+35
+{
+36
+"question": "Using the Cockcroft-Gault equation for women, estimate creatinine clearance for a 70-year-old woman weighing $55\\text{ kg}$ with a serum creatinine of $110\\text{ \\mu mol/L}$.",
+37
+"options": [
+38
+"A. $38\\text{ mL/min}$",
+39
+"B. $45\\text{ mL/min}$",
+40
+"C. $52\\text{ mL/min}$",
+41
+"D. $60\\text{ mL/min}$"
+42
+],
+43
+"correct": 0,
+44
+"explanation": "<b>Correct Answer: A.</b> $$CrCl=\\left(\\frac{(140-70)\\times55\\times1.3}{110}\\right)\\times0.85$$ $$=45.05\\times0.85=38.3\\text{ mL/min}$$"
+45
+}
+]
