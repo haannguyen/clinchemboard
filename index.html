@@ -265,6 +265,74 @@
             font-weight: 600;
             margin-top: 12px;
         }
+
+        /* 🔢 Batch Size Selection Styles */
+        .batch-size-screen {
+            display: none;
+            text-align: center;
+        }
+
+        .batch-size-screen h1 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 2rem;
+            color: #7c3aed;
+            margin-bottom: 10px;
+        }
+
+        .batch-size-screen p {
+            font-size: 1.05rem;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+
+        .batch-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .batch-card {
+            background: linear-gradient(135deg, #f5f3ff 0%, #faf7fc 100%);
+            border: 2px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px 20px;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 12px rgba(167, 139, 250, 0.08);
+        }
+
+        .batch-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--primary-color);
+            box-shadow: 0 8px 20px rgba(167, 139, 250, 0.15);
+            background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%);
+        }
+
+        .batch-card h3 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 2rem;
+            color: #7c3aed;
+            margin: 0 0 8px 0;
+        }
+
+        .batch-card p {
+            font-size: 0.95rem;
+            color: var(--text-color);
+            opacity: 0.75;
+            margin: 0;
+        }
+
+        .back-btn {
+            background: #f3e8ff;
+            color: #6d28d9;
+            box-shadow: none;
+        }
+
+        .back-btn:hover {
+            background: #ede9fe;
+            box-shadow: none;
+        }
     </style>
 </head>
 <body>
@@ -273,8 +341,25 @@
     <!-- 🎴 Deck Selection Screen -->
     <div id="deck-selection-screen" class="deck-selection-screen">
         <h1>Clin Chem Review ✨</h1>
-        <p>Choose a deck to get started</p>
+        <p>Choose a question deck</p>
         <div class="deck-grid" id="deck-grid"></div>
+    </div>
+
+    <!-- 🔢 Batch Size Selection Screen -->
+    <div id="batch-size-screen" class="batch-size-screen">
+        <h1>Questions Per Set 🎯</h1>
+        <p>How many questions would you like per set?</p>
+        <div class="batch-grid">
+            <div class="batch-card" onclick="startWithBatchSize(20)">
+                <h3>20</h3>
+                <p>Quick practice</p>
+            </div>
+            <div class="batch-card" onclick="startWithBatchSize(100)">
+                <h3>100</h3>
+                <p>Full marathon</p>
+            </div>
+        </div>
+        <button class="next-btn back-btn" style="display:block;" onclick="backToDeckSelection()">Back to Deck Selection 📚</button>
     </div>
 
     <!-- 📝 Quiz Screen -->
@@ -294,15 +379,13 @@
     <div class="results-container" id="results-screen">
         <h2 id="results-title">Set Completed! 🎀</h2>
         <p id="final-score">You scored 0 out of 20.</p>
-        <button class="next-btn" id="action-btn" style="display:block;" onclick="handleNextBatch()">Next Set of 20 ➔</button>
+        <button class="next-btn" id="action-btn" style="display:block;" onclick="handleNextBatch()">Next Set ➔</button>
         <button class="next-btn" style="display:block; background:#f3e8ff; color:#6d28d9; box-shadow:none;" onclick="restartExam()">Restart from Set 1 🌸</button>
         <button class="next-btn" style="display:block; background:#f3e8ff; color:#6d28d9; box-shadow:none;" onclick="backToDeckSelection()">Back to Deck Selection 📚</button>
     </div>
 </div>
 
 <script>
-const BATCH_SIZE = 20; // 20 questions per set
-
 // 📚 Define available decks
 const DECKS = [
     { name: 'Practice Set 1', file: 'questions.json', emoji: '📖' },
@@ -311,6 +394,7 @@ const DECKS = [
     { name: 'Practice Set 4', file: 'questions4.json', emoji: '📘' }
 ];
 
+let BATCH_SIZE = 20; // Default batch size
 let allQuestions = [];
 let currentBatch = [];
 let batchIndex = 0;
@@ -324,6 +408,7 @@ const explanationBox = document.getElementById('explanation-box');
 const nextBtn = document.getElementById('next-btn');
 const progressEl = document.getElementById('progress');
 const deckSelectionScreen = document.getElementById('deck-selection-screen');
+const batchSizeScreen = document.getElementById('batch-size-screen');
 const quizScreen = document.getElementById('quiz-screen');
 const resultsScreen = document.getElementById('results-screen');
 
@@ -346,22 +431,32 @@ function initializeDeckSelection() {
         deckCard.innerHTML = `
             <h3>${deck.emoji} ${deck.name}</h3>
             <p>Multiple choice questions</p>
-            <div class="deck-count">Click to start</div>
+            <div class="deck-count">Click to select</div>
         `;
-        deckCard.onclick = () => loadDeck(deck);
+        deckCard.onclick = () => selectDeck(deck);
         deckGrid.appendChild(deckCard);
     });
 
     deckSelectionScreen.style.display = 'block';
+    batchSizeScreen.style.display = 'none';
     quizScreen.style.display = 'none';
     resultsScreen.style.display = 'none';
 }
 
-// Load a specific deck
-async function loadDeck(deck) {
+// Select a deck and move to batch size selection
+function selectDeck(deck) {
     currentDeck = deck;
+    deckSelectionScreen.style.display = 'none';
+    batchSizeScreen.style.display = 'block';
+    quizScreen.style.display = 'none';
+    resultsScreen.style.display = 'none';
+}
+
+// Load a specific deck and start with selected batch size
+async function loadDeck(batchSize) {
+    BATCH_SIZE = batchSize;
     try {
-        const response = await fetch(`./${deck.file}?v=` + new Date().getTime());
+        const response = await fetch(`./${currentDeck.file}?v=` + new Date().getTime());
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
         allQuestions = await response.json();
@@ -369,13 +464,17 @@ async function loadDeck(deck) {
         // Randomly shuffle all questions upon loading
         shuffleArray(allQuestions);
         
-        deckSelectionScreen.style.display = 'none';
+        batchSizeScreen.style.display = 'none';
         startBatch(0);
     } catch (error) {
-        questionText.textContent = `Error loading ${deck.file}. Ensure file exists in the repository root.`;
+        questionText.textContent = `Error loading ${currentDeck.file}. Ensure file exists in the repository root.`;
         console.error("Fetch Error:", error);
-        deckSelectionScreen.style.display = 'block';
+        initializeDeckSelection();
     }
+}
+
+function startWithBatchSize(batchSize) {
+    loadDeck(batchSize);
 }
 
 function startBatch(index) {
@@ -468,7 +567,7 @@ function showBatchResults() {
 
     const actionBtn = document.getElementById('action-btn');
     if ((batchIndex + 1) * BATCH_SIZE < allQuestions.length) {
-        actionBtn.textContent = `Start Next Set of 20 ➔`;
+        actionBtn.textContent = `Start Next Set of ${BATCH_SIZE} ➔`;
         actionBtn.onclick = () => startBatch(batchIndex + 1);
     } else {
         actionBtn.textContent = `Reshuffle & Restart Question Bank 🌸`;
