@@ -401,6 +401,7 @@ let batchIndex = 0;
 let currentQ = 0;
 let score = 0;
 let currentDeck = null;
+let useBinnedSampling = false; // Flag for binned random selection
 
 const questionText = document.getElementById('question-text');
 const optionsContainer = document.getElementById('options-container');
@@ -418,6 +419,45 @@ function shuffleArray(array) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
+}
+
+// 🎯 Binned random sampling (for formulas.json)
+// Bins questions into groups of 5, randomly picks a bin, then randomly picks 1 from that bin
+function createBinnedQuestionList(questions) {
+    const BIN_SIZE = 5;
+    const bins = [];
+    
+    // Create bins
+    for (let i = 0; i < questions.length; i += BIN_SIZE) {
+        bins.push(questions.slice(i, i + BIN_SIZE));
+    }
+    
+    // Shuffle bins
+    shuffleArray(bins);
+    
+    // Flatten and build randomized list
+    const result = [];
+    const usedIndices = new Set();
+    
+    while (result.length < questions.length) {
+        for (const bin of bins) {
+            if (usedIndices.size >= questions.length) break;
+            
+            // Get available indices in this bin
+            const availableInBin = bin
+                .map((q, idx) => questions.indexOf(q))
+                .filter(idx => !usedIndices.has(idx));
+            
+            if (availableInBin.length > 0) {
+                // Randomly pick one from this bin
+                const randomIdx = availableInBin[Math.floor(Math.random() * availableInBin.length)];
+                result.push(questions[randomIdx]);
+                usedIndices.add(randomIdx);
+            }
+        }
+    }
+    
+    return result;
 }
 
 // Initialize deck selection screen
@@ -446,6 +486,8 @@ function initializeDeckSelection() {
 // Select a deck and move to batch size selection
 function selectDeck(deck) {
     currentDeck = deck;
+    // Check if this is the formulas.json deck
+    useBinnedSampling = (deck.file === 'formulas.json');
     deckSelectionScreen.style.display = 'none';
     batchSizeScreen.style.display = 'block';
     quizScreen.style.display = 'none';
@@ -461,8 +503,12 @@ async function loadDeck(batchSize) {
         
         allQuestions = await response.json();
         
-        // Randomly shuffle all questions upon loading
-        shuffleArray(allQuestions);
+        // Use binned sampling for formulas.json, regular shuffle for others
+        if (useBinnedSampling) {
+            allQuestions = createBinnedQuestionList(allQuestions);
+        } else {
+            shuffleArray(allQuestions);
+        }
         
         batchSizeScreen.style.display = 'none';
         startBatch(0);
@@ -591,8 +637,12 @@ function handleNextBatch() {
 }
 
 function restartExam() {
-    // Re-shuffle all questions when restarting
-    shuffleArray(allQuestions);
+    // Re-shuffle or re-bin all questions when restarting
+    if (useBinnedSampling) {
+        allQuestions = createBinnedQuestionList(allQuestions);
+    } else {
+        shuffleArray(allQuestions);
+    }
     startBatch(0);
 }
 
