@@ -3137,7 +3137,7 @@
   "correct": 1
 },
 {
-"question": "Using the Cockcroft-Gault equation for men, estimate creatinine clearance for a 60-year-old man weighing $80\\text{ kg}$ with a serum creatinine of $100\\text{ \\mu mol/L}$.",
+"question": "Using the Cockcroft-Gault equation for men, estimate creatinine clearance for a 60-year-old man weighing $80\\text{ kg}$ with a serum creatinine of $100 \\text{µmol/L}$.",
 "options": [
 "A. $83\\text{ mL/min}$",
 "B. $91\\text{ mL/min}$",
@@ -3148,7 +3148,7 @@
 "explanation": "<b>Correct Answer: A.</b> Cockcroft-Gault (Men): $$CrCl=\\frac{(140-Age)\\times Weight\\times1.3}{SCr}$$ $$CrCl=\\frac{(140-60)\\times80\\times1.3}{100}=\\frac{8320}{100}=83.2\\text{ mL/min}$$"
 },
 {
-"question": "Using the Cockcroft-Gault equation for men, estimate creatinine clearance for a 50-year-old man weighing $70\\text{ kg}$ with a serum creatinine of $90\\text{ \\mu mol/L}$.",
+"question": "Using the Cockcroft-Gault equation for men, estimate creatinine clearance for a 50-year-old man weighing $70\\text{ kg}$ with a serum creatinine of $90 \\text{µmol/L}$.",
 "options": [
 "A. $79\\text{ mL/min}$",
 "B. $91\\text{ mL/min}$",
@@ -3159,7 +3159,7 @@
 "explanation": "<b>Correct Answer: B.</b> $$CrCl=\\frac{(140-50)\\times70\\times1.3}{90}=\\frac{8190}{90}=91.0\\text{ mL/min}$$"
 },
 {
-"question": "Using the Cockcroft-Gault equation for women, estimate creatinine clearance for a 65-year-old woman weighing $60\\text{ kg}$ with a serum creatinine of $100\\text{ \\mu mol/L}$.",
+"question": "Using the Cockcroft-Gault equation for women, estimate creatinine clearance for a 65-year-old woman weighing $60\\text{ kg}$ with a serum creatinine of $100 \\text{µmol/L}$.",
 "options": [
 "A. $42\\text{ mL/min}$",
 "B. $50\\text{ mL/min}$",
@@ -3170,7 +3170,7 @@
 "explanation": "<b>Correct Answer: B.</b> $$CrCl=\\left(\\frac{(140-65)\\times60\\times1.3}{100}\\right)\\times0.85$$ $$=58.5\\times0.85=49.7\\text{ mL/min}$$ $$\\approx50\\text{ mL/min}$$"
 },
 {
-"question": "Using the Cockcroft-Gault equation for women, estimate creatinine clearance for a 70-year-old woman weighing $55\\text{ kg}$ with a serum creatinine of $110\\text{ \\mu mol/L}$.",
+"question": "Using the Cockcroft-Gault equation for women, estimate creatinine clearance for a 70-year-old woman weighing $55\\text{ kg}$ with a serum creatinine of $110 \\text{µmol/L}$.",
 "options": [
 "A. $38\\text{ mL/min}$",
 "B. $45\\text{ mL/min}$",
