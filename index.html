@@ -437,43 +437,38 @@ function shuffleArray(array) {
 
 // 🎯 Binned random sampling (for formulas.json)
 // Bins questions into groups of 5, randomly picks a bin, then randomly picks 1 from that bin
+    //replaced
 function createBinnedQuestionList(questions) {
     const BIN_SIZE = 5;
     const bins = [];
-    
+
     // Create bins
     for (let i = 0; i < questions.length; i += BIN_SIZE) {
         bins.push(questions.slice(i, i + BIN_SIZE));
     }
-    
+
     // Shuffle bins
     shuffleArray(bins);
-    
-    // Flatten and build randomized list
+
     const result = [];
-    const usedIndices = new Set();
-    
+
     while (result.length < questions.length) {
+        let added = false;
+
         for (const bin of bins) {
-            if (usedIndices.size >= questions.length) break;
-            
-            // Get available indices in this bin
-            const availableInBin = bin
-                .map((q, idx) => questions.indexOf(q))
-                .filter(idx => !usedIndices.has(idx));
-            
-            if (availableInBin.length > 0) {
-                // Randomly pick one from this bin
-                const randomIdx = availableInBin[Math.floor(Math.random() * availableInBin.length)];
-                result.push(questions[randomIdx]);
-                usedIndices.add(randomIdx);
+            if (bin.length > 0) {
+                const randomPos = Math.floor(Math.random() * bin.length);
+                result.push(bin.splice(randomPos, 1)[0]);
+                added = true;
             }
         }
+
+        if (!added) break;
     }
-    
+
     return result;
 }
-
+    
 // Initialize deck selection screen
 function initializeDeckSelection() {
     const deckGrid = document.getElementById('deck-grid');
