@@ -3628,5 +3628,505 @@
     ],
     "correct": 0,
     "explanation": "<b>Correct Answer: A.</b> An $|SDI| > 2.0$ indicates that a laboratory's result deviates more than 2 SD from its peer group, signaling systematic bias."
+  },
+  {
+    "question": "A child presents with developmental delay, abdominal pain, and microcytic anemia. Which laboratory test is most appropriate?",
+    "options": [
+      "A. Serum lead",
+      "B. Whole blood lead",
+      "C. Urine lead",
+      "D. Hair lead"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which specimen is preferred for assessment of chronic elemental or inorganic mercury exposure?",
+    "options": [
+      "A. Serum",
+      "B. Whole blood",
+      "C. Urine",
+      "D. Saliva"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A patient has painful peripheral neuropathy and alopecia after suspected rodenticide exposure. Which metal poisoning is most likely?",
+    "options": [
+      "A. Cadmium",
+      "B. Thallium",
+      "C. Arsenic",
+      "D. Nickel"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Mee's lines and QT prolongation are most characteristic of toxicity from:",
+    "options": [
+      "A. Arsenic",
+      "B. Cadmium",
+      "C. Aluminum",
+      "D. Beryllium"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The preferred test for suspected chronic arsenic exposure is:",
+    "options": [
+      "A. Blood arsenic",
+      "B. Spot urine arsenic",
+      "C. Hair arsenic",
+      "D. 24-hour urine arsenic"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which metal toxicity is classically associated with Minamata disease?",
+    "options": [
+      "A. Lead",
+      "B. Cadmium",
+      "C. Mercury",
+      "D. Manganese"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A dialysis patient develops encephalopathy and osteomalacia. Which metal should be investigated?",
+    "options": [
+      "A. Aluminum",
+      "B. Silver",
+      "C. Platinum",
+      "D. Titanium"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The treatment of choice for significant thallium poisoning is:",
+    "options": [
+      "A. EDTA",
+      "B. Deferoxamine",
+      "C. Prussian blue",
+      "D. Penicillamine"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which toxicity is most characteristic of cadmium exposure?",
+    "options": [
+      "A. Agranulocytosis",
+      "B. Tubular kidney injury with proteinuria",
+      "C. Dilated cardiomyopathy",
+      "D. Parkinsonism"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A worker in the aerospace industry develops granulomatous lung disease. Which test is most appropriate?",
+    "options": [
+      "A. Serum beryllium",
+      "B. Urine beryllium",
+      "C. BeLPT",
+      "D. Whole blood beryllium"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Argyria is associated with excessive exposure to:",
+    "options": [
+      "A. Platinum",
+      "B. Silver",
+      "C. Nickel",
+      "D. Cobalt"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Nephrogenic systemic fibrosis has been linked to exposure to:",
+    "options": [
+      "A. Platinum",
+      "B. Titanium",
+      "C. Gadolinium",
+      "D. Bismuth"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Nephrotoxicity, ototoxicity, and peripheral neuropathy are recognized adverse effects of exposure to:",
+    "options": [
+      "A. Chromium",
+      "B. Platinum",
+      "C. Beryllium",
+      "D. Nickel"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which laboratory finding is classically associated with lead poisoning?",
+    "options": [
+      "A. Heinz bodies",
+      "B. Howell-Jolly bodies",
+      "C. Basophilic stippling",
+      "D. Schistocytes"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Copper deficiency most commonly presents with:",
+    "options": [
+      "A. Hemolytic anemia and thrombocytosis",
+      "B. Anemia, neutropenia, and neuropathy",
+      "C. Hypercalcemia and nephrolithiasis",
+      "D. Polycythemia and leukocytosis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "The recommended laboratory evaluation for Wilson disease includes:",
+    "options": [
+      "A. Ferritin and transferrin saturation",
+      "B. Whole blood copper only",
+      "C. Serum copper only",
+      "D. Ceruloplasmin, serum copper, and 24-hour urine copper"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Excessive zinc supplementation may result in:",
+    "options": [
+      "A. Iron overload",
+      "B. Copper deficiency",
+      "C. Selenium deficiency",
+      "D. Iodine deficiency"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Keshan disease is associated with deficiency of:",
+    "options": [
+      "A. Chromium",
+      "B. Zinc",
+      "C. Selenium",
+      "D. Fluoride"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which symptom is most characteristic of selenium toxicity?",
+    "options": [
+      "A. Goiter",
+      "B. Hair and nail changes with garlic breath",
+      "C. Osteomalacia",
+      "D. Agranulocytosis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Whole blood manganese is the preferred specimen because manganese toxicity is associated with:",
+    "options": [
+      "A. Cardiomyopathy",
+      "B. Nephrotic syndrome",
+      "C. Parkinsonism",
+      "D. Osteomalacia"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Metal-on-metal hip prosthesis toxicity is most commonly monitored using measurements of:",
+    "options": [
+      "A. Lead and mercury",
+      "B. Selenium and zinc",
+      "C. Cobalt and chromium",
+      "D. Copper and iron"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which trace element deficiency is associated with goiter and hypothyroidism?",
+    "options": [
+      "A. Selenium",
+      "B. Iodine",
+      "C. Molybdenum",
+      "D. Chromium"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Acrodermatitis enteropathica is associated with deficiency of:",
+    "options": [
+      "A. Zinc",
+      "B. Copper",
+      "C. Iron",
+      "D. Iodine"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A patient with severe skeletal fluorosis would most likely have excessive exposure to:",
+    "options": [
+      "A. Selenium",
+      "B. Molybdenum",
+      "C. Fluoride",
+      "D. Chromium"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which collection device is most appropriate for trace metal testing by ICP-MS?",
+    "options": [
+      "A. Standard glass serum tube",
+      "B. Trace element-free collection tube",
+      "C. Lavender-top tube containing zinc additive",
+      "D. Capillary blood collected in a glass tube"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A laboratory receives a urine specimen for arsenic testing from a patient who consumed large amounts of seafood the previous day. Which follow-up test is most appropriate if total urine arsenic is elevated?",
+    "options": [
+      "A. Repeat total arsenic in serum",
+      "B. Arsenic speciation analysis",
+      "C. Whole blood arsenic",
+      "D. Hair arsenic"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which analytical technique is most commonly used for multi-element trace metal analysis at very low concentrations?",
+    "options": [
+      "A. HPLC-UV",
+      "B. Nephelometry",
+      "C. ICP-MS",
+      "D. Flow cytometry"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A patient with Wilson disease would be expected to demonstrate which pattern?",
+    "options": [
+      "A. High ceruloplasmin and low urine copper",
+      "B. Low ceruloplasmin and increased urine copper",
+      "C. Elevated ferritin and low serum copper",
+      "D. Increased zinc and low urine copper"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which specimen is preferred for assessment of lead exposure?",
+    "options": [
+      "A. Serum",
+      "B. Plasma",
+      "C. Whole blood",
+      "D. Urine"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A welder develops progressive movement abnormalities resembling Parkinson disease. Which metal is most likely responsible?",
+    "options": [
+      "A. Chromium",
+      "B. Manganese",
+      "C. Selenium",
+      "D. Nickel"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "An elevated cobalt concentration in a patient with a metal-on-metal hip prosthesis should prompt concurrent evaluation of which additional metal?",
+    "options": [
+      "A. Zinc",
+      "B. Copper",
+      "C. Chromium",
+      "D. Selenium"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which trace element deficiency is associated with anemia, neutropenia, and myeloneuropathy?",
+    "options": [
+      "A. Chromium",
+      "B. Copper",
+      "C. Fluoride",
+      "D. Cobalt"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A patient with excessive zinc supplementation develops anemia despite normal iron studies. The most likely explanation is:",
+    "options": [
+      "A. Selenium deficiency",
+      "B. Iodine deficiency",
+      "C. Secondary copper deficiency",
+      "D. Chromium toxicity"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which trace element deficiency is associated with acrodermatitis enteropathica?",
+    "options": [
+      "A. Zinc",
+      "B. Iron",
+      "C. Copper",
+      "D. Selenium"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A patient presents with garlic breath, brittle nails, and hair loss. Which laboratory test would be most useful?",
+    "options": [
+      "A. Serum selenium",
+      "B. Whole blood lead",
+      "C. Urine iodine",
+      "D. Serum copper"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which trace element toxicity has been historically associated with 'mad hatter syndrome'?",
+    "options": [
+      "A. Mercury",
+      "B. Arsenic",
+      "C. Cadmium",
+      "D. Lead"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following elements is most strongly associated with Itai-itai disease?",
+    "options": [
+      "A. Cadmium",
+      "B. Nickel",
+      "C. Chromium",
+      "D. Beryllium"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "For trace metal analysis, contamination from collection devices is minimized primarily by using:",
+    "options": [
+      "A. Lithium heparin tubes",
+      "B. Glass collection tubes",
+      "C. Trace element-certified collection tubes",
+      "D. Standard EDTA tubes"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A patient develops diffuse blue-gray skin discoloration after prolonged use of alternative health supplements. Which exposure is most likely?",
+    "options": [
+      "A. Silver",
+      "B. Titanium",
+      "C. Cobalt",
+      "D. Platinum"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which trace element deficiency is most strongly associated with Keshan disease?",
+    "options": [
+      "A. Manganese",
+      "B. Selenium",
+      "C. Zinc",
+      "D. Molybdenum"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A patient with severe hypothyroidism from nutritional deficiency is most likely deficient in:",
+    "options": [
+      "A. Zinc",
+      "B. Selenium",
+      "C. Iodine",
+      "D. Copper"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which specimen is generally preferred for evaluating recent methylmercury exposure from fish consumption?",
+    "options": [
+      "A. Urine",
+      "B. Whole blood",
+      "C. Saliva",
+      "D. Sweat"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "An industrial worker experiences contact dermatitis following chronic occupational exposure. Which metal is a common cause?",
+    "options": [
+      "A. Nickel",
+      "B. Selenium",
+      "C. Cadmium",
+      "D. Bismuth"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which toxic exposure should be considered in a patient presenting with alopecia and painful peripheral neuropathy?",
+    "options": [
+      "A. Thallium",
+      "B. Chromium",
+      "C. Fluoride",
+      "D. Zinc"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which element is most commonly measured in whole blood rather than serum because of significant intracellular distribution?",
+    "options": [
+      "A. Manganese",
+      "B. Iodine",
+      "C. Selenium",
+      "D. Zinc"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A patient undergoing MRI with gadolinium contrast has advanced renal failure. Which complication is of greatest concern?",
+    "options": [
+      "A. Wilson disease",
+      "B. Hepatic encephalopathy",
+      "C. Nephrogenic systemic fibrosis",
+      "D. Argyria"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which treatment is classically associated with severe aluminum toxicity?",
+    "options": [
+      "A. Penicillamine",
+      "B. Succimer",
+      "C. EDTA",
+      "D. Deferoxamine"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "An elevated blood lead concentration interferes with heme synthesis pathways and may produce:",
+    "options": [
+      "A. Howell-Jolly bodies",
+      "B. Basophilic stippling",
+      "C. Schistocytosis",
+      "D. Spherocytosis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which trace element is required for thyroid hormone synthesis and is most commonly assessed using urine measurements?",
+    "options": [
+      "A. Selenium",
+      "B. Zinc",
+      "C. Iodine",
+      "D. Chromium"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A laboratory director is validating a new ICP-MS method. Which characteristic is most important for minimizing falsely elevated trace-metal results?",
+    "options": [
+      "A. High specimen viscosity",
+      "B. Avoidance of external contamination",
+      "C. Increased hemolysis",
+      "D. Use of glass calibration standards"
+    ],
+    "correct": 1
   }
 ]
