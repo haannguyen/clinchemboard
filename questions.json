@@ -4128,5 +4128,305 @@
       "D. Use of glass calibration standards"
     ],
     "correct": 1
+  },
+  {
+    "question": "A recurrent stone former has urine pH 5.1, hyperuricosuria, and normal urinary calcium. Which stone type is most likely?",
+    "options": [
+      "A. Calcium phosphate",
+      "B. Struvite",
+      "C. Uric acid",
+      "D. Brushite"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which urinary constituent is considered one of the most important endogenous inhibitors of calcium stone formation?",
+    "options": [
+      "A. Oxalate",
+      "B. Citrate",
+      "C. Ammonium",
+      "D. Sulfate"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A patient receiving potassium citrate therapy develops an increase in urine pH from 6.2 to 7.0. What unintended consequence may occur?",
+    "options": [
+      "A. Increased uric acid stone formation",
+      "B. Increased cystine stone formation",
+      "C. Increased calcium phosphate stone formation",
+      "D. Increased oxalate absorption"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The reference method for kidney stone composition analysis is:",
+    "options": [
+      "A. Polarized light microscopy",
+      "B. Atomic absorption spectroscopy",
+      "C. Fourier-transform infrared spectroscopy",
+      "D. Scanning electron microscopy"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which preanalytical variable is most likely to compromise the accuracy of kidney stone FTIR analysis?",
+    "options": [
+      "A. Delayed analysis",
+      "B. Stone not completely dried",
+      "C. Refrigerated transport",
+      "D. Plastic transport container"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Low urinary citrate promotes stone formation primarily because citrate:",
+    "options": [
+      "A. Increases urine pH",
+      "B. Binds magnesium",
+      "C. Complexes calcium and inhibits crystallization",
+      "D. Increases oxalate excretion"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A patient has recurrent calcium phosphate stones, urine pH 7.2, and low urinary ammonium excretion. Which diagnosis should be strongly considered?",
+    "options": [
+      "A. Hyperuricosuria",
+      "B. Enteric hyperoxaluria",
+      "C. Distal renal tubular acidosis",
+      "D. Cystinuria"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which urinary crystal morphology is most characteristic of cystinuria?",
+    "options": [
+      "A. Coffin-lid",
+      "B. Envelope",
+      "C. Hexagonal",
+      "D. Dumbbell"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The classic positive screening test for cystinuria is:",
+    "options": [
+      "A. Ferric chloride test",
+      "B. Cyanide-nitroprusside test",
+      "C. Schilling test",
+      "D. Sulfosalicylic acid test"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which amino acid is least likely to be affected in classic cystinuria?",
+    "options": [
+      "A. Lysine",
+      "B. Arginine",
+      "C. Ornithine",
+      "D. Methionine"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "A urease-producing urinary pathogen increases the risk of stone formation primarily by:",
+    "options": [
+      "A. Lowering urinary calcium",
+      "B. Acidifying urine",
+      "C. Increasing urinary oxalate",
+      "D. Alkalinizing urine and generating ammonium"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which stone type is most commonly associated with staghorn calculi?",
+    "options": [
+      "A. Uric acid",
+      "B. Calcium oxalate",
+      "C. Struvite",
+      "D. Cystine"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A patient has elevated urine oxalate following Roux-en-Y gastric bypass. What is the most likely explanation?",
+    "options": [
+      "A. Distal RTA",
+      "B. Enteric hyperoxaluria",
+      "C. Cystinuria",
+      "D. Hyperuricosuria"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which urinary abnormality is most predictive of calcium oxalate supersaturation?",
+    "options": [
+      "A. Hypouricosuria",
+      "B. Hypermagnesiuria",
+      "C. Hyperoxaluria",
+      "D. Hyperammoniuria"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which urinary parameter should be increased in nearly all stone prevention strategies regardless of stone type?",
+    "options": [
+      "A. Sodium",
+      "B. Sulfate",
+      "C. Oxalate",
+      "D. Urine volume"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "A patient with chronic diarrhea develops recurrent uric acid stones. Which urine profile is most likely?",
+    "options": [
+      "A. High pH, low ammonium",
+      "B. Low pH, high ammonium",
+      "C. High pH, high citrate",
+      "D. Low pH, low oxalate"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which component is NOT typically included in a comprehensive urine supersaturation profile?",
+    "options": [
+      "A. Citrate",
+      "B. Oxalate",
+      "C. Phosphorus",
+      "D. Troponin"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "The primary value of a 24-hour urine supersaturation study is to:",
+    "options": [
+      "A. Confirm stone passage",
+      "B. Determine stone location",
+      "C. Identify metabolic risk factors and guide therapy",
+      "D. Detect urinary tract infection"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which naturally occurring urinary inhibitor is produced by renal tubular cells and inhibits crystal aggregation?",
+    "options": [
+      "A. Nephrocalcin",
+      "B. Creatinine",
+      "C. Urea",
+      "D. Albumin"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Tamm-Horsfall protein is important in nephrolithiasis because it:",
+    "options": [
+      "A. Generates oxalate",
+      "B. Functions as a crystallization inhibitor",
+      "C. Acidifies urine",
+      "D. Increases uric acid excretion"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A patient forms stones despite normal urine calcium and normal urine oxalate. Which additional parameter is most important to review?",
+    "options": [
+      "A. Urine citrate",
+      "B. Serum AST",
+      "C. Hemoglobin",
+      "D. Plasma lactate"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which physiologic process directly initiates crystal formation in urine?",
+    "options": [
+      "A. Filtration",
+      "B. Supersaturation",
+      "C. Tubular secretion",
+      "D. Reabsorption"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Why is stone composition analysis considered critical after stone passage?",
+    "options": [
+      "A. It predicts future renal function",
+      "B. It identifies infection status",
+      "C. It guides targeted recurrence prevention",
+      "D. It determines glomerular filtration rate"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A laboratory receives only a small fragment of a passed stone. What is the greatest analytical concern?",
+    "options": [
+      "A. pH instability",
+      "B. Stone heterogeneity resulting in incomplete characterization",
+      "C. Protein degradation",
+      "D. Calcium precipitation"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which urinary ion participates directly in calcium oxalate supersaturation calculations?",
+    "options": [
+      "A. Oxalate",
+      "B. Bilirubin",
+      "C. Lactate",
+      "D. Cholesterol"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which factor would be expected to decrease urinary supersaturation for most stone types?",
+    "options": [
+      "A. Higher urine volume",
+      "B. Reduced water intake",
+      "C. Increased oxalate intake",
+      "D. Increased sodium excretion"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which stone type is most strongly associated with inherited defects in renal amino acid transport?",
+    "options": [
+      "A. Calcium phosphate",
+      "B. Uric acid",
+      "C. Struvite",
+      "D. Cystine"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "A patient with recurrent calcium stones has severe hypocitraturia. Which therapeutic objective is most appropriate?",
+    "options": [
+      "A. Increase urinary citrate",
+      "B. Decrease urinary ammonium",
+      "C. Increase urinary oxalate",
+      "D. Lower urine volume"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Why are both FTIR and X-ray diffraction preferred over older wet-chemical methods for stone analysis?",
+    "options": [
+      "A. They determine stone location",
+      "B. They identify crystalline composition more accurately",
+      "C. They measure urine pH",
+      "D. They quantify GFR"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which combination is most consistent with calcium phosphate stone risk?",
+    "options": [
+      "A. Low urine pH and hyperuricosuria",
+      "B. High urine pH and distal renal tubular acidosis",
+      "C. Positive cyanide-nitroprusside test and hexagonal crystals",
+      "D. Urease-positive infection and staghorn calculus"
+    ],
+    "correct": 1
   }
 ]
